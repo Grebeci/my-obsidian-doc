@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "c2974cd572ee8b90",
+    "type": "split",
+    "children": [
+      {
+        "id": "984c86edfd97ad81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a97f23a2b70a220f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c3128f2e6f355571",
+    "type": "split",
+    "children": [
+      {
+        "id": "f69956942d811ad5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "83815c00c3205249",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d0da6187fdbb7d40",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "抽象",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4a8fd6e183f17909",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "9a67b31807782f01",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 386.5
+  },
+  "right": {
+    "id": "a7c220cd968d21d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "99b8aed4d724986b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce4da9b415366ac5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e2522704c643a833",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0d0b7954f88b2a8b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "136319bb5935d183",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 309.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "a97f23a2b70a220f",
+  "lastOpenFiles": [
+    "未命名.canvas",
+    "未命名 4.canvas",
+    "未命名 5.canvas",
+    "未命名 3.canvas",
+    "未命名 2.canvas",
+    "未命名 1.md",
+    "未命名 1.canvas",
+    "未命名.md",
+    "Python/API背诵.md",
+    "Python/PyCharm配置.md",
+    "Python/基础知识.md",
+    "Python/环境.md",
+    "关系数据库/Oracle/Oracle-表.md",
+    "Python",
+    "关系数据库/Oracle/Oracle-基础知识.md",
+    "关系数据库/Oracle/QAP.md",
+    "关系数据库/Oracle/Oracle索引.md",
+    "kafka/Kafka-背诵.md",
+    "ETL工具",
+    "关系数据库",
+    "RDD-SparkAPI.md",
+    "Spark/spark学习大纲.md",
+    "Spark/spark论文资料.md",
+    "Spark/Spark-背诵.md",
+    "Spark/Spark.md",
+    "项目学习笔记/项目问题.md.md",
+    "项目学习笔记/用户画像-标签系统初步.md",
+    "项目学习笔记/data_works学习笔记.md",
+    "hive/HQL方言增强.md",
+    "关系数据库/Oracle",
+    "hive/HQL备忘录.md",
+    "hive/面试题.md",
+    "hive/hive运行时服务.md",
+    "hive/hive优化.md",
+    "hive/hive.md",
+    "hive/hive",
+    "未命名 1",
+    "面试",
+    "关系数据库/MySQL/MySQL备忘录.assets/image-20211025214818623.png",
+    "关系数据库/MySQL/MySQL备忘录.assets/image-20211025213504115.png",
+    "关系数据库/MySQL/MySQL备忘录.assets/image-20211025193742633.png",
+    "关系数据库/MySQL/MySQL备忘录.assets/image-20211025162730421.png",
+    "关系数据库/MySQL/MySQL备忘录.assets/image-20211012145231321.png",
+    "关系数据库/MySQL/MySQL备忘录.assets/image-20211012142746444.png",
+    "关系数据库/MySQL/MySQL备忘录.assets/image-20211012142639469.png",
+    "关系数据库/MySQL/MySQL备忘录.assets/1554980865631.png",
+    "Spark/Spark理解笔记",
+    "Pasted image 20230811145358.png",
+    "Pasted image 20230811145348.png",
+    "scala",
+    "配置文件"
+  ]
+}

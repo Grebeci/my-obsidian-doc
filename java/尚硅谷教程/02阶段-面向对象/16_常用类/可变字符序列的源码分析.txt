@@ -1,0 +1,34 @@
+	StringBuilder s = new StringBuilder("helloworld");
+	s.append("java");
+	s.append("chailinyanatguigu");//17
+	
+	s.value.length=26;
+	
+	public AbstractStringBuilder append(String str) {//str="java"  str="chailinyanatguigu"
+        if (str == null)
+            return appendNull();
+        int len = str.length();//len=4   len = 17
+        ensureCapacityInternal(count + len);//count=10  实际存储的字符的个数   count=14
+        str.getChars(0, len, value, count);//把str拼接到StringBuilder的后面，把str的内容放到了value数组中
+        count += len;//count=14
+        return this;
+    }
+	
+	private void ensureCapacityInternal(int minimumCapacity) {//minimumCapacity=14  minimumCapacity=31
+        // overflow-conscious code
+        if (minimumCapacity - value.length > 0) {//31-26>0
+            value = Arrays.copyOf(value,
+                    newCapacity(minimumCapacity));//minimumCapacity=31
+        }
+    }
+	
+	private int newCapacity(int minCapacity) {//minCapacity=31
+        // overflow-conscious code
+        int newCapacity = (value.length << 1) + 2;  //value.length=26   左移一位相当于乘以2   newCapacity=54
+        if (newCapacity - minCapacity < 0) {//54-31<0不成立
+            newCapacity = minCapacity;
+        }
+        return (newCapacity <= 0 || MAX_ARRAY_SIZE - newCapacity < 0)
+            ? hugeCapacity(minCapacity)
+            : newCapacity;
+    }
