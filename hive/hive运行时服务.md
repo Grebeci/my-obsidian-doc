@@ -6,11 +6,11 @@
 
 启动方式
 
-1. 直接启hive服务
+1. 直接使用 `bin/hive` 命令启动 Hive CLI（命令行界面）
+   启动的 Hive 客户端进程 内嵌（embedding）入一个 MetaStore 进程。实际上没有启动一个持久的、独立的 metastore 服务。相反，Hive 会在嵌入式模式下运行，这意味着 metastore 运行在同一个 JVM 进程中，并使用 Derby 数据库作为后端存储（默认设置）。
+   这种嵌入式模式对于单用户、本地测试和开发很有用，但不适合生产环境。
 
-	通过 ./bin/hive 启动的hive服务，第一步会先启动metastore服务，然后在启动一个客户端连接到metastore。此时metastore服务端和客户端都在一台机器上，别的机器无法连接到metastore，所以也无法连接到hive。这种方式不常用，一直只用于调试环节。
-
-2. 启动hiveserver2，然后启动beeline 连接。
+2. 启动 `hiveserver2`，然后启动beeline 连接。
 
 
 ### metastore

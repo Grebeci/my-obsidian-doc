@@ -2,17 +2,17 @@
 
 #### 1. 显示数据库
 
-1. 显示全部数据库
-
+1. 显示全部数据库 
+   
 	```sql
-	show databases;
+	SHOW DATABASES;
 	```
-
+	
 2. 模糊查询某些数据库
 
 	```sql
 	SHOW (DATABASES|SCHEMAS) [LIKE 'identifier_with_wildcards'];
-	identifier_with_wildcards ： 只能选择 % 或 | 
+	identifier_with_wildcards ： 受版本影响，具体看文档。
 	```
 
 3.  检查当前是哪个数据库
@@ -33,7 +33,6 @@ ALTER (DATABASE|SCHEMA) database_name SET DBPROPERTIES (property_name=property_v
 ```sql
 DROP (DATABASE|SCHEMA) [IF EXISTS] database_name [RESTRICT|CASCADE];
 ```
-
 
 
 ## Table

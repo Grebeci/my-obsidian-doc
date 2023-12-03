@@ -6,5 +6,6 @@
   "alwaysUpdateLinks": true,
   "foldHeading": true,
   "foldIndent": true,
-  "showIndentGuide": true
+  "showIndentGuide": true,
+  "showLineNumber": false
 }
