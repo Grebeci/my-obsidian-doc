@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "c207953374fc64d3",
+        "id": "5ec8533988aee0de",
         "type": "tabs",
         "children": [
           {
-            "id": "c17c4b0a625c7bbb",
+            "id": "8e608a3a4f7cee73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "重要账号密码备忘录/邮件.md",
+                "file": "Algorithm4/算法分析性能.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8fae1ba9366d26fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "浏览器插件开发入门.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3987b42d63896239",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/leetcode-SQL 题目知识点.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "重要账号密码备忘录/邮件.md",
+                "file": "SQL/leetcode-SQL 题目知识点.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "重要账号密码备忘录/邮件.md",
+                "file": "SQL/leetcode-SQL 题目知识点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "重要账号密码备忘录/邮件.md"
+                "file": "SQL/leetcode-SQL 题目知识点.md"
               }
             }
           },
@@ -143,7 +168,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -164,38 +191,40 @@
       "daily-notes:打开/创建今天的日记": false
     }
   },
-  "active": "c17c4b0a625c7bbb",
+  "active": "3987b42d63896239",
   "lastOpenFiles": [
-    "Web前端开发/front-end-tolist.md",
-    "重要账号密码备忘录/邮件.md",
-    "重要账号密码备忘录",
-    "Web前端开发/前端开发路线.md.md",
-    "web后端开发/Servlet-背诵.md",
-    "Web前端开发",
-    "web后端开发/笔记规范.md",
-    "开发工具/vscode.md",
-    "面试/面试核心问题.md",
     "开发工具/jupyter.md",
-    "学习日志/web后端开发学习日志.md",
-    "web后端开发",
-    "后端.md",
-    "开发工具/codespace.md",
-    "开发工具/云上.md",
-    "SQL语法bug.md",
-    "思考的问题.md",
-    "计算机第0课.md",
-    "大数据脚本安装.md",
-    "笔记心得.md",
-    "2023-09-24.md",
-    "诺亚方舟/计划清单.md",
-    "开发工具/idea的使用.md",
-    "开发工具/WSL.md",
-    "Linux/Linux-命令速记.md",
-    "Linux/Linux.md",
-    "Linux/heredoc.md",
-    "Linux/文本三剑客.md",
-    "Linux/Q&A.md",
+    "SQL/leetcode-SQL 题目知识点.md",
+    "Having.md",
+    "HTTP.md",
+    "imgs.md",
+    "imgs 1.md",
+    "leetcode-SQL刷题记录.md",
+    "NULL的总结.md",
     "Pasted image 20230811144649.png",
+    "problem.md",
+    "RDD-SparkAPI.md",
+    "shell 脚本学习心得.md",
+    "snippet.md",
+    "SQL语法bug.md",
+    "vsocde 工作流.md",
+    "dolphinScheduler.md",
+    "DESC查询.md",
+    "子查询.md",
+    "主从复制.md",
+    "账号密码.md",
+    "学习记录.md",
+    "思考的问题.md",
+    "数据同步.md",
+    "数仓搭建.md",
+    "数仓.md",
+    "牛客网-SQL刷题记录.md",
+    "面试题整理.md",
+    "Algorithm4",
+    "Data Science",
+    "重要账号密码备忘录",
+    "Web前端开发",
+    "web后端开发",
     "Pasted image 20230811144739.png",
     "Pasted image 20230811145127.png",
     "Pasted image 20230811145258.png",
@@ -212,8 +241,6 @@
     "关系数据库",
     "关系数据库/Oracle",
     "hive/hive",
-    "未命名 1",
-    "面试",
     "关系数据库/MySQL/MySQL备忘录.assets/image-20211025214818623.png",
     "关系数据库/MySQL/MySQL备忘录.assets/image-20211025213504115.png",
     "关系数据库/MySQL/MySQL备忘录.assets/image-20211025193742633.png",
