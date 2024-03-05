@@ -78,7 +78,7 @@ where t.rn = N
 
 ```
 
-### 派生表
+### 2. 派生表
 
 #### 生成连续的子序列
 
@@ -204,6 +204,24 @@ having count(*)>any(
     select count(*) from friends group by activity
 )
 ```
+
+
+
+### 4. 去重
+
+[196. 删除重复的电子邮箱 - 力扣（LeetCode）](https://leetcode.cn/problems/delete-duplicate-emails/description/)
+
+
+
+### 5. 组内行间关系
+
+向前偏移 N 行、向后偏移N行 和当前行的关系
+
+[197. 上升的温度 - 力扣（LeetCode）](https://leetcode.cn/problems/rising-temperature/)
+
+
+
+
 
 
 
