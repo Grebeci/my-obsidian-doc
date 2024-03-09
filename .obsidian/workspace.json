@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Command.md",
+                "file": "网络/申请SSL证书.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Command.md",
+                "file": "网络/申请SSL证书.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Command.md",
+                "file": "网络/申请SSL证书.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Command.md"
+                "file": "网络/申请SSL证书.md"
               }
             }
           },
@@ -168,12 +168,13 @@
   },
   "active": "1af2b408fec1648e",
   "lastOpenFiles": [
+    "网络/科学上网笔记.md",
+    "网络/科学上网的演进.md",
+    "网络/科学上网方案.md",
+    "网络/申请SSL证书.md",
+    "Linux/Command.md",
     "Linux/服务管理和系统管理.md",
     "Linux/Linux-命令速记.md",
-    "网络/科学上网方案.md",
-    "网络/科学上网的演进.md",
-    "网络/科学上网笔记.md",
-    "Linux/Command.md",
     "Linux/Linux 基础/基本操作命令.md",
     "Linux/软件安装.md",
     "Linux/heredoc.md",
@@ -195,7 +196,6 @@
     "Linux/Linux 基础/文件系统.md",
     "Linux/工具篇",
     "Linux/Linux 基础/网络管理.md",
-    "Linux/Linux 服务/Untitled.md",
     "Linux/虚拟化和云计算",
     "Linux/Linux 服务",
     "Linux/Linux 基础",
