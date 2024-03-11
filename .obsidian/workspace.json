@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7b9887c0834f8f4f",
+        "id": "ad6ff2f3bf2e9667",
         "type": "tabs",
         "children": [
           {
-            "id": "1af2b408fec1648e",
+            "id": "3337e0180c0f5b6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络/申请SSL证书.md",
+                "file": "写作工具链/latex.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络/申请SSL证书.md",
+                "file": "写作工具链/latex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络/申请SSL证书.md",
+                "file": "写作工具链/latex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络/申请SSL证书.md"
+                "file": "写作工具链/latex.md"
               }
             }
           },
@@ -166,8 +166,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1af2b408fec1648e",
+  "active": "3337e0180c0f5b6f",
   "lastOpenFiles": [
+    "网络/申请SSL证书.md",
+    "写作工具链/latex.md",
+    "写作工具链",
     "浏览器插件开发入门.md",
     "开发工具/copilot.md",
     "web后端开发/快速打开文件管理器，切换文件.md",
@@ -185,7 +188,6 @@
     "网络/科学上网笔记.md",
     "网络/科学上网的演进.md",
     "网络/科学上网方案.md",
-    "网络/申请SSL证书.md",
     "Linux/Command.md",
     "Linux/服务管理和系统管理.md",
     "Linux/Linux-命令速记.md",
@@ -195,7 +197,6 @@
     "Linux/用户管理.md",
     "Linux/NetworkManager-Command.md",
     "Linux/Linux.md",
-    "Linux/网络服务管理.md",
     "Linux/Linux 基础/Untitled",
     "Linux/工具篇",
     "Linux/虚拟化和云计算",
@@ -203,7 +204,6 @@
     "Linux/Linux 基础",
     "MAC学习",
     "重要账号密码备忘录",
-    "Web前端开发",
     "Pasted image 20230811144649.png",
     "Pasted image 20230811144739.png",
     "Pasted image 20230811145127.png",
