@@ -4,7 +4,7 @@
   "showViewHeader": false,
   "nativeMenus": false,
   "translucency": false,
-  "baseFontSize": 12,
+  "baseFontSize": 16,
   "monospaceFontFamily": "Consolas",
   "textFontFamily": "Microsoft YaHei"
 }
