@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/leetcode-SQL 题目知识点.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b47a716411af200e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "开发工具/copilot.md",
+                "file": "Docker/Docker-新.md.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "开发工具/copilot.md",
+                "file": "Docker/Docker-新.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "开发工具/copilot.md",
+                "file": "Docker/Docker-新.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "开发工具/copilot.md"
+                "file": "Docker/Docker-新.md.md"
               }
             }
           },
@@ -179,34 +166,34 @@
       "daily-notes:打开/创建今天的日记": false
     }
   },
-  "active": "b47a716411af200e",
+  "active": "523b824744eb7e1a",
   "lastOpenFiles": [
-    "SQL/SQL优化的原则.md",
+    "Docker/Docker笔记.md",
+    "Docker/Docker-备忘录.md",
+    "Docker/Docker.md",
+    "Docker/学习进度.md",
+    "Docker/Docker-新.md.md",
+    "Docker/Kubernetes.md",
+    "终端&Shell/SSH.md",
+    "终端&Shell/Windows Terminal.md",
+    "重要账号密码备忘录/邮件.md",
+    "诺亚方舟/QA.md",
+    "诺亚方舟/计划清单.md",
+    "网络/申请SSL证书.md",
+    "网络/公网访问.md",
+    "网络/科学上网方案.md",
+    "网络/科学上网的演进.md",
+    "网络/科学上网笔记.md",
+    "网络/科学上网杂谈.md",
+    "开发工具/云上.md",
     "开发工具/copilot.md",
+    "SQL/SQL优化的原则.md",
     "SQL/SQL语法概述/子查询.md",
     "SQL/SQL语法概述/join.md",
     "SQL/leetcode-SQL 题目知识点.md",
     "SQL/数据处理-SQL.md",
     "SQL/日期处理.md",
     "SQL/SQL语法概述/现代SQL的增强.md",
-    "SQL/SQL语法概述/窗口函数.md",
-    "SQL/SQL练习题.md",
-    "SQL/SQL_snippet.md",
-    "SQL/SQL案例.md",
-    "SQL/SQL语法规范.md",
-    "SQL/SQL语法概述/构造虚拟表.md",
-    "杂项.md",
-    "mac和win的区别.md",
-    "mac problem.md",
-    "Linux/软件安装.md",
-    "Linux/网络管理.md",
-    "Linux/笔记大纲.md",
-    "Linux/用户管理.md",
-    "Linux/服务管理和系统管理.md",
-    "Linux/文件系统管理.md",
-    "Linux/terminal.md",
-    "Linux/Question.md",
-    "Linux/NetworkManager-Command.md",
     "MAC学习",
     "LLM/spark-qa-dataframe-zh.png",
     "LLM/spark-qa-dataframe-en.png",
