@@ -8,7 +8,7 @@
 
 	运行 certmgr.msc ，一般在  **第三方证书颁发机构** 或 **受信任的根证书颁发机构** 能查到。
 
-	注： 笔者发现，ZeroSSL CA证书是在 win10还没有的
+	注： 发现，ZeroSSL CA证书是在 win10还没有的
 
 	如果没有证书，就需要手动下载 ca.cer 证书到本地双击安装。
 
@@ -57,5 +57,6 @@ export VULTR_API_KEY="UYI47ZRNUUCNACVL2OBFCOCUFCLWLXTDTZGA"
 # export REGION_ID=("sea" "lax" "atl" "cdg")
 export REGION_ID="atl"
 ```
+
 
 

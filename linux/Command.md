@@ -2,17 +2,15 @@
 
 ---
 
-命令格式：
+todo
 
-> #### Command 
->
-> **【英文缩写】：**
->
-> **【特别的】：【执行权限 /  所在路径】**
->
-> **【功能描述】：**
->
-> **【Snippet】：**  
+- [ ] POSIX Utility Argument Syntax ： [The Open Group Base 规范 2018 年第 7 期](https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/) 语法阅读。
+
+- [ ] [Windows Terminal installation | Microsoft Learn](https://learn.microsoft.com/en-us/windows/terminal/install)  自定义的配置和 terminal chat
+
+- [ ] [Warp: Your terminal, reimagined](https://www.warp.dev/) ： 体验+ 习惯
+
+  
 
 
 
@@ -20,7 +18,105 @@
 
 
 
+
+
+快捷键
+
+
+
+### Overview
+
+#### 1. 命令行参数语法
+
+Linux 的命令行语法结构语法结构主要是选项和参数的处理方式。这些命令大多数遵循 `POSIX`（Portable Operating System Interface）标准，但是也有引入 GNU 工具和 移植的 BSD 系统工具（`ps` 命令）以及一些第三方工具的自定义语法结构。
+
+##### 1.1 `POSIX`
+
+> 关于 POSIX 参数约定【文档】： [Utility Argument Syntax ]((https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/))
+
+**Syntax**
+
+```
+Command Option Option_argument Operand
+```
+
+POSIX 风格的参数，也称为命令行参数风格，主要有以下几种形式：
+
+您的笔记已经非常详细地描述了 POSIX 风格的命令行参数，但我可以帮您进一步完善和澄清一些细节。下面是修改后的版本：
+
+1. **短选项（Short Options）**：
+   - 由一个短划线 `-` 和一个字符组成，如 `-a` 或 `-b`。
+   - 短选项可以堆叠。例如，`-abc` 相当于 `-a -b -c`。
+   - 短选项可以接受参数，参数既可以紧跟在选项字符后面，也可以用空格分隔。例如，`-o value` 或 `-ovalue`。
+
+2. **长选项（Long Options）**：
+   - 由两个短划线 `--` 后跟一个单词或单词组合表示，例如 `--help` 或 `--version`。
+   - 长选项的参数通常用等号连接，或者用空格分隔。例如，`--output=value` 或 `--output value`。
+
+3. **参数（Operands）**：
+   - 指非选项的参数，不以短划线开头。在命令行中，参数通常跟在所有选项之后。例如，`command -a -b operand1 operand2`。
+
+4. **选项参数（Option Arguments）**：
+   - 一些命令支持选项后跟其参数，无论是短选项还是长选项。参数可以直接跟在短选项后面，也可以通过空格或等号与长选项分隔。
+   - 例如，在命令 `command -a arg1 --option=value` 中，`arg1` 是 `-a` 的参数，`value` 是 `--option` 的参数。
+
+5. **结束选项标记（End-of-Options Marker）**：
+   - 特殊的 `--` 标记用来明确指示选项列表的结束。在这个标记之后的任何内容都被视为参数，而不是选项，即使它们以短划线开头。
+   - 例如，在命令 `command -a -- -b` 中，`-b` 被视为参数而非选项。
+
+
+
+##### 1.2 `BSD`
+
+Linux 系统中存在 BSD 风格的命令，BSD 风格的命令参数在 Linux 中主要是通过移植过来的 BSD 版本的工具体现的，例如在某些 Linux 发行版中，`ps`、`tar` 和 `netstat` 等命令可能提供 BSD 风格的选项。
+
+
+
+#### 2.  Command Info/doc
+
+即时的、快速得到这个命令的信息。
+
+**命令的帮助**
+
+1. **man（手册）命令**：
+   - 使用方法：`man [命令]`
+   - 这是最常用的获取命令帮助的方法。例如，要查看 `ls` 命令的帮助信息，可以使用 `man ls`。
+2. **--help 参数**：
+   - 使用方法：`[命令] --help`
+   - 大多数 Linux 命令都支持 `--help` 参数，用于显示命令的基本用法和选项。例如，`ls --help` 会显示 `ls` 命令的帮助信息。
+3. **info 命令**：
+   - 使用方法：`info [命令]`
+   - `info` 提供比 `man` 更详细的帮助信息，有的命令只在 `info` 中有详细文档。例如，`info ls` 会显示关于 `ls` 命令的详细信息。
+4. **whatis/apropos 命令**：
+   - 使用方法：`apropos [关键字]` 或 `whatis [命令]`
+   - `whatis` 用于搜索一个命令的简短描述。
+   - `apropos` 用于搜索手册页面的描述部分，找到与特定关键字相关的所有命令。
+5. **tldr（Too Long; Didn't Read）**：
+   - 需要先安装 `tldr` 客户端。
+   - `tldr` 提供了简洁的命令用法实例，是快速了解命令用法的好方法。例如，`tldr ls` 会显示 `ls` 命令的简化用法。
+
+
+
+**Shell 自动提示**
+
+[oh-my-zsh Github Wiki](https://github.com/ohmyzsh/ohmyzsh/wiki)
+
+
+
+**终端（AI）提示**
+
+- Copilot ： [GitHub Copilot（CLI 版） - GitHub 文档](https://docs.github.com/zh/copilot/github-copilot-in-the-cli)
+- Warp：The terminal for the 21st century.
+
+
+
+#### 3.  Command 类别
+
+
+
 whichis
+
+
 
 whatis
 
@@ -30,9 +126,21 @@ alias
 
 
 
-快捷键
 
 
+
+
+
+
+命令格式：
+
+> #### Command 
+>
+> **【英文缩写】：**
+>
+> **【功能描述】：**
+>
+> **【Snippet】：**  
 
 
 
@@ -115,7 +223,6 @@ done
 ```
 
 
-
 #### 2. `cd` 
 
 命令格式
@@ -151,8 +258,6 @@ SCRIPT_PATH="$(dirname "$(readlink -f "$0")")"
 # 这种方式也可以，但通过符号链接调用脚本时，不能保证正确的行为。
 SCRIPT_PATH=$(cd $(dirname "$0") && pwd)
 ```
-
-
 
 #### 3. pwd
 
@@ -544,17 +649,36 @@ shutdown 、 reboot
 
 
 
+```
+    1  apt-get install -y git uuid
+    2  git clone https://github.com/Grebeci/one_key_fly.git
+    3  cd one_key_fly/
+    5  bash v2ray_server.sh  install_v2ray
+    6  systemctl status v2ray
+   10  cat /usr/local/etc/v2ray/config.json 
+   11  export PS1='\[\e[31m\]\u\[\e[0m\]@\[\e[34m\]\w\[\e[0m\]\$ 
+   12  ‘
+   13  '
+   14  export PS1='\[\e[31m\]\u\[\e[0m\]@\[\e[34m\]\w\[\e[0m\]\$'
+   15  vim .bash
+   16  cd ~
+   17  ls
+   18  vim .bashrc 
+   19  vim .bashrc 
+   20  souce ~/.bashrc 
+   21  source ~/.bashrc 
+   22  exit
+   23  export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\w\$'
+   24  vim .bashrc 
+   25  source ~/.bashrc 
+   26  exit
+   27  histroy 
+   28  history
+```
 
 
 
 
 
 
-
-
-
-
-
-
-#### 
 
