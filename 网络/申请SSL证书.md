@@ -56,6 +56,9 @@ export VULTR_API_KEY="UYI47ZRNUUCNACVL2OBFCOCUFCLWLXTDTZGA"
 
 # export REGION_ID=("sea" "lax" "atl" "cdg")
 export REGION_ID="atl"
+
+
+CF_TOKEN_DNS="p1Gqle_TCHGhFjdavic4l9dYhnAonDjb0WBeF_tj"
 ```
 
 

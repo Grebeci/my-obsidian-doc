@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "写作工具链/latex.md",
+                "file": "网络/申请SSL证书.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "写作工具链/latex.md",
+                "file": "网络/申请SSL证书.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "写作工具链/latex.md",
+                "file": "网络/申请SSL证书.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "写作工具链/latex.md"
+                "file": "网络/申请SSL证书.md"
               }
             }
           },
@@ -168,8 +168,18 @@
   },
   "active": "3337e0180c0f5b6f",
   "lastOpenFiles": [
-    "网络/申请SSL证书.md",
     "写作工具链/latex.md",
+    "dolphinScheduler.md",
+    "DESC查询.md",
+    "AI平台体验.md",
+    "子查询.md",
+    "主从复制.md",
+    "账号密码.md",
+    "网络/申请SSL证书.md",
+    "网络/科学上网方案.md",
+    "网络/科学上网的演进.md",
+    "网络/科学上网笔记.md",
+    "网络/公网访问.md",
     "写作工具链",
     "浏览器插件开发入门.md",
     "开发工具/copilot.md",
@@ -185,18 +195,8 @@
     "Algorithm4/算法分析性能.md",
     "Algorithm4/UnionFind.md",
     "Algorithm4",
-    "网络/科学上网笔记.md",
-    "网络/科学上网的演进.md",
-    "网络/科学上网方案.md",
     "Linux/Command.md",
     "Linux/服务管理和系统管理.md",
-    "Linux/Linux-命令速记.md",
-    "Linux/Linux 基础/基本操作命令.md",
-    "Linux/软件安装.md",
-    "Linux/heredoc.md",
-    "Linux/用户管理.md",
-    "Linux/NetworkManager-Command.md",
-    "Linux/Linux.md",
     "Linux/Linux 基础/Untitled",
     "Linux/工具篇",
     "Linux/虚拟化和云计算",
