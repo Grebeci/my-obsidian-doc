@@ -1,23 +1,19 @@
 {
   "main": {
-    "id": "7d7c0a3a99d2afd8",
+    "id": "c5b8697bb2134589",
     "type": "split",
     "children": [
       {
-        "id": "18ab251dd3fd2255",
+        "id": "cce5257d1a0be99d",
         "type": "tabs",
         "children": [
           {
-            "id": "67ce8b7f1a90aeb2",
+            "id": "6f3665f5f09c6451",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "网络/申请SSL证书.md",
-=======
-                "file": "HTTP.md",
->>>>>>> 68ca5d943efcc94190ede4d7ea870da362e29371
+                "file": "Web前端开发/前端开发路线.md.md",
                 "mode": "source",
                 "source": false
               }
@@ -29,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8b58e8f25b82089a",
+    "id": "3717781987fc7606",
     "type": "split",
     "children": [
       {
-        "id": "7e911260db9df8cb",
+        "id": "877868ccd86d6221",
         "type": "tabs",
         "children": [
           {
-            "id": "8fb0c6fc3a89507c",
+            "id": "d4197955a6631ccd",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,7 +43,7 @@
             }
           },
           {
-            "id": "57640e50f9005d1f",
+            "id": "2d11d0f87085770e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -62,39 +58,34 @@
             }
           },
           {
-            "id": "d90c7c0a1283d45b",
+            "id": "c23e428b68a6b4b3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "055cd15299fc4cc2",
+    "id": "6ae6b49ca93ddbee",
     "type": "split",
     "children": [
       {
-        "id": "d9515a5635ee9bb2",
+        "id": "8f726d02fc82b082",
         "type": "tabs",
         "children": [
           {
-            "id": "4ee654b899118d6c",
+            "id": "b68f66f572a9793e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "网络/申请SSL证书.md",
-=======
-                "file": "HTTP.md",
->>>>>>> 68ca5d943efcc94190ede4d7ea870da362e29371
+                "file": "Web前端开发/前端开发路线.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,23 +97,19 @@
             }
           },
           {
-            "id": "0c8126d4416a4e2d",
+            "id": "688a25aefefaa2f6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "网络/申请SSL证书.md",
-=======
-                "file": "HTTP.md",
->>>>>>> 68ca5d943efcc94190ede4d7ea870da362e29371
+                "file": "Web前端开发/前端开发路线.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "29243d3fe03cb85d",
+            "id": "26e5ed69322b56b9",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,21 +120,7 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "136319bb5935d183",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "网络/申请SSL证书.md"
-              }
-            }
-          },
-          {
-            "id": "b5aa80b3e3d868cf",
-=======
-            "id": "bab83c68f890a6db",
->>>>>>> 68ca5d943efcc94190ede4d7ea870da362e29371
+            "id": "285bb823770b002c",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -159,12 +132,12 @@
             }
           },
           {
-            "id": "b3ec24b9ad55ffff",
+            "id": "eabba3fabd7f3b5d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTTP.md"
+                "file": "Web前端开发/前端开发路线.md.md"
               }
             }
           }
@@ -177,70 +150,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "57640e50f9005d1f",
+  "active": "d4197955a6631ccd",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "写作工具链/latex.md",
-    "dolphinScheduler.md",
-    "DESC查询.md",
-    "AI平台体验.md",
-    "子查询.md",
-    "主从复制.md",
-    "账号密码.md",
-    "网络/申请SSL证书.md",
-    "网络/科学上网方案.md",
-    "网络/科学上网的演进.md",
-    "网络/科学上网笔记.md",
-    "网络/公网访问.md",
-    "写作工具链",
-    "浏览器插件开发入门.md",
-    "开发工具/copilot.md",
-    "web后端开发/快速打开文件管理器，切换文件.md",
-    "web后端开发/Python读取 PDF.md",
-    "vsocde 工作流.md",
-    "SQL/leetcode-SQL 题目知识点.md",
-    "SQL/SQL语法概述/现代SQL的增强.md",
-    "SQL/SQL语法概述/子查询.md",
-    "SQL/SQL优化的原则.md",
-    "Data Science/overview.md",
-    "Data Science",
-    "Algorithm4/算法分析性能.md",
-    "Algorithm4/UnionFind.md",
-    "Algorithm4",
-    "Linux/Command.md",
-    "Linux/服务管理和系统管理.md",
-    "Linux/Linux 基础/Untitled",
-    "Linux/工具篇",
-    "Linux/虚拟化和云计算",
-    "Linux/Linux 服务",
-    "Linux/Linux 基础",
-    "MAC学习",
-    "重要账号密码备忘录",
-=======
-    "imgs 1.md",
-    "leetcode-SQL刷题记录.md",
-    "mac和win的区别.md",
-    "Mac开荒.md",
-    "NULL的总结.md",
->>>>>>> 68ca5d943efcc94190ede4d7ea870da362e29371
-    "Pasted image 20230811144649.png",
-    "problem.md",
-    "shell 脚本学习心得.md",
-    "snippet.md",
-    "SQL语法bug.md",
-    "Untitled 1.md",
-    "vsocde 工作流.md",
-    "yarn.md",
-    "网络/科学上网杂谈.md",
-    "网络/申请SSL证书.md",
-    "账号密码.md",
-    "Untitled.md"
+    "Web前端开发/TODO.md.md",
+    "Web前端开发/front-end-tolist.md",
+    "Web前端开发/前端开发路线.md.md",
+    "Untitled"
   ]
 }
