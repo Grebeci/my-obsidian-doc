@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTTP.md",
+                "file": "SQL/数据处理-SQL.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "e09cdaea5e51b6c7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,8 +76,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTTP.md",
+                "file": "SQL/数据处理-SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTTP.md",
+                "file": "SQL/数据处理-SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTTP.md"
+                "file": "SQL/数据处理-SQL.md"
               }
             }
           }
@@ -158,24 +168,34 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "57640e50f9005d1f",
+  "active": "e09cdaea5e51b6c7",
   "lastOpenFiles": [
-    "imgs 1.md",
+    "SQL/leetcode-SQL 题目知识点.md",
+    "SQL/SQL案例.md",
+    "SQL/SQL练习题.md",
+    "SQL/SQL优化的原则.md",
+    "SQL/SQL语法规范.md",
+    "关系数据库/Oracle/Oracle-表.md",
+    "关系数据库/MySQL/NULL处理.md",
+    "关系数据库/MySQL/MySQL备忘录.md",
+    "关系数据库/MySQL/MySQL安装.md",
+    "关系数据库/MySQL/MySQL-SQL方言.md",
     "leetcode-SQL刷题记录.md",
-    "mac和win的区别.md",
-    "Mac开荒.md",
-    "NULL的总结.md",
-    "Pasted image 20230811144649.png",
-    "problem.md",
-    "shell 脚本学习心得.md",
-    "snippet.md",
-    "SQL语法bug.md",
-    "Untitled 1.md",
-    "vsocde 工作流.md",
-    "yarn.md",
-    "网络/科学上网杂谈.md",
-    "网络/申请SSL证书.md",
-    "账号密码.md",
-    "Untitled.md"
+    "关系数据库/MySQL/MySQL-优化策略.md",
+    "关系数据库/MySQL/MySQL-权限.md",
+    "关系数据库/MySQL/MySQL.md",
+    "关系数据库/MySQL/数据库设计规范.md",
+    "关系数据库/MySQL/事务.md",
+    "数据处理/未命名.md",
+    "开发工具/WSL.md",
+    "开发工具/vscode.md",
+    "开发工具/jupyter.md",
+    "开发工具/idea的使用.md",
+    "开发工具/copilot.md",
+    "开发工具/codespace.md",
+    "开发工具/云上.md",
+    "HTTP.md",
+    "imgs 1.md",
+    "Pasted image 20230811144649.png"
   ]
 }
