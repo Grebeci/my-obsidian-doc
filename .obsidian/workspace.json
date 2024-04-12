@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/数据处理-SQL.md",
+                "file": "Web前端开发/front-end-tolist.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/数据处理-SQL.md",
+                "file": "Web前端开发/front-end-tolist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/数据处理-SQL.md",
+                "file": "Web前端开发/front-end-tolist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/数据处理-SQL.md"
+                "file": "Web前端开发/front-end-tolist.md"
               }
             }
           }
@@ -169,6 +169,10 @@
   },
   "active": "67ce8b7f1a90aeb2",
   "lastOpenFiles": [
+    "Web前端开发/前端开发路线.md.md",
+    "Web前端开发/front-end-tolist.md",
+    "SQL/数据处理-SQL.md",
+    "未命名",
     "写作工具链/latex.md",
     "写作工具链",
     "SQL/leetcode-SQL 题目知识点.md",
@@ -193,9 +197,6 @@
     "开发工具/jupyter.md",
     "开发工具/idea的使用.md",
     "开发工具/copilot.md",
-    "开发工具/codespace.md",
-    "开发工具/云上.md",
-    "HTTP.md",
     "Pasted image 20230811144649.png"
   ]
 }
