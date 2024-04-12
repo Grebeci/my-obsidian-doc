@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,8 +167,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e09cdaea5e51b6c7",
+  "active": "67ce8b7f1a90aeb2",
   "lastOpenFiles": [
+    "写作工具链/latex.md",
+    "写作工具链",
     "SQL/leetcode-SQL 题目知识点.md",
     "SQL/SQL案例.md",
     "SQL/SQL练习题.md",
@@ -195,7 +196,6 @@
     "开发工具/codespace.md",
     "开发工具/云上.md",
     "HTTP.md",
-    "imgs 1.md",
     "Pasted image 20230811144649.png"
   ]
 }
