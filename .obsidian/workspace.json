@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web前端开发/front-end-tolist.md",
+                "file": "Web前端开发/HTML-Core.md.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "e09cdaea5e51b6c7",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
               }
             }
           }
@@ -95,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web前端开发/front-end-tolist.md",
+                "file": "Web前端开发/HTML-Core.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web前端开发/front-end-tolist.md",
+                "file": "Web前端开发/HTML-Core.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web前端开发/front-end-tolist.md"
+                "file": "Web前端开发/HTML-Core.md.md"
               }
             }
           }
@@ -167,10 +157,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "67ce8b7f1a90aeb2",
+  "active": "8fb0c6fc3a89507c",
   "lastOpenFiles": [
-    "Web前端开发/前端开发路线.md.md",
     "Web前端开发/front-end-tolist.md",
+    "Web前端开发/HTML-Core.md.md",
+    "Web前端开发/前端开发路线.md.md",
     "SQL/数据处理-SQL.md",
     "未命名",
     "写作工具链/latex.md",
@@ -196,7 +187,6 @@
     "开发工具/vscode.md",
     "开发工具/jupyter.md",
     "开发工具/idea的使用.md",
-    "开发工具/copilot.md",
     "Pasted image 20230811144649.png"
   ]
 }
