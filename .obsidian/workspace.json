@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web前端开发/前端开发路线.md.md",
+                "file": "Web前端开发/HTML.md.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web前端开发/前端开发路线.md.md",
+                "file": "Web前端开发/HTML.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web前端开发/前端开发路线.md.md",
+                "file": "Web前端开发/HTML.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web前端开发/前端开发路线.md.md"
+                "file": "Web前端开发/HTML.md.md"
               }
             }
           }
@@ -157,11 +157,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d4197955a6631ccd",
+  "active": "6f3665f5f09c6451",
   "lastOpenFiles": [
+    "Web前端开发/开发工具配置.md.md",
+    "Web前端开发/HTML.md.md",
+    "Web前端开发/前端开发路线.md.md",
     "Web前端开发/TODO.md.md",
     "Web前端开发/front-end-tolist.md",
-    "Web前端开发/前端开发路线.md.md",
     "Untitled"
   ]
 }
