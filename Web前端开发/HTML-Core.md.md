@@ -38,6 +38,24 @@ Tag （标签）
 
 
 
+HTML 结构
+
+```html
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <title>我的测试站点</title>
+  </head>
+  <body>
+    <p>这是我的页面</p>
+  </body>
+</html>
+```
+
+1. `<!DOCTYPE html>`: 声明文档类型。
+2. 
+
 
 
 

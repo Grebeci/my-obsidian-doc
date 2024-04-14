@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web前端开发/HTML-Core.md.md",
+                "file": "关系数据库/MySQL/待整理/MySQL存储过程与函数.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web前端开发/HTML-Core.md.md",
+                "file": "关系数据库/MySQL/待整理/MySQL存储过程与函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web前端开发/HTML-Core.md.md",
+                "file": "关系数据库/MySQL/待整理/MySQL存储过程与函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web前端开发/HTML-Core.md.md"
+                "file": "关系数据库/MySQL/待整理/MySQL存储过程与函数.md"
               }
             }
           }
@@ -157,10 +157,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8fb0c6fc3a89507c",
+  "active": "67ce8b7f1a90aeb2",
   "lastOpenFiles": [
-    "Web前端开发/front-end-tolist.md",
+    "关系数据库/MySQL/待整理/MySQL备忘录.md",
+    "关系数据库/MySQL/待整理/MySQL-QA.md",
+    "关系数据库/MySQL/待整理/索引.md",
+    "关系数据库/MySQL/MySQL安装.md",
+    "关系数据库/MySQL/MySQL类型系统.md",
+    "关系数据库/MySQL/NULL处理.md",
+    "关系数据库/MySQL/MySQL备忘录.md",
+    "关系数据库/MySQL/MySQL-SQL方言.md",
+    "关系数据库/MySQL/MySQL-优化策略.md",
+    "关系数据库/MySQL/MySQL-权限.md",
+    "关系数据库/MySQL/MySQL.md",
+    "关系数据库/MySQL/数据库设计规范.md",
+    "关系数据库/MySQL/数据库日志.md",
     "Web前端开发/HTML-Core.md.md",
+    "Web前端开发/front-end-tolist.md",
     "Web前端开发/前端开发路线.md.md",
     "SQL/数据处理-SQL.md",
     "未命名",
@@ -172,21 +185,8 @@
     "SQL/SQL优化的原则.md",
     "SQL/SQL语法规范.md",
     "关系数据库/Oracle/Oracle-表.md",
-    "关系数据库/MySQL/NULL处理.md",
-    "关系数据库/MySQL/MySQL备忘录.md",
-    "关系数据库/MySQL/MySQL安装.md",
-    "关系数据库/MySQL/MySQL-SQL方言.md",
     "leetcode-SQL刷题记录.md",
-    "关系数据库/MySQL/MySQL-优化策略.md",
-    "关系数据库/MySQL/MySQL-权限.md",
-    "关系数据库/MySQL/MySQL.md",
-    "关系数据库/MySQL/数据库设计规范.md",
     "关系数据库/MySQL/事务.md",
-    "数据处理/未命名.md",
-    "开发工具/WSL.md",
-    "开发工具/vscode.md",
-    "开发工具/jupyter.md",
-    "开发工具/idea的使用.md",
     "Pasted image 20230811144649.png"
   ]
 }
