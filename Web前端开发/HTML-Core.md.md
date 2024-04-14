@@ -14,6 +14,8 @@ Tag （标签）
 
 
 
+元素
+
 嵌套元素（Nesting）
 
 块级元素，内联元素
@@ -23,6 +25,10 @@ Tag （标签）
 > 中文教程环境下经常说单标签，意思是没有成对出现的标签。
 
 
+
+属性
+
+![含有‘class="editor-note"’属性的段落标签](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/Getting_started/grumpy-cat-attribute-small.png)
 
 
 
