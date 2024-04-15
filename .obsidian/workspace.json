@@ -145,8 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,7 +156,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "67ce8b7f1a90aeb2",
+  "active": "4ee654b899118d6c",
   "lastOpenFiles": [
     "关系数据库/MySQL/待整理/MySQL存储过程与函数.md",
     "Web前端开发/开发工具配置.md.md",
