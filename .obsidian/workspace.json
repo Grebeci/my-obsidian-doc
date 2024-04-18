@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发工具/codespace.md",
+                "file": "开发工具/vscode.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "开发工具/codespace.md",
+                "file": "开发工具/vscode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "开发工具/codespace.md",
+                "file": "开发工具/vscode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "开发工具/codespace.md"
+                "file": "开发工具/vscode.md"
               }
             }
           }
@@ -158,6 +158,10 @@
   },
   "active": "02a53dd447ad0ca9",
   "lastOpenFiles": [
+    "开发工具/jupyter.md",
+    "开发工具/idea的使用.md",
+    "开发工具/云上.md",
+    "开发工具/codespace.md",
     "Linux/Command.md",
     "Linux/用户管理.md",
     "Linux/heredoc.md",
@@ -180,10 +184,6 @@
     "Web前端开发/HTML-Core.md.md",
     "关系数据库/MySQL/待整理/MySQL存储过程与函数.md",
     "Web前端开发/开发工具配置.md.md",
-    "Web前端开发/TODO.md.md",
-    "Web前端开发/HTML.md.md",
-    "关系数据库/MySQL/待整理/MySQL备忘录.md",
-    "关系数据库/MySQL/待整理/MySQL-QA.md",
     "未命名",
     "写作工具链",
     "Pasted image 20230811144649.png"
