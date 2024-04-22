@@ -36,5 +36,15 @@ ssh -p 22  \
 
 
 
-#TODO/
+- [ ] #TODO/sshd
+
+
+
+- [ ] #TODO/SSHFS
+
+
+
+- [ ] #TODO/SSH
+
+
 

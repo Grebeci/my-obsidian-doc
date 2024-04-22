@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TODO/",
+                "query": "tag:#TODO/sshd",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
