@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/SSH.md.md",
+                "file": "Mac/日常操作TODO.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web前端开发/HTML-Core.md.md",
+                "file": "Mac/日常操作TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web前端开发/HTML-Core.md.md",
+                "file": "Mac/日常操作TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web前端开发/HTML-Core.md.md"
+                "file": "Mac/日常操作TODO.md"
               }
             }
           }
@@ -183,9 +182,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "24a633a870f2c0bb",
+  "active": "3c1bb6bcda15178d",
   "lastOpenFiles": [
     "开发工具/codespace.md",
+    "Mac/日常操作TODO.md",
+    "Mac开荒.md",
+    "Mac",
     "Web前端开发/HTML-Core.md.md",
     "Linux/SSH.md.md",
     "未命名.md"
