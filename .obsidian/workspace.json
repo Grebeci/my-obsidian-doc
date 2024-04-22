@@ -1,39 +1,52 @@
 {
   "main": {
-    "id": "7d7c0a3a99d2afd8",
+    "id": "7c3d2bde7374d29f",
     "type": "split",
     "children": [
       {
-        "id": "3b6d6170c7d2764d",
+        "id": "b485b1c0fc071149",
         "type": "tabs",
         "children": [
           {
-            "id": "02a53dd447ad0ca9",
+            "id": "e952afb208939f94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发工具/vscode.md",
+                "file": "Web前端开发/HTML-Core.md.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "830e57a0e32a456f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/SSH.md.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "8b58e8f25b82089a",
+    "id": "02a9a91ac997bd78",
     "type": "split",
     "children": [
       {
-        "id": "7e911260db9df8cb",
+        "id": "ede53fddf2ae928d",
         "type": "tabs",
         "children": [
           {
-            "id": "8fb0c6fc3a89507c",
+            "id": "c76ef14b78fe68eb",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +56,7 @@
             }
           },
           {
-            "id": "57640e50f9005d1f",
+            "id": "24a633a870f2c0bb",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +71,7 @@
             }
           },
           {
-            "id": "d90c7c0a1283d45b",
+            "id": "79c4fa5914150be1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +85,20 @@
     "width": 300
   },
   "right": {
-    "id": "055cd15299fc4cc2",
+    "id": "2ff71da6e72efbfa",
     "type": "split",
     "children": [
       {
-        "id": "d9515a5635ee9bb2",
+        "id": "5531ea5db904dde0",
         "type": "tabs",
         "children": [
           {
-            "id": "4ee654b899118d6c",
+            "id": "29990b59551eee01",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "开发工具/vscode.md",
+                "file": "Linux/SSH.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +110,19 @@
             }
           },
           {
-            "id": "0c8126d4416a4e2d",
+            "id": "93f1dc8fba9671c1",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "开发工具/vscode.md",
+                "file": "Linux/SSH.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "29243d3fe03cb85d",
+            "id": "c0359602f8122609",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,7 +133,7 @@
             }
           },
           {
-            "id": "bab83c68f890a6db",
+            "id": "f2a1828594984176",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -132,12 +145,12 @@
             }
           },
           {
-            "id": "b3ec24b9ad55ffff",
+            "id": "6923a10c63a71a77",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "开发工具/vscode.md"
+                "file": "Linux/SSH.md.md"
               }
             }
           }
@@ -145,7 +158,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,36 +170,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "02a53dd447ad0ca9",
+  "active": "830e57a0e32a456f",
   "lastOpenFiles": [
-    "开发工具/jupyter.md",
-    "开发工具/idea的使用.md",
-    "开发工具/云上.md",
-    "开发工具/codespace.md",
-    "Linux/Command.md",
-    "Linux/用户管理.md",
-    "Linux/heredoc.md",
-    "Linux/Linux.md",
-    "Linux/Linux-命令速记.md",
-    "Linux/NetworkManager-Command.md",
-    "Linux/Linux 基础/基本操作命令.md",
-    "Linux/文件系统管理.md",
-    "Linux/文本三剑客.md",
-    "Linux/网络服务管理.md",
-    "Linux/软件安装.md",
-    "Linux/服务管理和系统管理.md",
-    "Linux/笔记大纲.md",
-    "Linux/Linux 基础/用户管理和权限控制.md",
-    "Linux/Linux 基础/文件系统.md",
-    "Linux/Linux 基础/网络管理.md",
-    "Linux/Linux 基础/进程管理.md",
-    "Linux/Linux 基础/包管理系统.md",
-    "Data Science/overview.md",
-    "Web前端开发/HTML-Core.md.md",
-    "关系数据库/MySQL/待整理/MySQL存储过程与函数.md",
-    "Web前端开发/开发工具配置.md.md",
-    "未命名",
-    "写作工具链",
-    "Pasted image 20230811144649.png"
+    "未命名.md",
+    "Linux/SSH.md.md",
+    "Web前端开发/HTML-Core.md.md"
   ]
 }
