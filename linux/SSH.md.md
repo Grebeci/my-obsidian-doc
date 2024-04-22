@@ -10,6 +10,13 @@
 
    > 通常是提示 yes or error
 
+```shell
+ssh -p 22  \
+	-o StrictHostKeyChecking=no   \ 
+	-o UserKnownHostsFile=/dev/null \
+	-o GlobalKnownHostsFile=/dev/null \
+	user@remote_host
 ```
-```
+
+
 
