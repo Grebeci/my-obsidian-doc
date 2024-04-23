@@ -18,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "830e57a0e32a456f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "开发工具/codespace.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c1bb6bcda15178d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Command.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Command.md",
+                "file": "Web前端开发/HTML-Core.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Command.md",
+                "file": "Web前端开发/HTML-Core.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Command.md"
+                "file": "Web前端开发/HTML-Core.md.md"
               }
             }
           }
@@ -182,15 +157,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3c1bb6bcda15178d",
+  "active": "e952afb208939f94",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Linux/Command.md",
     "[Utility.md",
+    "Linux/Command.md",
+    "开发工具/codespace.md",
+    "conflict-files-obsidian-git.md",
     "Linux/NetworkManager-Command.md",
     "Linux/Linux-命令速记.md",
     "Mac/日常操作TODO.md",
-    "开发工具/codespace.md",
     "Mac开荒.md",
     "Mac",
     "Web前端开发/HTML-Core.md.md",
