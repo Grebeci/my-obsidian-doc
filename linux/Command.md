@@ -4,7 +4,7 @@
 
 todo
 
-- [ ] POSIX Utility Argument Syntax ： [The Open Group Base 规范 2018 年第 7 期]([Utility Conventions (opengroup.org)](https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/basedefs/V1_chap12.html)) 语法阅读。
+- [x] POSIX Utility Argument Syntax ： [The Open Group Base 规范 2018 年第 7 期]([Utility Conventions (opengroup.org)](https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/basedefs/V1_chap12.html)) 语法阅读。
 
 - [ ] [Windows Terminal installation | Microsoft Learn](https://learn.microsoft.com/en-us/windows/terminal/install)  自定义的配置和 terminal chat
 
@@ -41,8 +41,6 @@ Command Option Option_argument Operand
 ```
 
 POSIX 风格的参数，也称为命令行参数风格，主要有以下几种形式：
-
-您的笔记已经非常详细地描述了 POSIX 风格的命令行参数，但我可以帮您进一步完善和澄清一些细节。下面是修改后的版本：
 
 1. **短选项（Short Options）**：
    - 由一个短划线 `-` 和一个字符组成，如 `-a` 或 `-b`。
