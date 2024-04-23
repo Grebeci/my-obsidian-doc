@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web前端开发/HTML-Core.md.md",
+                "file": "Linux/Command.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web前端开发/HTML-Core.md.md",
+                "file": "Linux/Command.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web前端开发/HTML-Core.md.md",
+                "file": "Linux/Command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web前端开发/HTML-Core.md.md"
+                "file": "Linux/Command.md"
               }
             }
           }
@@ -157,8 +157,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e952afb208939f94",
+  "active": "c76ef14b78fe68eb",
   "lastOpenFiles": [
+    "Web前端开发/HTML-Core.md.md",
     "[Utility.md",
     "Linux/Command.md",
     "开发工具/codespace.md",
@@ -168,7 +169,6 @@
     "Mac/日常操作TODO.md",
     "Mac开荒.md",
     "Mac",
-    "Web前端开发/HTML-Core.md.md",
     "Linux/SSH.md.md",
     "未命名.md"
   ]

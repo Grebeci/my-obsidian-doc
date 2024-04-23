@@ -4,7 +4,7 @@
 
 todo
 
-- [ ] POSIX Utility Argument Syntax ： [The Open Group Base 规范 2018 年第 7 期]([Utility Conventions (opengroup.org)](https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/basedefs/V1_chap12.html)) 语法阅读。
+- [ ] POSIX Utility Argument Syntax ： [The Open Group Base 规范 2018 年第 7 期 Utility Conventions opengroup.org](https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/basedefs/V1_chap12.html)) 语法阅读。
 
 - [ ] [Windows Terminal installation | Microsoft Learn](https://learn.microsoft.com/en-us/windows/terminal/install)  自定义的配置和 terminal chat
 
