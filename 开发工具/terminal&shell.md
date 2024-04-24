@@ -49,3 +49,11 @@ Windows Terminal
 - `Alt + $`：变量名补全。
   
 - `Alt + Tab`：尝试用`.bash_history`里面以前执行命令，进行补全。
+
+
+
+#### 2. 工作流
+
+bash 
+
+删除当前命令 
