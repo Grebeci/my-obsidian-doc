@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Command.md",
+                "file": "开发工具/terminal&shell.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Command.md",
+                "file": "开发工具/terminal&shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Command.md",
+                "file": "开发工具/terminal&shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Command.md"
+                "file": "开发工具/terminal&shell.md"
               }
             }
           }
@@ -159,9 +159,10 @@
   },
   "active": "e952afb208939f94",
   "lastOpenFiles": [
+    "Linux/Command.md",
+    "开发工具/terminal&shell.md",
     "Web前端开发/HTML-Core.md.md",
     "[Utility.md",
-    "Linux/Command.md",
     "开发工具/codespace.md",
     "conflict-files-obsidian-git.md",
     "Linux/NetworkManager-Command.md",
