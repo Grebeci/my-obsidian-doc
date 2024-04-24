@@ -121,9 +121,13 @@ alias
 
 #### 4. 工具
 
+##### Windows Terminal  +  Bash 
 
 
 
+
+
+-----------------
 
 
 
