@@ -21,6 +21,8 @@ Windows Terminal
 **Bash 行操作**
 
 > [行操作 - 《阮一峰 Bash 脚本教程》 - 书栈网 · BookStack](https://www.bookstack.cn/read/bash-tutorial/docs-readline.md)
+>
+> 在 Bash 环境下，快捷键的配置通常存储在一个叫做 `.inputrc` 的文件中，这个文件位于用户的家目录中。`.inputrc` 文件用于自定义 readline 库的行为，readline 是 Bash 和其他许多 shell 使用的一个库，用于处理输入的编辑功能，比如快捷键绑定。
 
 - `Ctrl + a`：移到行首
   
@@ -54,6 +56,5 @@ Windows Terminal
 
 #### 2. 工作流
 
-bash 
+**删除当前命令** 
 
-删除当前命令 
