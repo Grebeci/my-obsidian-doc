@@ -44,6 +44,8 @@ Windows Terminal
   
 - `Ctrl + y`：在光标位置粘贴文本。
 
+
+
 **补全**
 
 - Tab：完成自动补全。
@@ -58,3 +60,6 @@ Windows Terminal
 
 **删除当前命令** 
 
+1.  `Ctrl + e` + `Ctrl + u`
+
+2. 自定义快捷键（
