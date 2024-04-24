@@ -123,6 +123,16 @@ alias
 
 ##### Windows Terminal  +  Bash 
 
+**Bash 行操作**
+
+- `Ctrl + a`：移到行首
+
+- `Ctrl + e`：移到行尾。
+- `Alt + f`：移动到当前单词的词尾。
+- `Alt + f`：移动到当前单词的词尾。
+
+
+
 
 
 
