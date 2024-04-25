@@ -1,10 +1,10 @@
 ## 一、概述
 
-hive 作为一个数仓工具，把 **结构化的** 数据映射成一张表，对外使用类SQL（HiveQL）的语言查询数据。
+Hive作为一个数仓工具，把 **结构化的** 数据映射成一张表，对外使用类SQL（HiveQL）的语言查询数据。
 
 在底层，Hive将 HiveQL 翻译成 MR 程序，再提交给 集群（Yarn） 执行。
 
-在HDFS中，数据基本是通过文件存储的，而hive需要把数据文件映射成表，这就需要元数据库支持。 由于这些元数据频繁访问，一般存进数据库里（MySQL,SQLServer)。
+在HDFS中，数据基本是通过文件存储的，而 Hive 需要把数据文件映射成表，这就需要元数据库支持。 由于这些元数据频繁访问，一般存进数据库里（MySQL,SQLServer)。
 
 在数仓、数据处理上，会把 Hive 表当成数据的**数据结构**。
 
@@ -127,7 +127,7 @@ Hive 不需要集群化部署，只需要考虑一下组件的部署
 
 	[Data Types](https://cwiki.apache.org/confluence/display/Hive/LanguageManual+Types)
 
-hive 分为基本数据类型和复杂类型，基本类型包含数值类型，字符串类型，日期/时间类型 
+Hive分为基本数据类型和复杂类型，基本类型包含数值类型，字符串类型，日期/时间类型 
 
 ##### Primitive Types
 
@@ -166,7 +166,7 @@ Intervals ：时间间隔， 日期加减运算的 time units
 
 - arrays: `ARRAY<data_type>`  ： 有序的数据集合
 
-- maps: `MAP<primitive_type, data_type>` ： 键值对的数据集合，键必须是 primitive type ， 值可以是任何类型。这里 `primitive type` 是 [hive 语境下]( https://cwiki.apache.org/confluence/display/Hive/Tutorial#Tutorial-TypeSystem)的
+- maps: `MAP<primitive_type, data_type>` ： 键值对的数据集合，键必须是 primitive type ， 值可以是任何类型。这里 `primitive type` 是 [Hive语境下]( https://cwiki.apache.org/confluence/display/Hive/Tutorial#Tutorial-TypeSystem)的
 
 - structs: `STRUCT<col_name : data_type [COMMENT col_comment], ...>`  ： 类似C语言结构体的数据类型，可以存储多个不同名称和类型的字段。
 
@@ -212,7 +212,7 @@ hive的原子类型是可以进行隐式转换的，类似于java的类型转换
 
 ##### NULL 相关
 
-hive对 NULL的处理： hive 默认 `NULL` 存储为 `\N`， 在存储为 `TEXTFILE` 格式时，可以用 `row format NULL DEFINED AS` `char` 指定。
+hive对 NULL的处理： Hive默认 `NULL` 存储为 `\N`， 在存储为 `TEXTFILE` 格式时，可以用 `row format NULL DEFINED AS` `char` 指定。
 
 注意区分字符串的  `"NULL"`， 空字符串 `""`  字符串 `"\N"` , 关键字 `NULL`  的语义。
 
@@ -276,9 +276,9 @@ alter table table_namee set tblproperties('EXTERNAL'='TRUE');
 - 动态分区
 #### 4. 元数据的存储
 
-hive 描述表结构是按照每个分区存储的，也就是说，每个分区的列可能不同。
+Hive描述表结构是按照每个分区存储的，也就是说，每个分区的列可能不同。
 
-> 使用 `alter table [add/drop] columns` 更改表结构时候，hive 也会在元数据中记录该分区与表级别不同的列结构信息。因为对外表现是每个分区的列结构信息不完全一样。
+> 使用 `alter table [add/drop] columns` 更改表结构时候，Hive也会在元数据中记录该分区与表级别不同的列结构信息。因为对外表现是每个分区的列结构信息不完全一样。
 
 [[hive使用经验#2.alter table add column 大量的字段（原表超过1000个字段，分区超过1000个）]]
 
@@ -299,7 +299,7 @@ orc  =>snappy (度小满)
 
 ## 七、优化
 
-> 优化这个地方应该有个总结，但是 hive 的优化做的很少，没有经过实验和实践，所以这里是有个todo的
+> 优化这个地方应该有个总结，但是 Hive的优化做的很少，没有经过实验和实践，所以这里是有个todo的
 >
 > - 先把所有的优化，官网上，博客上的总结的优化手段收集起来
 > - 验证，包括通过做实验或者实际工作的经验。必须明确他们的优化手段的有效性和收益
