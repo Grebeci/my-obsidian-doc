@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hive/面试题.md",
-                "mode": "source",
+                "file": "hive/hive.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hive/面试题.md",
+                "file": "hive/hive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hive/面试题.md",
+                "file": "hive/hive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hive/面试题.md"
+                "file": "hive/hive.md"
               }
             }
           }
@@ -159,8 +159,8 @@
   },
   "active": "e952afb208939f94",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "hive/面试题.md",
+    "conflict-files-obsidian-git.md",
     "开发工具/terminal&shell.md",
     "Linux/Command.md",
     "Web前端开发/HTML-Core.md.md",
