@@ -42,8 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ecc444360b53b969",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "流畅运行linux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hive/hive.md",
+                "file": "流畅运行linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hive/hive.md",
+                "file": "流畅运行linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hive/hive.md"
+                "file": "流畅运行linux.md"
               }
             }
           }
@@ -181,10 +194,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1d08af5dacc01ed2",
+  "active": "ecc444360b53b969",
   "lastOpenFiles": [
-    "DESC查询.md",
     "hive/hive运行时服务.md",
+    "流畅运行linux.md",
+    "DESC查询.md",
     "hive/hive.md",
     "hive/Questions.md.md",
     "hive/面试题.md",
