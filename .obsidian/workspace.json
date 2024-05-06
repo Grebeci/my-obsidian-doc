@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发工具/terminal&shell.md",
+                "file": "hadoop/环境/阿里云集群初始化.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "快捷键",
+                "query": "rsync",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "开发工具/terminal&shell.md",
+                "file": "hadoop/环境/阿里云集群初始化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "开发工具/terminal&shell.md",
+                "file": "hadoop/环境/阿里云集群初始化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "开发工具/terminal&shell.md"
+                "file": "hadoop/环境/阿里云集群初始化.md"
               }
             }
           }
@@ -197,6 +197,7 @@
   },
   "active": "ecc444360b53b969",
   "lastOpenFiles": [
+    "开发工具/terminal&shell.md",
     "bash/Basics.md",
     "流畅运行linux.md",
     "hive/hive运行时服务.md",
@@ -208,7 +209,6 @@
     "conflict-files-obsidian-git.md",
     "GPT-Response/未命名.md",
     "GPT-Response",
-    "开发工具/terminal&shell.md",
     "Linux/Command.md",
     "Web前端开发/HTML-Core.md.md",
     "[Utility.md",
