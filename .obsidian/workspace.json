@@ -49,6 +49,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "流畅运行linux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2ac52618e2896b40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "hadoop/环境/阿里云集群初始化.md",
                 "mode": "source",
                 "source": false
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rsync",
+                "query": "阿里云",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,14 +207,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ecc444360b53b969",
+  "active": "2ac52618e2896b40",
   "lastOpenFiles": [
-    "开发工具/terminal&shell.md",
-    "bash/Basics.md",
     "流畅运行linux.md",
     "hive/hive运行时服务.md",
     "DESC查询.md",
     "hive/hive.md",
+    "浏览器插件开发入门.md",
+    "第二版spark快速大数据分析-读书笔记.md",
+    "待研究.md",
+    "大数据脚本安装.md",
+    "2023-09-24.md",
+    "RDD-SparkAPI.md",
+    "shell 脚本学习心得.md",
+    "vsocde 工作流.md",
+    "hadoop/环境/阿里云集群初始化.md",
+    "开发工具/terminal&shell.md",
+    "bash/Basics.md",
     "hive/Questions.md.md",
     "hive/面试题.md",
     "hive/Hive-DML.md",
@@ -215,10 +236,6 @@
     "开发工具/codespace.md",
     "Linux/NetworkManager-Command.md",
     "Linux/Linux-命令速记.md",
-    "Mac/日常操作TODO.md",
-    "Mac开荒.md",
-    "Mac",
-    "Linux/SSH.md.md",
-    "未命名.md"
+    "Mac"
   ]
 }
