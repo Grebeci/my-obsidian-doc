@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "d7e0d0b9a060b1b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DESC查询.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6c62f7ce30ec70b9",
             "type": "leaf",
             "state": {
@@ -171,6 +183,7 @@
   },
   "active": "1d08af5dacc01ed2",
   "lastOpenFiles": [
+    "DESC查询.md",
     "hive/hive运行时服务.md",
     "hive/hive.md",
     "hive/Questions.md.md",
