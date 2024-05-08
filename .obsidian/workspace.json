@@ -61,14 +61,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hadoop/环境/阿里云集群初始化.md",
+                "file": "vsocde 工作流.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37fe5bd4ca207512",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Idea 工作流.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -97,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "阿里云",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,8 +126,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -135,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hadoop/环境/阿里云集群初始化.md",
+                "file": "Idea 工作流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hadoop/环境/阿里云集群初始化.md",
+                "file": "Idea 工作流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hadoop/环境/阿里云集群初始化.md"
+                "file": "Idea 工作流.md"
               }
             }
           }
@@ -207,8 +218,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2ac52618e2896b40",
+  "active": "37fe5bd4ca207512",
   "lastOpenFiles": [
+    "vsocde 工作流.md",
+    "Idea 工作流.md",
+    "hadoop/环境/阿里云集群初始化.md",
     "流畅运行linux.md",
     "hive/hive运行时服务.md",
     "DESC查询.md",
@@ -220,8 +234,6 @@
     "2023-09-24.md",
     "RDD-SparkAPI.md",
     "shell 脚本学习心得.md",
-    "vsocde 工作流.md",
-    "hadoop/环境/阿里云集群初始化.md",
     "开发工具/terminal&shell.md",
     "bash/Basics.md",
     "hive/Questions.md.md",
@@ -235,7 +247,6 @@
     "[Utility.md",
     "开发工具/codespace.md",
     "Linux/NetworkManager-Command.md",
-    "Linux/Linux-命令速记.md",
     "Mac"
   ]
 }
