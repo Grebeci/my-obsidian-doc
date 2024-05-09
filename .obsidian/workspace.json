@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hive/HQL备忘录.md",
+                "file": "DESC查询.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hive/HQL备忘录.md",
+                "file": "DESC查询.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hive/HQL备忘录.md"
+                "file": "DESC查询.md"
               }
             }
           }
@@ -243,8 +243,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a51833d908386d81",
+  "active": "eca125e6c89857fb",
   "lastOpenFiles": [
+    "hive/HQL备忘录.md",
     "hive/hive.md",
     "DESC查询.md",
     "大数据关键端口号.md",
@@ -271,7 +272,6 @@
     "Linux/Command.md",
     "Web前端开发/HTML-Core.md.md",
     "[Utility.md",
-    "开发工具/codespace.md",
     "Mac"
   ]
 }
