@@ -55,7 +55,7 @@ DROP (DATABASE|SCHEMA) [IF EXISTS] database_name [RESTRICT|CASCADE];
 2. 模糊查询
 
 	```sql
-	SHOW TABLES [IN database_name] ['identifier_with_wildcards'];
+		SHOW TABLES [IN database_name] [like 'identifier_with_wildcards'];
 	```
 
 
