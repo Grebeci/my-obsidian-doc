@@ -81,6 +81,11 @@ DROP (DATABASE|SCHEMA) [IF EXISTS] database_name [RESTRICT|CASCADE];
 # 显示表，分区扩展：输出包括基本表信息和文件系统信息
 
 SHOW TABLE EXTENDED [IN|FROM database_name] LIKE 'identifier_with_wildcards' [PARTITION(partition_spec)]; 
+
+-- 分区表
+
+
+-- 非
 ```
 
 - 注： 如果是 **非分区表**，`identifier_with_wildcards` 才可以用用正则模式，否则只能写表名称（字符串精确查找）。
