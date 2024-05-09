@@ -32,6 +32,8 @@ ALTER (DATABASE|SCHEMA) database_name SET DBPROPERTIES (property_name=property_v
 
 注： hive高版本有修改 location 的选项，但是这只会影响新数据存放位置，不会影响历史数据数据位置。
 
+
+
 #### 3. 删除
 
 ```sql
@@ -74,7 +76,9 @@ SHOW TABLE EXTENDED [IN|FROM database_name] LIKE 'identifier_with_wildcards'
 -- SHOW TABLE EXTENDED [IN|FROM database_name] LIKE 'table_name' [PARTITION(partition_spec)]; 
 ```
 
-注： 如果存在分区规范，用户不能在表名中使用正则表达式。
+- 注： 如果是 **非分区表**，`identifier_with_wildcards` 才可以用用正则模式，否则只能写表名称。
+- 注2：`identifier_with_wildcards` 只能写表名，不可以用 `db.tb_name` 指定 db 用 `[IN|FROM database_name]` 语句。
+
 
 ###### 3. 查询建表语句
 
