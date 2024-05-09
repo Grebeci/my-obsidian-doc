@@ -59,7 +59,6 @@ DROP (DATABASE|SCHEMA) [IF EXISTS] database_name [RESTRICT|CASCADE];
 	```
 
 
-
 ###### 2. 表的统计信息
 
 分区，占用空间
