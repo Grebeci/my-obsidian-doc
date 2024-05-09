@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "1f4df837dc4d951e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hive/HQL备忘录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a51833d908386d81",
             "type": "leaf",
             "state": {
@@ -38,18 +50,6 @@
               "type": "markdown",
               "state": {
                 "file": "DESC查询.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c62f7ce30ec70b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hive/hive运行时服务.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DESC查询.md",
+                "file": "hive/HQL备忘录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DESC查询.md",
+                "file": "hive/HQL备忘录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DESC查询.md"
+                "file": "hive/HQL备忘录.md"
               }
             }
           }
@@ -231,17 +231,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "eca125e6c89857fb",
+  "active": "1f4df837dc4d951e",
   "lastOpenFiles": [
     "hive/hive.md",
     "hive/HQL备忘录.md",
     "DESC查询.md",
+    "流畅运行linux.md",
+    "hive/hive运行时服务.md",
     "大数据关键端口号.md",
     "Idea 工作流.md",
     "vsocde 工作流.md",
     "hadoop/环境/阿里云集群初始化.md",
-    "流畅运行linux.md",
-    "hive/hive运行时服务.md",
     "浏览器插件开发入门.md",
     "第二版spark快速大数据分析-读书笔记.md",
     "待研究.md",
