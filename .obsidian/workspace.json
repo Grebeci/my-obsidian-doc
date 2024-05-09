@@ -79,8 +79,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Idea 工作流.md",
+                "file": "hive/hive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Idea 工作流.md",
+                "file": "hive/hive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Idea 工作流.md"
+                "file": "hive/hive.md"
               }
             }
           }
@@ -218,10 +217,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "37fe5bd4ca207512",
+  "active": "1d08af5dacc01ed2",
   "lastOpenFiles": [
-    "vsocde 工作流.md",
     "Idea 工作流.md",
+    "vsocde 工作流.md",
     "hadoop/环境/阿里云集群初始化.md",
     "流畅运行linux.md",
     "hive/hive运行时服务.md",
