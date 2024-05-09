@@ -6,7 +6,9 @@
 
 `SQL 模式`：类似 `SQL` 类型的表达式，其中"%"表示任意字符，"_"表示单个字符。
 
-#### 2.
+#### 2. 不要使用 `db.tb` 方式引用表
+
+- `identifier_with_wildcards` ：使用带有正则字符形式的 `db.tb` 引表名不能匹配到任何东西，只能用 `[IN|FROM database_name]` 语句限制数据库。
 
 ## Database
 
@@ -67,7 +69,7 @@ DROP (DATABASE|SCHEMA) [IF EXISTS] database_name [RESTRICT|CASCADE];
 2. 模糊查询
 
 	```sql
-		SHOW TABLES [IN database_name] [like 'identifier_with_wildcards'];
+	SHOW TABLES [IN database_name] [like 'identifier_with_wildcards'];
 	```
 
 
@@ -78,13 +80,7 @@ DROP (DATABASE|SCHEMA) [IF EXISTS] database_name [RESTRICT|CASCADE];
 ```sql
 # 显示表，分区扩展：输出包括基本表信息和文件系统信息
 
-SHOW TABLE EXTENDED [IN|FROM database_name] LIKE 'identifier_with_wildcards' [PARTITION(partition_spec)];  -- 这个是官网上的，实际使用如下
-
-# 带通配符，查看多个表的
-SHOW TABLE EXTENDED [IN|FROM database_name] LIKE 'identifier_with_wildcards' 
-
-# 对特定表，可以带上分区 （错误
--- SHOW TABLE EXTENDED [IN|FROM database_name] LIKE 'table_name' [PARTITION(partition_spec)]; 
+SHOW TABLE EXTENDED [IN|FROM database_name] LIKE 'identifier_with_wildcards' [PARTITION(partition_spec)]; 
 ```
 
 - 注： 如果是 **非分区表**，`identifier_with_wildcards` 才可以用用正则模式，否则只能写表名称。
