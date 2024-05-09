@@ -5,7 +5,7 @@
 ```sql
 create database [if not exists]database_name
 comment database_comment
-location hdfs_path
+managed_location hdfs_path
 with dbproperties( property_name=property_value)
 ```
 
