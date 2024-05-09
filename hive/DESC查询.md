@@ -83,9 +83,10 @@ DROP (DATABASE|SCHEMA) [IF EXISTS] database_name [RESTRICT|CASCADE];
 SHOW TABLE EXTENDED [IN|FROM database_name] LIKE 'identifier_with_wildcards' [PARTITION(partition_spec)]; 
 
 -- 分区表
+show table extended like part_table; # part_table 必须是精确表名
 
-
--- 非
+-- 非分区表
+show table extended like "tb_name*"
 ```
 
 - 注： 如果是 **非分区表**，`identifier_with_wildcards` 才可以用用正则模式，否则只能写表名称（字符串精确查找）。
