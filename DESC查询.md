@@ -1,6 +1,6 @@
 ## Database
 
-
+[LanguageManual DDL - Apache Hive - Apache Software Foundation ~ LanguageManual DDL - Apache Hive - Apache 软件基金会](https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DDL#LanguageManualDDL-Create/Drop/Alter/UseDatabase)
 #### 1. 显示数据库
 
 
@@ -31,12 +31,13 @@
 ALTER (DATABASE|SCHEMA) database_name SET DBPROPERTIES (property_name=property_value, ...); 
 ```
 
+注： hive高版本有修改 location 的选项，但是这只会影响新数据存放位置，不会影响历史数据数据位置。
+
 #### 3. 删除
 
 ```sql
 DROP (DATABASE|SCHEMA) [IF EXISTS] database_name [RESTRICT|CASCADE];
 ```
-
 
 ## Table
 
