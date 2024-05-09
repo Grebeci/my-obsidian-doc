@@ -11,11 +11,11 @@
 	SHOW DATABASES;
 	```
 	
-2. 模糊查询某些数据库
+2. 模糊查询某些数据库 
 
 	```sql
 	SHOW (DATABASES|SCHEMAS) [LIKE 'identifier_with_wildcards'];
-	identifier_with_wildcards ： 受版本影响，具体看文档。
+	identifier_with_wildcards ： 支持的模式受版本影响，具体看文档。 
 	```
 
 3.  检查当前是哪个数据库
