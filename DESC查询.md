@@ -4,7 +4,6 @@
 #### 1. 显示数据库
 
 
-
 1. 显示全部数据库 
    
 	```sql
@@ -75,7 +74,7 @@ SHOW TABLE EXTENDED [IN|FROM database_name] LIKE 'identifier_with_wildcards'
 -- SHOW TABLE EXTENDED [IN|FROM database_name] LIKE 'table_name' [PARTITION(partition_spec)]; 
 ```
 
-
+注： 如果存在分区规范，用户不能在表名中使用正则表达式。
 
 ###### 3. 查询建表语句
 
