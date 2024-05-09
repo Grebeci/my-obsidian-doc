@@ -1,6 +1,17 @@
+# feature😅
+
+#### 1. `LIKE 'identifier_with_wildcards' ` 是 正则模式，不是 `SQL模式`
+
+正则表达式中的通配符只能用 "*"表示任何字符，或用"|"表示选择
+
+`SQL 模式`：类似 `SQL` 类型的表达式，其中"%"表示任意字符，"_"表示单个字符。
+
+#### 2.
+
 ## Database
 
 [LanguageManual DDL - Apache Hive - Apache Software Foundation ~ LanguageManual DDL - Apache Hive - Apache 软件基金会](https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DDL#LanguageManualDDL-Create/Drop/Alter/UseDatabase)
+
 #### 1. 显示数据库
 
 
