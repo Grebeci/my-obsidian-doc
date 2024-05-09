@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "628c74981ce827a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hive/DESC查询.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6beb4d3964d004ee",
             "type": "leaf",
             "state": {
@@ -242,18 +254,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c76ef14b78fe68eb",
+  "active": "628c74981ce827a4",
   "lastOpenFiles": [
     "hive/hive.md",
-    "hive/Hive-DML.md",
     "hive/HQL备忘录.md",
     "hive/Hive文档背诵.md",
+    "hive/DESC查询.md",
+    "hive/Hive-DML.md",
     "hive/hive面试题.md",
     "vsocde 工作流.md",
     "hive/hive-bugs.md.md",
     "流畅运行linux.md",
     "hive/未命名.md",
-    "hive/DESC查询.md",
     "hive/hive运行时服务.md",
     "大数据关键端口号.md",
     "Idea 工作流.md",
