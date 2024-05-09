@@ -83,7 +83,7 @@ DROP (DATABASE|SCHEMA) [IF EXISTS] database_name [RESTRICT|CASCADE];
 SHOW TABLE EXTENDED [IN|FROM database_name] LIKE 'identifier_with_wildcards' [PARTITION(partition_spec)]; 
 ```
 
-- 注： 如果是 **非分区表**，`identifier_with_wildcards` 才可以用用正则模式，否则只能写表名称。
+- 注： 如果是 **非分区表**，`identifier_with_wildcards` 才可以用用正则模式，否则只能写表名称（字符串精确查找）。
 - 注2：`identifier_with_wildcards` 只能写表名，不可以用 `db.tb_name` 指定 db 用 `[IN|FROM database_name]` 语句。
 
 

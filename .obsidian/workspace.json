@@ -8,24 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1d08af5dacc01ed2",
+            "id": "a4bcdfa8e89bb56e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hive/hive.md",
+                "file": "hive/Hive文档背诵.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a4bcdfa8e89bb56e",
+            "id": "c983f2212ce2050b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DESC查询.md",
+                "file": "hive/HQL备忘录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37267b197b07cd59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hive/Hive-DML.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,18 +68,6 @@
             }
           },
           {
-            "id": "ecc444360b53b969",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "流畅运行linux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2ac52618e2896b40",
             "type": "leaf",
             "state": {
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -158,13 +158,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DESC查询.md",
-                "collapseAll": false,
+                "file": "hive/HQL备忘录.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DESC查询.md",
+                "file": "hive/HQL备忘录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DESC查询.md"
+                "file": "hive/HQL备忘录.md"
               }
             }
           }
@@ -218,8 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,17 +229,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a4bcdfa8e89bb56e",
+  "active": "29990b59551eee01",
   "lastOpenFiles": [
-    "hive/hive.md",
+    "hive/Hive-DML.md",
     "hive/HQL备忘录.md",
+    "hive/Hive文档背诵.md",
+    "hive/hive面试题.md",
+    "vsocde 工作流.md",
     "hive/hive-bugs.md.md",
-    "DESC查询.md",
     "流畅运行linux.md",
+    "hive/未命名.md",
+    "hive/hive.md",
+    "DESC查询.md",
     "hive/hive运行时服务.md",
     "大数据关键端口号.md",
     "Idea 工作流.md",
-    "vsocde 工作流.md",
     "hadoop/环境/阿里云集群初始化.md",
     "浏览器插件开发入门.md",
     "第二版spark快速大数据分析-读书笔记.md",
@@ -253,12 +256,8 @@
     "bash/Basics.md",
     "hive/Questions.md.md",
     "hive/面试题.md",
-    "hive/Hive-DML.md",
     "conflict-files-obsidian-git.md",
-    "GPT-Response/未命名.md",
     "GPT-Response",
-    "Linux/Command.md",
-    "Web前端开发/HTML-Core.md.md",
     "Mac"
   ]
 }
