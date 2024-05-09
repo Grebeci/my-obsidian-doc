@@ -100,7 +100,7 @@ show table extended like "tb_name*"
 SHOW CREATE TABLE ([db_name.]table_name|view_name);
 ```
 
-
+借助 show create table 格式化输出所有建表语句。特定库，特定表。
 
 ###### 4. 查询表结构
 
