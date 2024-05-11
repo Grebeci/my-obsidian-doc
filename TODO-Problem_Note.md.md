@@ -1,0 +1,2 @@
+- [ ]  bash  `mapfile` 的用法和参数，
+- [ ] bash array 输出
