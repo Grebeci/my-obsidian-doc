@@ -158,8 +158,8 @@ DESCRIBE FORMATTED [db_name.]table_name
 # 查询特定列
 DESCRIBE FORMATTED [db_name.]table_name column_name; 
 
-# 
-DESCRIBE FORMATTED [db_name.]table_name column_name PARTITION (partition_spec); 
+# 有分区的，某个字段
+DESCRIBE FORMATTED [db_name.]table_name  PARTITION (partition_spec) column_name; 
 ```
 
 
@@ -167,7 +167,7 @@ DESCRIBE FORMATTED [db_name.]table_name column_name PARTITION (partition_spec);
 -- show 语法比较奇怪，只需记住下面一种,in 不能省略。
 show columns in db_name.tbl_name;
 
--- desc 
+-- desc 全部列，formatted 大部分
 desc 
 ```
 
