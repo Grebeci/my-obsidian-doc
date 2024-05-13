@@ -218,6 +218,17 @@ TBLPROPERTIES (
 )
 ```
 
+
+```
+stored as orc 
+
+等价于
+
+ROW FORMAT SERDE 'org.apache.hadoop.hive.ql.io.orc.OrcSerde'-- 配合stored as inputformat.. 格式,不能少
+STORED AS
+  INPUTFORMAT 'org.apache.hadoop.hive.ql.io.orc.OrcInputFormat'
+  OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat'
+```
 -  CTAS 
 	Create Table As Select ，根据查询结果创建表，不支持分区表，外部表，分桶表。创建这个表是原子的
 
