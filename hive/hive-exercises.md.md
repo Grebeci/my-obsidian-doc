@@ -162,7 +162,7 @@ location '/user/hive/warehouse/test_hive.db/partitioned_table';
 
 表注释：JSON table
 
-数据存储路径：/user/hive/warehouse/json_table
+数据存储路径：/user/hive/warehouse/test_hive.db/json_table
 
 存储格式：TEXTFILE
 
@@ -174,14 +174,14 @@ Serde： SERDE 'org.apache.hive.hcatalog.data.JsonSerDe'
 
 ```sql
 CREATE EXTERNAL TABLE test_hive.json_table (
-    id INT,
-    name STRING,
-    age INT
+                                               id INT,
+                                               name STRING,
+                                               age INT
 )
-COMMENT "JSON table"
-ROW FORMAT SERDE 'org.apache.hive.hcatalog.data.JsonSerDe'
-STORED AS TEXTFILE
-LOCATION '/user/hive/warehouse/json_table';
+    COMMENT "JSON table"
+    ROW FORMAT SERDE 'org.apache.hive.hcatalog.data.JsonSerDe'
+    STORED AS TEXTFILE
+    LOCATION '/user/hive/warehouse/test_hive.db/json_table' ;
 ```
 
 
@@ -213,7 +213,7 @@ CREATE EXTERNAL TABLE test_hive.student (
     comment "student table"
     PARTITIONED BY (dt STRING)
     STORED AS ORC
-    LOCATION '/user/hive/warehouse/json_table'
+    LOCATION '/user/hive/warehouse/test_hive.db/student'
     TBLPROPERTIES ("orc.compress"="SNAPPY");
 ```
 
