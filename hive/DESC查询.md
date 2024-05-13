@@ -140,7 +140,7 @@ desc  test_hive.table1 id
 
 ```sql
 # 显示表属性
-SHOW TBLPROPERTIES [db_name.]tblname; -- 不能用[db_name].table_name
+SHOW TBLPROPERTIES [db_name.]tblname; 
 SHOW TBLPROPERTIES [db_name.]tblname("foo");
 ```
 
