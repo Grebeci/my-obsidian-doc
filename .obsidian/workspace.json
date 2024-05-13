@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "f3a3ab226d5e0408",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hive/hive.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "55199509a4873b5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hive/DESC查询.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c983f2212ce2050b",
             "type": "leaf",
             "state": {
@@ -44,18 +68,6 @@
             }
           },
           {
-            "id": "628c74981ce827a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI平台体验.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e0cd48c2b0f63d52",
             "type": "leaf",
             "state": {
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO-Problem_Note.md.md",
+                "file": "hive/DESC查询.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO-Problem_Note.md.md",
+                "file": "hive/DESC查询.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO-Problem_Note.md.md"
+                "file": "hive/DESC查询.md"
               }
             }
           }
@@ -206,8 +218,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e0cd48c2b0f63d52",
+  "active": "55199509a4873b5d",
   "lastOpenFiles": [
+    "hive/hive.md",
+    "hive/Hive文档背诵.md",
+    "hive/HQL备忘录.md",
     "AI平台体验.md",
     "TODO-Problem_Note.md.md",
     "dolphinScheduler.md",
@@ -216,9 +231,6 @@
     "账号密码.md",
     "数据同步.md",
     "hive/DESC查询.md",
-    "hive/hive.md",
-    "hive/HQL备忘录.md",
-    "hive/Hive文档背诵.md",
     "hive/Hive-DML.md",
     "hive/hive面试题.md",
     "vsocde 工作流.md",
