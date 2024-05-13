@@ -13,7 +13,7 @@ comment database_comment
 location hdfs_path
 with dbproperties( property_name=property_value)  --  dbproperties 一般是不写
 
--- hdfs_path 数据库目录是 .db 结尾。
+-- hdfs_path 数据库目录是 .db 结尾。 看公司风格。注意。
 ```
 
 #### 2. 数据库级管理的元数据
