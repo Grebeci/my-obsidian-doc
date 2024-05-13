@@ -254,7 +254,6 @@ LIKE key_value_store [TBLPROPERTIES (property_name=property_value, ...)];
 ```
 
 
-
 - [external]
   - 内部表：默认存储在  `hive.metastore.warehouse.dir ` 中，删除元数据等同于删除表数据
   - 外部表：drop 表，不会删除数据.
