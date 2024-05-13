@@ -139,13 +139,23 @@ show tblproperties test_hive.table1;
 
 ###### 列
 
+ **show 语法**
+
 ```sql
 
 # 显示列
 SHOW COLUMNS (FROM|IN) table_name [(FROM|IN) db_name];
 
-# 查询列
+```
+
+
+**desc 语法**
+
+```
+# 查询所有列
 DESCRIBE FORMATTED [db_name.]table_name
+
+# 查询特定
 DESCRIBE FORMATTED [db_name.]table_name column_name; 
 DESCRIBE FORMATTED [db_name.]table_name column_name PARTITION (partition_spec); 
 ```
