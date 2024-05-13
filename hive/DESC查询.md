@@ -193,10 +193,17 @@ show partitions test_hive.table1;
 ## 函数
 
 ```sql
-# 展示模糊
+
+# 只能用下面两个
+
+
+# 展示所有函数
 SHOW FUNCTIONS [LIKE "<pattern>"];
 
+# 查询某个函数，函数源代码不能看到，只能看到函数签名和
 desc function [extended] function_name;
+
+
 ```
 
 
