@@ -123,6 +123,7 @@ DESCRIBE [EXTENDED|FORMATTED] [db_name.]table_name colname
 DESCRIBE [EXTENDED|FORMATTED] [db_name.]table_name colname ( [.field_name] | [.'$elem$'] | [.'$key$'] | [.'$value$'] )* 
 ```
 
+
 ###### 5. 表属性
 
 ```sql
