@@ -64,4 +64,9 @@ usage: hive
 
 `hive -f file.sql`
 
+3）hive 输出格式
+
+```shell
+beeline  --outputformat=[table/vertical/csv/tsv/dsv/csv2/tsv2]
+```
 
