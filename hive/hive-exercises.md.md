@@ -105,3 +105,51 @@ DROP DATABASE IF EXISTS test_database;
 SHOW DATABASES;
 ```
 
+
+
+### table
+
+##### 1. 
+
+**题目：**
+
+根据以下要求，编写一条 SQL 语句，创建一个外部表 `test_hive.partitioned_table`：
+
+| 字段名 | 数据类型 | 说明 |
+| ------ | -------- | ---- |
+| id     | int      |      |
+| name   | string   |      |
+
+
+
+表结构要求
+
+|                |                                                              |      |
+| -------------- | ------------------------------------------------------------ | ---- |
+| 表注释：       | partitioned table                                            |      |
+| 分区字段：     | dt (string)                                                  |      |
+| 行格式：       | 字段以制表符 '\t' 分隔，行以换行符 '\n' 结束，空值表示为 '\N' |      |
+| 存储格式：     | TEXTFILE                                                     |      |
+| 数据存储路径： | /user/hive/warehouse/partitioned_table                       |      |
+
+
+
+**答案：**
+
+```sql
+CREATE EXTERNAL TABLE test_hive.partitioned_table (
+    id INT,
+    name STRING
+)
+COMMENT "partitioned table"
+PARTITIONED BY (dt STRING)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+NULL DEFINED AS '\N'
+STORED AS TEXTFILE
+LOCATION '/user/hive/warehouse/partitioned_table';
+```
+
+这样描述的问题，答案也就唯一确定了。
+
