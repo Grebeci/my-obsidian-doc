@@ -167,8 +167,10 @@ DESCRIBE FORMATTED [db_name.]table_name  PARTITION (partition_spec) column_name;
 -- show 语法比较奇怪，只需记住下面一种,in 不能省略。
 show columns in db_name.tbl_name;
 
--- desc 全部列，formatted 大部分
-desc 
+-- desc 全部列， SerDe 加上 formattdd 
+desc formatted db_name.tbl_name;
+
+-- zhi
 ```
 
 ###### 分区
