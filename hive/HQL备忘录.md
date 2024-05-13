@@ -8,10 +8,10 @@
 #### 1. 创建数据库：
 
 ```sql
-create database [if not exists]database_name
+create database [if not exists] database_name
 comment database_comment
 location hdfs_path
-with dbproperties( property_name=property_value)
+with dbproperties( property_name=property_value)  --  dbproperties 一般是不写
 ```
 
 #### 2. 数据库级管理的元数据
@@ -21,8 +21,6 @@ with dbproperties( property_name=property_value)
 show databases;
 
 SHOW DATABASES [LIKE 'identifier_with_wildcards'];
--- identifier_with_wildcards ： 只能选择 * 或 |
-
 
 # 展示数据库详细信息
 DESC DATABASE [EXTENDED] db_name;
