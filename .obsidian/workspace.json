@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hive/HQL备忘录.md",
+                "file": "hive/Hive文档背诵.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hive/HQL备忘录.md",
+                "file": "hive/Hive文档背诵.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hive/HQL备忘录.md",
+                "file": "hive/Hive文档背诵.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hive/HQL备忘录.md"
+                "file": "hive/Hive文档背诵.md"
               }
             }
           }
@@ -206,13 +206,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "37b72348e48e2f3e",
+  "active": "c76ef14b78fe68eb",
   "lastOpenFiles": [
-    "hive/hive.md",
-    "hive/HQL备忘录.md",
-    "hive/hive客户端命令.md",
+    "hive/Docments",
+    "hive/hive优化.md",
     "hive/Hive文档背诵.md",
+    "hive/hive使用经验.md",
+    "hive/hive面试题.md",
+    "hive/hive客户端命令.md",
+    "hive/Hive-DML.md",
+    "hive/hive.md",
+    "hive/hive-bugs.md.md",
+    "hive/未命名.md",
     "hive/DESC查询.md",
+    "hive/HQL备忘录.md",
     "大数据关键端口号.md",
     "TODO-Problem_Note.md.md",
     "未命名 1.md",
@@ -222,18 +229,11 @@
     "主从复制.md",
     "账号密码.md",
     "数据同步.md",
-    "hive/Hive-DML.md",
-    "hive/hive面试题.md",
     "vsocde 工作流.md",
-    "hive/hive-bugs.md.md",
     "流畅运行linux.md",
-    "hive/未命名.md",
     "hive/hive运行时服务.md",
     "Idea 工作流.md",
     "hadoop/环境/阿里云集群初始化.md",
-    "浏览器插件开发入门.md",
-    "第二版spark快速大数据分析-读书笔记.md",
-    "待研究.md",
     "GPT-Response",
     "Mac"
   ]
