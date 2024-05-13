@@ -141,9 +141,12 @@ desc  test_hive.table1 id
 ```sql
 # 显示表属性
 SHOW TBLPROPERTIES [db_name.]tblname; 
-SHOW TBLPROPERTIES [db_name.]tblname("foo");
 ```
 
+```sql
+-- 展示 oorc.compress， EXTERNAL  表属性
+show tblproperties test_hive.table1;
+```
 
 ##### 列元数据
 
@@ -158,8 +161,6 @@ DESCRIBE FORMATTED [db_name.]table_name
 DESCRIBE FORMATTED [db_name.]table_name column_name; -- extended 展示更少的
 DESCRIBE FORMATTED [db_name.]table_name column_name PARTITION (partition_spec); -- extended 展示更少的
 ```
-
-
 
 ###### 分区
 
