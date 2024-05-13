@@ -194,8 +194,7 @@ show partitions test_hive.table1;
 
 ```sql
 
-# 只能用下面两个
-
+# 只能用下面两个语句来查询。
 
 # 展示所有函数
 SHOW FUNCTIONS [LIKE "<pattern>"];
@@ -203,9 +202,7 @@ SHOW FUNCTIONS [LIKE "<pattern>"];
 # 查询某个函数，函数源代码不能看到，只能看到函数签名和
 desc function [extended] function_name;
 
-
 ```
-
 
 
 ## 配置
@@ -215,20 +212,3 @@ desc function [extended] function_name;
 SHOW CONF <configuration_name>;
 
 ```
-
-
-
-
-
-
-
-
-
-### question
-
-TSV 文件格式
-
-- 数据本身有 \t 怎么整
-- 写一个解析tsv 格式的解析驱动程序，java 、 scala
-
-CSV
