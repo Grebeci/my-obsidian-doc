@@ -126,9 +126,11 @@ DESCRIBE [EXTENDED|FORMATTED] [db_name.]table_name colname ( [.field_name] | [.'
 ```
 # 数据库 test_hive; 表 table1（id，string）
 
+# 展示某个表的元数据信息。
 desc formatted test_hive.table1;
 
-de
+# 具体到某个(只支持单个)字段。
+desc formatted test_hive.table1 id
 ```
 
 ###### 5. 表属性
