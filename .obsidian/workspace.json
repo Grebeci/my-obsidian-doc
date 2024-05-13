@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "648fa521242b1595",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hive/show-desc查询.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "be1efad3f61b2c99",
             "type": "leaf",
             "state": {
@@ -194,11 +182,48 @@
       "command-palette:打开命令面板": false
     }
   },
+  "floating": {
+    "id": "c4833dbabab3d78b",
+    "type": "floating",
+    "children": [
+      {
+        "id": "3aec38afabb98d1b",
+        "type": "window",
+        "children": [
+          {
+            "id": "0f0c6d9c6fc7e007",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "648fa521242b1595",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "hive/show-desc查询.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 3193,
+        "y": 583,
+        "width": 1138,
+        "height": 941,
+        "maximize": true,
+        "zoom": 2
+      }
+    ]
+  },
   "active": "d0b6ebf90a766d42",
   "lastOpenFiles": [
-    "hive/hive.md",
     "hive/show-desc查询.md",
     "hive/HQL备忘录.md",
+    "hive/hive.md",
     "hive/Hive-DML.md",
     "hive/Docments/hive-DDL.md",
     "hive/hive客户端命令.md",

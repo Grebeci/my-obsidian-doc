@@ -15,8 +15,8 @@ with dbproperties( property_name=property_value)
 # 显示数据库
 show databases;
 
-SHOW (DATABASES|SCHEMAS) [LIKE 'identifier_with_wildcards'];
-identifier_with_wildcards ： 只能选择 % 或 | 
+SHOW DATABASES [LIKE 'identifier_with_wildcards'];
+identifier_with_wildcards ： 只能选择 * 或 |
 
 
 # 展示数据库详细信息
