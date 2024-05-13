@@ -260,8 +260,6 @@ show tables;
 SHOW TABLES [IN database_name] ['identifier_with_wildcards'];
 ```
 
-
-
 ###### 表的统计信息
 
 ```sql
@@ -276,16 +274,12 @@ SHOW TABLE EXTENDED [IN|FROM database_name] LIKE 'identifier_with_wildcards'
 -- SHOW TABLE EXTENDED [IN|FROM database_name] LIKE 'table_name' [PARTITION(partition_spec)]; 
 ```
 
-
-
 ###### 查询建表语句
 
 ```sql
 # 查询 create table 
 SHOW CREATE TABLE ([db_name.]table_name|view_name);
 ```
-
-
 
 ###### 查询表结构
 
@@ -308,8 +302,6 @@ DESCRIBE [EXTENDED|FORMATTED] [db_name.]table_name colname
 DESCRIBE [EXTENDED|FORMATTED] [db_name.]table_name colname ( [.field_name] | [.'$elem$'] | [.'$key$'] | [.'$value$'] )* 
 ```
 
-
-
 ##### 列
 
 ```sql
@@ -322,8 +314,6 @@ DESCRIBE FORMATTED [db_name.]table_name column_name; -- extended 展示更少的
 DESCRIBE FORMATTED [db_name.]table_name column_name PARTITION (partition_spec); -- extended 展示更少的
 ```
 
-
-
 ###### 分区
 
 ```sql
@@ -331,11 +321,7 @@ DESCRIBE FORMATTED [db_name.]table_name column_name PARTITION (partition_spec); 
 SHOW PARTITIONS table_name;
 SHOW PARTITIONS [db_name.]table_name [PARTITION(partition_spec)]; -- 可以分级展示
 SHOW PARTITIONS [db_name.]table_name [PARTITION(partition_spec)] [WHERE where_condition] [ORDER BY col_list] [LIMIT rows]; -- hive 4.0
-
-
 ```
-
-
 
 ###### 表属性
 
@@ -344,8 +330,6 @@ SHOW PARTITIONS [db_name.]table_name [PARTITION(partition_spec)] [WHERE where_co
 SHOW TBLPROPERTIES [db_name.]tblname; -- 不能用[db_name].table_name
 SHOW TBLPROPERTIES [db_name.]tblname("foo");
 ```
-
-
 
 ###### 函数
 
