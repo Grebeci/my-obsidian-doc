@@ -10,6 +10,9 @@
 
 - `identifier_with_wildcards` ：使用带有正则字符形式的 `db.tb` 引表名不能匹配到任何东西，只能用 `[IN|FROM database_name]` 语句限制数据库。
 
+
+>  Hive Doc  上以 `show`、`desc` 为目录介绍语法，实际使用侧重于查询某些数据库元素，故重新组织下，可作为文档参考。
+
 ## Database
 
 [LanguageManual DDL - Apache Hive - Apache Software Foundation ~ LanguageManual DDL - Apache Hive - Apache 软件基金会](https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DDL#LanguageManualDDL-Create/Drop/Alter/UseDatabase)
@@ -44,7 +47,6 @@ ALTER (DATABASE|SCHEMA) database_name SET DBPROPERTIES (property_name=property_v
 ```
 
 注： hive高版本有修改 location 的选项，但是这只会影响新数据存放位置，不会影响历史数据数据位置。
-
 
 
 #### 3. 删除
