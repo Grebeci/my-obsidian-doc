@@ -9,7 +9,7 @@
 #### 2. show 不要使用 `db.tb` 方式引用表
 
 - `identifier_with_wildcards` ：使用带有正则字符形式的 `db.tb` 引表名不能匹配到任何东西，只能用 `[IN|FROM database_name]` 语句限制数据库。
-
+3.
 
 >  Hive Doc  上以 `show`、`desc` 为目录介绍语法，实际使用侧重于查询某些数据库元素，故重新组织下，可作为文档参考。
 > 

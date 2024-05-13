@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hive/HQL备忘录.md",
+                "file": "hive/show-desc查询.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hive/HQL备忘录.md",
+                "file": "hive/show-desc查询.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hive/HQL备忘录.md"
+                "file": "hive/show-desc查询.md"
               }
             }
           }
@@ -219,10 +219,10 @@
       }
     ]
   },
-  "active": "d0b6ebf90a766d42",
+  "active": "648fa521242b1595",
   "lastOpenFiles": [
-    "hive/show-desc查询.md",
     "hive/HQL备忘录.md",
+    "hive/show-desc查询.md",
     "hive/hive.md",
     "hive/Hive-DML.md",
     "hive/Docments/hive-DDL.md",

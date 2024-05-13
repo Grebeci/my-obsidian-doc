@@ -16,16 +16,17 @@ with dbproperties( property_name=property_value)
 show databases;
 
 SHOW DATABASES [LIKE 'identifier_with_wildcards'];
-identifier_with_wildcards ： 只能选择 * 或 |
+-- identifier_with_wildcards ： 只能选择 * 或 |
 
 
 # 展示数据库详细信息
-DESCRIBE   [ DATABASE | SCHEMA ] [EXTENDED] db_name;
-DESC   [ DATABASE | SCHEMA ] [EXTENDED] db_name;
+DESC DATABASE [EXTENDED] db_name;
 
 # 检查当前是哪个数据库
 SELECT current_database()
 
+-- 1. desc 是 describe 的简写。
+-- 2. DATABASE 和 SCHEMA 等价。
 ```
 
 #### 3. 修改
