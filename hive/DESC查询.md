@@ -109,7 +109,7 @@ SHOW CREATE TABLE ([db_name.]table_name|view_name);
 DESCRIBE [EXTENDED|FORMATTED] 
   [db_name.]table_name[ col_name ( [.field_name] | [.'$elem$'] | [.'$key$'] | [.'$value$'] )* ];
 
-# 注:  该语句显示给定表包含分区列在内的全部列，假设使用了extended keyword，则以Thrift序列化形式显示表的元数据，假设使用formatted keyword，则以表格形式显示元数据。
+# 注:  该语句显示给定表包含分区列在内的全部列，假设使用了extended keyword，则以Thrift序列化形式显示表的元数据，假设使用formatted keyword，则以表格形式显示元数据。 查询详细信息，一律加上 `formatted`。
 
 # 注：假设表拥有复合类型的列，能够通过使用表名.复合列名（'$elem$'用于数组，'$key$'用于map的键，'$value$'用于map的键值）查看该列的属性。
 
@@ -124,9 +124,11 @@ DESCRIBE [EXTENDED|FORMATTED] [db_name.]table_name colname ( [.field_name] | [.'
 ```
 
 ```
-# 数据库 test_hive; 表 table1
+# 数据库 test_hive; 表 table1（id，string）
 
-# 
+desc formatted test_hive.table1;
+
+de
 ```
 
 ###### 5. 表属性
