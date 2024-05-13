@@ -179,10 +179,17 @@ desc formatted test_hive.table1 partition(dt="part1") id;
 ```sql
 # 查询分区
 SHOW PARTITIONS table_name;
-SHOW PARTITIONS [db_name.]table_name [PARTITION(partition_spec)]; -- 可以分级展示
-SHOW PARTITIONS [db_name.]table_name [PARTITION(partition_spec)] [WHERE where_condition] [ORDER BY col_list] [LIMIT rows]; -- hive 4.0
+SHOW PARTITIONS [db_name.]table_name [PARTITION(partition_spec)]; -- 可以指定多级分区一个分区字段
 ```
 
+```
+# 查询全部分区
+show partitions test_hive.table1;
+
+# 查询特定分区存在
+
+
+```
 
 ## 函数
 
