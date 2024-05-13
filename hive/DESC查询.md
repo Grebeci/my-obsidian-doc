@@ -129,8 +129,11 @@ DESCRIBE [EXTENDED|FORMATTED] [db_name.]table_name colname ( [.field_name] | [.'
 # 展示某个表的元数据信息。
 desc formatted test_hive.table1;
 
-# 具体到某个(只支持单个)字段。
-desc formatted test_hive.table1 id
+# 具体到某个(只支持单个)字段。 formatted 大部分信息没用，只用简单就可。
+desc  test_hive.table1 id
+
+# 对于 complex column 类，慎用。
+
 ```
 
 ###### 5. 表属性
@@ -140,7 +143,6 @@ desc formatted test_hive.table1 id
 SHOW TBLPROPERTIES [db_name.]tblname; -- 不能用[db_name].table_name
 SHOW TBLPROPERTIES [db_name.]tblname("foo");
 ```
-
 
 
 ##### 列元数据
