@@ -219,5 +219,3 @@ LOCATION 'hdfs://user/hive_db/test_hive/student'
 TBLPROPERTIES ("orc.compress"="SNAPPY");
 ```
 
-
-
