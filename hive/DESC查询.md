@@ -6,7 +6,7 @@
 
 `SQL 模式`：类似 `SQL` 类型的表达式，其中"%"表示任意字符，"_"表示单个字符。
 
-#### 2. 不要使用 `db.tb` 方式引用表
+#### 2. show 不要使用 `db.tb` 方式引用表
 
 - `identifier_with_wildcards` ：使用带有正则字符形式的 `db.tb` 引表名不能匹配到任何东西，只能用 `[IN|FROM database_name]` 语句限制数据库。
 
