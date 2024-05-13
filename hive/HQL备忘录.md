@@ -197,6 +197,8 @@ tblproperties ("orc.compress"="SNAPPY")
 
 ```
 
+  下面这种方式直接指定 SerDE，同时配合 STORED AS INPUTFORMAT & OUTPUTFORMAT
+  
 ```sql
 create external table external test_db.student
 (
