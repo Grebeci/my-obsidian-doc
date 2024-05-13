@@ -12,6 +12,8 @@
 
 
 >  Hive Doc  上以 `show`、`desc` 为目录介绍语法，实际使用侧重于查询某些数据库元素，故重新组织下，可作为文档参考。
+> 
+>  只列举了 **常用** 、**必记** 的语句，对于冷门和偏门的不做记录。
 
 ## Database
 
@@ -39,22 +41,6 @@
 	SELECT current_database()
 	```
 
-#### 2. 修改
-
-```sql
-# 低版本hive只能修改DBPROPERTIES
-ALTER (DATABASE|SCHEMA) database_name SET DBPROPERTIES (property_name=property_value, ...); 
-```
-
-注： hive高版本有修改 location 的选项，但是这只会影响新数据存放位置，不会影响历史数据数据位置。
-
-
-#### 3. 删除
-
-```sql
-DROP (DATABASE|SCHEMA) [IF EXISTS] database_name [RESTRICT|CASCADE];
-```
-
 ## Table
 
 #### 表元数据
@@ -73,7 +59,6 @@ DROP (DATABASE|SCHEMA) [IF EXISTS] database_name [RESTRICT|CASCADE];
 	```sql
 	SHOW TABLES [IN database_name] [like 'identifier_with_wildcards'];
 	```
-
 
 ###### 2. 表的统计信息
 
@@ -121,7 +106,7 @@ DESCRIBE [EXTENDED|FORMATTED] [db_name.]table_name
 # 查询单个字段
 DESCRIBE [EXTENDED|FORMATTED] [db_name.]table_name colname
 
-# 查询单个复杂类型的单个字段
+# 查询单个复杂类型的单个字段（不用记忆）
 DESCRIBE [EXTENDED|FORMATTED] [db_name.]table_name colname ( [.field_name] | [.'$elem$'] | [.'$key$'] | [.'$value$'] )* 
 ```
 
@@ -155,6 +140,7 @@ show tblproperties test_hive.table1;
 ###### 列
 
 ```sql
+
 # 显示列
 SHOW COLUMNS (FROM|IN) table_name [(FROM|IN) db_name];
 
@@ -162,6 +148,12 @@ SHOW COLUMNS (FROM|IN) table_name [(FROM|IN) db_name];
 DESCRIBE FORMATTED [db_name.]table_name
 DESCRIBE FORMATTED [db_name.]table_name column_name; -- extended 展示更少的
 DESCRIBE FORMATTED [db_name.]table_name column_name PARTITION (partition_spec); -- extended 展示更少的
+```
+
+
+```sql
+-- show 语法比较奇怪，只需记住下面一种
+show columns in b
 ```
 
 ###### 分区
