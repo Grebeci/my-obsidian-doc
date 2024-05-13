@@ -134,6 +134,8 @@ SHOW DATABASES;
 
 
 
+注意先查看 db的路径。
+
 **答案：**
 
 ```sql
