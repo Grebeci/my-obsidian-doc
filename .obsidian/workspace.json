@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "1d281071f5e6edb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "大数据关键端口号.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "55199509a4873b5d",
             "type": "leaf",
             "state": {
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hive/hive客户端命令.md",
+                "file": "大数据关键端口号.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hive/hive客户端命令.md",
+                "file": "大数据关键端口号.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hive/hive客户端命令.md"
+                "file": "大数据关键端口号.md"
               }
             }
           }
@@ -206,8 +218,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f3a3ab226d5e0408",
+  "active": "1d281071f5e6edb5",
   "lastOpenFiles": [
+    "hive/hive客户端命令.md",
+    "大数据关键端口号.md",
     "hive/hive.md",
     "hive/Hive文档背诵.md",
     "hive/HQL备忘录.md",
@@ -227,13 +241,11 @@
     "流畅运行linux.md",
     "hive/未命名.md",
     "hive/hive运行时服务.md",
-    "大数据关键端口号.md",
     "Idea 工作流.md",
     "hadoop/环境/阿里云集群初始化.md",
     "浏览器插件开发入门.md",
     "第二版spark快速大数据分析-读书笔记.md",
     "待研究.md",
-    "大数据脚本安装.md",
     "GPT-Response",
     "Mac"
   ]
