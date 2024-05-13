@@ -153,6 +153,40 @@ LOCATION '/user/hive/warehouse/partitioned_table';
 
 
 
+**题目：**
+
+根据以下要求，编写一条 SQL 语句，创建一个外部表 `test_hive.json_table`，该表使用 JSON 格式存储数据，并且需要指定相应的 SerDe。
+
+| 字段名 | 数据类型 | 说明 |
+| ------ | -------- | ---- |
+| id     | int      |      |
+| name   | string   |      |
+| age    | int      |      |
+
+表注释：JSON table
+
+数据存储路径：/user/hive/warehouse/json_table
+
+存储格式：TEXTFILE
+
+Serde： SERDE 'org.apache.hive.hcatalog.data.JsonSerDe'
+
+注意， json 必须手动指定 serde
+
+**答案：**
+
+```sql
+CREATE EXTERNAL TABLE test_hive.json_table (
+    id INT,
+    name STRING,
+    age INT
+)
+COMMENT "JSON table"
+ROW FORMAT SERDE 'org.apache.hive.hcatalog.data.JsonSerDe'
+STORED AS TEXTFILE
+LOCATION '/user/hive/warehouse/json_table';
+```
+
 
 
 
