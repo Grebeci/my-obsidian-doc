@@ -352,8 +352,6 @@ SHOW FUNCTIONS [LIKE "<pattern>"];
 desc function [extended] function_name;
 ```
 
-
-
 ###### 配置
 
 ```sql
@@ -362,8 +360,6 @@ desc function [extended] function_name;
 SHOW CONF <configuration_name>;
 
 ```
-
-
 
 #### 3. 修改
 
@@ -426,8 +422,6 @@ alter table tableName set tblproperties('EXTERNAL'='TRUE');
 LOAD DATA [LOCAL] INPATH 'filepath' [OVERWRITE] INTO TABLE tablename [PARTITION (partcol1=val1, partcol2=val2 ...)]
 ```
 
-
-
 ##### insert as select 
 
 ```sql
@@ -458,8 +452,6 @@ select_statement1 FROM from_statement;
 # 动态分区配置是否开， 产生文件限制（小文件） ，动态分区的最大数量
 ```
 
-
-
 ##### 通过查询将数据写入文件系统
 
 ```sql
@@ -473,8 +465,6 @@ row_format
         [MAP KEYS TERMINATED BY char] [LINES TERMINATED BY char]
         [NULL DEFINED AS char] 
 ```
-
-
 
 ##### insert .... values
 

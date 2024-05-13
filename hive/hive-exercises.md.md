@@ -210,12 +210,17 @@ LOCATION '/user/hive/warehouse/json_table';
 
 ```sql
 CREATE EXTERNAL TABLE test_hive.student (
-    id INT,
-    name STRING
+                                            id INT,
+                                            name STRING
 )
-PARTITIONED BY (date STRING)
-STORED AS ORC
-LOCATION 'hdfs://user/hive_db/test_hive/student'
-TBLPROPERTIES ("orc.compress"="SNAPPY");
+    comment "student table"
+    PARTITIONED BY (dt STRING)
+    STORED AS ORC
+    LOCATION '/user/hive/warehouse/json_table'
+    TBLPROPERTIES ("orc.compress"="SNAPPY");
 ```
+
+
+
+##### 2.ctas
 
