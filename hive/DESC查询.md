@@ -123,6 +123,11 @@ DESCRIBE [EXTENDED|FORMATTED] [db_name.]table_name colname
 DESCRIBE [EXTENDED|FORMATTED] [db_name.]table_name colname ( [.field_name] | [.'$elem$'] | [.'$key$'] | [.'$value$'] )* 
 ```
 
+```
+# 数据库 test_hive; 表 table1
+
+# 
+```
 
 ###### 5. 表属性
 
