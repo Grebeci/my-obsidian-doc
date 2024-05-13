@@ -189,5 +189,35 @@ LOCATION '/user/hive/warehouse/json_table';
 
 
 
+**题目：**
+
+根据以下要求，编写一条 SQL 语句，创建一个外部表 `test_hive.student`：
+
+| 字段名 | 数据类型 | 说明 |
+| ------ | -------- | ---- |
+| id     | int      |      |
+| name   | string   |      |
+
+分区字段：date (string)
+
+存储格式：ORC
+
+压缩格式：SNAPPY
+
+数据存储路径：hdfs://user/hive_db/test_hive/student
+
+**答案：**
+
+```sql
+CREATE EXTERNAL TABLE test_hive.student (
+    id INT,
+    name STRING
+)
+PARTITIONED BY (date STRING)
+STORED AS ORC
+LOCATION 'hdfs://user/hive_db/test_hive/student'
+TBLPROPERTIES ("orc.compress"="SNAPPY");
+```
+
 
 

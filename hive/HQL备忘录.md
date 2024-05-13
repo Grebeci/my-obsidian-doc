@@ -177,7 +177,7 @@ InputFormat、OutputFormat与SerDe三者间的关系 :
   row format delimited
       FIELDS TERMINATED BY '\t'
       LINES TERMINATED BY '\n'
-      NULL TERMINATED BY '\N'
+      NULL DEFINED BY '\N'
   stored as TEXTFILE
   LOCATION 'hdfs://user/hive_db/test_db/student'
 ```
