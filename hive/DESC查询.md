@@ -193,7 +193,7 @@ show partitions test_hive.table1;
 ## 函数
 
 ```sql
-# 展示函数
+# 展示模糊
 SHOW FUNCTIONS [LIKE "<pattern>"];
 
 desc function [extended] function_name;
