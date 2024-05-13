@@ -130,25 +130,22 @@ SHOW DATABASES;
 | 分区字段：     | dt (string)                                                  |      |
 | 行格式：       | 字段以制表符 '\t' 分隔，行以换行符 '\n' 结束，空值表示为 '\N' |      |
 | 存储格式：     | TEXTFILE                                                     |      |
-| 数据存储路径： | /user/hive/warehouse/partitioned_table                       |      |
+| 数据存储路径： | /user/hive/warehouse/test_hive.db/partitioned_table          |      |
 
 
 
 **答案：**
 
 ```sql
-CREATE EXTERNAL TABLE test_hive.partitioned_table (
-    id INT,
-    name STRING
-)
-COMMENT "partitioned table"
-PARTITIONED BY (dt STRING)
-ROW FORMAT DELIMITED
-FIELDS TERMINATED BY '\t'
-LINES TERMINATED BY '\n'
-NULL DEFINED AS '\N'
-STORED AS TEXTFILE
-LOCATION '/user/hive/warehouse/partitioned_table';
+create external table test_hive.partitioned_table
+(
+    id   int,
+    name string
+) comment "partitioned table"
+partitioned by (dt string)
+row format delimited fields terminated by '\t' lines terminated by '\n' null defined as '\N'
+stored as textfile
+location '/user/hive/warehouse/test_hive.db/partitioned_table';
 ```
 
 
