@@ -170,7 +170,7 @@ show columns in db_name.tbl_name;
 -- desc 全部列， SerDe 加上 formattdd ,指定分区的没啥用，不用记。
 desc formatted db_name.tbl_name;
 
--- 字段过多的，查询特定字段, hive 早期版本
+-- 字段过多的，查询特定字段, 有语法变更不兼容。
 desc formatted test_hive.table1 partition(dt="part1") id;
 ```
 
@@ -182,7 +182,6 @@ SHOW PARTITIONS table_name;
 SHOW PARTITIONS [db_name.]table_name [PARTITION(partition_spec)]; -- 可以分级展示
 SHOW PARTITIONS [db_name.]table_name [PARTITION(partition_spec)] [WHERE where_condition] [ORDER BY col_list] [LIMIT rows]; -- hive 4.0
 ```
-
 
 
 ## 函数
