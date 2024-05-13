@@ -146,14 +146,17 @@ SHOW COLUMNS (FROM|IN) table_name [(FROM|IN) db_name];
 
 # 查询列
 DESCRIBE FORMATTED [db_name.]table_name
-DESCRIBE FORMATTED [db_name.]table_name column_name; -- extended 展示更少的
-DESCRIBE FORMATTED [db_name.]table_name column_name PARTITION (partition_spec); -- extended 展示更少的
+DESCRIBE FORMATTED [db_name.]table_name column_name; 
+DESCRIBE FORMATTED [db_name.]table_name column_name PARTITION (partition_spec); 
 ```
 
 
 ```sql
--- show 语法比较奇怪，只需记住下面一种
-show columns in b
+-- show 语法比较奇怪，只需记住下面一种,in 不能省略。
+show columns in db_name.tbl_name;
+
+-- desc 
+desc 
 ```
 
 ###### 分区
