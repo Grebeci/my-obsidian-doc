@@ -1,3 +1,8 @@
+前提：
+
+1. desc 是 describe 的简写。
+2. DATABASE 和 SCHEMA 等价。
+3. identifier_with_wildcards ： 只能选择 * 或 |  。这个也受版本影响。
 ###  数据库
 
 #### 1. 创建数据库：
@@ -24,22 +29,19 @@ DESC DATABASE [EXTENDED] db_name;
 
 # 检查当前是哪个数据库
 SELECT current_database()
-
--- 1. desc 是 describe 的简写。
--- 2. DATABASE 和 SCHEMA 等价。
 ```
 
 #### 3. 修改
 
 ```sql
 # 低版本hive只能修改DBPROPERTIES
-ALTER (DATABASE|SCHEMA) database_name SET DBPROPERTIES (property_name=property_value, ...); 
+ALTER DATABASE database_name SET DBPROPERTIES (property_name=property_value, ...); 
 ```
 
 #### 4. 删除
 
 ```sql
-DROP (DATABASE|SCHEMA) [IF EXISTS] database_name [RESTRICT|CASCADE];
+DROP DATABASE [IF EXISTS] database_name [RESTRICT|CASCADE];
 ```
 
 ### 表
