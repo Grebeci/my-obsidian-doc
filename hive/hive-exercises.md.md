@@ -1,3 +1,7 @@
+
+
+### database
+
 ##### 1.
 
 编写一条 SQL 语句来创建一个名为 `test_hive` 的 Hive 数据库，该数据库的注释为 'test_hive'，数据存储路径为 '/user/hive/warehouse/test_hive.db'。
@@ -51,18 +55,53 @@ SHOW DATABASES LIKE 'test*';
 **答案3：**
 
 ```sql
-DESC DATABASE db_name;
+desc database test_hive;
 ```
 
 **题目4：**
 
-编写一条 SQL 查询语句，用于检查当前所在的数据库。
+编写两条 SQL 查询语句，将当前会话的默认数据库设置为名为 `test_hive` 的数据库，然后检查之。
 
 **答案4：**
 
 ```sql
+use test_hive;
 SELECT current_database();
+
 ```
 
-这样的描述方式确保了每个题目的唯一性，使得答案能够准确反映题目要求。
+
+
+##### 3
+
+**题目：**
+
+编写一条 SQL 语句，将名为 `test_hive` 的数据库的属性 `create_time` 设置为 '2020-01-01'。
+
+**答案：**
+
+```sql
+ALTER DATABASE test_hive SET DBPROPERTIES ('create_time'='2020-01-01');
+```
+
+
+
+##### 4.  最后
+
+**题目：**
+
+编写 SQL 语句，分别删除名为 `test_hive` 和 `test_database` 的两个数据库，并通过展示所有数据库的方式验证其已被成功删除。
+
+**答案：**
+
+```sql
+-- 删除 test_hive 数据库
+DROP DATABASE IF EXISTS test_hive;
+
+-- 删除 test_database 数据库
+DROP DATABASE IF EXISTS test_database;
+
+-- 验证数据库已被删除
+SHOW DATABASES;
+```
 
