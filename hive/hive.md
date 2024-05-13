@@ -78,7 +78,7 @@ hiveserver2
 
 ### 1. 元数据查询
 
-[[DESC查询]]
+[[show-desc查询]]
 
 ### 2. 建库&建表
 
