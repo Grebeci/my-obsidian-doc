@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hive/hive-exercises.md.md",
+                "file": "hive/hive客户端命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hive/hive-exercises.md.md",
+                "file": "hive/hive客户端命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hive/hive-exercises.md.md",
+                "file": "hive/hive客户端命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hive/hive-exercises.md.md"
+                "file": "hive/hive客户端命令.md"
               }
             }
           }
@@ -159,6 +159,7 @@
   },
   "active": "e0ffe2c5c48cb616",
   "lastOpenFiles": [
+    "hive/hive-exercises.md.md",
     "hive/Hive-DML.md",
     "hive/hive.md",
     "conflict-files-obsidian-git.md",
@@ -166,7 +167,6 @@
     "未命名 1.md",
     "大数据关键端口号.md",
     "hive/show-desc查询.md",
-    "hive/hive-exercises.md.md",
     "TODO-Problem_Note.md.md",
     "Idea 工作流.md",
     "开发工具/terminal&shell.md",
