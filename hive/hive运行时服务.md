@@ -1,8 +1,22 @@
 ### Hive 运行时服务
 
+
 [hive的metadata、metastore 、hiveserver2、beeline 之间的关系](https://blog.csdn.net/iKuboo/article/details/100188410)
 
 [(Hive的Metastore服务和Hiveserver2服务的详细说明_hive的metastore启动_老胡向前冲的博客-CSDN博客](https://blog.csdn.net/weixin_48833605/article/details/111124191?spm=1001.2101.3001.6650.5&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-5-111124191-blog-100188410.235%5Ev27%5Epc_relevant_default_base1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-5-111124191-blog-100188410.235%5Ev27%5Epc_relevant_default_base1&utm_relevant_index=6)
+
+1. **Hive CLI (Command Line Interface)**: 主要提供 `bin/hive` 和 `Beeline` 两种 Hive 客户端。以前台会话的方式运行 HQL 查询。
+    
+2. **HiveServer2**: 这是 Hive 提供的服务端组件，允许远程客户端（如 JDBC/ODBC 客户端、BI 工具等）连接并执行 Hive 查询。它是一个独立的守护进程。
+    
+3. **Metastore Service**: Hive Metastore 是 Hive 的元数据存储服务，是独立的守护进程。它可以运行在两种模式下：
+    
+    - **嵌入式模式 (Embedded Mode)**: 在这种模式下，Metastore 运行在 Hive CLI 或 HiveServer2 的同一个 JVM 进程中。默认使用 Derby 数据库。
+        
+    - **独立模式 (Standalone Mode)**: 在这种模式下，Metastore 作为一个独立的进程运行，并且通常使用一个外部的关系型数据库（如 MySQL, PostgreSQL等）。
+        
+4. **MapReduce/Tez Jobs**:/Spark jobs : 生成的查询任务
+
 
 启动方式
 
