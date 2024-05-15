@@ -1,12 +1,19 @@
+前提：
+
+1. desc 是 describe 的简写。
+2. DATABASE 和 SCHEMA 等价。
+3. identifier_with_wildcards ： 只能选择 * 或 |  。这个也受版本影响。
 ###  数据库
 
 #### 1. 创建数据库：
 
 ```sql
-create database [if not exists]database_name
+create database [if not exists] database_name
 comment database_comment
 location hdfs_path
-with dbproperties( property_name=property_value)
+with dbproperties( property_name=property_value)  --  dbproperties 一般是不写
+
+-- hdfs_path 数据库目录是 .db 结尾。 看公司风格。注意。
 ```
 
 #### 2. 数据库级管理的元数据
@@ -15,30 +22,26 @@ with dbproperties( property_name=property_value)
 # 显示数据库
 show databases;
 
-SHOW (DATABASES|SCHEMAS) [LIKE 'identifier_with_wildcards'];
-identifier_with_wildcards ： 只能选择 % 或 | 
-
+SHOW DATABASES [LIKE 'identifier_with_wildcards'];
 
 # 展示数据库详细信息
-DESCRIBE   [ DATABASE | SCHEMA ] [EXTENDED] db_name;
-DESC   [ DATABASE | SCHEMA ] [EXTENDED] db_name;
+DESC DATABASE [EXTENDED] db_name;
 
 # 检查当前是哪个数据库
 SELECT current_database()
-
 ```
 
 #### 3. 修改
 
 ```sql
 # 低版本hive只能修改DBPROPERTIES
-ALTER (DATABASE|SCHEMA) database_name SET DBPROPERTIES (property_name=property_value, ...); 
+ALTER DATABASE database_name SET DBPROPERTIES (property_name=property_value, ...); 
 ```
 
 #### 4. 删除
 
 ```sql
-DROP (DATABASE|SCHEMA) [IF EXISTS] database_name [RESTRICT|CASCADE];
+DROP DATABASE [IF EXISTS] database_name [RESTRICT|CASCADE];
 ```
 
 ### 表
@@ -176,7 +179,7 @@ InputFormat、OutputFormat与SerDe三者间的关系 :
   row format delimited
       FIELDS TERMINATED BY '\t'
       LINES TERMINATED BY '\n'
-      NULL TERMINATED BY '\N'
+      NULL DEFINED BY '\N'
   stored as TEXTFILE
   LOCATION 'hdfs://user/hive_db/test_db/student'
 ```
@@ -196,6 +199,8 @@ tblproperties ("orc.compress"="SNAPPY")
 
 ```
 
+  下面这种方式直接指定 SerDE，同时配合 STORED AS INPUTFORMAT & OUTPUTFORMAT
+  
 ```sql
 create external table external test_db.student
 (
@@ -215,6 +220,17 @@ TBLPROPERTIES (
 )
 ```
 
+
+```
+stored as orc 
+
+等价于
+
+ROW FORMAT SERDE 'org.apache.hadoop.hive.ql.io.orc.OrcSerde'-- 配合stored as inputformat.. 格式,不能少
+STORED AS
+  INPUTFORMAT 'org.apache.hadoop.hive.ql.io.orc.OrcInputFormat'
+  OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat'
+```
 -  CTAS 
 	Create Table As Select ，根据查询结果创建表，不支持分区表，外部表，分桶表。创建这个表是原子的
 
@@ -240,7 +256,6 @@ LIKE key_value_store [TBLPROPERTIES (property_name=property_value, ...)];
 ```
 
 
-
 - [external]
   - 内部表：默认存储在  `hive.metastore.warehouse.dir ` 中，删除元数据等同于删除表数据
   - 外部表：drop 表，不会删除数据.
@@ -257,8 +272,6 @@ show tables;
 SHOW TABLES [IN database_name] ['identifier_with_wildcards'];
 ```
 
-
-
 ###### 表的统计信息
 
 ```sql
@@ -273,16 +286,12 @@ SHOW TABLE EXTENDED [IN|FROM database_name] LIKE 'identifier_with_wildcards'
 -- SHOW TABLE EXTENDED [IN|FROM database_name] LIKE 'table_name' [PARTITION(partition_spec)]; 
 ```
 
-
-
 ###### 查询建表语句
 
 ```sql
 # 查询 create table 
 SHOW CREATE TABLE ([db_name.]table_name|view_name);
 ```
-
-
 
 ###### 查询表结构
 
@@ -305,8 +314,6 @@ DESCRIBE [EXTENDED|FORMATTED] [db_name.]table_name colname
 DESCRIBE [EXTENDED|FORMATTED] [db_name.]table_name colname ( [.field_name] | [.'$elem$'] | [.'$key$'] | [.'$value$'] )* 
 ```
 
-
-
 ##### 列
 
 ```sql
@@ -319,8 +326,6 @@ DESCRIBE FORMATTED [db_name.]table_name column_name; -- extended 展示更少的
 DESCRIBE FORMATTED [db_name.]table_name column_name PARTITION (partition_spec); -- extended 展示更少的
 ```
 
-
-
 ###### 分区
 
 ```sql
@@ -328,11 +333,7 @@ DESCRIBE FORMATTED [db_name.]table_name column_name PARTITION (partition_spec); 
 SHOW PARTITIONS table_name;
 SHOW PARTITIONS [db_name.]table_name [PARTITION(partition_spec)]; -- 可以分级展示
 SHOW PARTITIONS [db_name.]table_name [PARTITION(partition_spec)] [WHERE where_condition] [ORDER BY col_list] [LIMIT rows]; -- hive 4.0
-
-
 ```
-
-
 
 ###### 表属性
 
@@ -341,8 +342,6 @@ SHOW PARTITIONS [db_name.]table_name [PARTITION(partition_spec)] [WHERE where_co
 SHOW TBLPROPERTIES [db_name.]tblname; -- 不能用[db_name].table_name
 SHOW TBLPROPERTIES [db_name.]tblname("foo");
 ```
-
-
 
 ###### 函数
 
@@ -354,8 +353,6 @@ SHOW FUNCTIONS [LIKE "<pattern>"];
 desc function [extended] function_name;
 ```
 
-
-
 ###### 配置
 
 ```sql
@@ -364,8 +361,6 @@ desc function [extended] function_name;
 SHOW CONF <configuration_name>;
 
 ```
-
-
 
 #### 3. 修改
 
@@ -428,8 +423,6 @@ alter table tableName set tblproperties('EXTERNAL'='TRUE');
 LOAD DATA [LOCAL] INPATH 'filepath' [OVERWRITE] INTO TABLE tablename [PARTITION (partcol1=val1, partcol2=val2 ...)]
 ```
 
-
-
 ##### insert as select 
 
 ```sql
@@ -460,8 +453,6 @@ select_statement1 FROM from_statement;
 # 动态分区配置是否开， 产生文件限制（小文件） ，动态分区的最大数量
 ```
 
-
-
 ##### 通过查询将数据写入文件系统
 
 ```sql
@@ -475,8 +466,6 @@ row_format
         [MAP KEYS TERMINATED BY char] [LINES TERMINATED BY char]
         [NULL DEFINED AS char] 
 ```
-
-
 
 ##### insert .... values
 
