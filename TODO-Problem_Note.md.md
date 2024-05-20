@@ -22,13 +22,17 @@ mac 电脑的文件系统管理
 
 - 链表尾部插入节点，
 ```
-	Node oldfirst = first
-	
-	first = new Node()
-	first.item = "not";
-	first.next = oldfirst;
+	Node oldlast = last; 
+	last = new Node(); 
+	last.item = item; 
+	last.next = null
+	oldlast.next = last;
 
-	Node 
+	Node newNode = new Node()
+	newNode.item = "not";
+	newNode.next = null;
+
+	last.next = 
 	
 ```
 
