@@ -24,6 +24,12 @@ mac 电脑的文件系统管理
 ```
 	Node oldfirst = first
 	
+	first = new Node()
+	first.item = "not";
+	first.next = oldfirst;
+
+	Node 
+	
 ```
 
 
