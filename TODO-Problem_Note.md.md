@@ -28,6 +28,8 @@ mac 电脑的文件系统管理
 	last.next = null
 	oldlast.next = last;
 
+		
+    // 
 	Node newNode = new Node()
 	newNode.item = "not";
 	newNode.next = null;
