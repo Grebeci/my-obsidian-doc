@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/尚硅谷教程/03阶段-基础进阶/18_泛型/尚硅谷_陈鑫_JavaSE_【泛型】.md",
+                "file": "java/java基础知识笔记.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/尚硅谷教程/03阶段-基础进阶/18_泛型/尚硅谷_陈鑫_JavaSE_【泛型】.md",
+                "file": "java/java基础知识笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/尚硅谷教程/03阶段-基础进阶/18_泛型/尚硅谷_陈鑫_JavaSE_【泛型】.md",
+                "file": "java/java基础知识笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/尚硅谷教程/03阶段-基础进阶/18_泛型/尚硅谷_陈鑫_JavaSE_【泛型】.md"
+                "file": "java/java基础知识笔记.md"
               }
             }
           }
@@ -172,8 +172,15 @@
   },
   "active": "e9af4e61043c93c8",
   "lastOpenFiles": [
-    "java/尚硅谷教程/03阶段-基础进阶/19_集合(Collection)/尚硅谷_陈鑫_JavaSE_【Collection集合】.md",
+    "java/JavaAPI.md",
+    "java/java基础知识笔记.md",
+    "java/java编程范式理解.md",
+    "java/java 文档.md",
+    "java/随想.md",
+    "java/构建和部署.md",
+    "java/背诵版本/java基础知识.md",
     "java/尚硅谷教程/03阶段-基础进阶/18_泛型/尚硅谷_陈鑫_JavaSE_【泛型】.md",
+    "java/尚硅谷教程/03阶段-基础进阶/19_集合(Collection)/尚硅谷_陈鑫_JavaSE_【Collection集合】.md",
     "TODO-Problem_Note.md.md",
     "[Utility.md",
     "hive/show-desc查询.md",
@@ -192,13 +199,6 @@
     "Linux/Command.md",
     "GPT-Response/未命名.md",
     "GPT-Response",
-    "Linux/Command~.md",
-    "开发工具/vscode.md",
-    "Web前端开发/HTML-Core.md.md",
-    "开发工具/codespace.md",
-    "Linux/NetworkManager-Command.md",
-    "Linux/Linux-命令速记.md",
-    "Mac/日常操作TODO.md",
     "Mac"
   ]
 }
