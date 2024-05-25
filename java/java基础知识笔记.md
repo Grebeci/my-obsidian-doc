@@ -96,3 +96,7 @@ class name<T1, T2, ..., Tn> { /* ... */ }
 
   以Collections类为例，ArrayList<E>实现了List<E>， List<E>扩展了Collection<E>。所以ArrayList<String>是List<String>的子类型，而List<String>是Collection<String>的子类型。只要不改变类型参数，类型之间的子类型关系就会保留下来。
 
+
+
+##### 通配符
+
