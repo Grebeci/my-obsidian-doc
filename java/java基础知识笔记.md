@@ -100,5 +100,9 @@ class name<T1, T2, ..., Tn> { /* ... */ }
 
 #### 通配符
 
-主要解决泛型不可变的困境，
+主要解决泛型不可变的困境，例如，假设你想编写一个方法，可以在`List<Integer>`、`List<Double>`和 `List<Number>`上工作;您可以通过使用上界通配符来实现这一点。
+
+
+
+上界通配符：`<? extends Upper_Bounded>`，下界通配符：`<? super Lower_Bounded>`
 
