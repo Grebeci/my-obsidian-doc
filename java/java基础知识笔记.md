@@ -84,5 +84,11 @@ class name<T1, T2, ..., Tn> { /* ... */ }
   > }
   > ```
   >
-  > 在  `T extends Comparable<T>`  中，这是类型系统的理论 的 `F-bounded Polymorphism`, 
+  > 在  `T extends Comparable<T>`  中，出现了自引用泛型。这是类型系统的理论 的 `F-bounded Polymorphism`, 例如，在 Java 中 `Comparable` 接口确保实现这一接口的每个类可以与其同类型的对象进行比较，而不是与某个随机的、可能完全不相关的类型比较。
+
+
+
+#### 泛型，继承和子类型。
+
+
 
