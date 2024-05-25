@@ -67,3 +67,22 @@ class name<T1, T2, ..., Tn> { /* ... */ }
 上界：`<T extends Class>`，下界`T super Class`
 
 - 除了限制可用于实例化泛型类型的类型外，有界类型参数还允许调用在边界中定义的方法:
+
+- 约束（保证）某些类必须实现某些接口。
+
+  
+
+  > [Generic Methods and Bounded Type Parameters (The Java™ Tutorials > Learning the Java Language > Generics (Updated)) (oracle.com)](https://docs.oracle.com/javase/tutorial/java/generics/boundedTypeParams.html)
+  >
+  > ```java
+  > public static <T extends Comparable<T>> int countGreaterThan(T[] anArray, T elem) {
+  >     int count = 0;
+  >     for (T e : anArray)
+  >         if (e.compareTo(elem) > 0)
+  >             ++count;
+  >     return count;
+  > }
+  > ```
+  >
+  > 在  `T extends Comparable<T>`  中，这是类型系统的理论 的 `F-bounded Polymorphism`, 
+
