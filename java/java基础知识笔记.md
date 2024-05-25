@@ -56,5 +56,10 @@ class name<T1, T2, ..., Tn> { /* ... */ }
 
 #### 泛型方法
 
+> [Generic Methods (The Java™ Tutorials > Learning the Java Language > Generics (Updated)) ~ 泛型方法(Java™教程>学习Java语言>泛型(更新)) (oracle.com)](https://docs.oracle.com/javase/tutorial/java/generics/methods.html)
+
 泛型方法是引入自身类型参数的方法。这与声明泛型类似，但类型参数的作用域仅限于声明它的方法。允许使用静态和非静态泛型方法以及泛型类构造函数。
 
+
+
+限制类型边界
