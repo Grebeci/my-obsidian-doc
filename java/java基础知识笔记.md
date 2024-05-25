@@ -106,3 +106,7 @@ class name<T1, T2, ..., Tn> { /* ... */ }
 
 上界通配符：`<? extends Upper_Bounded>`，下界通配符：`<? super Lower_Bounded>`
 
+无界通配符：`<?>`
+
+
+
