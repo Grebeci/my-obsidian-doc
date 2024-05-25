@@ -43,13 +43,18 @@ class name<T1, T2, ..., Tn> { /* ... */ }
 
 
 
+#### 原始类型（Raw Type）
+
+> [Raw Types (The Java™ Tutorials > Learning the Java Language > Generics (Updated)) ~ 原始类型(Java™教程>学习Java语言>泛型(更新)) (oracle.com)](https://docs.oracle.com/javase/tutorial/java/generics/rawTypes.html)
+
+对于**泛型类**，相对于参数化类型，省略实际类型参数就称为原始类型。澄清以下概念：
+
+- 非泛型类或接口类型不是原始类型。原始类型是在泛型类上的概念。
+- 由于 JDK5 之前没有泛型，许多API类(比如Collections类)不是泛型的。所以为了向后兼容，出现了这个概念。
+
+
+
 #### 泛型方法
 
 泛型方法是引入自身类型参数的方法。这与声明泛型类似，但类型参数的作用域仅限于声明它的方法。允许使用静态和非静态泛型方法以及泛型类构造函数。
-
-
-
-#### 原始类型（Raw Type）
-
-相对于参数化类型，省略实际类型参数就称为原始类型。
 
