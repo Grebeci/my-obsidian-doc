@@ -90,4 +90,9 @@ class name<T1, T2, ..., Tn> { /* ... */ }
 
 #### 泛型，继承和子类型。
 
-- 泛型是
+- 参数化类型之间没有继承关系，给定两个具体类型A和B(例如Number和Integer)，无论A和B是否相关，MyClass<A>与MyClass<B>都没有关系。`MyClass<A>`和 `MyClass<B>` 的共同父类是 `Object`。 简记为：泛型是不变的。
+
+- 可以通过扩展或实现泛型类或接口来为其创建子类型。一个类或接口的类型参数与另一个类或接口的类型参数之间的关系由extends和implements子句确定。
+
+  以Collections类为例，ArrayList<E>实现了List<E>， List<E>扩展了Collection<E>。所以ArrayList<String>是List<String>的子类型，而List<String>是Collection<String>的子类型。只要不改变类型参数，类型之间的子类型关系就会保留下来。
+
