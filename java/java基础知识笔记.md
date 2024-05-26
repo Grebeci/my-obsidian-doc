@@ -1,10 +1,24 @@
 程序逻辑有些是数据驱动的，有些是类型驱动的。
 
+#### 参考自： 
+
+- [Lesson: Generics-Java™ Tutorials ](https://docs.oracle.com/javase/tutorial/java/generics/index.html)
+
+
+
+进度：
+
+- [x] [Generics - The Java Tutorials 官网的教程](https://docs.oracle.com/javase/tutorial/java/generics/index.html)
+- [ ] Java 核心技术 - 卷 一 第八章 泛型程序设计
+- [ ] [Java Generics and Collections (豆瓣) (douban.com)](https://book.douban.com/subject/2303830/)
+- [ ] [Angelika的Java Generics FAQ](https://link.zhihu.com/?target=http%3A//www.angelikalanger.com/GenericsFAQ/JavaGenericsFAQ.html)
+- [ ] [Java -Tutorial 官网推荐的个人写的教程 ][Angelika的Java Generics FAQ](https://link.zhihu.com/?target=http%3A//www.angelikalanger.com/GenericsFAQ/JavaGenericsFAQ.html)
+
+
+
 
 
 #### 为什么使用泛型（Generics）
-
-> [为什么使用泛型？(Java™ 教程 > 学习 Java 语言 > 泛型（已更新） (oracle.com)](https://docs.oracle.com/javase/tutorial/java/generics/why.html)
 
 **简记为：**
 
@@ -15,8 +29,6 @@
 
 
 #### Generic Types ：泛型类(型)  
-
-> [Generic Types (The Java™ Tutorials > Learning the Java Language > Generics (Updated)) ~ 泛型（Java™ 教程 > 学习 Java 语言 > 泛型（已更新） (oracle.com)](https://docs.oracle.com/javase/tutorial/java/generics/types.html)
 
 泛型类的定义格式如下：
 
@@ -41,30 +53,28 @@ class name<T1, T2, ..., Tn> { /* ... */ }
 
 - 参数化类型（Parameterized Type）：对泛型的调用一般统称为参数化类型。例如 `Box<String> = new Box<>() ` 中的 `Box<String>` 就称为参数化类型。
 
-
-
 #### 原始类型（Raw Type）
-
-> [Raw Types (The Java™ Tutorials > Learning the Java Language > Generics (Updated)) ~ 原始类型(Java™教程>学习Java语言>泛型(更新)) (oracle.com)](https://docs.oracle.com/javase/tutorial/java/generics/rawTypes.html)
 
 对于**泛型类**，相对于参数化类型，省略实际类型参数就称为原始类型。澄清以下概念：
 
 - 非泛型类或接口类型不是原始类型。原始类型是在泛型类上的概念。
 - 由于 JDK5 之前没有泛型，许多API类(比如Collections类)不是泛型的。所以为了向后兼容，出现了这个概念。
 
-
-
 #### 泛型方法
 
-> [Generic Methods (The Java™ Tutorials > Learning the Java Language > Generics (Updated)) ~ 泛型方法(Java™教程>学习Java语言>泛型(更新)) (oracle.com)](https://docs.oracle.com/javase/tutorial/java/generics/methods.html)
+泛型方法是引入类型参数的方法。这与声明**泛型类**似，但类型参数的作用域仅限于声明它的方法。允许使用静态和非静态泛型方法以及泛型类构造函数。
 
-泛型方法是引入自身类型参数的方法。这与声明泛型类似，但类型参数的作用域仅限于声明它的方法。允许使用静态和非静态泛型方法以及泛型类构造函数。
-
-
+```java
+public static <T> void swap(List<T> list, int i, int j) {
+    T temp = list.get(i);
+    list.set(i, list.get(j));
+    list.set(j, temp);
+}
+```
 
 #### 限制类型边界
 
-上界：`<T extends Class>`，下界`T super Class`
+上界：`<T extends Class>`，下界`<T super Class>`
 
 - 除了限制可用于实例化泛型类型的类型外，有界类型参数还允许调用在边界中定义的方法:
 
@@ -88,19 +98,15 @@ class name<T1, T2, ..., Tn> { /* ... */ }
 
 #### 泛型，继承和子类型。
 
-- 参数化类型之间没有继承关系，给定两个具体类型A和B(例如Number和Integer)，无论A和B是否相关，MyClass<A>与MyClass<B>都没有关系。`MyClass<A>`和 `MyClass<B>` 的共同父类是 `Object`。 简记为：泛型是不变的。
+- 参数化类型之间没有继承关系，给定两个具体类型A和B(例如Number和Integer)，无论A和B是否相关，`MyClass<A>`与`MyClass<B>`都没有关系。`MyClass<A>`和 `MyClass<B>` 的共同父类是 `Object`。 简记为：**泛型是不变的**。
 
 - 可以通过扩展或实现泛型类或接口来为其创建子类型。一个类或接口的类型参数与另一个类或接口的类型参数之间的关系由extends和implements子句确定。
 
-  以Collections类为例，ArrayList<E>实现了List<E>， List<E>扩展了Collection<E>。所以ArrayList<String>是List<String>的子类型，而List<String>是Collection<String>的子类型。只要不改变类型参数，类型之间的子类型关系就会保留下来。
+  以Collections类为例，`ArrayList<E>`实现了`List<E>`， `List<E>`扩展了`Collection<E>`。所以`ArrayList<String>`是`List<String>`的子类型，而`List<String>`是`Collection<String>`的子类型。只要不改变类型参数，类型之间的子类型关系就会保留下来。
 
-
+- 特别的，使用通配符可以让 参数化类型之间有子类型关系。例如，`List<?>`  > `List<? extends Number>`  >  `List<Integer> ` 。
 
 #### 通配符
-
-主要解决泛型不可变的问题，例如，假设你想编写一个方法，可以在`List<Integer>`、`List<Double>`和 `List<Number>`上工作;您可以通过使用上界通配符来实现这一点。
-
-
 
 上界通配符：`<? extends Upper_Bounded>`，下界通配符：`<? super Lower_Bounded>`
 
@@ -108,13 +114,13 @@ class name<T1, T2, ..., Tn> { /* ... */ }
 
 
 
-使用通配符描述参数化类型的继承关系，可以实现一定的逆变和协变。
-
-
+由于泛型不可变，所以使用通配符描述参数化类型的继承关系，可以实现一定的逆变和协变。
 
 #### 泛型擦除
 
-
+- 将泛型类型中的所有类型参数替换为其边界，如果类型参数无界，则使用Object。因此，生成的字节码只包含普通的类、接口和方法。
 
 #### 对泛型的限制
+
+> [Restrictions on Generics](https://docs.oracle.com/javase/tutorial/java/generics/restrictions.html)
 
