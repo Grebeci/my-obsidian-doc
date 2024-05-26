@@ -172,6 +172,7 @@
   },
   "active": "e9af4e61043c93c8",
   "lastOpenFiles": [
+    "java/Overview~.md",
     "java/java编程范式理解.md",
     "java/Overview.md",
     "java/构建和部署.md",
@@ -197,7 +198,6 @@
     "Idea 工作流.md",
     "开发工具/terminal&shell.md",
     "hive/Questions.md.md",
-    "hive/面试题.md",
     "GPT-Response",
     "Mac"
   ]
