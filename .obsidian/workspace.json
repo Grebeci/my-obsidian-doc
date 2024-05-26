@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "db5931c21ab8050f",
+        "id": "c39f2eb6087d5e0a",
         "type": "tabs",
         "children": [
           {
-            "id": "b727eaac510887b6",
+            "id": "86c6cd34d7d53e8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Java.md",
+                "file": "Java/Java笔记/【TOC】Java笔记.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Java.md",
+                "file": "Java/Java笔记/【TOC】Java笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Java.md",
+                "file": "Java/Java笔记/【TOC】Java笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Java.md"
+                "file": "Java/Java笔记/【TOC】Java笔记.md"
               }
             }
           }
@@ -157,24 +157,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b727eaac510887b6",
+  "active": "86c6cd34d7d53e8f",
   "lastOpenFiles": [
-    "Java/培训班教程/尚硅谷教程-2021/【TOC】尚硅谷教程-2021.md",
     "Java/Java.md",
-    "Java/培训班教程/尚硅谷教程-2021",
+    "Java/Java笔记/泛型Case.md",
+    "Java/Java笔记/泛型.md",
     "Java/Java笔记/【TOC】Java笔记.md",
+    "Java/随想.md",
+    "Java/JavaAPI.md",
+    "Java/培训班教程/尚硅谷教程-2021/【TOC】尚硅谷教程-2021.md",
+    "Java/培训班教程/尚硅谷教程-2021",
     "Java笔记.md",
     "Java/培训班教程/尚硅谷教程.md",
-    "Java/Java笔记/泛型.md",
-    "Java/case.md",
     "java/java 文档.md",
     "Java/Java笔记",
     "Java/java编程范式理解.md",
     "java/泛型",
-    "Java/JavaAPI.md",
     "java/Overview~.md",
     "Java/构建和部署.md",
-    "Java/随想.md",
     "Java/背诵版本/java基础知识.md",
     "Java/培训班教程/尚硅谷教程-2021/03阶段-基础进阶/18_泛型/尚硅谷_陈鑫_JavaSE_【泛型】.md",
     "Java/培训班教程/尚硅谷教程-2021/03阶段-基础进阶/19_集合(Collection)/尚硅谷_陈鑫_JavaSE_【Collection集合】.md",

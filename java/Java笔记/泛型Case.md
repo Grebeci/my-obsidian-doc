@@ -1,7 +1,4 @@
 
-
-
-
 ## 泛型通配符
 
 > 阅读 [Java Tutorial -Generic ](https://docs.oracle.com/javase/tutorial/java/generics)  有很多不懂或者写的模糊的地方。
