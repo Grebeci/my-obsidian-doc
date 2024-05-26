@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Java笔记/【TOC】Java笔记.md",
+                "file": "Java/Java笔记/泛型.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Java笔记/【TOC】Java笔记.md",
-                "collapseAll": false,
+                "file": "Java/Java笔记/泛型.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Java笔记/【TOC】Java笔记.md",
+                "file": "Java/Java笔记/泛型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,16 +137,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Java笔记/【TOC】Java笔记.md"
+                "file": "Java/Java笔记/泛型.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,10 +159,10 @@
   },
   "active": "86c6cd34d7d53e8f",
   "lastOpenFiles": [
-    "Java/Java.md",
-    "Java/Java笔记/泛型Case.md",
-    "Java/Java笔记/泛型.md",
+    "Java/Java笔记/泛型Problem-Case.md",
     "Java/Java笔记/【TOC】Java笔记.md",
+    "Java/Java笔记/泛型.md",
+    "Java/Java.md",
     "Java/随想.md",
     "Java/JavaAPI.md",
     "Java/培训班教程/尚硅谷教程-2021/【TOC】尚硅谷教程-2021.md",
