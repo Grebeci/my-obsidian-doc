@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2968053b1bc045e8",
+        "id": "b75fbe62172d1ef2",
         "type": "tabs",
         "children": [
           {
-            "id": "8f93d2a98667d541",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/Java笔记/Java笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e4e4ac951bedff3",
+            "id": "f1ad5309bb307a9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,13 +157,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7e4e4ac951bedff3",
+  "active": "f1ad5309bb307a9a",
   "lastOpenFiles": [
-    "Java/尚硅谷教程/尚硅谷教程-2021.md",
-    "Java/Java笔记/Java笔记.md",
-    "Java/Java.md",
-    "Java/case.md",
+    "Java/尚硅谷教程/尚硅谷教程.md",
     "Java/Java笔记/泛型.md",
+    "Java/Java.md",
+    "Java/Java笔记/Java笔记.md",
+    "Java/case.md",
     "Java笔记.md",
     "java/java 文档.md",
     "Java/Java笔记",
