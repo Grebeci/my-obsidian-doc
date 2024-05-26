@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/java基础知识笔记.md",
+                "file": "java/case.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/java基础知识笔记.md",
+                "file": "java/case.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/java基础知识笔记.md",
+                "file": "java/case.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/java基础知识笔记.md"
+                "file": "java/case.md"
               }
             }
           }
@@ -172,8 +172,9 @@
   },
   "active": "e9af4e61043c93c8",
   "lastOpenFiles": [
-    "java/JavaAPI.md",
     "java/java基础知识笔记.md",
+    "java/case.md",
+    "java/JavaAPI.md",
     "java/java编程范式理解.md",
     "java/java 文档.md",
     "java/随想.md",
@@ -197,7 +198,6 @@
     "hive/Questions.md.md",
     "hive/面试题.md",
     "Linux/Command.md",
-    "GPT-Response/未命名.md",
     "GPT-Response",
     "Mac"
   ]
