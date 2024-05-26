@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Java笔记/泛型.md",
+                "file": "Java/Java笔记/容器-Collection.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Java笔记/泛型.md",
+                "file": "Java/Java笔记/容器-Collection.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Java笔记/泛型.md",
+                "file": "Java/Java笔记/容器-Collection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Java笔记/泛型.md"
+                "file": "Java/Java笔记/容器-Collection.md"
               }
             }
           }
@@ -160,6 +160,7 @@
   "active": "86c6cd34d7d53e8f",
   "lastOpenFiles": [
     "Java/Java笔记/泛型Problem-Case.md",
+    "Java/Java笔记/容器-Collection.md",
     "Java/Java笔记/【TOC】Java笔记.md",
     "Java/Java笔记/泛型.md",
     "Java/Java.md",
@@ -187,7 +188,6 @@
     "hive/hive-exercises.md.md",
     "conflict-files-obsidian-git.md",
     "流畅运行linux.md",
-    "未命名 1.md",
     "GPT-Response",
     "Mac"
   ]
