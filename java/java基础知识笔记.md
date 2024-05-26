@@ -70,8 +70,6 @@ class name<T1, T2, ..., Tn> { /* ... */ }
 
 - 约束（保证）某些类必须实现某些接口。
 
-  
-
   > [Generic Methods and Bounded Type Parameters (The Java™ Tutorials > Learning the Java Language > Generics (Updated)) (oracle.com)](https://docs.oracle.com/javase/tutorial/java/generics/boundedTypeParams.html)
   >
   > ```java
