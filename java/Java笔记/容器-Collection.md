@@ -34,21 +34,23 @@
 
 
 
+Collection Interface.   
+
 ```java
 public interface Collection<E> extends Iterable<E> 
 ```
 
-|            |      |
-| ---------- | ---- |
-| int size() |      |
-|            |      |
-|            |      |
-|            |      |
-|            |      |
-|            |      |
-|            |      |
-|            |      |
-|            |      |
+|              |                 |
+| ------------ | --------------- |
+| `int size()` | number of items |
+|              |                 |
+|              |                 |
+|              |                 |
+|              |                 |
+|              |                 |
+|              |                 |
+|              |                 |
+|              |                 |
 
 
 
