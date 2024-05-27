@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "牛客网-SQL刷题记录.md",
+                "file": "Java/Java笔记/容器-Collection.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "牛客网-SQL刷题记录.md",
+                "file": "Java/Java笔记/容器-Collection.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "牛客网-SQL刷题记录.md",
+                "file": "Java/Java笔记/容器-Collection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "牛客网-SQL刷题记录.md"
+                "file": "Java/Java笔记/容器-Collection.md"
               }
             }
           }
@@ -157,10 +157,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "86c6cd34d7d53e8f",
+  "active": "c76ef14b78fe68eb",
   "lastOpenFiles": [
-    "浏览器插件开发入门.md",
+    "Java/Java笔记/容器-Collection~.md",
+    "Java/Java.md",
     "牛客网-SQL刷题记录.md",
+    "浏览器插件开发入门.md",
     "笔记心得.md",
     "第15章_存储过程与函数.md",
     "第二版spark快速大数据分析-读书笔记.md",
@@ -172,7 +174,6 @@
     "Java/Java笔记/泛型Problem-Case.md",
     "Java/Java笔记/【TOC】Java笔记.md",
     "Java/Java笔记/泛型.md",
-    "Java/Java.md",
     "Java/随想.md",
     "Java/JavaAPI.md",
     "Java/培训班教程/尚硅谷教程-2021/【TOC】尚硅谷教程-2021.md",
@@ -187,7 +188,6 @@
     "Java/构建和部署.md",
     "Java/背诵版本/java基础知识.md",
     "Java/培训班教程/尚硅谷教程-2021/03阶段-基础进阶/18_泛型/尚硅谷_陈鑫_JavaSE_【泛型】.md",
-    "Java/培训班教程/尚硅谷教程-2021/03阶段-基础进阶/19_集合(Collection)/尚硅谷_陈鑫_JavaSE_【Collection集合】.md",
     "GPT-Response",
     "Mac"
   ]
