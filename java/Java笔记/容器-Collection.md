@@ -11,7 +11,7 @@
 
 原则：
 
-
+Don't use a library until you understand its API
 
 
 
