@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode-SQL刷题记录.md",
+                "file": "TODO-Problem_Note.md.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode-SQL刷题记录.md",
+                "file": "TODO-Problem_Note.md.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "leetcode-SQL刷题记录.md",
+                "file": "TODO-Problem_Note.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,16 +137,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode-SQL刷题记录.md"
+                "file": "TODO-Problem_Note.md.md"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,6 +160,12 @@
   },
   "active": "4214befe4e191e16",
   "lastOpenFiles": [
+    "RDD-SparkAPI.md",
+    "problem.md",
+    "Pasted image 20230811144649.png",
+    "NULL的总结.md",
+    "Mac开荒.md",
+    "mac和win的区别.md",
     "mac problem.md",
     "leetcode-SQL刷题记录.md",
     "Idea 工作流.md",
@@ -181,12 +188,6 @@
     "笔记心得.md",
     "牛客网-SQL刷题记录.md",
     "浏览器插件开发入门.md",
-    "流畅运行linux.md",
-    "未命名.md",
-    "未命名 1.md",
-    "Untitled 1.md",
-    "TODO-Problem_Note.md.md",
-    "Pasted image 20230811144649.png",
     "Java/培训班教程/尚硅谷教程-2021",
     "Java/Java笔记",
     "java/泛型",
