@@ -32,10 +32,25 @@
 
 #### 接口签名
 
-```
 
 
+```java
+public interface Collection<E> extends Iterable<E> 
 ```
+
+|            |      |
+| ---------- | ---- |
+| int size() |      |
+|            |      |
+|            |      |
+|            |      |
+|            |      |
+|            |      |
+|            |      |
+|            |      |
+|            |      |
+
+
 
 
 
