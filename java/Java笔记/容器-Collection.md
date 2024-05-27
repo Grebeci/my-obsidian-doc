@@ -30,15 +30,25 @@
 
 
 
-[介绍]()
+#### 接口类型介绍
+
+[介绍](https://docs.oracle.com/javase/tutorial/collections/interfaces/collection.html)
+
+`Collection` :  集合层次结构的根。
+
+`Set` ：不能包含**重复元素**的集合。该接口对数学集合抽象进行建模。
+
+`List`：一个有序的集合(有时称为序列)。列表可以包含重复的元素。List的用户通常可以精确控制每个元素在列表中的插入位置，并且可以通过整数索引(位置)访问元素。
+
+
+
+
+
+
 
 #### 接口签名
 
 Collections
-
-
-
-
 
 
 
