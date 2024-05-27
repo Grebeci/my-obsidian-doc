@@ -34,10 +34,10 @@
 
 
 
-Collection Interface.   
+List interface. java.util.List is API for an sequence of items
 
 ```java
-public interface Collection<E> extends Iterable<E> 
+public interface List<Item> implements Iterable<Item>
 ```
 
 |              |                 |
