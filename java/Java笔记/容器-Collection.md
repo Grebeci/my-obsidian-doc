@@ -32,6 +32,12 @@
 
 #### 接口签名
 
+Collections
+
+
+
+
+
 
 
 List interface. java.util.List is API for an sequence of items
