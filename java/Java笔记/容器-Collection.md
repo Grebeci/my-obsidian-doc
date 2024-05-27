@@ -11,7 +11,9 @@
 
 原则：
 
-Don't use a library until you understand its API
+- Don't use a library until you understand its API.
+
+  
 
 
 
@@ -21,4 +23,6 @@ Don't use a library until you understand its API
 
 - 是否重复
 - 是否有序
-- 
+
+
+
