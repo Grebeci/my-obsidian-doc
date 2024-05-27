@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO-Problem_Note.md.md",
+                "file": "vsocde 工作流.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "05b6aa280fe02a67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Idea 工作流.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO-Problem_Note.md.md",
+                "file": "Idea 工作流.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO-Problem_Note.md.md",
+                "file": "Idea 工作流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO-Problem_Note.md.md"
+                "file": "Idea 工作流.md"
               }
             }
           }
@@ -158,8 +171,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4214befe4e191e16",
+  "active": "05b6aa280fe02a67",
   "lastOpenFiles": [
+    "vsocde 工作流.md",
+    "TODO-Problem_Note.md.md",
     "RDD-SparkAPI.md",
     "problem.md",
     "Pasted image 20230811144649.png",
@@ -186,8 +201,6 @@
     "第二版spark快速大数据分析-读书笔记.md",
     "第15章_存储过程与函数.md",
     "笔记心得.md",
-    "牛客网-SQL刷题记录.md",
-    "浏览器插件开发入门.md",
     "Java/培训班教程/尚硅谷教程-2021",
     "Java/Java笔记",
     "java/泛型",
