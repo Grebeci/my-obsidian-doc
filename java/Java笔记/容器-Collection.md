@@ -34,5 +34,27 @@
 
 ```
 
+
 ```
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+<script type="math/tex">
+\begin{array}{|c|c|p{8cm}|}
+\hline
+\textbf{Method} & \textbf{Return Type} & \textbf{Description} \\
+\hline
+\texttt{Collection()} & & Initialize a new collection \\
+\texttt{isEmpty()} & \texttt{boolean} & Check if the collection is empty \\
+...
+\hline
+\end{array}
+</script>
+
+
+
+
+
+
 
