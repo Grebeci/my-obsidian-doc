@@ -54,9 +54,9 @@
 
 
 
-#### 接口
+### 接口
 
-**The Collection Interface**
+#### **The Collection Interface**
 
 默认约定：所有通用集合实现都有一个接受 `Collection` 参数的构造函数。用来转换集合类型。例如：ArrayList 有构造函数
 
@@ -130,8 +130,6 @@ String[] y = x. toArray(String[]::new);
 
 
 
-
-
 ##### 2. add / remove （an Element）
 
 这些API都是对单个元素的操作，并且会调用元素的 `equals` 方法。
@@ -150,6 +148,8 @@ boolean remove(Object o);
 - 如果由于此调用而删除了元素，则返回True。
 
 
+
+##### 3. Bulk Operations
 
 
 
