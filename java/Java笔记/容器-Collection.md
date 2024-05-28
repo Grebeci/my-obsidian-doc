@@ -157,6 +157,8 @@ boolean remove(Object o);
 
 
 
+
+
 List interface. java.util.List is API for an sequence of items
 
 ```java
