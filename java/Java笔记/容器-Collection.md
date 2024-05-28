@@ -56,7 +56,17 @@
 
 **The Collection Interface**
 
-Collection接口用于传递需要最大通用性的对象集合。
+默认约定：所有通用集合实现都有一个接受 `Collection` 参数的构造函数。用来转换集合类型。例如：ArrayList 有构造函数
+
+```java
+public ArrayList(Collection<? extends E> c) { /***/ }
+```
+
+
+
+
+
+
 
 
 
