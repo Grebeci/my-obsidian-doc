@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Java笔记/泛型.md",
+                "file": "Java/Java笔记/泛型Problem-Case.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Java笔记/泛型.md",
+                "file": "Java/Java笔记/泛型Problem-Case.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Java笔记/泛型.md",
+                "file": "Java/Java笔记/泛型Problem-Case.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Java笔记/泛型.md"
+                "file": "Java/Java笔记/泛型Problem-Case.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:打开 Markdown 格式转换器": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
@@ -157,8 +158,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "29990b59551eee01",
+  "active": "521be150ba666613",
   "lastOpenFiles": [
+    "Java/Java笔记/泛型.md",
     "Java/Java笔记/容器-Collection.md",
     "Java/Java笔记/容器-Collection~.md",
     "Idea 工作流.md",
@@ -186,7 +188,6 @@
     "面试题整理.md",
     "账号密码.md",
     "计算机第0课.md",
-    "第二版spark快速大数据分析-读书笔记.md",
     "Java/培训班教程/尚硅谷教程-2021",
     "Java/Java笔记",
     "java/泛型",
