@@ -5,6 +5,8 @@
 进度：
 
 
+
+
 -----
 
 
@@ -74,8 +76,8 @@ public interface Collection<E> extends Iterable<E>
 | ----------------------------------------------- | ----------------------------------------------------- |
 | `int size()`                                    | Number of items                                       |
 | `boolean isEmpty()`                             | is the collection empty?                              |
-| `boolean contains(Object o)`                    | Checks if contains the element                        |
-| `Iterator<E> iterator()`                        | Returns an iterator                                   |
+| `boolean contains(Object o)`                    | does the list contain the given item?                 |
+| `Iterator<E> iterator()`                        | iterator over all items in the collection             |
 | `Object[] toArray()`                            | Converts to an array                                  |
 | `<T> T[] toArray(T[] a)`                        | Converts to an array of specified type                |
 | `<T> T[] toArray(IntFunction<T[]> generator)`   | Converts to an array using a generator                |
@@ -92,6 +94,47 @@ public interface Collection<E> extends Iterable<E>
 | `Spliterator<E> spliterator()`                  | Creates a Spliterator                                 |
 | `Stream<E> stream()`                            | Returns a sequential Stream                           |
 | `Stream<E> parallelStream()`                    | Returns a possibly parallel Stream                    |
+
+
+
+##### 1.  toArray
+
+下面三个API都会创建一个新的数组。此API充当 Array 和 Collection 的转换桥梁。
+
+```java
+Object[] toArray();  // 不关心类型
+<T> T[] toArray(T[] a);  
+default <T> T[] toArray(IntFunction<T[]> generator) {return toArray(generator.apply(0));}
+```
+
+`<T> T[] toArray(T[] a);  `  ：此`api` 会根据提供的数组大小有不同的行为。使用时候注意看文档。推荐用法
+
+```java
+String[] y = new String[SIZE];
+      ...
+ y = x. toArray(y);
+```
+
+或者
+
+```java
+Collection<String> collection = ... // 你的集合
+String[] array = collection.toArray(new String[0]);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
