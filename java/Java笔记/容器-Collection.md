@@ -56,7 +56,7 @@
 
 **The Collection Interface**
 
-
+Collection接口用于传递需要最大通用性的对象集合。
 
 
 
