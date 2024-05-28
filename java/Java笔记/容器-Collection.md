@@ -34,7 +34,7 @@
 
 [介绍](https://docs.oracle.com/javase/tutorial/collections/interfaces/collection.html)
 
-`Collection` :  集合层次结构的根。
+`Collection` :  Collection是集合层次结构的根接口，表示一组对象的集合。集合可能允许重复元素，也可能不允许；可能有序，也可能无序。此接口通常用于在需要最大通用性时传递和操作集合。
 
 `Set` ：不能包含**重复元素**的集合。该接口对数学集合抽象进行建模。
 
@@ -62,11 +62,36 @@
 public ArrayList(Collection<? extends E> c) { /***/ }
 ```
 
+**接口签名**
 
+```java
+public interface Collection<E> extends Iterable<E>
+```
 
+**API**
 
-
-
+| Function Signature                              | Function Description                                  |
+| ----------------------------------------------- | ----------------------------------------------------- |
+| `int size()`                                    | Number of items                                       |
+| `boolean isEmpty()`                             | is the collection empty?                              |
+| `boolean contains(Object o)`                    | Checks if contains the element                        |
+| `Iterator<E> iterator()`                        | Returns an iterator                                   |
+| `Object[] toArray()`                            | Converts to an array                                  |
+| `<T> T[] toArray(T[] a)`                        | Converts to an array of specified type                |
+| `<T> T[] toArray(IntFunction<T[]> generator)`   | Converts to an array using a generator                |
+| `boolean add(E e)`                              | Adds an element                                       |
+| `boolean remove(Object o)`                      | Removes an element                                    |
+| `boolean containsAll(Collection<?> c)`          | Checks if contains all elements of another collection |
+| `boolean addAll(Collection<? extends E> c)`     | Adds all elements from another collection             |
+| `boolean removeAll(Collection<?> c)`            | Removes all elements present in another collection    |
+| `boolean removeIf(Predicate<? super E> filter)` | Removes elements matching a predicate                 |
+| `boolean retainAll(Collection<?> c)`            | Retains only elements present in another collection   |
+| `void clear()`                                  | Removes all elements                                  |
+| `boolean equals(Object o)`                      | Compares for equality                                 |
+| `int hashCode()`                                | Returns the hash code value                           |
+| `Spliterator<E> spliterator()`                  | Creates a Spliterator                                 |
+| `Stream<E> stream()`                            | Returns a sequential Stream                           |
+| `Stream<E> parallelStream()`                    | Returns a possibly parallel Stream                    |
 
 
 
