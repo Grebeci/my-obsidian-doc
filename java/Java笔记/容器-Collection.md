@@ -122,6 +122,12 @@ Collection<String> collection = ... // 你的集合
 String[] array = collection.toArray(new String[0]);
 ```
 
+或者
+
+```java
+String[] y = x. toArray(String[]::new);
+```
+
 
 
 
