@@ -130,9 +130,21 @@ String[] y = x. toArray(String[]::new);
 
 
 
-##### add
 
 
+##### 2. add / remove （an Element）
+
+```
+boolean add(E e);
+```
+
+- 
+
+remove
+
+```
+boolean remove(Object o);
+```
 
 
 
