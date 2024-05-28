@@ -134,21 +134,20 @@ String[] y = x. toArray(String[]::new);
 
 ##### 2. add / remove （an Element）
 
+这些API都是对单个元素的操作，并且会调用元素的 `equals` 方法。
+
 ```
 boolean add(E e);
 ```
 
-- 
-
-remove
+- 如果集合因此次调用而发生了变化（例如，元素被成功添加），则返回true。如果集合不允许重复并且已经包含了指定的元素，则返回false。
 
 ```
 boolean remove(Object o);
 ```
 
-
-
-
+- 只会移除集合中第一个匹配的元素
+- 如果由于此调用而删除了元素，则返回True。
 
 
 
