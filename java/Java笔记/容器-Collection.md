@@ -297,12 +297,11 @@ public interface List<E> extends Collection<E>
 | `int indexOf(Object o)`          | 返回列表中首次出现的指定元素的索引。     |
 | `int lastIndexOf(Object o)`      | 返回列表中最后一次出现的指定元素的索引。 |
 
+**注：**
+
+Arrays类有一个名为asList的静态工厂方法，该方法允许将数组视为List。此方法不复制数组。List中的更改贯穿写入数组，反之亦然。生成的List不是一个通用的List实现，因为它没有实现(可选的)添加和删除操作:数组不能调整大小。
 
 
-#### 工具方法
-
-```
-```
 
 
 
