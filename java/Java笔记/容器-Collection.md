@@ -151,7 +151,7 @@ boolean remove(Object o);
 
 ##### 3. Bulk Operations
 
-containsAll、addAll、removeAll等都会修改底层集合，所以是线程不安全的。
+containsAll、addAll、removeAll，retainAll，clear 等都会修改底层集合，所以是线程不安全的。
 
 ##### 4. Traversing Collections
 
@@ -170,7 +170,17 @@ public interface Iterable<E>
 }
 ```
 
+Remove是在迭代期间修改集合的唯一安全方法;如果在迭代进行过程中以任何其他方式修改底层集合，则未指定行为。
 
+下面方法是使用 Iterator 筛选任意Collection—即遍历集合以删除特定元素。
+
+```java
+static void filter(Collection<?> c) {
+    for (Iterator<?> it = c.iterator(); it.hasNext(); )
+        if (!cond(it.next()))
+            it.remove();
+}
+```
 
 
 
