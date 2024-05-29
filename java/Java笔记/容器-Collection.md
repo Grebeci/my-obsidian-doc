@@ -253,9 +253,18 @@ public interface Set<E> extends Collection<E>
 
 #### The List Interface
 
-有序，可重复序列。
+有序，可重复序列。两个通用实现，ArrayList通常是性能更好的实现，而LinkedList在某些情况下提供更好的性能。
 
-- 位置访问：
+- 位置访问：get、set
+- 搜索：indexOf 、lastIndexOf
+- 迭代：扩展Iterator语义，以利用列表的顺序特性。listIterator方法提供了这种行为。
+- 范围视图：subblist方法在列表上执行任意范围操作。
+
+
+
+构造
+
+
 
 
 
