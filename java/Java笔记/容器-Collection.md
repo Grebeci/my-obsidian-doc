@@ -276,9 +276,26 @@ List<String> list = people.stream()
 
 
 
-
+##### Positional Access Operations
 
 基本的位置访问操作有get、set、add和remove。(set和remove操作返回被覆盖或删除的旧值。)其他操作(indexOf和lastIndexOf)返回列表中指定元素的第一个或最后一个索引。
+
+一些从 Collection继承的接口在 List 上会有特定的行为。
+
+```java
+public interface List<E> extends Collection<E>
+```
+
+| Function Signature               | Function Description                     |
+| -------------------------------- | ---------------------------------------- |
+| `boolean add(E e)`               | 将指定元素添加到列表末尾。               |
+| `boolean remove(Object o)`       | 移除列表中首次出现的指定元素。           |
+| `E get(int index)`               | 返回指定位置的元素。                     |
+| `E set(int index, E element)`    | 用指定元素替换列表中指定位置的元素。     |
+| `void add(int index, E element)` | 在列表的指定位置插入指定元素。           |
+| `E remove(int index)`            | 移除列表中指定位置的元素。               |
+| `int indexOf(Object o)`          | 返回列表中首次出现的指定元素的索引。     |
+| `int lastIndexOf(Object o)`      | 返回列表中最后一次出现的指定元素的索引。 |
 
 
 
