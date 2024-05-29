@@ -299,6 +299,11 @@ public interface List<E> extends Collection<E>
 
 
 
+#### 工具方法
+
+```
+```
+
 
 
 
