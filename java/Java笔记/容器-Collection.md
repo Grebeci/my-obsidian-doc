@@ -266,7 +266,12 @@ public interface Set<E> extends Collection<E>
 
 ```java
 List<Type> list = new ArrayList<Type>(list);
+
 List<Type> list = new ArrayList<Type>();
+
+List<String> list = people.stream()
+.map(Person::getName)
+.collect(Collectors.toList());
 ```
 
 
