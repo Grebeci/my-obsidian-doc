@@ -262,7 +262,16 @@ public interface Set<E> extends Collection<E>
 
 
 
-构造
+构造：
+
+```java
+List<Type> list = new ArrayList<Type>(list);
+List<Type> list = new ArrayList<Type>();
+```
+
+
+
+
 
 
 
