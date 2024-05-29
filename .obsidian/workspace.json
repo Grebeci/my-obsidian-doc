@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Java.md",
+                "file": "Java/Java笔记/容器-Collection.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Java.md",
+                "file": "Java/Java笔记/容器-Collection.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Java.md",
+                "file": "Java/Java笔记/容器-Collection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Java.md"
+                "file": "Java/Java笔记/容器-Collection.md"
               }
             }
           }
@@ -160,6 +160,7 @@
   },
   "active": "521be150ba666613",
   "lastOpenFiles": [
+    "Java/Java.md",
     "Java/Java笔记/容器-Collection-Problem-Case.md",
     "Java/Java笔记/泛型.md",
     "Java/Java笔记/容器-Collection~.md",
@@ -187,7 +188,6 @@
     "子查询.md",
     "大数据脚本安装.md",
     "大数据关键端口号.md",
-    "面试题整理.md",
     "Java/培训班教程/尚硅谷教程-2021",
     "Java/Java笔记",
     "java/泛型",

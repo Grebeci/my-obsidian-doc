@@ -190,6 +190,35 @@ static void filter(Collection<?> c) {
 
 
 
+#### The Set Interface
+
+Java平台包含三种通用的Set实现:HashSet、TreeSet和LinkedHashSet。将元素存储在哈希表中的HashSet是性能最好的实现; 但是，它不能保证迭代的顺序。TreeSet将元素存储在红黑树中，并根据元素的值对其进行排序;它比HashSet慢得多。LinkedHashSet是作为一个散列表实现的，其中贯穿着一个链表，它根据元素插入集合的顺序(插入顺序)对元素排序。LinkedHashSet使其客户端免受HashSet提的未指定的、通常是混乱的排序的影响，其成本仅略高。
+
+
+
+##### idiom
+
+假设您有一个Collection c，并且希望创建另一个包含相同元素但消除所有重复元素的Collection。下面的一行代码达到了目的。
+
+```java
+Collection<Type> noDups = new HashSet<Type>(c);
+```
+
+或者借助 Aggregate Operation：
+
+```java
+c.stream()
+.collect(Collectors.toSet()); // no duplicates
+```
+
+它将一个名称集合累积到一个TreeSet中:
+
+```
+Set<String> set = people.stream()
+.map(Person::getName)
+.collect(Collectors.toCollection(TreeSet::new));
+```
+
 
 
 
