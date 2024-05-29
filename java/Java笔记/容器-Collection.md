@@ -221,6 +221,8 @@ Set<String> set = people.stream()
 
 
 
+- 原则1 ： 尽量使用接口类型 （例如 Set）而不是实现类型引用Collection。
+
 
 
 
