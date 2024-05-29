@@ -276,7 +276,7 @@ List<String> list = people.stream()
 
 
 
-
+基本的位置访问操作有get、set、add和remove。(set和remove操作返回被覆盖或删除的旧值。)其他操作(indexOf和lastIndexOf)返回列表中指定元素的第一个或最后一个索引。
 
 
 
