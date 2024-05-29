@@ -221,6 +221,16 @@ Set<String> set = people.stream()
 
 
 
+Set 接口中的 `Bulk` Operator  方法对应了标准的集合的代数操作。
+
+
+
+
+
+
+
+
+
 - 原则1 ： 尽量使用接口类型 （例如 Set）而不是实现类型引用Collection。
 
 
