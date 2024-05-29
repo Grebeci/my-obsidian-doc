@@ -282,6 +282,8 @@ List<String> list = people.stream()
 
 
 
+
+
 List interface. java.util.List is API for an sequence of items
 
 ```java
