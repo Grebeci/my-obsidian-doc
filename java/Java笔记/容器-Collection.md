@@ -151,9 +151,28 @@ boolean remove(Object o);
 
 ##### 3. Bulk Operations
 
-
+containsAll、addAll、removeAll等都会修改底层集合，所以是线程不安全的。
 
 ##### 4. Traversing Collections
+
+迭代器模式
+
+```java
+public interface Iterator<E> {
+    boolean hasNext();
+    E next();
+    void remove(); //optional
+}
+
+public interface Iterable<E>
+{
+ Iterator<Item> iterator();
+}
+```
+
+
+
+
 
 
 
