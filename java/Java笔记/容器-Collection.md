@@ -262,7 +262,7 @@ public interface Set<E> extends Collection<E>
 
 
 
-构造：
+##### 构造：
 
 ```java
 List<Type> list = new ArrayList<Type>(list);
@@ -273,6 +273,8 @@ List<String> list = people.stream()
 .map(Person::getName)
 .collect(Collectors.toList());
 ```
+
+
 
 
 
