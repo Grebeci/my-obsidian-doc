@@ -153,6 +153,12 @@ boolean remove(Object o);
 
 containsAll、addAll、removeAll，retainAll，clear 等都会修改底层集合，所以是线程不安全的。
 
+作为批量操作强大功能的一个简单示例，考虑以下从Collection c中删除指定元素e的所有实例的习惯用法。
+
+```
+c.removeAll(Collections.singleton(e));
+```
+
 ##### 4. Traversing Collections
 
 迭代器模式
