@@ -367,7 +367,10 @@ Set<Map.Entry<K, V>> entrySet();
 
 注意： values 返回的不是 `Set`，允许可重复元素的集合。
 
-
+```java
+for (Map.Entry<KeyType, ValType> e : m.entrySet())
+    System.out.println(e.getKey() + ": " + e.getValue());
+```
 
 
 
