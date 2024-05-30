@@ -56,7 +56,7 @@
 
 ## 接口
 
-### **The Collection Interface**
+#### **The Collection Interface**
 
 默认约定：所有通用集合实现都有一个接受 `Collection` 参数的构造函数。用来转换集合类型。例如：ArrayList 有构造函数
 
