@@ -317,6 +317,26 @@ List<E> subList(int fromIndex, int toIndex);
 
 
 
+**不可变集合**
+
+和 Set 类似，List也有一些方法返回不可变集合。
+
+```java
+static <E> List<E> of()
+static <E> List<E> of(E e1) 
+...
+static <E> List<E> of(E... elements)
+static <E> List<E> copyOf(Collection<? extends E> coll) 
+```
+
+
+
+
+
+##### 算法
+
+
+
 
 
 
