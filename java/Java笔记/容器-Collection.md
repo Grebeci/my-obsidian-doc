@@ -313,6 +313,7 @@ List<E> subList(int fromIndex, int toIndex);
 
 - 左闭右开
 - 对 sublist 的更改都会反映在原列表中。
+- 这些 API 使用务必保证其正确性。
 
 
 
