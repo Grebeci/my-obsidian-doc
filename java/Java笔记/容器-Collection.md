@@ -353,7 +353,21 @@ static <K, V> Map<K, V> newAttributeMap(Map<K, V>defaults, Map<K, V> overrides) 
 
 使用`Map`来表示属性-值对可以让你灵活地存储和管理配置数据。通过`putAll()`方法，你可以非常方便地将一组默认配置（存储在一个`Map`中）和一组特定的覆盖配置（存储在另一个`Map`中）合并。
 
+
+
 ##### Collection Views
+
+下面API 将 `Map` 视为 `Collection`
+
+```java
+Set<K> keySet();
+Collection<V> values();
+Set<Map.Entry<K, V>> entrySet();
+```
+
+注意： values 返回的不是 `Set`，允许可重复元素的集合。
+
+
 
 
 
