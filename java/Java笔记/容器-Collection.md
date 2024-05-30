@@ -253,6 +253,8 @@ public interface Set<E> extends Collection<E>
 
 #### The List Interface
 
+
+
 有序，可重复序列。两个通用实现，ArrayList通常是性能更好的实现，而LinkedList在某些情况下提供更好的性能。
 
 - 位置访问：get、set
@@ -330,34 +332,6 @@ static <E> List<E> copyOf(Collection<? extends E> coll)
 ```
 
 
-
-
-
-##### 算法
-
-
-
-
-
-
-
-List interface. java.util.List is API for an sequence of items
-
-```java
-public interface List<Item> implements Iterable<Item>
-```
-
-|              |                 |
-| ------------ | --------------- |
-| `int size()` | number of items |
-|              |                 |
-|              |                 |
-|              |                 |
-|              |                 |
-|              |                 |
-|              |                 |
-|              |                 |
-|              |                 |
 
 
 
