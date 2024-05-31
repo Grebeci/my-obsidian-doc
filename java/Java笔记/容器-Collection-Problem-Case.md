@@ -14,4 +14,5 @@ answer：
 
 - add 添加要检查类型，泛型的类型安全特性，remove 默认调用 equals 方法来确定移除元素，所以和类型无关。
 
-2. 在 java Collection API中，List 和 SortedSet接口都有 `Sublist` 这部分 API，
+2. 在 java Collection API中，List 和 SortedSet接口都有 `Sublist` 这部分 API，有下列建议：
+   - 
