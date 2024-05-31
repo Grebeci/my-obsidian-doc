@@ -378,6 +378,8 @@ for (Map.Entry<KeyType, ValType> e : m.entrySet())
 
 ##### Standard Constructors
 
+注意：
+
 `TreeSet`的标准构造函数在处理继承自`SortedSet`的集合时，因默认使用自然排序而忽略原有比较器，导致可能需要选择性使用不同构造函数以保持排序标准的一致性。
 
 
