@@ -450,6 +450,16 @@ WeakHashMap ，IdentityHashMap 在特定场景用到的数据结构。
 
 
 
+#### Wrapper的实现
+
+包装器实现将其所有实际工作委托给指定的集合，但在该集合提供的功能之上添加额外的功能。这是decorator设计模式的示例。
+
+
+
+
+
+
+
 ## Algorithms
 
 
