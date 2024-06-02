@@ -497,7 +497,24 @@ WeakHashMap ，IdentityHashMap 在特定场景用到的数据结构。
 
 ##### 2. Collections.nCopies
 
+返回**不可变**集合列表
+
+```java
+public static <T> List<T> nCopies(int n, T o)
 ```
+
+idiom
+
+```
+List<Type> list = new ArrayList<Type>(Collections.nCopies(1000, (Type)null));
+```
+
+
+
+##### 3. Collections.singleton(e)
+
+```java
+ public static <T> Set<T> singleton(T o) {/**/}
 ```
 
 
