@@ -2,7 +2,7 @@
 
 [Trail: Collections (The Java™ Tutorials)](https://docs.oracle.com/javase/tutorial/collections/index.html)
 
-
+官方文档上是按照功能罗列出API的，这和其他教程按照接口，类介绍组织方式不同。比如
 
 
 
