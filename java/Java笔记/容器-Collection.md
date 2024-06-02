@@ -13,10 +13,14 @@
 ## 进度：
 
 - [Trail: Collections (The Java™ Tutorials) (oracle.com)](https://docs.oracle.com/javase/tutorial/collections/index.html)
+
   - [ ] [**interoperability**](https://docs.oracle.com/javase/tutorial/collections/interoperability/index.html) 
+
+  - [ ] [Lesson: Aggregate Operations (The Java™ Tutorials > Collections) (oracle.com) ](https://docs.oracle.com/javase/tutorial/collections/streams/index.html) 
+
+    Stream 流相关，这个官方太简练了，因为牵涉到函数式编程，lambda 设计，还有一些算子设计，并发设计，所以要等完全理解函数式编程再重头来看。
+
   - [ ] 
-
-
 
 
 
