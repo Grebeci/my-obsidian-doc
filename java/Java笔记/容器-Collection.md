@@ -485,10 +485,20 @@ WeakHashMap ，IdentityHashMap 在特定场景用到的数据结构。
 
 - 固定大小
 
-  ```
+  ```java
+  List<String> list = Arrays.asList(new String[size]);
   ```
 
-  
+- 不固定
+
+  ```java
+  List<String> list = new ArrayList<>(arrays.asList(new String[size]));
+  ```
+
+##### 2. Collections.nCopies
+
+```
+```
 
 
 
