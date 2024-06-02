@@ -477,6 +477,19 @@ WeakHashMap ，IdentityHashMap 在特定场景用到的数据结构。
   // Xxx = (Collection、Set、List、Map、SortedSet和SortedMap)
   ```
 
+#### Convenience Implementations
+
+##### 1. `Arrays.asList()`
+
+这是数组向Collection转换的api。返回的集合不能修改。
+
+- 固定大小
+
+  ```
+  ```
+
+  
+
 
 
 
