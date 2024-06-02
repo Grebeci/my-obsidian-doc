@@ -390,6 +390,10 @@ for (Map.Entry<KeyType, ValType> e : m.entrySet())
 
 
 
+## Algorithms
+
+
+
 ## Stream
 
 这些 API 和 函数式 编程有密切的关系，但是，对于他们的实现目前不太熟悉，根据原则，不熟悉的API慎重使用，故在没有完全理解这些API 实现后不能使用。
@@ -397,12 +401,27 @@ for (Map.Entry<KeyType, ValType> e : m.entrySet())
 有以下主题需要熟悉
 
 - 集合的 Aggregate Operation 
-- 
+
+- **Parallelism** 集合的具体使用。
+
+- 集合的线程安全
+
+- side effect （副作用）
+
+- Laziness
+
+- Collectors 具体实现
+
+  
 
 进度
 
 - [ ] lambda 表达式熟悉
 - [ ] Stream 流具体实现
+  - Collectors 的具体实现
+  - 关于 side effect 、laziness 、thread-safe ，Parallelism
+
+
 
 
 
