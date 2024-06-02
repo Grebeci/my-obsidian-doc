@@ -423,9 +423,11 @@ ArrayList和LinkedList ，具体使用哪种，需要考虑，具体的添加删
 
 一般来说，如果你经常在List的开头添加元素，或者迭代List以从内部删除元素，你应该考虑使用LinkedList。这些操作在LinkedList中需要常量时间，在ArrayList中需要线性时间。位置访问在LinkedList中需要线性时间，在ArrayList中需要常量时间。
 
-
-
 [`CopyOnWriteArrayList`](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CopyOnWriteArrayList.html) ： copy-on-write 的实现。
+
+
+
+Arrays.toList() 实现，非常特殊，需要注意。
 
 
 
@@ -440,6 +442,11 @@ WeakHashMap ，IdentityHashMap 在特定场景用到的数据结构。
 并发实现：ConcurrentHashMap
 
 
+
+#### Queue 的实现
+
+- LinkedList实现了Queue接口，为添加、轮询等提供先进先出(FIFO)队列操作。
+- PriorityQueue类是基于堆数据结构的优先级队列。
 
 
 
