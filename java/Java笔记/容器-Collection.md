@@ -454,7 +454,28 @@ WeakHashMap ，IdentityHashMap 在特定场景用到的数据结构。
 
 包装器实现将其所有实际工作委托给指定的集合，但在该集合提供的功能之上添加额外的功能。这是decorator设计模式的示例。
 
+这些实现是匿名的;该库不是提供一个公共类，而是提供一个静态工厂方法。所有这些实现都可以在Collections类中找到，该类仅由静态方法组成。
 
+对六大接口包装，[`Collection`](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html), [`Set`](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html), [`List`](https://docs.oracle.com/javase/8/docs/api/java/util/List.html), [`Map`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html), [`SortedSet`](https://docs.oracle.com/javase/8/docs/api/java/util/SortedSet.html), and [`SortedMap`](https://docs.oracle.com/javase/8/docs/api/java/util/SortedMap.html) 
+
+- 同步包装
+
+  ```java
+  public static <T> Collection<T> synchronizedCollection(Collection<T> c);
+  ....
+  public static <T> Xxx<T> synchronizedXxx(Xxx<T> c);  
+  
+  // Xxx = (Collection、Set、List、Map、SortedSet和SortedMap)
+  ```
+
+- Unmodifiable Wrappers ： 不可修改
+
+  ```java
+  public static <T> Collection<T> unmodifiableCollection(Collection<? extends T> c);
+  ....
+  public static <T> Xxx<T> unmodifiableXxx(Xxx<? extends T> s);
+  // Xxx = (Collection、Set、List、Map、SortedSet和SortedMap)
+  ```
 
 
 
