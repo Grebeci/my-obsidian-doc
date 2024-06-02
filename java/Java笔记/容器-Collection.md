@@ -503,7 +503,7 @@ WeakHashMap ，IdentityHashMap 在特定场景用到的数据结构。
 public static <T> List<T> nCopies(int n, T o)
 ```
 
-idiom
+idiom：初始包含1,000个空元素的ArrayList。
 
 ```
 List<Type> list = new ArrayList<Type>(Collections.nCopies(1000, (Type)null));
@@ -518,6 +518,16 @@ List<Type> list = new ArrayList<Type>(Collections.nCopies(1000, (Type)null));
 ```
 
 
+
+idiom：从集合中删除所有出现的指定元素。
+
+```java
+c.removeAll(Collections.singleton(e));
+```
+
+
+
+##### 4. 
 
 
 
