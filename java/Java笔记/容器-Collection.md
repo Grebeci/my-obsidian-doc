@@ -388,7 +388,13 @@ for (Map.Entry<KeyType, ValType> e : m.entrySet())
 
 ## 实现
 
-[Overview- 对 Java Colllection Framework](https://docs.oracle.com/javase/tutorial/collections/implementations/index.html#:~:text=Lesson%3A-,Implementations,-%E6%95%99%E8%AE%AD%3A%E5%AE%9E%E7%8E%B0)
+[Overview- 对 集合框架 的实现架构做了概述](https://docs.oracle.com/javase/tutorial/collections/implementations/index.html#:~:text=Lesson%3A-,Implementations,-%E6%95%99%E8%AE%AD%3A%E5%AE%9E%E7%8E%B0)
+
+- **General-purpose implementations** 
+
+  通用实现，非同步（线程安全）的，原则是
+
+
 
 
 
