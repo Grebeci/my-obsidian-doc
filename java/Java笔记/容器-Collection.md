@@ -413,7 +413,7 @@ for (Map.Entry<KeyType, ValType> e : m.entrySet())
 - 是否考虑顺序？
 - 特定的实现，[`EnumSet`](https://docs.oracle.com/javase/8/docs/api/java/util/EnumSet.html) and [`CopyOnWriteArraySet`](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CopyOnWriteArraySet.html).
 
-`CopyOnWriteArraySet` : 
+`CopyOnWriteArraySet` :  读多写少，写时复制（Copy-on-Write），无锁且线程安全。
 
 
 
