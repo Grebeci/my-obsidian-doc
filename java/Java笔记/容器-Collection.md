@@ -417,7 +417,7 @@ for (Map.Entry<KeyType, ValType> e : m.entrySet())
 
 #### List 的实现
 
-- ArrayList和LinkedList 具体
+ArrayList和LinkedList ，ArrayList 位置访问常量时间，但 **随机** 插入和删除都是线性时间，取决于插入删除的位置。LinkedList 位置访问需要线性时间，但
 
 
 
