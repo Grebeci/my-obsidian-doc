@@ -539,7 +539,23 @@ c.removeAll(Collections.singleton(e));
 
 
 
-Collections 类
+Collections 类提供静态工具方法，其第一个参数是要对其执行操作的集合。
+
+
+
+- sorting
+
+  - 归并排序，任何情况下都保持nlogn的复杂度，且稳定。
+
+- Shuffling
+
+  每个元素相同概率
+
+- List ：（reverse，fill、copy，swap  ） ，Collection（addAll）
+
+- Searching
+
+  
 
 
 
