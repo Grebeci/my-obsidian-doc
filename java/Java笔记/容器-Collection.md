@@ -417,7 +417,13 @@ for (Map.Entry<KeyType, ValType> e : m.entrySet())
 
 #### List 的实现
 
-ArrayList和LinkedList ，ArrayList 位置访问常量时间，但 **随机** 插入和删除都是线性时间，取决于插入删除的位置。LinkedList 位置访问需要线性时间，但
+ArrayList和LinkedList ，具体使用哪种，需要考虑，具体的添加删除查询操作，元素的位置。
+
+一般来说，如果你经常在List的开头添加元素，或者迭代List以从内部删除元素，你应该考虑使用LinkedList。这些操作在LinkedList中需要常量时间，在ArrayList中需要线性时间。位置访问在LinkedList中需要线性时间，在ArrayList中需要常量时间。
+
+
+
+
 
 
 
