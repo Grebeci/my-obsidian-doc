@@ -431,8 +431,11 @@ ArrayList和LinkedList ，具体使用哪种，需要考虑，具体的添加删
 
 #### Map 实现
 
-- 考虑顺序
-- 
+- 考虑顺序？插入顺序？访问顺序？键值顺序？
+
+特殊实现： [`EnumMap`](https://docs.oracle.com/javase/8/docs/api/java/util/EnumMap.html), [`WeakHashMap`](https://docs.oracle.com/javase/8/docs/api/java/util/WeakHashMap.html) and [`IdentityHashMap`](https://docs.oracle.com/javase/8/docs/api/java/util/IdentityHashMap.html). 
+
+
 
 
 
