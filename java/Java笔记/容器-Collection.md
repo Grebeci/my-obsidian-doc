@@ -394,9 +394,19 @@ for (Map.Entry<KeyType, ValType> e : m.entrySet())
 
   通用实现，非同步（线程安全）的，原则是：一般来说，不让用户为他们不使用的功能付费是良好的API设计实践。这句话意思是不应该强制所有使用集合的场景都承担同步的开销，特别是在许多情况下同步是不必要的。
 
-- **Special-purpose implementations**
+- ***Concurrent implementations**：这些实现是java.util.concurrent包的一部分
 
-  
+- **Wrapper implementations** ：包装器实现与其他类型的实现(通常是通用的实现)结合使用，以提供添加的或受限的功能。 例如，如果需要线程安全的集合，那么在包装器实现一节中描述的同步包装器允许将任何集合转换为同步集合。
+
+- **Convenience implementations**
+
+  便利实现是小型实现，通常通过静态工厂方法提供，它为特殊集合(例如，单例集)提供方便、高效的通用实现替代方案
+
+
+
+#### Set 的实现
+
+- 是否考虑顺序。
 
 
 
