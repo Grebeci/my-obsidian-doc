@@ -25,6 +25,12 @@ answer：
    [SortedSet - sublist](https://docs.oracle.com/javase/tutorial/collections/interfaces/sorted-set.html#:~:text=%E5%85%B6%E8%BF%9B%E8%A1%8C%E6%8E%92%E5%BA%8F%E3%80%82-,Range%2Dview%20Operations,-Range%2Dview%E6%93%8D%E4%BD%9C)
 
 
-3. 为什么
+3.  Collection 的单例方法，emptyXxx，nCopys，方法为什么都返回不可变集合？
+
+- 内存效率： emptyXxx 集合返回不可变的对象，可以被多次重用而不需要每次调用时都创建新的实例。
+- 线程安全，保证不被修改。
+- 返回不可变的集合确保了集合的内容不会在不被预期的情况下改变。
+
+
 
    
