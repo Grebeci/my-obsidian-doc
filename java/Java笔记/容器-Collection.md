@@ -1,16 +1,20 @@
-参考自：
+## 参考自：
 
 [Trail: Collections (The Java™ Tutorials)](https://docs.oracle.com/javase/tutorial/collections/index.html)
 
-官方文档上是按照功能罗列出API的，这和其他教程按照接口，类介绍组织方式不同。如果从介绍类开始，那么就会陷入复杂的继承关系、并发集合、工具类这些没有层次的知识点上。因为如果研究一个一个类或接口（例如从 ArrayList）就会陷入
+官方文档上是按照功能罗列出API的，这和其他教程按照接口，类介绍组织方式不同。如果从介绍类开始，那么就会陷入复杂的继承关系、并发集合、工具类这些没有层次的知识点上。因为如果研究一个一个类或接口（例如从 ArrayList）就会陷入N个API罗列中，不知道这些API为什么在这个地方，为什么这么设计。
+
+而如果从集合的设计角度出发，进行整体认识，官方教程线熟悉六大接口，然后是实现，然后是算法（工具类）。这样会有一个大致的轮廓，特别是先讲接口，再介绍实现，这个方式对于一些冷门、特定场合的API 不会放过多精力。而且有一个整体记忆的概念。
+
+总结：官方文档写的太好了！。
 
 
 
+## 进度：
 
-
-进度：
-
-
+- [Trail: Collections (The Java™ Tutorials) (oracle.com)](https://docs.oracle.com/javase/tutorial/collections/index.html)
+  - [ ] [**interoperability**](https://docs.oracle.com/javase/tutorial/collections/interoperability/index.html) 
+  - [ ] 
 
 
 
@@ -21,7 +25,7 @@
 
 
 
-原则：
+## 原则：
 
 - Don't use a library until you understand its API.
 
@@ -34,7 +38,7 @@
 
 
 
-
+## Overview
 
 #### 继承关系图
 
