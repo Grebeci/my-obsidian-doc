@@ -388,7 +388,7 @@ for (Map.Entry<KeyType, ValType> e : m.entrySet())
 
 ## 实现
 
-
+[Overview- 对 Java Colllection Framework](https://docs.oracle.com/javase/tutorial/collections/implementations/index.html#:~:text=Lesson%3A-,Implementations,-%E6%95%99%E8%AE%AD%3A%E5%AE%9E%E7%8E%B0)
 
 
 
