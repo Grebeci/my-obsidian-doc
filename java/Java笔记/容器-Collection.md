@@ -392,7 +392,11 @@ for (Map.Entry<KeyType, ValType> e : m.entrySet())
 
 - **General-purpose implementations** 
 
-  通用实现，非同步（线程安全）的，原则是
+  通用实现，非同步（线程安全）的，原则是：一般来说，不让用户为他们不使用的功能付费是良好的API设计实践。这句话意思是不应该强制所有使用集合的场景都承担同步的开销，特别是在许多情况下同步是不必要的。
+
+- **Special-purpose implementations**
+
+  
 
 
 
