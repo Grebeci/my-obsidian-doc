@@ -2,7 +2,7 @@
 
 [Trail: Collections (The Java™ Tutorials)](https://docs.oracle.com/javase/tutorial/collections/index.html)
 
-官方文档上是按照功能罗列出API的，这和其他教程按照接口，类介绍组织方式不同。比如
+官方文档上是按照功能罗列出API的，这和其他教程按照接口，类介绍组织方式不同。如果从介绍类开始，那么就会陷入复杂的继承关系、并发集合、工具类这些没有层次的知识点上。因为如果研究一个一个类或接口（例如从 ArrayList）就会陷入
 
 
 
