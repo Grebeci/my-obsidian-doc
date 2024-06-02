@@ -527,7 +527,11 @@ c.removeAll(Collections.singleton(e));
 
 
 
-##### 4. 
+##### 4. emptyXxx
+
+[`emptySet`](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#emptySet--), [`emptyList`](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#emptyList--), and [`emptyMap`](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#emptyMap--).
+
+返回的是不可变集合。
 
 
 
