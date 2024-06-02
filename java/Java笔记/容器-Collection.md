@@ -415,6 +415,10 @@ for (Map.Entry<KeyType, ValType> e : m.entrySet())
 
 
 
+#### List 的实现
+
+- ArrayList和LinkedList 具体
+
 
 
 
