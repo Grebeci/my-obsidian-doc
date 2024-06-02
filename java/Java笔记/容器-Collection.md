@@ -404,9 +404,14 @@ for (Map.Entry<KeyType, ValType> e : m.entrySet())
 
 
 
+对于一个接口的具体实现，一般会有三类实现，通用实现，特殊实现（特定场景），并发实现。但是无锁数据结构似乎没有。
+
+
+
 #### Set 的实现
 
-- 是否考虑顺序。
+- 是否考虑顺序？
+- 特定的实现，[`EnumSet`](https://docs.oracle.com/javase/8/docs/api/java/util/EnumSet.html) and [`CopyOnWriteArraySet`](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CopyOnWriteArraySet.html).
 
 
 
