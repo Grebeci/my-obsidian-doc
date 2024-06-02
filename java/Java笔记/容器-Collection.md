@@ -413,7 +413,7 @@ for (Map.Entry<KeyType, ValType> e : m.entrySet())
 - 是否考虑顺序？
 - 特定的实现，[`EnumSet`](https://docs.oracle.com/javase/8/docs/api/java/util/EnumSet.html) and [`CopyOnWriteArraySet`](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CopyOnWriteArraySet.html).
 
-`CopyOnWriteArraySet` :  读多写少，写时复制（Copy-on-Write），无锁且线程安全。
+`CopyOnWriteArraySet` :  读多写少，写时复制（Copy-on-Write），无锁且线程安全。迭代读取快照。
 
 
 
@@ -425,9 +425,13 @@ ArrayList和LinkedList ，具体使用哪种，需要考虑，具体的添加删
 
 
 
+[`CopyOnWriteArrayList`](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CopyOnWriteArrayList.html) ： copy-on-write 的实现。
 
 
 
+#### Map 实现
+
+- 考虑顺序，
 
 
 
