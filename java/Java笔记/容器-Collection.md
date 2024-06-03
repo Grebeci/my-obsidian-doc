@@ -20,7 +20,7 @@
 
     Stream 流相关，这个官方太简练了，因为牵涉到函数式编程，lambda 设计，还有一些算子设计，并发设计，所以要等完全理解函数式编程再重头来看。
 
-  - [ ] 
+  - [ ] [自定义实现](https://docs.oracle.com/javase/tutorial/collections/custom-implementations/index.html) ：可能扩展集合框架近期不会使用，先放着。 
 
 
 
@@ -74,7 +74,7 @@
 
 ## 接口
 
-#### **The Collection Interface**
+### **The Collection Interface**
 
 默认约定：所有通用集合实现都有一个接受 `Collection` 参数的构造函数。用来转换集合类型。例如：ArrayList 有构造函数
 
@@ -208,7 +208,7 @@ static void filter(Collection<?> c) {
 
 
 
-#### The Set Interface
+### The Set Interface
 
 Java平台包含三种通用的Set实现:HashSet、TreeSet和LinkedHashSet。将元素存储在哈希表中的HashSet是性能最好的实现; 但是，它不能保证迭代的顺序。TreeSet将元素存储在红黑树中，并根据元素的值对其进行排序;它比HashSet慢得多。LinkedHashSet是作为一个散列表实现的，其中贯穿着一个链表，它根据元素插入集合的顺序(插入顺序)对元素排序。LinkedHashSet使其客户端免受HashSet提的未指定的、通常是混乱的排序的影响，其成本仅略高。
 
@@ -269,7 +269,7 @@ public interface Set<E> extends Collection<E>
 
 
 
-#### The List Interface
+### The List Interface
 
 有序，可重复序列。两个通用实现，ArrayList通常是性能更好的实现，而LinkedList在某些情况下提供更好的性能。
 
@@ -349,7 +349,7 @@ static <E> List<E> copyOf(Collection<? extends E> coll)
 
 
 
-#### The Map Interface
+### The Map Interface
 
 Map是一个将键映射到值的对象。一个映射不能包含重复的键:每个键最多只能映射到一个值。它对数学函数抽象进行建模。Map接口包括用于基本操作(如put、get、remove、containsKey、containsValue、size和empty)、批量操作(如putAll和clear)和集合视图(如keySet、entrySet和values)的方法。
 
@@ -392,7 +392,7 @@ for (Map.Entry<KeyType, ValType> e : m.entrySet())
 
 
 
-#### **The SortedSet Interface**
+### **The SortedSet Interface**
 
 ##### Standard Constructors
 
