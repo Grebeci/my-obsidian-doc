@@ -74,4 +74,4 @@ public interface ListIterator<E> extends Iterator<E> {
 
 
 
-- 
+- next 的模式下，可以用 键盘的 Baskspace 类比 remove ，previous模式下，可以用 delete 类比 remove。
