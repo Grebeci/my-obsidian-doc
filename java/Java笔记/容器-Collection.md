@@ -211,7 +211,6 @@ static void filter(Collection<?> c) {
 ##### 要点
 
 - 增删查改返回值都是 `Boolean`，且在不同的实现有不同的含义。
-- `toArray()`
 
 
 
