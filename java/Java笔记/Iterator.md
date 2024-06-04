@@ -8,5 +8,14 @@
 
 ##### 迭代器的位置移动
 
+- Iterator 的remove 方法会删除上次 next 返回时的元素。也就是当前迭代器位置之前的元素。
 
+  下面 code 删除集合中第一个元素
+
+  ```
+  Iterator it = c.iterator();
+  
+  ```
+
+  
 
