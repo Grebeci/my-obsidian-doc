@@ -351,7 +351,7 @@ System.out.println(set);
 
 ### The List Interface
 
-顺序表
+顺序表的实现，
 
 有序，可重复序列。两个通用实现，ArrayList通常是性能更好的实现，而LinkedList在某些情况下提供更好的性能。
 
