@@ -216,6 +216,10 @@ static void filter(Collection<?> c) {
 
 ### The Set Interface
 
+散列表（Hashtable）在 Java 的实现，使用链表数组实现。
+
+散列表由于不关心顺序，查找可以达到 `O(1)` 性能。
+
 Java平台包含三种通用的Set实现:HashSet、TreeSet和LinkedHashSet。将元素存储在哈希表中的HashSet是性能最好的实现; 但是，它不能保证迭代的顺序。TreeSet将元素存储在红黑树中，并根据元素的值对其进行排序;它比HashSet慢得多。LinkedHashSet是作为一个散列表实现的，其中贯穿着一个链表，它根据元素插入集合的顺序(插入顺序)对元素排序。LinkedHashSet使其客户端免受HashSet提的未指定的、通常是混乱的排序的影响，其成本仅略高。
 
 
