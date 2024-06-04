@@ -14,7 +14,36 @@ public interface Iterable<T> {
 
 `Iterable`
 
+```java
+public interface Iterator<E> {
+    boolean hasNext();
+
+    E next();
+    
+    // optional; 如有必要
+    default void remove() {
+        throw new UnsupportedOperationException("remove");
+    }
+
+   
+    default void forEachRemaining(Consumer<? super E> action) {
+        Objects.requireNonNull(action);
+        while (hasNext())
+            action.accept(next());
+    }
+}
 ```
+
+
+
+Client 代码
+
+```
+for (Object o : collection)
+    System.out.println(o);
+    
+for (Object o : collection)
+    System.out.println(o);
 ```
 
 
