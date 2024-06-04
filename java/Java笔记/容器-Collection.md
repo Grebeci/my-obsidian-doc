@@ -92,26 +92,30 @@ public interface Collection<E> extends Iterable<E>
 
 | Function Signature                                      | Function Description                                  |
 | ------------------------------------------------------- | ----------------------------------------------------- |
+| `Iterator<E> iterator()`                                | iterator over all items in the collection             |
 | `int size()`                                            | Number of items                                       |
 | `boolean isEmpty()`                                     | is the collection empty?                              |
+|                                                         |                                                       |
+| `boolean add(E e)`                                      | Adds an element                                       |
+| `boolean remove(Object o)`                              | Removes an element                                    |
 | `boolean contains(Object o)`                            | does the list contain the given item?                 |
-| `Iterator<E> iterator()`                                | iterator over all items in the collection             |
+| `void clear()`                                          | Removes all elements                                  |
+|                                                         |                                                       |
+| `boolean addAll(Collection<? extends E> c)`             | Adds all elements from another collection             |
+| `boolean removeAll(Collection<?> c)`                    | Removes all elements present in another collection    |
+| `boolean containsAll(Collection<?> c)`                  | Checks if contains all elements of another collection |
+| `default boolean removeIf(Predicate<? super E> filter)` | Removes elements matching a predicate                 |
+| `boolean retainAll(Collection<?> c)`                    | Retains only elements present in another collection   |
+|                                                         |                                                       |
 | `Object[] toArray()`                                    | Converts to an array                                  |
 | `<T> T[] toArray(T[] a)`                                | Converts to an array of specified type                |
 | `<T> T[] toArray(IntFunction<T[]> generator)`           | Converts to an array using a generator                |
-| `boolean add(E e)`                                      | Adds an element                                       |
-| `boolean remove(Object o)`                              | Removes an element                                    |
-| `boolean containsAll(Collection<?> c)`                  | Checks if contains all elements of another collection |
-| `boolean addAll(Collection<? extends E> c)`             | Adds all elements from another collection             |
-| `boolean removeAll(Collection<?> c)`                    | Removes all elements present in another collection    |
-| `default boolean removeIf(Predicate<? super E> filter)` | Removes elements matching a predicate                 |
-| `boolean retainAll(Collection<?> c)`                    | Retains only elements present in another collection   |
-| `void clear()`                                          | Removes all elements                                  |
-| `boolean equals(Object o)`                              |                                                       |
-| `int hashCode()`                                        |                                                       |
-| `Spliterator<E> spliterator()`                          | Creates a Spliterator                                 |
+|                                                         |                                                       |
 | `Stream<E> stream()`                                    | Returns a sequential Stream                           |
 | `Stream<E> parallelStream()`                            | Returns a possibly parallel Stream                    |
+|                                                         |                                                       |
+| `boolean equals(Object o)`                              |                                                       |
+| `int hashCode()`                                        |                                                       |
 
 
 
@@ -125,7 +129,7 @@ Object[] toArray();  // 不关心类型
 default <T> T[] toArray(IntFunction<T[]> generator) {return toArray(generator.apply(0));}
 ```
 
-`<T> T[] toArray(T[] a);  `  ：此`api` 会根据提供的数组大小有不同的行为。使用时候注意看文档。推荐用法
+`<T> T[] toArray(T[] a);  `  ：此`api` 会根据参数提供的数组大小有不同的行为。使用时候注意看文档。推荐用法
 
 ```java
 String[] y = new String[SIZE];
