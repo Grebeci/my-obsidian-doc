@@ -321,6 +321,34 @@ public interface Set<E> extends Collection<E>
 
 
 
+##### 坑
+
+修改 HashSet中的可变对象带来的问题，请看下列面试题
+
+```java
+HashSet set = new HashSet();
+Person p1 = new Person(1001,"AA");
+Person p2 = new Person(1002,"BB");
+
+set.add(p1);
+set.add(p2);
+p1.name = "CC";
+set.remove(p1);
+System.out.println(set);
+
+set.add(new Person(1001,"CC"));
+System.out.println(set);
+
+set.add(new Person(1001,"AA"));
+System.out.println(set);
+
+//其中Person类中重写了hashCode()和equal()方法
+```
+
+- Hashcode 如何实现的，每一步发生了什么？
+
+
+
 ### The List Interface
 
 有序，可重复序列。两个通用实现，ArrayList通常是性能更好的实现，而LinkedList在某些情况下提供更好的性能。
