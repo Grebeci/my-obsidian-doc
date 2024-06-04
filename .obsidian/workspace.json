@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Java笔记/容器-Collection.md",
+                "file": "Java/Java笔记/Iterator.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Java笔记/容器-Collection.md",
+                "file": "Java/Java笔记/Iterator.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Java笔记/容器-Collection.md",
+                "file": "Java/Java笔记/Iterator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Java笔记/容器-Collection.md"
+                "file": "Java/Java笔记/Iterator.md"
               }
             }
           }
@@ -160,9 +160,10 @@
   },
   "active": "521be150ba666613",
   "lastOpenFiles": [
-    "Java/Java笔记/容器-Collection-Problem-Case.md",
-    "Java/Java笔记/容器-Collection.md",
     "Java/Java笔记/【TOC】Java笔记.md",
+    "Java/Java笔记/Iterator.md",
+    "Java/Java笔记/容器-Collection.md",
+    "Java/Java笔记/容器-Collection-Problem-Case.md",
     "TODO/问题.md",
     "Java/Java笔记/容器-Collection~.md",
     "Java/Java笔记/容器-Collection-Problem-Case~.md",
@@ -187,7 +188,6 @@
     "AI平台体验.md",
     "2023-09-24.md",
     "TODO",
-    "学习记录.md",
     "Java/培训班教程/尚硅谷教程-2021",
     "Java/Java笔记",
     "java/泛型",
