@@ -223,9 +223,7 @@ static void filter(Collection<?> c) {
 
 
 
-关心
-
-Java平台包含三种通用的Set实现:HashSet、TreeSet和LinkedHashSet。不关心顺序就使用 `HashSet`，性能最高。如果关心顺序
+Java平台包含三种通用的Set实现:HashSet、TreeSet和LinkedHashSet。不关心顺序就使用 `HashSet`，性能最高。如果关心顺序，有两种实现 `LinkedHashSet`，`TreeSet` 。 `LinkedHashSet` 是
 
 
 
