@@ -150,8 +150,6 @@ String[] array = collection.toArray(new String[0]);
 String[] y = x. toArray(String[]::new);
 ```
 
-
-
 ##### 2. add / remove （an Element）
 
 这些API都是对单个元素的操作，并且会调用元素的 `equals` 方法。
@@ -198,7 +196,7 @@ public interface Iterable<E>
 }
 ```
 
-Remove是在迭代期间修改集合的唯一安全方法;如果在迭代进行过程中以任何其他方式修改底层集合，则未指定行为。
+Remove 是在迭代期间修改集合的唯一安全方法;如果在迭代进行过程中以任何其他方式修改底层集合，则未指定行为。
 
 下面方法是使用 Iterator 筛选任意Collection—即遍历集合以删除特定元素。
 
@@ -209,6 +207,11 @@ static void filter(Collection<?> c) {
             it.remove();
 }
 ```
+
+##### 要点
+
+- 增删查改返回值都是 `Boolean`，且在不同的实现有不同的含义。
+- `toArray()`
 
 
 
