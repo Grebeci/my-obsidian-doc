@@ -21,11 +21,6 @@
   it.remove();
   ```
 
-[13StacksAndQueues.pdf](file:///Users/admin/Downloads/13StacksAndQueues.pdf#%20Iterators)
-
-[111](/Users/admin/Downloads/13StacksAndQueues.pdf#%20Iterators
-[13StacksAndQueues.pdf](file:///Users/admin/Downloads/13StacksAndQueues.pdf)
-[111](/Users/admin/Downloads/13StacksAndQueues.pdf)
 - 问题：
   - Collection已经有remove(xx)方法了，为什么Iterator迭代器还要提供删除方法呢？
   - 为什么不能用 foreach 语法遍历时候删除元素？ 或者  为什么要提供remove 方法。 
@@ -45,7 +40,7 @@
 
 #### ListIterator
 
-```
+```java
 public interface ListIterator<E> extends Iterator<E> {
     // Query Operations
     
