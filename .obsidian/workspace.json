@@ -11,8 +11,12 @@
             "id": "7ee269e782026d6d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Java/Java笔记/容器-Collection.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Java/Java笔记/容器-Collection.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Java/Java笔记/容器-Collection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Java/Java笔记/容器-Collection.md"
+              }
             }
           }
         ]
@@ -151,23 +159,23 @@
   },
   "active": "7ee269e782026d6d",
   "lastOpenFiles": [
-    "Users/admin/Downloads/13StacksAndQueues.pdf.md",
-    "Java/Java笔记/容器-Collection.md",
     "Java/Java笔记/容器-Collection-Problem-Case.md",
+    "Java/Java笔记/容器-Collection.md",
+    "Java/Java笔记/泛型Problem-Case.md",
+    "Java/Java笔记/【TOC】Java笔记.md",
+    "Users/admin/Downloads/13StacksAndQueues.pdf.md",
     "Java/Java笔记/Iterator.md",
     "Java/Java笔记/Iterator~.md",
     "Users/admin/Downloads",
     "Users/admin",
     "Users",
     "Java/Java笔记/images/algo4-Week2-Iterable.png",
-    "Java/Java笔记/【TOC】Java笔记.md",
     "Java/Java笔记/images",
     "TODO/问题.md",
     "Java/Java笔记/容器-Collection~.md",
     "Java/Java笔记/容器-Collection-Problem-Case~.md",
     "Java/Java.md",
     "Java/Java笔记/泛型.md",
-    "Java/Java笔记/泛型Problem-Case.md",
     "Idea 工作流.md",
     "vsocde 工作流.md",
     "TODO-Problem_Note.md.md",
