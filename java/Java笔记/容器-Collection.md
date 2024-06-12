@@ -498,7 +498,7 @@ public interface Map<K, V>
 | `default void forEach(BiConsumer<? super K, ? super V> action)` | 对映射中的每个键值对应用指定的操作。                         |
 |                                                              |                                                              |
 | 这些方法不太常用，但是表达能力丰富。                         |                                                              |
-| `default V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)` | 如果key与一个非null值关联，将函数应用到当前值和给定值上，如果key与null值关联，或者key与值不关联，则简单地将给定值关联到key上。如果函数返回null，则删除当前映射。否则，将函数返回值与key关联，返回结果。 |
+| `default V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)` | 如果key与一个非null值关联，将函数应用到 v 和value上，如果key与null值关联，或者key与值不关联，则简单地将给定值关联到key上。如果函数返回null，则删除当前映射。否则，将函数返回值与key关联，返回结果。 |
 | `default V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)` | 将函数应用到key和当前值上。如果key与值关联，即使当前值为null，函数也会被调用。如果key与一个值不关联，函数也将被调用，key被视为关联到null。如果函数返回null，则删除当前映射。返回结果。 |
 | `default V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)` | 如果key与一个非null值关联，将函数应用到key和当前值上。如果函数返回null，则删除当前映射。返回结果。 |
 | `default V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction)` | 如果映射中当前key没有与任何值关联，或者与null值关联，将函数应用到key上，如果函数返回null，则不做任何操作。返回结果。 |
