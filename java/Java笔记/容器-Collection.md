@@ -446,7 +446,23 @@ static <E> List<E> copyOf(Collection<? extends E> coll)
 
 
 
+以下是从图片中精确提取的文字：
 
+- **`V get(Object key)`**
+  
+
+- **`default V getOrDefault(Object key, V defaultValue)`**
+  
+- **`V put(K key, V value)`**
+  
+- **`void putAll(Map<? extends K, ? extends V> entries)`**
+  
+- **`boolean containsKey(Object key)`**
+  
+- **`boolean containsValue(Object value)`**
+  
+
+- **`default void forEach(BiConsumer<? super K, ? super V> action)`**
 
 
 
@@ -460,17 +476,17 @@ public interface Map<K, V>
 
 | Function Signature                                           | Function Description                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| `V get(Object key)`                                          | 返回与指定键相关联的值，如果没有映射则返回 `null`。          |
-| `default V getOrDefault(Object key, V defaultValue)`         | 返回与指定键关联的值，或者如果没有映射关系，则返回默认值。如果 键关联的值为 NULL，也会返回默认值。 |
-| `V put(K key, V value)`                                      | 将指定的值与指定的键关联（可选操作）。                       |
+| `V get(Object key)`                                          | 获取与键对象相对应的值；返回与键对象相对应的值，如果在映射中找不到该键则返回null。 |
+| `default V getOrDefault(Object key, V defaultValue)`         | 获取与键对象相对应的值；如果在映射中找不到该键则返回defaultValue。如果 键关联的值为 NULL，也会返回默认值。 |
+| `V put(K key, V value)`                                      | 将键对象与值对象关联到映射中。如果该键已经有映射存在，新的对象将替换旧的对象并返回旧对象。这个方法返回被替换的旧对象的值。如果这个键以前没有映射存在则返回null。返回值为null，但并不意味着null。 |
 | `default V putIfAbsent(K key, V value)`                      | 如果指定的键尚未与值关联(或映射为null)，则将其与给定值关联并返回null，否则返回当前值。如果不存在映射，就关联。 |
-| `V remove(Object key)`                                       | 如果存在，则移除指定键的映射关系（可选操作）。               |
+| `V remove(Object key)`                                       | 如果存在，则移除指定键的映射关系。                           |
 | `default boolean remove(Object key, Object value)`           | 仅当当前键-值对与指定的值匹配时才移除指定键的映射关系。      |
 | `default V replace(K key, V value)`                          | 仅当指定键当前已关联某个值时，才替换与其关联的值。           |
 | `default boolean replace(K key, V oldValue, V newValue)`     | 仅当当前键-值对与指定的值匹配时，才用新的值替换当前值。      |
-| `boolean containsKey(Object key)`                            | 如果映射包含指定键的映射关系，则返回 `true`。                |
-| `boolean containsValue(Object value)`                        | 如果映射有一个或多个键映射到指定值，则返回 `true`。          |
-| `void putAll(Map<? extends K, ? extends V> m)`               | 将指定映射的所有映射关系复制到此映射中（可选操作）。         |
+| `boolean containsKey(Object key)`                            | 如果在映射中已经有与键对象相对应的映射，返回true。           |
+| `boolean containsValue(Object value)`                        | 如果在映射中已经有与值对象相对应的映射，返回true。           |
+| `void putAll(Map<? extends K, ? extends V> m)`               | 将一个映射中的所有键值映射复制到本映射中。                   |
 | `void clear()`                                               | 移除所有的映射关系（可选操作）。                             |
 | `Set<K> keySet()`                                            | 返回一个包含映射中所有键的 `Set` 视图。                      |
 | `Collection<V> values()`                                     | 返回一个包含映射中所有值的 `Collection` 视图。               |
@@ -479,7 +495,7 @@ public interface Map<K, V>
 | `boolean isEmpty()`                                          | 如果映射为空，则返回 `true`。                                |
 | `int size()`                                                 | 返回键-值映射的数量。                                        |
 | `int hashCode()`                                             | 返回此映射的哈希码值。                                       |
-| `default void forEach(BiConsumer<? super K, ? super V> action)` | 对此映射中的每个条目执行给定的操作，直到所有条目都被处理或该操作抛出异常。 |
+| `default void forEach(BiConsumer<? super K, ? super V> action)` | 对映射中的每个键值对应用指定的操作。                         |
 |                                                              |                                                              |
 | 这些方法不太常用，但是表达能力丰富。                         |                                                              |
 | `default void replaceAll(BiFunction<? super K, ? super V, ? extends V> function)` | 替换每个条目的值为给定函数应用于该条目后的结果。             |
@@ -492,6 +508,10 @@ public interface Map<K, V>
 | `static <K, V> Map<K, V> of(K k1, V v1)`                     | 返回一个包含单个映射的不可修改的 `Map`。                     |
 | `static <K, V> Map<K, V> ofEntries(Entry<? extends K, ? extends V>... entries)` | 返回一个包含指定条目的不可修改的 `Map`。                     |
 | `static <K, V> Map<K, V> copyOf(Map<? extends K, ? extends V> map)` | 返回一个包含给定映射条目的不可修改的 `Map`。                 |
+
+
+
+##### 构造函数
 
 
 
