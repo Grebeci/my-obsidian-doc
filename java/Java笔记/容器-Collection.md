@@ -509,6 +509,26 @@ public interface Map<K, V>
 | `static <K, V> Map<K, V> ofEntries(Entry<? extends K, ? extends V>... entries)` | 返回一个包含指定条目的不可修改的 `Map`。                     |
 | `static <K, V> Map<K, V> copyOf(Map<? extends K, ? extends V> map)` | 返回一个包含给定映射条目的不可修改的 `Map`。                 |
 
+根据图片中的内容，以下是 `Map` 接口中的几个常用默认方法的详细解释。
+
+### `Map` 接口常用默认方法
+
+```java
+public interface Map<K, V>
+```
+
+| Function Signature                                           | Function Description                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `default V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)` | 如果 key 与一个非 null 值 V 关联，将函数应用到 V 和 value，将 key 与 value 关联，或者结果为 null，则删除这个 key。返回 get(key)。 |
+| `default V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)` | 将函数应用到 key 和 get(key)。将 key 与结果关联，或者如果结果为 null，则删除这个键。返回 get(key)。 |
+| `default V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)` | 如果 key 与一个非 null 值 V 关联，将函数应用到 key 和 V，将 key 与结果关联，或者如果结果为 null，则删除这个键。返回 get(key)。 |
+| `default V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction)` | 将函数应用到 key，除非 key 与一个非 null 值关联。将 key 与结果关联，或者如果结果为 null，则删除这个键。返回 get(key)。 |
+| `default void replaceAll(BiFunction<? super K, ? super V, ? extends V> function)` | 在所有映射项上应用函数。将键与非 null 结果关联，对于 null 结果，则将相应的键删除。 |
+
+这些解释精确对应了图片中对方法的描述。
+
+
+
 ##### 构造函数
 
 `java.util.HashMap<K, V>`
