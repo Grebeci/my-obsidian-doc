@@ -433,6 +433,12 @@ static <E> List<E> copyOf(Collection<? extends E> coll)
 
 ### The Map Interface
 
+
+
+
+
+
+
 Map是一个将键映射到值的对象。一个映射不能包含重复的键:每个键最多只能映射到一个值。它对数学函数抽象进行建模。Map接口包括用于基本操作(如put、get、remove、containsKey、containsValue、size和empty)、批量操作(如putAll和clear)和集合视图(如keySet、entrySet和values)的方法。
 
 
