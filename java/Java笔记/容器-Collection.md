@@ -552,7 +552,7 @@ static <K, V> Map<K, V> newAttributeMap(Map<K, V>defaults, Map<K, V> overrides) 
 
 ##### Collection Views
 
-在 Java Collection Framework 中，不认为 Map是一个集合。也就是 Map =
+在 Java Collection Framework 中，不认为 Map是一个集合。也就是 Map 不是 `List<(key, value)>`。所以有下列 API 的转换
 
 下面API 将 `Map` 视为 `Collection`
 
