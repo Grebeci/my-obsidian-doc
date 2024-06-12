@@ -440,7 +440,7 @@ static <E> List<E> copyOf(Collection<? extends E> coll)
 约定
 
 - `HashSet` 是散列映射，`TreeMap` 对键进行了排序，是搜索树的实现。
-- 键值
+- 查找 Map 不存在的键，返回 `NULL`。重复的键值会进行覆盖，只保留最近的映射。
 
 
 
