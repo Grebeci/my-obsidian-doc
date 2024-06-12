@@ -436,7 +436,11 @@ static <E> List<E> copyOf(Collection<? extends E> coll)
 我们知道某些健的信息，要查找与之相关的元素（对象）。映射（Map）数据结构为此而设计。
 
 - 也可以看成对 数学函数的建模。
-- 
+
+约定
+
+- `HashSet` 是散列映射，`TreeMap` 对键进行了排序，是搜索树的实现。
+- 键值
 
 
 
