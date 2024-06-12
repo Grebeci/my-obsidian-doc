@@ -461,7 +461,7 @@ public interface Map<K, V>
 | Function Signature                                           | Function Description                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | `V get(Object key)`                                          | 返回与指定键相关联的值，如果没有映射则返回 `null`。          |
-| `default V getOrDefault(Object key, V defaultValue)`         | 返回与指定键关联的值，或者如果没有映射关系，则返回默认值。   |
+| `default V getOrDefault(Object key, V defaultValue)`         | 返回与指定键关联的值，或者如果没有映射关系，则返回默认值。如果 键关联的值为 NULL，也会返回默认值。 |
 | `V put(K key, V value)`                                      | 将指定的值与指定的键关联（可选操作）。                       |
 | `default V putIfAbsent(K key, V value)`                      | 如果指定键还没有关联值，或者关联的是 `null`，则与给定值关联并返回 `null`；否则返回当前值。 |
 | `V remove(Object key)`                                       | 如果存在，则移除指定键的映射关系（可选操作）。               |
