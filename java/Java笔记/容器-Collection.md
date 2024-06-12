@@ -520,9 +520,19 @@ public interface Map<K, V>
 - **`HashMap(int initialCapacity, float loadFactor)`**
   用给定的容量和负载因子构造一个空的散列表（负载因子是一个0.0到1.0之间的数值。这个负载因子是散列表在其容量自动增加之前可以达到多满的一种度量。一旦达到这个比例，就会将散列表的容量翻倍。默认的负载因子是0.75。
 
+`java.util.TreeMap<K, V>`
 
+- **`TreeMap()`**
+  构造一个按照其键的自然顺序进行排序的新的空映射。
 
+- **`TreeMap(Comparator<? super K> c)`**
+  构造一个空映射，其使用指定比较器对其键进行排序。
 
+- **`TreeMap(Map<? extends K, ? extends V> entries)`**
+  构造一个空映射，按照指定映射中的所有键值对进行初始化。
+
+- **`TreeMap(SortedMap<? extends K, ? extends V> entries)`**
+  构造一个空映射，按照指定有序映射中的所有键值对进行初始化，维持原有的键的排序顺序。
 
 
 
