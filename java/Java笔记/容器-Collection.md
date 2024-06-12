@@ -450,7 +450,63 @@ static <E> List<E> copyOf(Collection<? extends E> coll)
 
 
 
-Map是一个将键映射到值的对象。一个映射不能包含重复的键:每个键最多只能映射到一个值。它对数学函数抽象进行建模。Map接口包括用于基本操作(如put、get、remove、containsKey、containsValue、size和empty)、批量操作(如putAll和clear)和集合视图(如keySet、entrySet和values)的方法。
+##### API
+
+Map接口包括用于基本操作(如put、get、remove、containsKey、containsValue、size和empty)、批量操作(如putAll和clear)和集合视图(如keySet、entrySet和values)的方法。
+
+```java
+public interface Map<K, V>
+```
+
+| Function Signature                                           | Function Description                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `V get(Object key)`                                          | 返回与指定键相关联的值，如果没有映射则返回 `null`。          |
+| `default V getOrDefault(Object key, V defaultValue)`         | 返回与指定键关联的值，或者如果没有映射关系，则返回默认值。   |
+| `V put(K key, V value)`                                      | 将指定的值与指定的键关联（可选操作）。                       |
+| `default V putIfAbsent(K key, V value)`                      | 如果指定键还没有关联值，或者关联的是 `null`，则与给定值关联并返回 `null`；否则返回当前值。 |
+| `V remove(Object key)`                                       | 如果存在，则移除指定键的映射关系（可选操作）。               |
+| `default boolean remove(Object key, Object value)`           | 仅当当前键-值对与指定的值匹配时才移除指定键的映射关系。      |
+| `default V replace(K key, V value)`                          | 仅当指定键当前已关联某个值时，才替换与其关联的值。           |
+| `default boolean replace(K key, V oldValue, V newValue)`     | 仅当当前键-值对与指定的值匹配时，才用新的值替换当前值。      |
+| `boolean containsKey(Object key)`                            | 如果映射包含指定键的映射关系，则返回 `true`。                |
+| `boolean containsValue(Object value)`                        | 如果映射有一个或多个键映射到指定值，则返回 `true`。          |
+| `void putAll(Map<? extends K, ? extends V> m)`               | 将指定映射的所有映射关系复制到此映射中（可选操作）。         |
+| `void clear()`                                               | 移除所有的映射关系（可选操作）。                             |
+| `Set<K> keySet()`                                            | 返回一个包含映射中所有键的 `Set` 视图。                      |
+| `Collection<V> values()`                                     | 返回一个包含映射中所有值的 `Collection` 视图。               |
+| `Set<Map.Entry<K, V>> entrySet()`                            | 返回一个包含映射中所有键值对的 `Set` 视图。                  |
+| `boolean equals(Object o)`                                   | 比较指定对象与此映射是否相等。                               |
+| `boolean isEmpty()`                                          | 如果映射为空，则返回 `true`。                                |
+| `int size()`                                                 | 返回键-值映射的数量。                                        |
+| `int hashCode()`                                             | 返回此映射的哈希码值。                                       |
+| `default void forEach(BiConsumer<? super K, ? super V> action)` | 对此映射中的每个条目执行给定的操作，直到所有条目都被处理或该操作抛出异常。 |
+| `default void replaceAll(BiFunction<? super K, ? super V, ? extends V> function)` | 替换每个条目的值为给定函数应用于该条目后的结果。             |
+| `default V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction)` | 如果指定键未与值关联或其值为 `null`，则尝试使用给定的映射函数来计算其值并将其添加到映射中，除非返回 `null`。 |
+| `default V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)` | 如果指定键当前有值且非 `null`，则尝试使用给定的映射函数计算新值。如果返回 `null`，则移除映射关系。 |
+| `default V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)` | 尝试计算指定键和当前值（或 `null`）的新映射关系。如果返回 `null`，则移除映射关系。 |
+| `default V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)` | 如果指定键没有关联值或其值为 `null`，则将其与给定的非 `null` 值关联。否则，使用给定的函数计算新值，或移除该映射关系。 |
+|                                                              |                                                              |
+| `static <K, V> Map<K, V> of()`                               | 返回一个包含零个映射的不可修改的空 `Map`。                   |
+| `static <K, V> Map<K, V> of(K k1, V v1)`                     | 返回一个包含单个映射的不可修改的 `Map`。                     |
+| `static <K, V> Map<K, V> ofEntries(Entry<? extends K, ? extends V>... entries)` | 返回一个包含指定条目的不可修改的 `Map`。                     |
+| `static <K, V> Map<K, V> copyOf(Map<? extends K, ? extends V> map)` | 返回一个包含给定映射条目的不可修改的 `Map`。                 |
+
+### Map.Entry 接口
+
+`Map.Entry` 是 `Map` 中的键值对。`Map.entrySet` 方法返回一个视图，其中包含这些条目。
+
+```java
+public interface Entry<K, V>
+```
+
+| Function Signature              | Function Description           |
+| ------------------------------- | ------------------------------ |
+| `K getKey()`                    | 返回条目对应的键。             |
+| `V getValue()`                  | 返回条目对应的值。             |
+| `V setValue(V value)`           | 替换条目中的值（可选操作）。   |
+| `boolean equals(Object o)`      | 比较指定对象与此条目是否相等。 |
+| `int hashCode()`                | 返回此条目的哈希码值。         |
+| `static <K extends Comparable<? |                                |
 
 
 
