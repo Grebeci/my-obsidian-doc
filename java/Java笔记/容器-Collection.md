@@ -546,12 +546,7 @@ public interface Map<K, V>
 static <K, V> Map<K, V> newAttributeMap(Map<K, V>defaults, Map<K, V> overrides) {
     Map<K, V> result = new HashMap<K, V>(defaults);
     result.putAll(overrides);
-    return resul这是对Java中`java.util.HashMap<K, V>`构造函数的描述：
-
-- **`HashMap()`**
-- **`HashMap(int initialCapacity)`**
-- **`HashMap(int initialCapacity, float loadFactor)`**
-  用给定的容量和负载因子构造一个空的散列表（负载因子是一个0.0到1.0之间的数值。这个负载因子是散列表在其容量自动增加之前可以达到多满的一种度量。一旦达到这个比例，就会将散列表的容量翻倍。默认的负载因子是0.75。t;
+    return result;
 }
 ```
 
