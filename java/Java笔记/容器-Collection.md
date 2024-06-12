@@ -433,6 +433,13 @@ static <E> List<E> copyOf(Collection<? extends E> coll)
 
 ### The Map Interface
 
+我们知道某些健的信息，要查找与之相关的元素（对象）。映射（Map）数据结构为此而设计。
+
+- 也可以看成对 数学函数的建模。
+- 
+
+
+
 
 
 
