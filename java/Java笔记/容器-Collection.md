@@ -498,18 +498,16 @@ public interface Map<K, V>
 | `default void forEach(BiConsumer<? super K, ? super V> action)` | 对映射中的每个键值对应用指定的操作。                         |
 |                                                              |                                                              |
 | 这些方法不太常用，但是表达能力丰富。                         |                                                              |
-| `default void replaceAll(BiFunction<? super K, ? super V, ? extends V> function)` | 替换每个条目的值为给定函数应用于该条目后的结果。             |
-| `default V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction)` | 如果指定键未与值关联或其值为 `null`，则尝试使用给定的映射函数来计算其值并将其添加到映射中，除非返回 `null`。 |
-| `default V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)` | 如果指定键当前有值且非 `null`，则尝试使用给定的映射函数计算新值。如果返回 `null`，则移除映射关系。 |
-| `default V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)` | 尝试计算指定键和当前值（或 `null`）的新映射关系。如果返回 `null`，则移除映射关系。 |
-| `default V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)` | 如果指定键没有关联值或其值为 `null`，则将其与给定的非 `null` 值关联。否则，使用给定的函数计算新值，或移除该映射关系。 |
+| `default V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)` | 如果key与一个非null值关联，将函数应用到当前值和给定值上，如果key与null值关联，或者key与值不关联，则简单地将给定值关联到key上。如果函数返回null，则删除当前映射。否则，将函数返回值与key关联，返回结果。 |
+| `default V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)` | 将函数应用到key和当前值上。如果key与值关联，即使当前值为null，函数也会被调用。如果key与一个值不关联，函数也将被调用，key被视为关联到null。如果函数返回null，则删除当前映射。返回结果。 |
+| `default V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)` | 如果key与一个非null值关联，将函数应用到key和当前值上。如果函数返回null，则删除当前映射。返回结果。 |
+| `default V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction)` | 如果映射中当前key没有与任何值关联，或者与null值关联，将函数应用到key上，如果函数返回null，则不做任何操作。返回结果。 |
+| `default void replaceAll(BiFunction<? super K, ? super V, ? extends V> function)` | 使用所提供的函数应用到每个映射上。将每个键与函数返回的新值关联，除非函数返回null，则删除该键的当前映射。 |
 |                                                              |                                                              |
 | `static <K, V> Map<K, V> of()`                               | 返回一个包含零个映射的不可修改的空 `Map`。                   |
 | `static <K, V> Map<K, V> of(K k1, V v1)`                     | 返回一个包含单个映射的不可修改的 `Map`。                     |
 | `static <K, V> Map<K, V> ofEntries(Entry<? extends K, ? extends V>... entries)` | 返回一个包含指定条目的不可修改的 `Map`。                     |
 | `static <K, V> Map<K, V> copyOf(Map<? extends K, ? extends V> map)` | 返回一个包含给定映射条目的不可修改的 `Map`。                 |
-
-
 
 ##### 构造函数
 
