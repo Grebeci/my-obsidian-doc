@@ -450,7 +450,6 @@ static <E> List<E> copyOf(Collection<? extends E> coll)
 
 - **`V get(Object key)`**
   
-
 - **`default V getOrDefault(Object key, V defaultValue)`**
   
 - **`V put(K key, V value)`**
@@ -461,7 +460,6 @@ static <E> List<E> copyOf(Collection<? extends E> coll)
   
 - **`boolean containsValue(Object value)`**
   
-
 - **`default void forEach(BiConsumer<? super K, ? super V> action)`**
 
 
@@ -497,37 +495,17 @@ public interface Map<K, V>
 | `int hashCode()`                                             | 返回此映射的哈希码值。                                       |
 | `default void forEach(BiConsumer<? super K, ? super V> action)` | 对映射中的每个键值对应用指定的操作。                         |
 |                                                              |                                                              |
-| 这些方法不太常用，但是表达能力丰富。                         |                                                              |
-| `default V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)` | 如果key与一个非null值关联，将函数应用到 v 和 value，如果key与null值关联，或者key与值不关联，则简单地将给定值关联到key上。如果函数返回null，则删除当前映射。否则，将函数返回值与key关联，返回结果。 |
-| `default V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)` | 将函数应用到key和当前值上。如果key与值关联，即使当前值为null，函数也会被调用。如果key与一个值不关联，函数也将被调用，key被视为关联到null。如果函数返回null，则删除当前映射。返回结果。 |
-| `default V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)` | 如果key与一个非null值关联，将函数应用到key和当前值上。如果函数返回null，则删除当前映射。返回结果。 |
-| `default V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction)` | 如果映射中当前key没有与任何值关联，或者与null值关联，将函数应用到key上，如果函数返回null，则不做任何操作。返回结果。 |
-| `default void replaceAll(BiFunction<? super K, ? super V, ? extends V> function)` | 使用所提供的函数应用到每个映射上。将每个键与函数返回的新值关联，除非函数返回null，则删除该键的当前映射。 |
-|                                                              |                                                              |
-| `static <K, V> Map<K, V> of()`                               | 返回一个包含零个映射的不可修改的空 `Map`。                   |
-| `static <K, V> Map<K, V> of(K k1, V v1)`                     | 返回一个包含单个映射的不可修改的 `Map`。                     |
-| `static <K, V> Map<K, V> ofEntries(Entry<? extends K, ? extends V>... entries)` | 返回一个包含指定条目的不可修改的 `Map`。                     |
-| `static <K, V> Map<K, V> copyOf(Map<? extends K, ? extends V> map)` | 返回一个包含给定映射条目的不可修改的 `Map`。                 |
-
-根据图片中的内容，以下是 `Map` 接口中的几个常用默认方法的详细解释。
-
-### `Map` 接口常用默认方法
-
-```java
-public interface Map<K, V>
-```
-
-| Function Signature                                           | Function Description                                         |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 这些方法不太常用，但是表达能力很强。                         |                                                              |
 | `default V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)` | 如果 key 与一个非 null 值 V 关联，将函数应用到 V 和 value，将 key 与 value 关联，或者结果为 null，则删除这个 key。返回 get(key)。 |
 | `default V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)` | 将函数应用到 key 和 get(key)。将 key 与结果关联，或者如果结果为 null，则删除这个键。返回 get(key)。 |
 | `default V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)` | 如果 key 与一个非 null 值 V 关联，将函数应用到 key 和 V，将 key 与结果关联，或者如果结果为 null，则删除这个键。返回 get(key)。 |
 | `default V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction)` | 将函数应用到 key，除非 key 与一个非 null 值关联。将 key 与结果关联，或者如果结果为 null，则删除这个键。返回 get(key)。 |
 | `default void replaceAll(BiFunction<? super K, ? super V, ? extends V> function)` | 在所有映射项上应用函数。将键与非 null 结果关联，对于 null 结果，则将相应的键删除。 |
-
-这些解释精确对应了图片中对方法的描述。
-
-
+|                                                              |                                                              |
+| `static <K, V> Map<K, V> of()`                               | 返回一个包含零个映射的不可修改的空 `Map`。                   |
+| `static <K, V> Map<K, V> of(K k1, V v1)`                     | 返回一个包含单个映射的不可修改的 `Map`。                     |
+| `static <K, V> Map<K, V> ofEntries(Entry<? extends K, ? extends V>... entries)` | 返回一个包含指定条目的不可修改的 `Map`。                     |
+| `static <K, V> Map<K, V> copyOf(Map<? extends K, ? extends V> map)` | 返回一个包含给定映射条目的不可修改的 `Map`。                 |
 
 ##### 构造函数
 
@@ -574,7 +552,7 @@ static <K, V> Map<K, V> newAttributeMap(Map<K, V>defaults, Map<K, V> overrides) 
 
 ##### Collection Views
 
-
+在 Java Collection Framework 中，不认为 Map是一个集合。也就是 Map =
 
 下面API 将 `Map` 视为 `Collection`
 
