@@ -224,7 +224,9 @@ static void filter(Collection<?> c) {
 - 散列表由于不关心顺序，查找可以达到 `O(1)` 性能。
 - 散列冲突不可避免，当由于桶太慢，导致散列冲突，会再散列。
 
+##### 使用原则
 
+- 原则1 ： 尽量使用接口类型 （例如 Set）而不是实现类型引用Collection。
 
 Java平台包含三种通用的Set实现:HashSet、TreeSet和LinkedHashSet。不关心顺序就使用 `HashSet`，性能最高。如果关心顺序，有两种实现 `LinkedHashSet`，`TreeSet` 。 `LinkedHashSet` 是根据插入顺序对元素排序，TreeSet 是使用元素的值对其进行排序，有自然排序（对应Comparable 和 Comparator），使用红黑树实现。
 
@@ -255,16 +257,12 @@ Set<String> set = people.stream()
 
 Set 接口中的 `Bulk` Operator  方法对应了标准的集合的代数操作。
 
-- `s1.containsAll(s2)` — 
-- `s1.addAll(s2)` — transforms `s1` into the **union** of `s1` and `s2`. (The union of two sets is the set containing all of the elements contained in either set.)
-- `s1.retainAll(s2)` — transforms `s1` into the intersection of `s1` and `s2`. (The intersection of two sets is the set containing only the elements common to both sets.)
-- `s1.removeAll(s2)` — transforms `s1` into the (asymmetric) set difference of `s1` and `s2`. (For example, the set difference of `s1` minus `s2` is the set containing all of the elements found in `s1` but not in `s2`.)
+- `s1.containsAll(s2)` — $ s2 \subseteq s1 $
+- `s1.addAll(s2)` — $ s1 \cup s2 $
+- `s1.retainAll(s2)` — $ s1 \cap s2 $
+- `s1.removeAll(s2)` —  $s1 - s2 $
 
 
-
-##### 原则
-
-- 原则1 ： 尽量使用接口类型 （例如 Set）而不是实现类型引用Collection。
 
 
 
