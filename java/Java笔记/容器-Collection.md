@@ -87,8 +87,6 @@
 public ArrayList(Collection<? extends E> c) { /***/ }
 ```
 
-对集合的增删改返回值设计成 `boolean` ，表示此次操作是否成功。
-
 **接口签名**
 
 ```java
@@ -210,6 +208,8 @@ static void filter(Collection<?> c) {
             it.remove();
 }
 ```
+
+
 
 ##### 要点
 
