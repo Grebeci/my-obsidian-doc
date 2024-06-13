@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "53b4d8961647e419",
+        "id": "b2a027565d093c2f",
         "type": "tabs",
         "children": [
           {
-            "id": "7ee269e782026d6d",
+            "id": "b80c20806408adb5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SICP/资源汇总.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SICP/资源汇总.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SICP/资源汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "SICP/资源汇总.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -157,11 +149,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7ee269e782026d6d",
+  "active": "b80c20806408adb5",
   "lastOpenFiles": [
+    "SICP/学习计划.md",
+    "SICP/资源汇总.md",
     "SICP/未命名.md",
     "SICP/学习进度.md",
-    "SICP/资源汇总.md",
     "Java/Java笔记/容器-Collection.md",
     "SICP",
     "Java/Java笔记/容器-Collection~.md",
@@ -191,7 +184,6 @@
     "mac和win的区别.md",
     "mac problem.md",
     "leetcode-SQL刷题记录.md",
-    "Java笔记.md",
     "TODO",
     "Java/培训班教程/尚硅谷教程-2021",
     "Java/Java笔记",
