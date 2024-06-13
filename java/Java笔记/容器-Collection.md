@@ -120,6 +120,42 @@ public interface Collection<E> extends Iterable<E>
 | `boolean equals(Object o)`                              |                                                       |
 | `int hashCode()`                                        |                                                       |
 
+根据图片中的内容，这里精确提取了 `Map` 接口中的一些方法的详细描述。
+
+### `Map` 接口常用方法详细描述
+
+```java
+public interface Map<K, V>
+```
+
+| Function Signature                                           | Function Description                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `int size()`                                                 | 返回当前存储在集合中的元素个数。                             |
+| `boolean isEmpty()`                                          | 如果集合中没有元素，返回 `true`。                            |
+| `boolean containsKey(Object key)`                            | 如果集合包含一个与 `key` 相等的对象，返回 `true`。           |
+| `boolean containsValue(Object value)`                        | 如果集合中包含一个与 `value` 相等的对象，返回 `true`。       |
+| `V get(Object key)`                                          | 返回与指定 `key` 关联的值，如果不存在返回 `null`。           |
+| `V put(K key, V value)`                                      | 将指定的值与指定的键关联。如果键已经存在，则替换旧值。返回旧值或 `null`（如果没有旧值）。 |
+| `V remove(Object key)`                                       | 如果存在，则移除指定键的映射关系。返回被移除的值或 `null`。  |
+| `void putAll(Map<? extends K, ? extends V> m)`               | 将指定映射的所有映射关系复制到此映射中。                     |
+| `void clear()`                                               | 从这个集合中删除所有的元素。                                 |
+| `Set<K> keySet()`                                            | 返回一个包含映射中所有键的 `Set` 视图。                      |
+| `Collection<V> values()`                                     | 返回一个包含映射中所有值的 `Collection` 视图。               |
+| `Set<Map.Entry<K, V>> entrySet()`                            | 返回一个包含映射中所有键值对的 `Set` 视图。                  |
+| `boolean equals(Object o)`                                   | 比较指定对象与此映射是否相等。                               |
+| `int hashCode()`                                             | 返回此映射的哈希码值。                                       |
+| `default V getOrDefault(Object key, V defaultValue)`         | 返回与指定键关联的值，或者如果没有映射关系，则返回默认值。   |
+| `default void forEach(BiConsumer<? super K, ? super V> action)` | 对此映射中的每个条目执行给定的操作，直到所有条目都被处理或该操作抛出异常。 |
+| `default void replaceAll(BiFunction<? super K, ? super V, ? extends V> function)` | 替换每个条目的值为给定函数应用于该条目后的结果。             |
+| `default V putIfAbsent(K key, V value)`                      | 如果指定键还没有关联值，或者关联的是 `null`，则与给定值关联并返回 `null`；否则返回当前值。 |
+| `default boolean remove(Object key, Object value)`           | 仅当当前键-值对与指定的值匹配时才移除指定键的映射关系。      |
+| `default boolean replace(K key, V oldValue, V newValue)`     | 仅当当前键-值对与指定的值匹配时，才用新的值替换当前值。      |
+| `default V replace(K key, V value)`                          | 仅当指定键当前已关联某个值时，才替换与其关联的值。           |
+| `default V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction)` | 如果指定键未与值关联或其值为 `null`，则尝试使用给定的映射函数来计算其值并将其添加到映射中，除非返回 `null`。 |
+| `default V computeIfPresent(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)` | 如果指定键当前有值且非 `null`，则尝试使用给定的映射函数计算新值。如果返回 `null`，则移除映射关系。 |
+| `default V compute(K key, BiFunction<? super K, ? super V, ? extends V> remappingFunction)` | 尝试计算指定键和当前值（或 `null`）的新映射关系。如果返回 `null`，则移除映射关系。 |
+| `default V merge(K key, V value, BiFunction<? super V, ? super V, ? extends V> remappingFunction)` | 如果指定键没有关联值或其值为 `null`，则将其与给定的非 `null` 值关联。否则，使用给定的函数计算新值，或移除该映射关系。 |
+
 
 
 ##### 1.  toArray
