@@ -11,8 +11,12 @@
             "id": "b80c20806408adb5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SICP/资源汇总.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SICP/资源汇总.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SICP/资源汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SICP/资源汇总.md"
+              }
             }
           }
         ]
@@ -151,10 +159,10 @@
   },
   "active": "b80c20806408adb5",
   "lastOpenFiles": [
-    "SICP/学习计划.md",
-    "SICP/资源汇总.md",
-    "SICP/未命名.md",
     "SICP/学习进度.md",
+    "SICP/学习计划.md",
+    "SICP/未命名.md",
+    "SICP/资源汇总.md",
     "Java/Java笔记/容器-Collection.md",
     "SICP",
     "Java/Java笔记/容器-Collection~.md",
