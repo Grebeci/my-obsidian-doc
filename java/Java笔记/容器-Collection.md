@@ -357,10 +357,8 @@ System.out.println(set);
 
 - 位置访问：get、set
 - 搜索：indexOf 、lastIndexOf
-- 迭代：扩展Iterator语义，以利用列表的顺序特性。listIterator方法提供了这种行为。
+- 迭代：扩展 Iterator 语义，以利用列表的顺序特性。`listIterator` 方法提供了这种行为。
 - 范围视图：subblist方法在列表上执行任意范围操作。
-
-
 
 ##### 构造：
 
@@ -374,13 +372,11 @@ List<String> list = people.stream()
 .collect(Collectors.toList());
 ```
 
-
-
 ##### Positional Access Operations
 
 基本的位置访问操作有get、set、add和remove。(set和remove操作返回被覆盖或删除的旧值。)其他操作(indexOf和lastIndexOf)返回列表中指定元素的第一个或最后一个索引。
 
-一些从 Collection继承的接口在 List 上会有特定的行为。
+一些从 Collection 继承的接口在 List 上会有特定的行为。
 
 ```java
 public interface List<E> extends Collection<E>
@@ -399,9 +395,7 @@ public interface List<E> extends Collection<E>
 
 **注：**
 
-Arrays类有一个名为asList的静态工厂方法，该方法允许将数组视为List。此方法不复制数组。List中的更改贯穿写入数组，反之亦然。生成的List不是一个通用的List实现，因为它没有实现(可选的)添加和删除操作:数组不能调整大小。
-
-
+Arrays类有一个名为asList的静态工厂方法，该方法允许将数组视为List。 生成的List不是一个通用的List实现，因为它没有实现(可选的)添加和删除操作:数组不能调整大小。
 
 ##### Range-View Operation
 
