@@ -409,8 +409,6 @@ List<E> subList(int fromIndex, int toIndex);
 - 对 sublist 的更改都会反映在原列表中。
 - 这些 API 使用务必保证其正确性。
 
-
-
 **不可变集合**
 
 和 Set 类似，List也有一些方法返回不可变集合。
@@ -423,40 +421,16 @@ static <E> List<E> of(E... elements)
 static <E> List<E> copyOf(Collection<? extends E> coll) 
 ```
 
-
-
 ### The Map Interface
 
 我们知道某些健的信息，要查找与之相关的元素（对象）。映射（Map）数据结构为此而设计。
 
 - 也可以看成对 数学函数的建模。
 
-约定
+**约定**
 
 - `HashSet` 是散列映射，`TreeMap` 对键进行了排序，是搜索树的实现。
 - 查找 Map 不存在的键，返回 `NULL`。重复的键值会进行覆盖，只保留最近的映射。
-
-
-
-
-
-以下是从图片中精确提取的文字：
-
-- **`V get(Object key)`**
-  
-- **`default V getOrDefault(Object key, V defaultValue)`**
-  
-- **`V put(K key, V value)`**
-  
-- **`void putAll(Map<? extends K, ? extends V> entries)`**
-  
-- **`boolean containsKey(Object key)`**
-  
-- **`boolean containsValue(Object value)`**
-  
-- **`default void forEach(BiConsumer<? super K, ? super V> action)`**
-
-
 
 ##### API
 
@@ -469,24 +443,28 @@ public interface Map<K, V>
 | Function Signature                                           | Function Description                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | `V get(Object key)`                                          | 获取与键对象相对应的值；返回与键对象相对应的值，如果在映射中找不到该键则返回null。 |
-| `default V getOrDefault(Object key, V defaultValue)`         | 获取与键对象相对应的值；如果在映射中找不到该键则返回defaultValue。如果 键关联的值为 NULL，也会返回默认值。 |
 | `V put(K key, V value)`                                      | 将键对象与值对象关联到映射中。如果该键已经有映射存在，新的对象将替换旧的对象并返回旧对象。这个方法返回被替换的旧对象的值。如果这个键以前没有映射存在则返回null。返回值为null，但并不意味着null。 |
-| `default V putIfAbsent(K key, V value)`                      | 如果指定的键尚未与值关联(或映射为null)，则将其与给定值关联并返回null，否则返回当前值。如果不存在映射，就关联。 |
 | `V remove(Object key)`                                       | 如果存在，则移除指定键的映射关系。                           |
-| `default boolean remove(Object key, Object value)`           | 仅当当前键-值对与指定的值匹配时才移除指定键的映射关系。      |
 | `default V replace(K key, V value)`                          | 仅当指定键当前已关联某个值时，才替换与其关联的值。           |
-| `default boolean replace(K key, V oldValue, V newValue)`     | 仅当当前键-值对与指定的值匹配时，才用新的值替换当前值。      |
 | `boolean containsKey(Object key)`                            | 如果在映射中已经有与键对象相对应的映射，返回true。           |
 | `boolean containsValue(Object value)`                        | 如果在映射中已经有与值对象相对应的映射，返回true。           |
+|                                                              |                                                              |
+| `default V getOrDefault(Object key, V defaultValue)`         | 获取与键对象相对应的值；如果在映射中找不到该键则返回defaultValue。如果 键关联的值为 NULL，也会返回默认值。 |
+| `default V putIfAbsent(K key, V value)`                      | 如果指定的键尚未与值关联(或映射为null)，则将其与给定值关联并返回null，否则返回当前值。如果不存在映射，就关联。 |
+| `default boolean remove(Object key, Object value)`           | 仅当当前键-值对与指定的值匹配时才移除指定键的映射关系。      |
+| `default boolean replace(K key, V oldValue, V newValue)`     | 仅当当前键-值对与指定的值匹配时，才用新的值替换当前值。      |
+|                                                              |                                                              |
 | `void putAll(Map<? extends K, ? extends V> m)`               | 将一个映射中的所有键值映射复制到本映射中。                   |
 | `void clear()`                                               | 移除所有的映射关系（可选操作）。                             |
 | `Set<K> keySet()`                                            | 返回一个包含映射中所有键的 `Set` 视图。                      |
 | `Collection<V> values()`                                     | 返回一个包含映射中所有值的 `Collection` 视图。               |
 | `Set<Map.Entry<K, V>> entrySet()`                            | 返回一个包含映射中所有键值对的 `Set` 视图。                  |
+|                                                              |                                                              |
 | `boolean equals(Object o)`                                   | 比较指定对象与此映射是否相等。                               |
 | `boolean isEmpty()`                                          | 如果映射为空，则返回 `true`。                                |
 | `int size()`                                                 | 返回键-值映射的数量。                                        |
 | `int hashCode()`                                             | 返回此映射的哈希码值。                                       |
+|                                                              |                                                              |
 | `default void forEach(BiConsumer<? super K, ? super V> action)` | 对映射中的每个键值对应用指定的操作。                         |
 |                                                              |                                                              |
 | 这些方法不太常用，但是表达能力很强。                         |                                                              |
@@ -573,8 +551,6 @@ for (Map.Entry<KeyType, ValType> e : m.entrySet())
 
 `TreeSet`的标准构造函数在处理继承自`SortedSet`的集合时，因默认使用自然排序而忽略原有比较器，导致可能需要选择性使用不同构造函数以保持排序标准的一致性。
 
-
-
 ## 实现
 
 [Overview- 对 集合框架 的实现架构做了概述](https://docs.oracle.com/javase/tutorial/collections/implementations/index.html#:~:text=Lesson%3A-,Implementations,-%E6%95%99%E8%AE%AD%3A%E5%AE%9E%E7%8E%B0)
@@ -583,7 +559,7 @@ for (Map.Entry<KeyType, ValType> e : m.entrySet())
 
   通用实现，非同步（线程安全）的，原则是：一般来说，不让用户为他们不使用的功能付费是良好的API设计实践。这句话意思是不应该强制所有使用集合的场景都承担同步的开销，特别是在许多情况下同步是不必要的。
 
-- ***Concurrent implementations**：这些实现是java.util.concurrent包的一部分
+- **Concurrent implementations**：这些实现是`java.util.concurrent`包的一部分
 
 - **Wrapper implementations** ：包装器实现与其他类型的实现(通常是通用的实现)结合使用，以提供添加的或受限的功能。 例如，如果需要线程安全的集合，那么在包装器实现一节中描述的同步包装器允许将任何集合转换为同步集合。
 
@@ -599,7 +575,7 @@ for (Map.Entry<KeyType, ValType> e : m.entrySet())
 
 #### Set 的实现
 
-- 是否考虑顺序？
+- 是否考虑顺序？`TreeSet`和`LinkedHashSet`
 - 特定的实现，[`EnumSet`](https://docs.oracle.com/javase/8/docs/api/java/util/EnumSet.html) and [`CopyOnWriteArraySet`](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CopyOnWriteArraySet.html).
 
 `CopyOnWriteArraySet` :  读多写少，写时复制（Copy-on-Write），无锁且线程安全。迭代读取快照。
@@ -608,7 +584,7 @@ for (Map.Entry<KeyType, ValType> e : m.entrySet())
 
 #### List 的实现
 
-ArrayList和LinkedList ，具体使用哪种，需要考虑，具体的添加删除查询操作，元素的位置。
+`ArrayList` 和 `LinkedList` ，具体使用哪种需要考虑因素：1. 具体的添加删除查询的操作，2. 元素的位置。
 
 一般来说，如果你经常在List的开头添加元素，或者迭代List以从内部删除元素，你应该考虑使用LinkedList。这些操作在LinkedList中需要常量时间，在ArrayList中需要线性时间。位置访问在LinkedList中需要线性时间，在ArrayList中需要常量时间。
 
@@ -622,7 +598,7 @@ Arrays.toList() 实现，非常特殊，需要注意。
 
 #### Map 实现
 
-- 考虑顺序？插入顺序？访问顺序？键值顺序？
+- 考虑顺序？顺序类型：插入顺序，访问顺序，键值顺序。
 
 特殊实现： [`EnumMap`](https://docs.oracle.com/javase/8/docs/api/java/util/EnumMap.html), [`WeakHashMap`](https://docs.oracle.com/javase/8/docs/api/java/util/WeakHashMap.html) and [`IdentityHashMap`](https://docs.oracle.com/javase/8/docs/api/java/util/IdentityHashMap.html). 
 
