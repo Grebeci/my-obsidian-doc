@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Java笔记/容器-Collection.md",
+                "file": "SICP/学习进度.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Java笔记/容器-Collection.md",
+                "file": "SICP/学习进度.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Java笔记/容器-Collection.md",
+                "file": "SICP/学习进度.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Java笔记/容器-Collection.md"
+                "file": "SICP/学习进度.md"
               }
             }
           }
@@ -159,9 +159,12 @@
   },
   "active": "c76ef14b78fe68eb",
   "lastOpenFiles": [
+    "SICP/资源汇总.md",
+    "SICP/学习进度.md",
+    "Java/Java笔记/容器-Collection.md",
+    "SICP",
     "Java/Java笔记/容器-Collection~.md",
     "Java/Java笔记/容器-Collection-Problem-Case.md",
-    "Java/Java笔记/容器-Collection.md",
     "Java/Java笔记/泛型Problem-Case.md",
     "Java/Java笔记/【TOC】Java笔记.md",
     "Users/admin/Downloads/13StacksAndQueues.pdf.md",
@@ -189,13 +192,10 @@
     "leetcode-SQL刷题记录.md",
     "Java笔记.md",
     "HTTP.md",
-    "Having.md",
-    "DQL.md",
     "TODO",
     "Java/培训班教程/尚硅谷教程-2021",
     "Java/Java笔记",
     "java/泛型",
-    "GPT-Response",
-    "Mac"
+    "GPT-Response"
   ]
 }
