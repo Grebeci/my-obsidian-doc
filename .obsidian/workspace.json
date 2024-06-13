@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SICP/学习进度.md",
+                "file": "SICP/资源汇总.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SICP/学习进度.md",
+                "file": "SICP/资源汇总.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SICP/学习进度.md",
+                "file": "SICP/资源汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SICP/学习进度.md"
+                "file": "SICP/资源汇总.md"
               }
             }
           }
@@ -157,10 +157,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c76ef14b78fe68eb",
+  "active": "7ee269e782026d6d",
   "lastOpenFiles": [
-    "SICP/资源汇总.md",
+    "SICP/未命名.md",
     "SICP/学习进度.md",
+    "SICP/资源汇总.md",
     "Java/Java笔记/容器-Collection.md",
     "SICP",
     "Java/Java笔记/容器-Collection~.md",
@@ -191,7 +192,6 @@
     "mac problem.md",
     "leetcode-SQL刷题记录.md",
     "Java笔记.md",
-    "HTTP.md",
     "TODO",
     "Java/培训班教程/尚硅谷教程-2021",
     "Java/Java笔记",
