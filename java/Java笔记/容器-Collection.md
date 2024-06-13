@@ -12,7 +12,7 @@
 
 ## 进度：
 
-- [Trail: Collections (The Java™ Tutorials) (oracle.com)](https://docs.oracle.com/javase/tutorial/collections/index.html)
+- 官方文档：[Trail: Collections (The Java™ Tutorials) (oracle.com)](https://docs.oracle.com/javase/tutorial/collections/index.html)
 
   - [ ] [**interoperability**](https://docs.oracle.com/javase/tutorial/collections/interoperability/index.html) 
 
@@ -21,6 +21,11 @@
     Stream 流相关，这个官方太简练了，因为牵涉到函数式编程，lambda 设计，还有一些算子设计，并发设计，所以要等完全理解函数式编程再重头来看。
 
   - [ ] [自定义实现](https://docs.oracle.com/javase/tutorial/collections/custom-implementations/index.html) ：可能扩展集合框架近期不会使用，先放着。 
+  
+- 书籍：Core-Java
+
+  - 
+
 
 
 
@@ -60,11 +65,9 @@
 
 `List`：一个有序的集合(有时称为序列)。列表可以包含重复的元素。List的用户通常可以精确控制每个元素在列表中的插入位置，并且可以通过整数索引(位置)访问元素。
 
-`Queue`：用于在处理之前保存多个元素的集合。队列必须实现 顺序 属性，排序可能是 FIFO、优先级队列。无论使用何种排序方式，队列的头部都是将被remove或poll调用删除的元素。在FIFO队列中，所有新元素都插入到队列的尾部。其他类型的队列可能使用不同的放置规则。
+`Queue`：用于在处理之前保存多个元素的集合。队列必须实现 顺序 属性，排序可能是 FIFO、优先级队列。无论使用何种排序方式，队列的头部都是将被 `remove` 或 `poll` 调用删除的元素。在FIFO队列中，所有新元素都插入到队列的尾部。其他类型的队列可能使用不同的放置规则。
 
 `Map`：一个将键映射到值的对象。Map不能包含重复的键;每个键最多只能映射到一个值。
-
-
 
 `SortedSet`：按升序维护其元素的Set。
 
