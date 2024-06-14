@@ -164,6 +164,13 @@ docker save -o nginx.tar nginx:v1.0
 ```bash
 docker load -i nginx.tar
 ```
+- `-i` 输入文件
+只是恢复到 images 阶段，还需要 docker run 启动。
+
+
+### 镜像分发
+1. 登录
+   
 
 
 
