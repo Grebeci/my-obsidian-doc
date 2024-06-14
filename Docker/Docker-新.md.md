@@ -119,4 +119,5 @@ docker exec -it mynginx /bin/bash
 
 7. 容器停止
 ```bash
-docker stop 
+docker stop mynginx
+```
