@@ -53,5 +53,7 @@ sudo systemctl restart docker
 
 ## 常用命令
 命令帮助
-
+> Docker 命令风格是“子命令风格” 一般是：
+>
+> `docker [OPTIONS] COMMAND [arg...]`
 
