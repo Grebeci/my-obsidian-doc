@@ -117,7 +117,8 @@ docker exec -it mynginx /bin/bash
 - `/bin/bash` 进入容器后执行的命令
 
 
-7. 容器停止
+7. 容器停止，启动，重启
 ```bash
 docker stop mynginx
+
 ```
