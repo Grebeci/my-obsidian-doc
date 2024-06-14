@@ -193,7 +193,7 @@ docker push username/mynginx:v1.0
 docker pull username/mynginx:v1.0
 ```
 
- ### 存储
+## docker storage
 
 容器的运行时状态是临时的，当容器被删除时，容器内部的数据也会被删除。为了持久化数据，有 bind mount 和 volume 两种方式。
 
@@ -214,4 +214,13 @@ docker run -d --name mynginx -p 8080:80 -v ngconf:/etc/nginx nginx:1.26.0
 默认 volume 存放在 `/var/lib/docker/volumes/<volume-name>` 目录下。
 
   1. 查看卷位置
-   
+  ```bash
+  docker volume inspect ngconf
+  ```
+  2. 删除卷
+  ```bash
+  docker volume rm ngconf
+  ```
+  3. 本地目录不会覆盖容器内的非空目录。
+
+## docker network
