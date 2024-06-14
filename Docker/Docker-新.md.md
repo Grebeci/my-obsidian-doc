@@ -52,8 +52,15 @@ sudo systemctl restart docker
 ```
 
 ## 常用命令
+
 命令帮助
 > Docker 命令风格是“子命令风格” 一般是：
 >
 > `docker [OPTIONS] COMMAND [arg...]`
+
+```shell
+docker [command,subcomand,,,] --help
+```
+
+Docker 的 `--help`  可以在任意级别使用。无论用户处于命令结构的哪一层，都可以通过添加 --help 来获取当前命令或子命令的详细说明和可用选项。
 
