@@ -108,7 +108,11 @@ docker ps
 docker ps -a
 ```
 
-6. 进度容器
-
-
+6. 进入容器
+```bash
+docker exec -it mynginx /bin/bash
+```
+- `-it` 交互式
+- `mynginx` 容器名
+- `/bin/bash` 进入容器后执行的命令
 
