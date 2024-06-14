@@ -82,5 +82,17 @@ docker pull nginx:1.26.0
 ```
 镜像名 ： name:tag
 
-3. 
+3. 查看镜像
+
+```bash
+docker images
+```
+
+4. 启动容器
+
+```bash
+
+```
+
+
 
