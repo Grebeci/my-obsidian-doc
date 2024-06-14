@@ -204,9 +204,10 @@ docker run -d --name mynginx -p 8080:80 -v /data:/usr/share/nginx/html nginx:1.2
 - `-v` local_absoulte_path:container_path .
 - `/data` 本地目录, 会映射到容器内的 `/usr/share/nginx/html` 目录
 
-在容器更改或者宿主机更改都会同步。
+  1. 在容器更改或者宿主机更改都会同步。
+  2. 本地目录会覆盖容器内非空目录。这不同于 volume。
 
-2. volume
+1. volume
 ```bash
 docker run -d --name mynginx -p 8080:80 -v ngconf:/etc/nginx nginx:1.26.0
 ```
