@@ -64,3 +64,12 @@ docker [command,subcomand,,,] --help
 
 Docker 的 `--help`  可以在任意级别使用。无论用户处于命令结构的哪一层，都可以通过添加 --help 来获取当前命令或子命令的详细说明和可用选项。
 
+
+### 工作流 
+
+以安装 Nginx 为例。
+
+1. 搜索镜像
+
+```shell
+docker 
