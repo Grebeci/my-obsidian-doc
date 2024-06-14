@@ -91,8 +91,16 @@ docker images
 4. 启动容器
 
 ```bash
-
+docker run -d --name mynginx -p 8080:80 nginx:1.26.0
 ```
+- `-d` 后台运行
+- `--name` 容器名
+- `-p` 8080:80 端口映射, 本地端口:容器端口
+- `nginx:1.26.0` 镜像名
+- `mynginx` 容器名
 
+5. 查看容器
+
+```bash
 
 
