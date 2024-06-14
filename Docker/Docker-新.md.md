@@ -207,8 +207,11 @@ docker run -d --name mynginx -p 8080:80 -v /data:/usr/share/nginx/html nginx:1.2
   1. 在容器更改或者宿主机更改都会同步。
   2. 本地目录会覆盖容器内非空目录。这不同于 volume。
 
-1. volume
+2. volume
 ```bash
 docker run -d --name mynginx -p 8080:80 -v ngconf:/etc/nginx nginx:1.26.0
 ```
+默认 volume 存放在 `/var/lib/docker/volumes/<volume-name>` 目录下。
 
+  1. 查看卷位置
+   
