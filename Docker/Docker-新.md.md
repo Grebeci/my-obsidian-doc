@@ -180,8 +180,11 @@ docker tag nginx:v1.0 username/mynginx:v1.0
 ```
 也就是
 ```bash
-docker tag image
+docker tag image username/repository:tag
 ```
+
+3. 推送
+```bash
 
 
 
