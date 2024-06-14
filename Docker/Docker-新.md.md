@@ -206,3 +206,8 @@ docker run -d --name mynginx -p 8080:80 -v /data:/usr/share/nginx/html nginx:1.2
 
 在容器更改或者宿主机更改都会同步。
 
+2. volume
+```bash
+docker volume create myvolume
+```
+```bash
