@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "124479df0856b6a3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,7 +168,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b80c20806408adb5",
+  "active": "124479df0856b6a3",
   "lastOpenFiles": [
     "Docker/Kubernetes.md",
     "Docker/Docker-新.md.md",
