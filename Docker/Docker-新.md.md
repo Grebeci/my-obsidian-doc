@@ -152,6 +152,20 @@ docker commit -m "add index.html" -a "author" mynginx nginx:v1.0
 - `nginx:v1.0` 镜像名
 - `nginx:v1.0` 新镜像名
 
+2. 镜像打包
+```bash
+docker save -o nginx.tar nginx:v1.0
+```
+- `-o` 输出文件
+- `nginx.tar` 输出文件名
+- `nginx:v1.0` 镜像名
+
+3. 镜像导入
+```bash
+docker load -i nginx.tar
+```
+
+
 
 
 
