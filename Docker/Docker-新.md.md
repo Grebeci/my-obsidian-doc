@@ -195,3 +195,14 @@ docker pull username/mynginx:v1.0
 
  ### 存储
 
+容器的运行时状态是临时的，当容器被删除时，容器内部的数据也会被删除。为了持久化数据，有 bind mount 和 volume 两种方式。
+
+1. bind mount
+```bash
+docker run -d --name mynginx -p 8080:80 -v /data:/usr/share/nginx/html nginx:1.26.0
+```
+- `-v` local_absoulte_path:container_path .
+- `/data` 本地目录, 会映射到容器内的 `/usr/share/nginx/html` 目录
+
+在容器更改或者宿主机更改都会同步。
+
