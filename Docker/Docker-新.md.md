@@ -116,3 +116,7 @@ docker exec -it mynginx /bin/bash
 - `mynginx` 容器名
 - `/bin/bash` 进入容器后执行的命令
 
+
+7. 容器停止
+```bash
+docker stop 
