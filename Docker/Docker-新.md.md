@@ -170,7 +170,19 @@ docker load -i nginx.tar
 
 ### 镜像分发
 1. 登录
-   
+```bash
+docker login
+```
+
+2. 命名
+```bash
+docker tag nginx:v1.0 username/mynginx:v1.0
+```
+也就是
+```bash
+docker tag image
+```
+
 
 
 
