@@ -120,5 +120,39 @@ docker exec -it mynginx /bin/bash
 7. 容器停止，启动，重启
 ```bash
 docker stop mynginx
-
+docker start mynginx
+docker restart mynginx
 ```
+
+8. 删除容器
+```bash
+docker rm mynginx
+```
+
+9. 删除镜像
+```bash
+docker rmi nginx:1.26.0
+```
+
+10. 查看日志
+```bash
+docker logs mynginx
+```
+
+### 制作镜像
+以 nginx 为例
+
+1. docker commit
+```bash
+docker commit -m "add index.html" -a "author" mynginx nginx:v1.0
+```
+- `-m` 提交信息
+- `-a` 作者
+- `mynginx` 容器名
+- `nginx:v1.0` 镜像名
+- `nginx:v1.0` 新镜像名
+
+
+
+
+
