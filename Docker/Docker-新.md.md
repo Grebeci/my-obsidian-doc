@@ -208,6 +208,6 @@ docker run -d --name mynginx -p 8080:80 -v /data:/usr/share/nginx/html nginx:1.2
 
 2. volume
 ```bash
-docker volume create myvolume
+docker run -d --name mynginx -p 8080:80 -v ngconf:/etc/nginx nginx:1.26.0
 ```
-```bash
+
