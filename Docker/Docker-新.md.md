@@ -77,7 +77,7 @@ docker search nginx
 这个搜索简单地从 Docker Hub 检索镜像。实际需要从 hub.docker.com 搜索。
 
 2. 拉取镜像
-```shell
+```bash
 docker pull nginx:1.26.0
 ```
 镜像名 ： name:tag
