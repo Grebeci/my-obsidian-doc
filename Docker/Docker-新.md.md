@@ -80,4 +80,7 @@ docker search nginx
 ```shell
 docker pull nginx:1.26.0
 ```
-镜像
+镜像名 ： name:tag
+
+3. 
+
