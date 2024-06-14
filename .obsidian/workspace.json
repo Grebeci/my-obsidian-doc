@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker-新.md.md",
+                "file": "生活杂文/法律-劳动法.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker-新.md.md",
+                "file": "生活杂文/法律-劳动法.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Docker-新.md.md",
+                "file": "生活杂文/法律-劳动法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker-新.md.md"
+                "file": "生活杂文/法律-劳动法.md"
               }
             }
           }
@@ -159,8 +159,10 @@
   },
   "active": "b80c20806408adb5",
   "lastOpenFiles": [
-    "Docker/Kubernetes.md",
     "Docker/Docker-新.md.md",
+    "生活杂文/法律-劳动法.md",
+    "生活杂文",
+    "Docker/Kubernetes.md",
     "Docker/Docker-备忘录.md",
     "Docker/Docker.md",
     "Docker/学习进度.md",
@@ -190,12 +192,10 @@
     "Java/Java笔记/泛型.md",
     "Idea 工作流.md",
     "vsocde 工作流.md",
-    "TODO-Problem_Note.md.md",
     "Pasted image 20230811144649.png",
     "TODO",
     "Java/培训班教程/尚硅谷教程-2021",
     "Java/Java笔记",
-    "java/泛型",
-    "GPT-Response"
+    "java/泛型"
   ]
 }
