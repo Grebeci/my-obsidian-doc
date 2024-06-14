@@ -102,5 +102,13 @@ docker run -d --name mynginx -p 8080:80 nginx:1.26.0
 5. 查看容器
 
 ```bash
+docker ps
+```
+```bash
+docker ps -a
+```
+
+6. 进度容器
+
 
 
