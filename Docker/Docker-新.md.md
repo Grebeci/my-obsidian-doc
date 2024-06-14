@@ -185,10 +185,12 @@ docker tag image username/repository:tag
 
 3. 推送
 ```bash
+docker push username/mynginx:v1.0
+```
 
+4. 拉取
+```bash
+docker pull username/mynginx:v1.0
+```
 
-
-
-
-
-
+ 
