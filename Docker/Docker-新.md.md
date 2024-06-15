@@ -260,10 +260,8 @@ docker run -d --name mynginx --network mynetwork -p 8080:80 nginx:1.26.0
 ```
 - `--network` 指定网络
 
-1. 查看docker容器的网络
+4. 查看docker容器的网络
 ```bash
-docker co
+docker [container] inspect mynginx
 ```
-
-
 
