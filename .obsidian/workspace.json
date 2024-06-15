@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SICP/资源汇总.md",
+                "file": "电子产品/手机.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SICP/资源汇总.md",
+                "file": "电子产品/手机.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SICP/资源汇总.md",
+                "file": "电子产品/手机.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SICP/资源汇总.md"
+                "file": "电子产品/手机.md"
               }
             }
           }
@@ -159,6 +159,9 @@
   },
   "active": "b80c20806408adb5",
   "lastOpenFiles": [
+    "SICP/资源汇总.md",
+    "电子产品/手机.md",
+    "电子产品",
     "生活杂文/法律-劳动法.md",
     "Docker/Docker-新.md~.md",
     "Docker/Docker-新.md.md",
@@ -169,7 +172,6 @@
     "Docker/学习进度.md",
     "Docker/Docker笔记.md",
     "SICP/QA.md",
-    "SICP/资源汇总.md",
     "SICP/资源汇总~.md",
     "SICP/学习进度.md",
     "SICP/学习计划.md",
@@ -191,11 +193,9 @@
     "Java/Java笔记/容器-Collection-Problem-Case~.md",
     "Java/Java.md",
     "Java/Java笔记/泛型.md",
-    "Idea 工作流.md",
     "Pasted image 20230811144649.png",
     "TODO",
     "Java/培训班教程/尚硅谷教程-2021",
-    "Java/Java笔记",
-    "java/泛型"
+    "Java/Java笔记"
   ]
 }
