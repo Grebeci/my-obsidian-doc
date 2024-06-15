@@ -224,3 +224,9 @@ docker run -d --name mynginx -p 8080:80 -v ngconf:/etc/nginx nginx:1.26.0
   3. 本地目录不会覆盖容器内的非空目录。
 
 ## docker network
+docker在创建的时候。 就会。 就会创建一个默认网络。 可以用i p a。 奶茶看。 下面是他的代码。 
+
+```bash
+ip a
+```
+```
