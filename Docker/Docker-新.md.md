@@ -254,4 +254,16 @@ docker network ls
 docker network inspect mynetwork
 ```
 
+3. 运行容器
+```bash
+docker run -d --name mynginx --network mynetwork -p 8080:80 nginx:1.26.0
+```
+- `--network` 指定网络
+
+1. 查看docker容器的网络
+```bash
+docker co
+```
+
+
 
