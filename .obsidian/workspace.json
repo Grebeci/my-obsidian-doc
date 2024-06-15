@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生活杂文/法律-劳动法.md",
+                "file": "SICP/资源汇总.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活杂文/法律-劳动法.md",
+                "file": "SICP/资源汇总.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "生活杂文/法律-劳动法.md",
+                "file": "SICP/资源汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生活杂文/法律-劳动法.md"
+                "file": "SICP/资源汇总.md"
               }
             }
           }
@@ -159,9 +159,9 @@
   },
   "active": "b80c20806408adb5",
   "lastOpenFiles": [
+    "生活杂文/法律-劳动法.md",
     "Docker/Docker-新.md~.md",
     "Docker/Docker-新.md.md",
-    "生活杂文/法律-劳动法.md",
     "生活杂文",
     "Docker/Kubernetes.md",
     "Docker/Docker-备忘录.md",
