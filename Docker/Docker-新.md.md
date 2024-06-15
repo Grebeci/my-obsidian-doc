@@ -224,7 +224,7 @@ docker run -d --name mynginx -p 8080:80 -v ngconf:/etc/nginx nginx:1.26.0
   3. 本地目录不会覆盖容器内的非空目录。
 
 ## docker network
-## Docker网络
+## 
 
 在Docker创建时，默认会创建一个名为`docker0`的网络。可以通过以下命令查看：
 
