@@ -224,9 +224,34 @@ docker run -d --name mynginx -p 8080:80 -v ngconf:/etc/nginx nginx:1.26.0
   3. 本地目录不会覆盖容器内的非空目录。
 
 ## docker network
-docker在创建的时候。 就会。 就会创建一个默认网络。 可以用i p a。 奶茶看。 下面是他的代码。 
+## Docker网络
+
+在Docker创建时，默认会创建一个名为`docker0`的网络。可以通过以下命令查看：
 
 ```bash
 ip a
 ```
+```
+3: docker0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default
+  link/ether 02:42:02:bc:4e:d7 brd ff:ff:ff:ff:ff:ff
+  inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+     valid_lft forever preferred_lft forever
+```
+
+为了实现容器之间的互相访问，可以创建一个桥接网络（bridge）。通过使用容器名称和端口号的方式，可以实现容器之间的通信。
+
+1. 创建网络
+```bash
+docker network create mynetwork
+```
+
+2. 查看网络
+```bash
+docker network ls
+```
+```bash
+docker network inspect mynetwork
+```
+```bash
+docker network inspect bridge
 ```
