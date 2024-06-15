@@ -265,3 +265,7 @@ docker run -d --name mynginx --network mynetwork -p 8080:80 nginx:1.26.0
 docker [container] inspect mynginx
 ```
 
+5. 连接网络
+```bash
+docker network connect mynetwork mynginx
+```
