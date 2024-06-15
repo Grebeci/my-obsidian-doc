@@ -244,6 +244,7 @@ ip a
 ```bash
 docker network create mynetwork
 ```
+- 默认是 bridge 模式
 
 2. 查看网络
 ```bash
@@ -252,6 +253,5 @@ docker network ls
 ```bash
 docker network inspect mynetwork
 ```
-```bash
-docker network inspect bridge
-```
+
+
