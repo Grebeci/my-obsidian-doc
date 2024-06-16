@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "电子产品/手机.md",
+                "file": "SICP/QA.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "电子产品/手机.md",
+                "file": "SICP/QA.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "电子产品/手机.md",
+                "file": "SICP/QA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "电子产品/手机.md"
+                "file": "SICP/QA.md"
               }
             }
           }
@@ -160,6 +160,7 @@
   "active": "b80c20806408adb5",
   "lastOpenFiles": [
     "SICP/资源汇总.md",
+    "SICP/学习计划.md",
     "电子产品/手机.md",
     "电子产品",
     "生活杂文/法律-劳动法.md",
@@ -174,7 +175,6 @@
     "SICP/QA.md",
     "SICP/资源汇总~.md",
     "SICP/学习进度.md",
-    "SICP/学习计划.md",
     "Java/Java笔记/容器-Collection.md",
     "SICP",
     "Java/Java笔记/容器-Collection~.md",
