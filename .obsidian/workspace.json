@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hive/面试题.md",
+                "file": "hive/hive.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hive/面试题.md",
+                "file": "hive/hive.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hive/面试题.md",
+                "file": "hive/hive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hive/面试题.md"
+                "file": "hive/hive.md"
               }
             }
           }
@@ -159,10 +159,19 @@
   },
   "active": "b80c20806408adb5",
   "lastOpenFiles": [
-    "hive/Hive-DML.md",
-    "hive/hive使用经验.md",
-    "hive/hive面试题.md",
     "hive/hive客户端命令.md",
+    "hive/Hive文档背诵.md",
+    "hive/hive使用经验.md",
+    "hive/hive优化.md",
+    "hive/hive运行时服务.md",
+    "hive/HQL备忘录.md",
+    "hive/HQL方言增强.md",
+    "hive/Questions.md.md",
+    "hive/show-desc查询.md",
+    "hive/hive面试题.md",
+    "hive/Hive-DML.md",
+    "hive/hive.md",
+    "hive/面试题.md",
     "hive/hive-exercises.md.md",
     "项目学习笔记/用户画像-标签系统初步.md",
     "项目学习笔记/data_works学习笔记.md",
@@ -178,16 +187,7 @@
     "Docker/Docker-新.md~.md",
     "Docker/Docker-新.md.md",
     "生活杂文",
-    "Docker/Kubernetes.md",
-    "Docker/Docker-备忘录.md",
-    "Docker/Docker.md",
-    "Docker/学习进度.md",
-    "Docker/Docker笔记.md",
-    "SICP/资源汇总~.md",
-    "SICP/学习进度.md",
-    "Java/Java笔记/容器-Collection.md",
     "SICP",
-    "Java/Java笔记/容器-Collection~.md",
     "Users/admin/Downloads",
     "Users/admin",
     "Users",

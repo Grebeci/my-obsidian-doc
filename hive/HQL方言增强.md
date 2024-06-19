@@ -18,7 +18,7 @@ score (student_id, class, score)， 把每个人所有科目分数捏在一起
 
 ```mysql
 select name ,  collect_set(score) 
-from wangxinxin.score group by name 
+from score group by name 
 ```
 
 把每个人分数组成 (class , score) 的键值对

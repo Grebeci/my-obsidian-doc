@@ -2,7 +2,7 @@
 
 1. desc 是 describe 的简写。
 2. DATABASE 和 SCHEMA 等价。
-3. identifier_with_wildcards ： 只能选择 * 或 |  。这个也受版本影响。
+3. identifier_with_wildcards ： 只能选择 * 或 |  。这个受版本影响。
 ###  数据库
 
 #### 1. 创建数据库：
