@@ -37,3 +37,17 @@ select
 
 ##### 方法2：
 
+聚合函数会接受集合，集合为空返回 null
+
+```sql
+  select max(salary) as SecondHighestSalary
+  from (
+      select 
+          salary,
+          dense_rank() over(order by salary desc ) as rk
+      from Employee
+  )t
+  where rk = 2
+```
+
+`max ` 即去重，且集合为空返回 `null`
