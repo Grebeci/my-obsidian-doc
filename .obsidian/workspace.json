@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hive/hive.md",
+                "file": "Hive/hive.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ad8e19024c7dd17a",
+            "id": "82dccf6132132ce6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode刷题技巧/SQL.md",
+                "file": "Hive/语法/HQL备忘录.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode刷题技巧/SQL.md",
+                "file": "Hive/语法/HQL备忘录.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode刷题技巧/SQL.md",
+                "file": "Hive/语法/HQL备忘录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leetcode刷题技巧/SQL.md"
+                "file": "Hive/语法/HQL备忘录.md"
               }
             }
           }
@@ -170,28 +170,30 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ad8e19024c7dd17a",
+  "active": "c76ef14b78fe68eb",
   "lastOpenFiles": [
+    "Hive/语法",
+    "Hive/语法/Hive-DML.md",
+    "Hive/语法/hive-exercises.md.md",
+    "Hive/hive.md",
+    "Hive/面试题.md",
+    "Hive/show-desc查询.md",
+    "hive/未命名",
+    "Leetcode刷题技巧/SQL.md",
     "Leetcode刷题技巧/SQL~.md",
     "数仓/数仓建设.md",
-    "Leetcode刷题技巧/SQL.md",
     "Leetcode刷题技巧",
     "数仓.md",
     "数仓",
-    "hive/HQL备忘录.md",
-    "hive/hive.md",
-    "hive/hive-exercises.md.md",
-    "hive/hive客户端命令.md",
-    "hive/Hive文档背诵.md",
-    "hive/hive使用经验.md",
-    "hive/hive优化.md",
-    "hive/hive运行时服务.md",
-    "hive/HQL方言增强.md",
-    "hive/Questions.md.md",
-    "hive/show-desc查询.md",
-    "hive/hive面试题.md",
-    "hive/Hive-DML.md",
-    "hive/面试题.md",
+    "Hive/语法/HQL备忘录.md",
+    "Hive/hive客户端命令.md",
+    "Hive/Hive文档背诵.md",
+    "Hive/hive使用经验.md",
+    "Hive/hive优化.md",
+    "Hive/hive运行时服务.md",
+    "Hive/HQL方言增强.md",
+    "Hive/Questions.md.md",
+    "Hive/hive面试题.md",
     "项目学习笔记/用户画像-标签系统初步.md",
     "项目学习笔记/data_works学习笔记.md",
     "树莓派/树莓派.md",
@@ -199,7 +201,6 @@
     "面试/微创外派微软.md",
     "面试/面试核心问题.md",
     "SICP/QA.md",
-    "SICP/资源汇总.md",
     "电子产品",
     "生活杂文",
     "SICP",
@@ -208,7 +209,6 @@
     "Users",
     "Java/Java笔记/images/algo4-Week2-Iterable.png",
     "Java/Java笔记/images",
-    "Pasted image 20230811144649.png",
-    "TODO"
+    "Pasted image 20230811144649.png"
   ]
 }
