@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hive/HQL备忘录.md",
+                "file": "数仓/数仓建设.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hive/HQL备忘录.md",
+                "file": "数仓/数仓建设.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hive/HQL备忘录.md",
+                "file": "数仓/数仓建设.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hive/HQL备忘录.md"
+                "file": "数仓/数仓建设.md"
               }
             }
           }
@@ -172,6 +172,10 @@
   },
   "active": "ad8e19024c7dd17a",
   "lastOpenFiles": [
+    "数仓.md",
+    "数仓/数仓建设.md",
+    "数仓",
+    "hive/HQL备忘录.md",
     "hive/hive.md",
     "hive/hive-exercises.md.md",
     "hive/hive客户端命令.md",
@@ -179,7 +183,6 @@
     "hive/hive使用经验.md",
     "hive/hive优化.md",
     "hive/hive运行时服务.md",
-    "hive/HQL备忘录.md",
     "hive/HQL方言增强.md",
     "hive/Questions.md.md",
     "hive/show-desc查询.md",
@@ -197,8 +200,6 @@
     "SICP/学习计划.md",
     "电子产品/手机.md",
     "电子产品",
-    "Docker/Docker-新.md~.md",
-    "Docker/Docker-新.md.md",
     "生活杂文",
     "SICP",
     "Users/admin/Downloads",
@@ -208,7 +209,6 @@
     "Java/Java笔记/images",
     "Pasted image 20230811144649.png",
     "TODO",
-    "Java/培训班教程/尚硅谷教程-2021",
-    "Java/Java笔记"
+    "Java/培训班教程/尚硅谷教程-2021"
   ]
 }
