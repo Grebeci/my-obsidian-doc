@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数仓/数仓建设.md",
+                "file": "Leetcode刷题技巧/SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数仓/数仓建设.md",
+                "file": "Leetcode刷题技巧/SQL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数仓/数仓建设.md",
+                "file": "Leetcode刷题技巧/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数仓/数仓建设.md"
+                "file": "Leetcode刷题技巧/SQL.md"
               }
             }
           }
@@ -172,8 +172,11 @@
   },
   "active": "ad8e19024c7dd17a",
   "lastOpenFiles": [
-    "数仓.md",
+    "Leetcode刷题技巧/SQL~.md",
     "数仓/数仓建设.md",
+    "Leetcode刷题技巧/SQL.md",
+    "Leetcode刷题技巧",
+    "数仓.md",
     "数仓",
     "hive/HQL备忘录.md",
     "hive/hive.md",
@@ -197,8 +200,6 @@
     "面试/面试核心问题.md",
     "SICP/QA.md",
     "SICP/资源汇总.md",
-    "SICP/学习计划.md",
-    "电子产品/手机.md",
     "电子产品",
     "生活杂文",
     "SICP",
@@ -208,7 +209,6 @@
     "Java/Java笔记/images/algo4-Week2-Iterable.png",
     "Java/Java笔记/images",
     "Pasted image 20230811144649.png",
-    "TODO",
-    "Java/培训班教程/尚硅谷教程-2021"
+    "TODO"
   ]
 }
