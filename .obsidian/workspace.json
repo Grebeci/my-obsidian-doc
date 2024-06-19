@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hive/语法/HQL备忘录.md",
+                "file": "Hive/语法/HQL语法备忘录.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hive/语法/HQL备忘录.md",
+                "file": "Hive/语法/HQL语法备忘录.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hive/语法/HQL备忘录.md",
+                "file": "Hive/语法/HQL语法备忘录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hive/语法/HQL备忘录.md"
+                "file": "Hive/语法/HQL语法备忘录.md"
               }
             }
           }
@@ -170,14 +170,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c76ef14b78fe68eb",
+  "active": "82dccf6132132ce6",
   "lastOpenFiles": [
-    "Hive/语法",
     "Hive/语法/Hive-DML.md",
+    "Hive/语法/HQL语法备忘录.md",
+    "Hive/语法/show-desc查询.md",
+    "Hive/HQL方言增强.md",
+    "Hive/语法",
     "Hive/语法/hive-exercises.md.md",
     "Hive/hive.md",
     "Hive/面试题.md",
-    "Hive/show-desc查询.md",
     "hive/未命名",
     "Leetcode刷题技巧/SQL.md",
     "Leetcode刷题技巧/SQL~.md",
@@ -185,13 +187,11 @@
     "Leetcode刷题技巧",
     "数仓.md",
     "数仓",
-    "Hive/语法/HQL备忘录.md",
     "Hive/hive客户端命令.md",
     "Hive/Hive文档背诵.md",
     "Hive/hive使用经验.md",
     "Hive/hive优化.md",
     "Hive/hive运行时服务.md",
-    "Hive/HQL方言增强.md",
     "Hive/Questions.md.md",
     "Hive/hive面试题.md",
     "项目学习笔记/用户画像-标签系统初步.md",
@@ -208,7 +208,6 @@
     "Users/admin",
     "Users",
     "Java/Java笔记/images/algo4-Week2-Iterable.png",
-    "Java/Java笔记/images",
     "Pasted image 20230811144649.png"
   ]
 }

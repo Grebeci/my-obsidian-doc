@@ -84,13 +84,13 @@ hiveserver2
 
 **DataBase**
 
-[[HQL备忘录#数据库]]
+[[HQL语法备忘录#数据库]]
 	create
 	alter
 	
 **Table**
 
-[[HQL备忘录#表]]
+[[HQL语法备忘录#表]]
 	create
 
 ​    TEXTFILE 默认分隔符是 `\001` （SOH字符）   linux vim 显示为 `^A` 
