@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SICP/QA.md",
+                "file": "hive/面试题.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SICP/QA.md",
+                "file": "hive/面试题.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SICP/QA.md",
+                "file": "hive/面试题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SICP/QA.md"
+                "file": "hive/面试题.md"
               }
             }
           }
@@ -159,11 +159,22 @@
   },
   "active": "b80c20806408adb5",
   "lastOpenFiles": [
+    "hive/Hive-DML.md",
+    "hive/hive使用经验.md",
+    "hive/hive面试题.md",
+    "hive/hive客户端命令.md",
+    "hive/hive-exercises.md.md",
+    "项目学习笔记/用户画像-标签系统初步.md",
+    "项目学习笔记/data_works学习笔记.md",
+    "树莓派/树莓派.md",
+    "生活杂文/法律-劳动法.md",
+    "面试/微创外派微软.md",
+    "面试/面试核心问题.md",
+    "SICP/QA.md",
     "SICP/资源汇总.md",
     "SICP/学习计划.md",
     "电子产品/手机.md",
     "电子产品",
-    "生活杂文/法律-劳动法.md",
     "Docker/Docker-新.md~.md",
     "Docker/Docker-新.md.md",
     "生活杂文",
@@ -172,27 +183,16 @@
     "Docker/Docker.md",
     "Docker/学习进度.md",
     "Docker/Docker笔记.md",
-    "SICP/QA.md",
     "SICP/资源汇总~.md",
     "SICP/学习进度.md",
     "Java/Java笔记/容器-Collection.md",
     "SICP",
     "Java/Java笔记/容器-Collection~.md",
-    "Java/Java笔记/容器-Collection-Problem-Case.md",
-    "Java/Java笔记/泛型Problem-Case.md",
-    "Java/Java笔记/【TOC】Java笔记.md",
-    "Users/admin/Downloads/13StacksAndQueues.pdf.md",
-    "Java/Java笔记/Iterator.md",
-    "Java/Java笔记/Iterator~.md",
     "Users/admin/Downloads",
     "Users/admin",
     "Users",
     "Java/Java笔记/images/algo4-Week2-Iterable.png",
     "Java/Java笔记/images",
-    "TODO/问题.md",
-    "Java/Java笔记/容器-Collection-Problem-Case~.md",
-    "Java/Java.md",
-    "Java/Java笔记/泛型.md",
     "Pasted image 20230811144649.png",
     "TODO",
     "Java/培训班教程/尚硅谷教程-2021",
