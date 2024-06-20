@@ -298,24 +298,25 @@ MSCK [REPAIR] TABLE table_name
 
 
 
+##### Alter Column
 
+1. add column
 
+```hive
+ALTER TABLE table_name 
+  [PARTITION partition_spec]               
+  ADD|REPLACE COLUMNS (col_name data_type [COMMENT col_comment], ...)
+  [CASCADE|RESTRICT]                         
+```
 
+2. Change Column Name/Type/Position/Comment
 
-
-
-```sql
-# 更改表或分区的文件格式
-ALTER TABLE table_name [PARTITION partition_spec] SET FILEFORMAT file_format;
-
-# 更改表/分区位置
-ALTER TABLE table_name [PARTITION partition_spec] SET LOCATION "new location";
-
-# 更改列名称/类型/位置/注释
+```hive
 ALTER TABLE table_name [PARTITION partition_spec] CHANGE [COLUMN] col_old_name col_new_name column_type
   [COMMENT col_comment] [FIRST|AFTER column_name] [CASCADE|RESTRICT];
-# 支持动态分区的更改
 ```
+
+
 
 
 内部表转外部表

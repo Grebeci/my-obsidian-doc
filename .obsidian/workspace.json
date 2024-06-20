@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "b7f1e8a9583b4741",
+        "id": "2aaca12dde14e892",
         "type": "tabs",
         "children": [
           {
-            "id": "9a86145927352ce7",
+            "id": "4b9f9c43000fa378",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Hive/Hive文档背诵.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Hive/Hive文档背诵.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Hive/Hive文档背诵.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Hive/Hive文档背诵.md"
+              }
             }
           }
         ]
@@ -149,12 +157,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9a86145927352ce7",
+  "active": "4b9f9c43000fa378",
   "lastOpenFiles": [
-    "Hive/语法/Hive-DML.md",
-    "Hive/语法/show-desc查询.md",
+    "Hive/面试题.md",
     "Hive/hive.md",
+    "Hive/hive客户端命令.md",
+    "Hive/语法/show-desc查询.md",
     "Hive/语法/HQL语法备忘录.md",
+    "Hive/语法/hive-syntax-exercises.md.md",
+    "Hive/语法/Hive-DML.md",
     "Hive/语法/hive-exercises.md~.md",
     "Hive/Questions.md.md",
     "Hive/HQL方言增强.md",
@@ -163,10 +174,7 @@
     "Hive/Hive文档背诵.md",
     "Hive/hive使用经验.md",
     "Hive/hive面试题.md",
-    "Hive/hive客户端命令.md",
     "Hive/语法",
-    "Hive/语法/hive-exercises.md.md",
-    "Hive/面试题.md",
     "hive/未命名",
     "Leetcode刷题技巧/SQL.md",
     "Leetcode刷题技巧/SQL~.md",
