@@ -266,6 +266,13 @@ LIKE key_value_store [TBLPROPERTIES (property_name=property_value, ...)];
 
 #### 3. 修改
 
+##### Alter Partition
+
+```hive
+```
+
+
+
 ```sql
 # 改名：注意版本，managed 表可能移动hdfs目录
 ALTER TABLE table_name RENAME TO new_table_name;
