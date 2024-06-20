@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker-新.md.md",
+                "file": "Docker/docker-snippet.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker-新.md.md",
+                "file": "Docker/docker-snippet.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Docker-新.md.md",
+                "file": "Docker/docker-snippet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker-新.md.md"
+                "file": "Docker/docker-snippet.md"
               }
             }
           }
@@ -159,6 +159,12 @@
   },
   "active": "4b9f9c43000fa378",
   "lastOpenFiles": [
+    "Docker/docker-snippet~.md",
+    "Docker/学习进度.md",
+    "Docker/docker-snippet.md",
+    "Docker/Kubernetes.md",
+    "Docker/Docker-新.md.md",
+    "Docker/Docker-备忘录.md",
     "Docker/Docker.md",
     "Hive/hive.md",
     "Hive/Hive-snippet-Memo.md",
@@ -182,13 +188,7 @@
     "Leetcode刷题技巧/SQL~.md",
     "数仓/数仓建设.md",
     "Leetcode刷题技巧",
-    "数仓.md",
     "数仓",
-    "项目学习笔记/用户画像-标签系统初步.md",
-    "项目学习笔记/data_works学习笔记.md",
-    "树莓派/树莓派.md",
-    "生活杂文/法律-劳动法.md",
-    "面试/微创外派微软.md",
     "电子产品",
     "生活杂文",
     "SICP",
