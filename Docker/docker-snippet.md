@@ -91,3 +91,19 @@ yum info [包名]
 在你的示例中，`net-tools` 显示在 `Available Packages` 部分，说明 `net-tools` 包可用于安装，但尚未安装在系统上。如果 `net-tools` 已安装，你会看到一个额外的部分，标记为 `Installed Packages`，其中包含已安装版本的详细信息。
 ```
 
+
+
+
+
+qustion
+
+mysql 包都是从哪搞得
+
+```
+curl -LO https://downloads.mysql.com/archives/get/p/23/file/mysql-community-client-8.0.31-1.el7.x86_64.rpm
+curl -LO https://downloads.mysql.com/archives/get/p/23/file/mysql-community-client-plugins-8.0.31-1.el7.x86_64.rpm
+curl -LO https://downloads.mysql.com/archives/get/p/23/file/mysql-community-common-8.0.31-1.el7.x86_64.rpm
+curl -LO https://downloads.mysql.com/archives/get/p/23/file/mysql-community-libs-8.0.31-1.el7.x86_64.rpm
+curl -LO https://downloads.mysql.com/archives/get/p/23/file/mysql-community-libs-compat-8.0.31-1.el7.x86_64.rpm
+```
+
