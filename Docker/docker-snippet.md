@@ -78,8 +78,16 @@ yum list installed | grep [包名]
 ```
 yum info [包名]
 
+1. Installed Packages 还是 Available Packages
+2. Repo        : installed    还是   Repo        : base/7/x86_64
+
+
+解释
+`yum info` 命令可以显示软件包的详细信息，包括它是否已经被安装。在你提供的输出中，关键信息在于 `Repo` 字段和是否有 `Installed Packages` 部分的出现。
+
+- 如果软件包已安装，`yum info` 输出会包含一个 `Installed Packages` 部分，显示已安装包的详细信息。
+- 如果软件包未安装，输出中会显示 `Available Packages` 部分，如你的示例所示，表示该包可用于安装但当前未安装。
+
 在你的示例中，`net-tools` 显示在 `Available Packages` 部分，说明 `net-tools` 包可用于安装，但尚未安装在系统上。如果 `net-tools` 已安装，你会看到一个额外的部分，标记为 `Installed Packages`，其中包含已安装版本的详细信息。
-
-
 ```
 
