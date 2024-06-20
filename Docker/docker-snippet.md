@@ -102,6 +102,17 @@ curl -LO download_url
 
 
 
+##### Sed
+
+文件删除某个字段
+
+```
+sed -i -e '/mirrors.cloud.aliyuncs.com/d' -e '/mirrors.aliyuncs.com/d' /etc/yum.repos.d/CentOS-Base.repo && \
+    localedef -c -f UTF-8 -i zh_CN zh_CN.UTF-8 
+```
+
+
+
 
 
 #### qustion
