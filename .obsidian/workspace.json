@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hive/Hive文档背诵.md",
+                "file": "Hive/未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hive/Hive文档背诵.md",
+                "file": "Hive/未命名.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hive/Hive文档背诵.md",
+                "file": "Hive/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hive/Hive文档背诵.md"
+                "file": "Hive/未命名.md"
               }
             }
           }
@@ -160,13 +160,8 @@
   "active": "4b9f9c43000fa378",
   "lastOpenFiles": [
     "Hive/面试题.md",
-    "Hive/hive.md",
+    "Hive/未命名.md",
     "Hive/hive客户端命令.md",
-    "Hive/语法/show-desc查询.md",
-    "Hive/语法/HQL语法备忘录.md",
-    "Hive/语法/hive-syntax-exercises.md.md",
-    "Hive/语法/Hive-DML.md",
-    "Hive/语法/hive-exercises.md~.md",
     "Hive/Questions.md.md",
     "Hive/HQL方言增强.md",
     "Hive/hive运行时服务.md",
@@ -174,6 +169,12 @@
     "Hive/Hive文档背诵.md",
     "Hive/hive使用经验.md",
     "Hive/hive面试题.md",
+    "Hive/hive.md",
+    "Hive/语法/show-desc查询.md",
+    "Hive/语法/HQL语法备忘录.md",
+    "Hive/语法/hive-syntax-exercises.md.md",
+    "Hive/语法/Hive-DML.md",
+    "Hive/语法/hive-exercises.md~.md",
     "Hive/语法",
     "hive/未命名",
     "Leetcode刷题技巧/SQL.md",
@@ -188,7 +189,6 @@
     "生活杂文/法律-劳动法.md",
     "面试/微创外派微软.md",
     "面试/面试核心问题.md",
-    "SICP/QA.md",
     "电子产品",
     "生活杂文",
     "SICP",
