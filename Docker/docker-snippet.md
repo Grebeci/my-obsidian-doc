@@ -93,11 +93,20 @@ yum info [包名]
 
 
 
+curl -LO download_url
+
+```
+-L 这个选项用于让 curl 在服务器返回重定向时，自动跟随新的 URL。
+-O curl 根据获取的 URL 在本地生成文件，文件名与 URL 中指定的文件名相同
+```
 
 
-qustion
 
-mysql 包都是从哪搞得
+
+
+#### qustion
+
+mysql 包都是从哪搞得?
 
 ```
 curl -LO https://downloads.mysql.com/archives/get/p/23/file/mysql-community-client-8.0.31-1.el7.x86_64.rpm
