@@ -25,10 +25,15 @@ Docker 容器
 ```shell
 docker images
 
-docker run -d --name my-nginx -p 8080:80 nginx
+docker run -it --name base centos:centos7.9.2009 /bin/bash  # 交互式方式运行
 
-docker ps
+docker run -d --name base centos:centos7.9.2009 /bin/sh -c "while true; do sleep 1000; done" # 不停止
 
-docker 
+docker ps   # 正在运行的容器
+docker ps -a # 所有的容器，不管是exit还是run
+
+docker exec -it base /bin/bash  
 ```
+
+
 
