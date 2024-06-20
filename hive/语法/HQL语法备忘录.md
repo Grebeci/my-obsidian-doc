@@ -278,6 +278,22 @@ ALTER TABLE table_name ADD [IF NOT EXISTS] PARTITION partition_spec [LOCATION 'l
 
 动态分区
 
+```
+```
+
+2. drop partition
+
+```hive
+# 删除分区
+ALTER TABLE table_name DROP [IF EXISTS] PARTITION partition_spec[, PARTITION partition_spec, ...]
+```
+
+
+
+```
+MSCK [REPAIR] TABLE table_name 
+```
+
 
 
 
@@ -307,9 +323,6 @@ ALTER TABLE table_name PARTITION partition_spec RENAME TO PARTITION partition_sp
 
 #修复分区 ： 分区目录必须满足 partition_spec
 MSCK [REPAIR] TABLE table_name [ADD/DROP/SYNC PARTITIONS];
-
-# 删除分区
-ALTER TABLE table_name DROP [IF EXISTS] PARTITION partition_spec[, PARTITION partition_spec, ...]
 
 
 # 更改表或分区的文件格式
