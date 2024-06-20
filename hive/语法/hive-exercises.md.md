@@ -4,7 +4,7 @@
 
 编写一条 SQL 语句来创建一个名为 `test_hive` 的 Hive 数据库，该数据库的注释为 'test_hive'，数据存储路径为 '/user/hive/warehouse/test_hive.db'。
 
-```
+```hive
 CREATE DATABASE IF NOT EXISTS test_hive
 COMMENT 'test_hive'
 LOCATION '/user/hive/warehouse/test_hive.db';
@@ -92,7 +92,7 @@ ALTER DATABASE test_hive SET DBPROPERTIES ('create_time'='2020-01-01');
 
 **答案：**
 
-```sql
+```hive
 -- 删除 test_hive 数据库
 DROP DATABASE IF EXISTS test_hive;
 
