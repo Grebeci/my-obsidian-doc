@@ -294,7 +294,11 @@ ALTER TABLE table_name DROP [IF EXISTS] PARTITION partition_spec[, PARTITION par
 MSCK [REPAIR] TABLE table_name 
 ```
 
-4. 其他还有 rename，修改 serde Properties，修改 TBLPROPERTIES，修改分区文件格式，
+4. 其他还有 rename，修改 serde Properties，修改 TBLPROPERTIES，修改分区文件格式，分区位置。
+
+
+
+
 
 
 
