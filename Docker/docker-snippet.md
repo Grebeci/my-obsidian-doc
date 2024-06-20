@@ -122,6 +122,20 @@ sed 测试
 
 
 
+docker下centos 支持中文
+
+```
+yum install -y fonts-dejavu fontconfig glibc-common kde-l10n-Chinese
+
+localedef -c -f UTF-8 -i zh_CN zh_CN.UTF-8 && \
+echo 'LANG="zh_CN.UTF-8"' > /etc/locale.conf && \
+echo 'export LANG="zh_CN.utf8"' > /etc/profile.d/language.sh && \
+```
+
+
+
+
+
 #### qustion
 
 mysql 包都是从哪搞得?
