@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hive/未命名.md",
+                "file": "Hive/hive.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hive/未命名.md",
+                "file": "Hive/hive.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hive/未命名.md",
+                "file": "Hive/hive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hive/未命名.md"
+                "file": "Hive/hive.md"
               }
             }
           }
@@ -159,17 +159,17 @@
   },
   "active": "4b9f9c43000fa378",
   "lastOpenFiles": [
-    "Hive/面试题.md",
-    "Hive/未命名.md",
+    "Hive/hive面试题.md",
     "Hive/hive客户端命令.md",
+    "Hive/hive.md",
+    "Hive/Hive-snippet-Memo.md",
+    "Hive/面试题.md",
     "Hive/Questions.md.md",
     "Hive/HQL方言增强.md",
     "Hive/hive运行时服务.md",
     "Hive/hive优化.md",
     "Hive/Hive文档背诵.md",
     "Hive/hive使用经验.md",
-    "Hive/hive面试题.md",
-    "Hive/hive.md",
     "Hive/语法/show-desc查询.md",
     "Hive/语法/HQL语法备忘录.md",
     "Hive/语法/hive-syntax-exercises.md.md",
