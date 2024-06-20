@@ -288,45 +288,19 @@ ALTER TABLE table_name ADD [IF NOT EXISTS] PARTITION partition_spec [LOCATION 'l
 ALTER TABLE table_name DROP [IF EXISTS] PARTITION partition_spec[, PARTITION partition_spec, ...]
 ```
 
-3. 修福分区
+3. 修复分区
 
 ```
 MSCK [REPAIR] TABLE table_name 
 ```
 
-
+4. 其他还有 rename，修改 serde Properties，修改 TBLPROPERTIES，修改分区文件格式，
 
 
 
 
 
 ```sql
-# 改名：注意版本，managed 表可能移动hdfs目录
-ALTER TABLE table_name RENAME TO new_table_name;
-
-# 属性
-ALTER TABLE table_name SET TBLPROPERTIES table_properties;
-
-# Add SerDe Properties
-ALTER TABLE table_name [PARTITION partition_spec] SET SERDE serde_class_name [WITH SERDEPROPERTIES serde_properties];
-
-ALTER TABLE table_name [PARTITION partition_spec] SET SERDEPROPERTIES serde_properties;
-
-ALTER TABLE table_name SET SERDEPROPERTIES ('field.delim' = ',');
-
-# Remove SerDe Properties
-ALTER TABLE table_name [PARTITION partition_spec] UNSET SERDEPROPERTIES (property_name, ... );
-
-# Alter Partition
-ALTER TABLE table_name ADD [IF NOT EXISTS] PARTITION partition_spec [LOCATION 'location'][, PARTITION partition_spec [LOCATION 'location'], ...];
-
-# rename to
-ALTER TABLE table_name PARTITION partition_spec RENAME TO PARTITION partition_spec;
-
-#修复分区 ： 分区目录必须满足 partition_spec
-MSCK [REPAIR] TABLE table_name [ADD/DROP/SYNC PARTITIONS];
-
-
 # 更改表或分区的文件格式
 ALTER TABLE table_name [PARTITION partition_spec] SET FILEFORMAT file_format;
 
