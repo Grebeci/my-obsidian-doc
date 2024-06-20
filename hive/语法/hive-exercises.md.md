@@ -221,3 +221,9 @@ CREATE EXTERNAL TABLE test_hive.student (
 
 ##### 2.ctas
 
+
+
+##### 3. show/desc
+
+##### 4. alter table
+

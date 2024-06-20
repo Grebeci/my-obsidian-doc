@@ -269,7 +269,12 @@ LIKE key_value_store [TBLPROPERTIES (property_name=property_value, ...)];
 ##### Alter Partition
 
 ```hive
+ALTER TABLE table_name ADD [IF NOT EXISTS] PARTITION partition_spec [LOCATION 'location'][, PARTITION partition_spec [LOCATION 'location'], 
+                              partition_spec:
+  : (partition_column = partition_col_value, partition_column = partition_col_value, ...)
 ```
+
+
 
 
 
