@@ -26,5 +26,9 @@ Docker 容器
 docker images
 
 docker run -d --name my-nginx -p 8080:80 nginx
+
+docker ps
+
+docker 
 ```
 
