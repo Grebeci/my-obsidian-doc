@@ -276,7 +276,9 @@ ALTER TABLE table_name ADD [IF NOT EXISTS] PARTITION partition_spec [LOCATION 'l
   : (partition_column = partition_col_value, partition_column = partition_col_value, ...)
 ```
 
-2. 
+动态分区
+
+
 
 
 
