@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hive/语法/show-desc查询.md",
+                "file": "Hive/语法/HQL语法备忘录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e8a035c7da991ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hive/语法/Hive-DML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b2551cd0614cfab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hive/语法/Hive-DML.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hive/语法/show-desc查询.md",
+                "file": "Hive/语法/Hive-DML.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hive/语法/show-desc查询.md",
+                "file": "Hive/语法/Hive-DML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hive/语法/show-desc查询.md"
+                "file": "Hive/语法/Hive-DML.md"
               }
             }
           }
@@ -170,12 +194,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "82dccf6132132ce6",
+  "active": "8e8a035c7da991ef",
   "lastOpenFiles": [
+    "Hive/Questions.md.md",
+    "Hive/HQL方言增强.md",
+    "Hive/hive运行时服务.md",
+    "Hive/hive优化.md",
+    "Hive/Hive文档背诵.md",
+    "Hive/hive使用经验.md",
+    "Hive/hive面试题.md",
+    "Hive/hive客户端命令.md",
+    "Hive/语法/HQL语法备忘录.md",
     "Hive/语法/Hive-DML.md",
     "Hive/语法/show-desc查询.md",
-    "Hive/语法/HQL语法备忘录.md",
-    "Hive/HQL方言增强.md",
     "Hive/语法",
     "Hive/语法/hive-exercises.md.md",
     "Hive/hive.md",
@@ -187,13 +218,6 @@
     "Leetcode刷题技巧",
     "数仓.md",
     "数仓",
-    "Hive/hive客户端命令.md",
-    "Hive/Hive文档背诵.md",
-    "Hive/hive使用经验.md",
-    "Hive/hive优化.md",
-    "Hive/hive运行时服务.md",
-    "Hive/Questions.md.md",
-    "Hive/hive面试题.md",
     "项目学习笔记/用户画像-标签系统初步.md",
     "项目学习笔记/data_works学习笔记.md",
     "树莓派/树莓派.md",
