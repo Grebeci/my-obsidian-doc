@@ -20,9 +20,11 @@ docker run hello-world
 
 
 
-进入 Docker 容器
+Docker 容器
 
-```
-docker exec -it [容器ID或名称] bash
+```shell
+docker images
+
+docker run -d --name my-nginx -p 8080:80 nginx
 ```
 
