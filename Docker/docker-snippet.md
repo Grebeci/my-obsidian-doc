@@ -104,14 +104,21 @@ curl -LO download_url
 
 ##### Sed
 
-文件删除某个字段
+替换某个字段
 
 ```
 sed -i -e '/mirrors.cloud.aliyuncs.com/d' -e '/mirrors.aliyuncs.com/d' /etc/yum.repos.d/CentOS-Base.repo && \
     localedef -c -f UTF-8 -i zh_CN zh_CN.UTF-8 
+    
+ -i ：直接修改文件
+ -e 后面跟sed脚本 '/mirrors.cloud.aliyuncs.com/d'  
+ 				/mirrors.cloud.aliyuncs.com/ 是一个模式，用来匹配文件中包含 mirrors.cloud.aliyuncs.com 这个字符串的行。
+				d 是一个 sed 命令，用于删除匹配到的行。
 ```
 
+sed 测试
 
+[Seddy - test sed in the browser](https://seddy.dev/)
 
 
 
