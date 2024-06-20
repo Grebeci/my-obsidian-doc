@@ -288,11 +288,13 @@ ALTER TABLE table_name ADD [IF NOT EXISTS] PARTITION partition_spec [LOCATION 'l
 ALTER TABLE table_name DROP [IF EXISTS] PARTITION partition_spec[, PARTITION partition_spec, ...]
 ```
 
-
+3. 修福分区
 
 ```
 MSCK [REPAIR] TABLE table_name 
 ```
+
+
 
 
 
