@@ -225,9 +225,13 @@ is equivalent to with Order by
 over(order by expr)
 ```
 
+or， default，
+
+```
+rows BETWEEN UNBOUNDED
+```
 
 
-Default 
 
 
 
