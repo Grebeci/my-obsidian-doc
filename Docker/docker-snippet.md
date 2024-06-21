@@ -1,4 +1,8 @@
-### Dokcer 进程、客户端状态
+
+
+## Docker
+
+###### Dokcer 进程、客户端状态
 
 版本
 
@@ -43,7 +47,9 @@ docker exec -it base /bin/bash
 
 
 
-### vscode 终端快捷键
+## VSCODE
+
+####  终端
 
 在 Visual Studio Code 的终端中删除整行文本，可以使用快捷键：
 
@@ -61,9 +67,18 @@ docker exec -it base /bin/bash
 
 
 
+#### Eidt 
+
+在 Visual Studio Code 中删除当前行的快捷键是：
+
+- Windows/Linux: `Ctrl + Shift + K`
+- macOS: `Cmd + Shift + K`
+
+将光标放在你想要删除的行上，然后使用上述快捷键即可删除该行。
 
 
-#### Linux
+
+## Linux
 
 centos 下查找特定的包是否安装
 
@@ -136,7 +151,7 @@ echo 'export LANG="zh_CN.utf8"' > /etc/profile.d/language.sh && \
 
 
 
-#### qustion
+# qustion
 
 mysql 包都是从哪搞得?
 
@@ -148,3 +163,8 @@ curl -LO https://downloads.mysql.com/archives/get/p/23/file/mysql-community-libs
 curl -LO https://downloads.mysql.com/archives/get/p/23/file/mysql-community-libs-compat-8.0.31-1.el7.x86_64.rpm
 ```
 
+
+
+TODO
+
+SSH 服务
