@@ -41,6 +41,12 @@ docker exec -it base /bin/bash
 
 
 
+todo docker 建立SSH 服务
+
+
+
+
+
 
 
 
@@ -117,6 +123,16 @@ curl -LO download_url
 
 
 
+##### SSH
+
+```
+ssh-keygen -A
+```
+
+在通过容器化技术（如 Docker）部署 SSH 服务时，通常在构建容器镜像或启动容器时运行此命令，以自动配置 SSH 密钥。
+
+
+
 ##### Sed
 
 替换某个字段
@@ -167,5 +183,13 @@ curl -LO https://downloads.mysql.com/archives/get/p/23/file/mysql-community-libs
 
 ### TODO
 
-##### SSH 服务
+##### 1. SSH 服务
+
+```
+ssh-keygen -A
+```
+
+
+
+##### 2. VSCODE-Docker服务
 
