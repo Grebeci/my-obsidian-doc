@@ -248,6 +248,18 @@ MIN()
 
 ```
 RANK()
+ROW_NUMBER() 
+DENSE_RANK() 
+```
+
+
+
+```
+LAG(expr [, N[, default]])
+LEAD(expr [, N[, default]])
+NTH_VALUE(expr, N)
+FIRST_VALUE(expr)
+LAST_VALUE(expr) 
 ```
 
 
