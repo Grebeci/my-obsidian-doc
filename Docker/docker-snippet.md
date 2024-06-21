@@ -211,7 +211,11 @@ ssh-keygen -A
 
 ### windows function
 
+Windows Frame
 
+```
+Rows BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+```
 
 
 
