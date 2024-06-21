@@ -43,6 +43,14 @@ docker exec -it base /bin/bash
 
 todo docker 建立SSH 服务
 
+```
+sh-keygen -A 
+sed -i '/^Host/a\ \ \ \ \ \ \ \ StrictHostKeyChecking no' /etc/ssh/ssh_config 
+ssh-keygen -t rsa -N '' -q -f /root/.ssh/id_rsa 
+cat /root/.ssh/id_rsa.pub >> /root/.ssh/authorized_keys 
+sed -i 's/^#UseDNS yes/UseDNS no/' /etc/ssh/sshd_config 
+```
+
 
 
 
