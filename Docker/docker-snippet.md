@@ -266,7 +266,3 @@ LAST_VALUE(expr)
 
 
 
-
-
-
-
