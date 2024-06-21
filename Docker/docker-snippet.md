@@ -221,7 +221,7 @@ Rows BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
 			<=> over(order by expr) 
 			<=> rows BETWEEN UNBOUNDED
 
-expr PRECEDING | 
+expr PRECEDING | expr FOLLOWING  
 ```
 
 
