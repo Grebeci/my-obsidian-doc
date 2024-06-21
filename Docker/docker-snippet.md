@@ -213,11 +213,21 @@ ssh-keygen -A
 
 Windows Frame
 
+1. `[partition start, current row]`
+
 ```
 Rows BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
 ```
 
+is equivalent to with Order by
 
+```
+over(order by expr)
+```
+
+
+
+Default 
 
 
 
