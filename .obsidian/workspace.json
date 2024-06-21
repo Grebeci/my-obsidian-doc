@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "045fed98a576ea2e",
+        "id": "fb56fdb6795b16c0",
         "type": "tabs",
         "children": [
           {
-            "id": "13658037121a9404",
+            "id": "eb3047e45c216693",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/SQL语法概述/窗口函数.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -157,8 +153,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "13658037121a9404",
+  "active": "c76ef14b78fe68eb",
   "lastOpenFiles": [
+    "Linux/培训班讲义",
     "Data Science/overview.md",
     "Hive/面试题.md",
     "Hive/hive.md",
@@ -184,7 +181,6 @@
     "Docker/Docker-备忘录.md",
     "Docker/Docker.md",
     "Hive/语法/show-desc查询.md",
-    "Hive/语法/HQL语法备忘录.md",
     "Hive/语法",
     "hive/未命名",
     "Leetcode刷题技巧",
