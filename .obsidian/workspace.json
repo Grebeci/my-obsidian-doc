@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数仓/数仓建设.md",
+                "file": "Hive/面试题.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数仓/数仓建设.md",
+                "file": "Hive/面试题.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数仓/数仓建设.md",
+                "file": "Hive/面试题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数仓/数仓建设.md"
+                "file": "Hive/面试题.md"
               }
             }
           }
@@ -159,32 +159,32 @@
   },
   "active": "13658037121a9404",
   "lastOpenFiles": [
+    "Hive/hive.md",
+    "Hive/Hive-snippet-Memo.md",
+    "Hive/hive客户端命令.md",
+    "Hive/hive面试题.md",
+    "Hive/hive使用经验.md",
+    "Hive/Hive文档背诵.md",
+    "Hive/hive优化.md",
+    "Hive/hive运行时服务.md",
+    "Hive/HQL方言增强.md",
+    "Hive/Questions.md.md",
+    "数仓/数仓建设.md",
+    "Docker/docker-snippet~.md",
     "配置文件/yaml.md",
     "诺亚方舟/QA.md",
     "诺亚方舟/计划清单.md",
     "Linux/SSH.md.md",
     "Docker/docker-snippet.md",
-    "Docker/docker-snippet~.md",
     "Docker/学习进度.md",
     "Docker/Kubernetes.md",
     "Docker/Docker-新.md.md",
     "Docker/Docker-备忘录.md",
     "Docker/Docker.md",
-    "Hive/hive.md",
-    "Hive/Hive-snippet-Memo.md",
-    "Hive/hive面试题.md",
-    "Hive/hive客户端命令.md",
     "Hive/面试题.md",
-    "Hive/Questions.md.md",
-    "Hive/HQL方言增强.md",
-    "Hive/hive运行时服务.md",
-    "Hive/hive优化.md",
-    "Hive/Hive文档背诵.md",
-    "Hive/hive使用经验.md",
     "Hive/语法/show-desc查询.md",
     "Hive/语法/HQL语法备忘录.md",
     "Hive/语法/hive-syntax-exercises.md.md",
-    "Hive/语法/Hive-DML.md",
     "Hive/语法",
     "hive/未命名",
     "Leetcode刷题技巧",

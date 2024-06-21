@@ -201,3 +201,17 @@ ssh-keygen -A
 
 ##### 2. VSCODE-Docker服务
 
+
+
+
+
+
+
+
+
+### windows function
+
+
+
+
+
