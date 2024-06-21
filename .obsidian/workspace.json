@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/docker-snippet.md",
+                "file": "Linux/SSH.md.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/docker-snippet.md",
+                "file": "Linux/SSH.md.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/docker-snippet.md",
+                "file": "Linux/SSH.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/docker-snippet.md"
+                "file": "Linux/SSH.md.md"
               }
             }
           }
@@ -159,9 +159,9 @@
   },
   "active": "4b9f9c43000fa378",
   "lastOpenFiles": [
+    "Docker/docker-snippet.md",
     "Docker/docker-snippet~.md",
     "Docker/学习进度.md",
-    "Docker/docker-snippet.md",
     "Docker/Kubernetes.md",
     "Docker/Docker-新.md.md",
     "Docker/Docker-备忘录.md",
