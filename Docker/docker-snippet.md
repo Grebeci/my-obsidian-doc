@@ -211,22 +211,50 @@ ssh-keygen -A
 
 ### windows function
 
-Windows Frame
-
-
+##### Windows Frame
 
 ```
-
+# [partition start, current row]
 Rows BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
 			<=> over(order by expr) 
 			<=> rows BETWEEN UNBOUNDED
+```
 
+```
 expr PRECEDING | expr FOLLOWING  
+
+UNBOUNDED PRECEDING | UNBOUNDED FOLLOWING
+```
+
+```
+{Range | rows} BETWEEN ,,, AND ,,,
 ```
 
 
 
-2. 
+##### windows Functions
+
+aggregate functions
+
+```
+AVG()
+COUNT()
+SUM()
+MAX()
+MIN()
+```
+
+
+
+```
+RANK()
+```
+
+
+
+
+
+
 
 
 
