@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux 基础/文件系统.md",
+                "file": "Linux/Command.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf",
+                "file": "Linux/Command.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf",
+                "file": "Linux/Command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf"
+                "file": "Linux/Command.md"
               }
             }
           }
@@ -206,8 +206,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 2264,
-        "y": -1081,
+        "x": 3649,
+        "y": -1142,
         "width": 1850,
         "height": 1395,
         "maximize": false,
@@ -215,7 +215,7 @@
       }
     ]
   },
-  "active": "eac9c7279d90e51d",
+  "active": "eb3047e45c216693",
   "lastOpenFiles": [
     "Linux/Linux 基础/文件系统.md",
     "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf",
