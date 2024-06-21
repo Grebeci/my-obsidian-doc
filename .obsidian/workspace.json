@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "cdd6047b1d681ace",
+        "id": "045fed98a576ea2e",
         "type": "tabs",
         "children": [
           {
-            "id": "c0c1e23531fabe21",
+            "id": "13658037121a9404",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "数仓/数仓建设.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "数仓/数仓建设.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "数仓/数仓建设.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "数仓/数仓建设.md"
+              }
             }
           }
         ]
@@ -149,8 +157,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c0c1e23531fabe21",
+  "active": "13658037121a9404",
   "lastOpenFiles": [
+    "配置文件/yaml.md",
+    "诺亚方舟/QA.md",
+    "诺亚方舟/计划清单.md",
     "Linux/SSH.md.md",
     "Docker/docker-snippet.md",
     "Docker/docker-snippet~.md",
@@ -174,11 +185,8 @@
     "Hive/语法/HQL语法备忘录.md",
     "Hive/语法/hive-syntax-exercises.md.md",
     "Hive/语法/Hive-DML.md",
-    "Hive/语法/hive-exercises.md~.md",
     "Hive/语法",
     "hive/未命名",
-    "Leetcode刷题技巧/SQL.md",
-    "Leetcode刷题技巧/SQL~.md",
     "Leetcode刷题技巧",
     "数仓",
     "电子产品",
