@@ -52,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,7 +191,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "29990b59551eee01",
+  "active": "eac9c7279d90e51d",
   "lastOpenFiles": [
     "Linux/Linux 基础/文件系统.md",
     "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf",
