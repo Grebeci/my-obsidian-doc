@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hive/面试题.md",
+                "file": "SQL/SQL语法概述/窗口函数.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hive/面试题.md",
+                "file": "SQL/SQL语法概述/窗口函数.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hive/面试题.md",
+                "file": "SQL/SQL语法概述/窗口函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hive/面试题.md"
+                "file": "SQL/SQL语法概述/窗口函数.md"
               }
             }
           }
@@ -159,6 +159,8 @@
   },
   "active": "13658037121a9404",
   "lastOpenFiles": [
+    "Data Science/overview.md",
+    "Hive/面试题.md",
     "Hive/hive.md",
     "Hive/Hive-snippet-Memo.md",
     "Hive/hive客户端命令.md",
@@ -181,10 +183,8 @@
     "Docker/Docker-新.md.md",
     "Docker/Docker-备忘录.md",
     "Docker/Docker.md",
-    "Hive/面试题.md",
     "Hive/语法/show-desc查询.md",
     "Hive/语法/HQL语法备忘录.md",
-    "Hive/语法/hive-syntax-exercises.md.md",
     "Hive/语法",
     "hive/未命名",
     "Leetcode刷题技巧",
