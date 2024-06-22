@@ -446,7 +446,8 @@ Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
 【功能描述】： 复制文件
 
 - `Source ` : 源文件列表，DEST 只能是一个文件或者目录。
-- 当目标文件不存在
+- 不能复制文件到不存在的目录。
+- 
 
 
 
