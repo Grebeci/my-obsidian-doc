@@ -42,16 +42,17 @@
             }
           },
           {
-            "id": "5ceddc543a2d8e0d",
+            "id": "ffff1b733345a52e",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf"
+                "file": "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Command.md",
+                "file": "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Command.md",
+                "file": "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Command.md"
+                "file": "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf"
               }
             }
           }
@@ -225,12 +226,12 @@
       }
     ]
   },
-  "active": "eb3047e45c216693",
+  "active": "ffff1b733345a52e",
   "lastOpenFiles": [
-    "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
-    "Linux/Command.md",
-    "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf",
     "Linux/Linux 基础/文件系统.md",
+    "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf",
+    "Linux/Command.md",
+    "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
     "Linux/Tips.md",
     "Linux/terminal.md",
     "Linux/SSH.md.md",
