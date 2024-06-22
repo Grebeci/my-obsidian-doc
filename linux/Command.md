@@ -367,6 +367,8 @@ With no FILE, or when FILE is -, read standard input.
 
 【功能描述】：显示前N行，默认前10行。
 
+
+
 #### 12. tail
 
 ```shell
@@ -380,7 +382,14 @@ With no FILE, or when FILE is -, read standard input.
 
 【功能描述】：查看后10行文件，`-f`  监听文件的新增内容。
 
+
+
 #### 13. ln
+
+```
+link source_file target_file
+-s, --symbolic              # 对源文件建立符号链接，而非硬链接
+```
 
 
 
