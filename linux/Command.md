@@ -398,12 +398,18 @@ use one of these commands:
   rm ./-foo
 ```
 
+
 【功能描述】：删除文件或目录
 
 ```
 # 删除文件一定要检查 var_path 是否为空，否则有删除错误目录的风险
 rm -rf ${var_path}/path_to_file
 ```
+- 当删除软连接，且软连接指向目录，则 `rm -rf lk_data` 和 `rm -rf lk_data/` 的含义不同。
+- 
+
+
+
 #### 15.  mv
 
 ```
