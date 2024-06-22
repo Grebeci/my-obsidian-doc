@@ -401,9 +401,8 @@ use one of these commands:
 【功能描述】：删除文件或目录
 
 ```
-# 删除文件一定要检查 var_path 是否为空，否则有删除目录的风险
+# 删除文件一定要检查 var_path 是否为空，否则有删除错误目录的风险
 rm -rf ${var_path}/path_to_file
-
 ```
 #### 15.  mv
 
@@ -428,8 +427,6 @@ Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
 ```
 
 【功能描述】： 重命名或者移动文件
-
-
 
 #### 17. chmod
 
