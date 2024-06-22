@@ -437,15 +437,18 @@ Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
 #### 16. cp
 
 ```
-Usage: cp [OPTION]... [-T] SOURCE DEST
-  or:  cp [OPTION]... SOURCE... DIRECTORY
-  or:  cp [OPTION]... -t DIRECTORY SOURCE...
+Usage: cp [OPTION]...  SOURCE DEST
 Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
 
    -R, -r, --recursive          copy directories recursively
 ```
 
-【功能描述】： 重命名或者移动文件
+【功能描述】： 复制文件
+
+- `Source ` : 源文件列表，DEST 只能是一个文件或者目录。
+- 当目标文件不存在
+
+
 
 #### 17. chmod
 
