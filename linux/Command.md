@@ -257,27 +257,20 @@ Create the DIRECTORY(ies), if they do not already exist.
 
 **【英文缩写】：** make directory(ies). 
 
-
-
 #### 5. rmdir
 
 ```
 Usage: rmdir [OPTION]... DIRECTORY...
 Remove the DIRECTORY(ies), if they are empty.
 
--p, --parents   remove DIRECTORY and its ancestors; e.g., 'rmdir -p a/b/c' is
-                    similar to 'rmdir a/b/c a/b a'
+-p, --parents  
 ```
 
-`-p`  选项只能递归删除 **空目录**。不会空目录依然报错，这和 `mkdir -p` 的行为不同。  
+`-p`  选项只能递归删除 **空目录**。不会空目录报错，这和 `mkdir -p` 的行为不同。  
 
 **【英文缩写】：** remove [empty] directory(ies).
 
 **【功能描述】：** 删除空目录。
-
-**【Snippet】：** 
-
-
 
 #### 6. touch
 
@@ -293,15 +286,12 @@ is supplied.
 
 **【功能描述】：** 创建空文件或者修改文件时间。
 
-
-
 #### 7. stat
 
 ```shell
 Usage: stat [OPTION]... FILE...
 Display file or file system status.
 ```
-
 
 
 #### 8. cat
