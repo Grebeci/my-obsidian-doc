@@ -416,6 +416,7 @@ Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
 - `Source ` : 源文件列表，DEST 只能是一个文件或者目录。
 - 当目标文件或目录不存在，相当于对文件目录重命名。
 - 目标文件存在，则 **覆盖**, 如果目录存在，会成为目标目录的子目录。
+- DEST 如果是目录，建议强制以 `/` 结尾。 
 
 #### 16. cp
 
