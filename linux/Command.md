@@ -448,8 +448,14 @@ Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
 - `Source ` : 源文件列表，DEST 只能是一个文件或者目录。
 - 不能复制文件到不存在的目录。
 - 复制文件到目录，如果指定文件存在，会询问是否覆盖。
+- 目录到目录，则  源目录后是否以 `/` 结尾会影响起其行为。
 
+#### 注 
 
+```
+1. mv, rm, mkdir,cp 对路径是否 以 / 结尾语义敏感，需要仔细注意
+2. mv，cp 对目录，文件路径是否存在行为有差别，实践中，是先判断文件存在，选择删除或者创建，而不是依赖具体命令的行为。具体细节注意即可。
+```
 
 
 
@@ -569,7 +575,7 @@ action：
 
 
 
-##### grep
+#### grep
 
 ```shell
 Usage: grep [OPTION]... PATTERNS [FILE]...
