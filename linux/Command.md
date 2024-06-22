@@ -407,13 +407,15 @@ rm -rf ${var_path}/path_to_file
 #### 15.  mv
 
 ```
-Usage: mv [OPTION]... [-T] SOURCE DEST
-  or:  mv [OPTION]... SOURCE... DIRECTORY
-  or:  mv [OPTION]... -t DIRECTORY SOURCE...
+Usage: mv [OPTION] Source DEST
 Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
 ```
 
 【功能描述】： 重命名或者移动文件
+
+- `Source ` : 可以是多个文件或者多个目录，DEST 只能是一个文件或者目录
+- 当目标文件不存在，相当于对 文件或者目录重命名。
+- 
 
 #### 16. cp
 
