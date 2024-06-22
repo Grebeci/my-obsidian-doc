@@ -459,6 +459,12 @@ Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
 
 
 
+#### date
+
+
+
+
+
 #### 17. chmod
 
 ```
@@ -494,8 +500,6 @@ Usage: chgrp [OPTION]... GROUP FILE...
   or:  chgrp [OPTION]... --reference=RFILE FILE...
 Change the group of each FILE to GROUP.
 ```
-
-
 
 【英文原意】： Change file owner and/or group.
 
@@ -575,13 +579,9 @@ echo [-n] [string ...]
 
 ## 组合命令
 
-管道、xargs、
+#### 管道
 
 #### xargs
-
-
-
-
 
 
 
@@ -652,37 +652,6 @@ tar -zcvf 压缩包 source
 shutdown 、 reboot
 
 
-
-
-
-
-
-```
-    1  apt-get install -y git uuid
-    2  git clone https://github.com/Grebeci/one_key_fly.git
-    3  cd one_key_fly/
-    5  bash v2ray_server.sh  install_v2ray
-    6  systemctl status v2ray
-   10  cat /usr/local/etc/v2ray/config.json 
-   11  export PS1='\[\e[31m\]\u\[\e[0m\]@\[\e[34m\]\w\[\e[0m\]\$ 
-   12  ‘
-   13  '
-   14  export PS1='\[\e[31m\]\u\[\e[0m\]@\[\e[34m\]\w\[\e[0m\]\$'
-   15  vim .bash
-   16  cd ~
-   17  ls
-   18  vim .bashrc 
-   19  vim .bashrc 
-   20  souce ~/.bashrc 
-   21  source ~/.bashrc 
-   22  exit
-   23  export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\w\$'
-   24  vim .bashrc 
-   25  source ~/.bashrc 
-   26  exit
-   27  histroy 
-   28  history
-```
 
 
 
