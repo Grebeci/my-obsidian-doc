@@ -244,8 +244,6 @@ SCRIPT_PATH=$(cd $(dirname "$0") && pwd)
 
 `cd` 命令切换目录后，shell 会自动更新 `PWD` 变量。
 
-
-
 #### 4. mkdir
 
 ```
