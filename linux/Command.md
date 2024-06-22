@@ -96,9 +96,9 @@ Linux 系统中存在 BSD 风格的命令，BSD 风格的命令参数在 Linux �
 - Warp：The terminal for the 21st century.
 #### 3.  Command 类别
 
-whichis
+which
 
-what-is
+whatis
 
 type
 
