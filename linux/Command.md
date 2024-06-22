@@ -94,32 +94,21 @@ Linux 系统中存在 BSD 风格的命令，BSD 风格的命令参数在 Linux �
 
 - Copilot ： [GitHub Copilot（CLI 版） - GitHub 文档](https://docs.github.com/zh/copilot/github-copilot-in-the-cli)
 - Warp：The terminal for the 21st century.
-
-
-
 #### 3.  Command 类别
-
-
 
 whichis
 
-
-
-whatis
+what-is
 
 type
 
 alias
-
-
 
 #### 4. 工具
 
 ##### Windows Terminal  +  Bash 
 
 ##### item2 + zsh 
-
-
 
 #### 5. 系统元配置信息
 
@@ -129,13 +118,7 @@ Linux 发行版和版本号
 cat /etc/os-release 
 ```
 
-
-
-
-
 -----------------
-
-
 
 命令格式：
 
@@ -146,8 +129,6 @@ cat /etc/os-release
 > **【功能描述】：**
 >
 > **【Snippet】：**  
-
-
 
 ## File System
 
