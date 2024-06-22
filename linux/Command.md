@@ -302,7 +302,7 @@ Concatenate FILE(s) to standard output.
 
 With no FILE, or when FILE is -, read standard input.
 
-  -A, --show-all           equivalent to -vET
+  -A, --show-all           equivalent to -vET 显示文件中的非打印字符、tab、换行符
   -n, --number             number all output lines
 Examples:
   cat f - g  Output f's contents, then standard input, then g's contents.
@@ -318,11 +318,7 @@ Examples:
 
 例如，在 `cat` 命令中使用 `cat file1 - file2` 会导致 `cat` 首先输出 `file1` 的内容，然后读取标准输入的内容，最后输出 `file2` 的内容。
 
-
-
 【英文缩写】：Concatenate
-
-【功能描述】：
 
 【snippet】：
 
