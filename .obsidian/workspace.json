@@ -13,62 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Command.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c78bc4eaf2d2e109",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Linux 基础/1.文件系统.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8efbea45895caa45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Linux 基础/2.基本操作命令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c7c3fd39d874f62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Command.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26557714dd2766e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Command.md",
+                "file": "Hive/语法/Hive-DML.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Command.md",
+                "file": "Hive/语法/Hive-DML.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Command.md",
+                "file": "Hive/语法/Hive-DML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Command.md"
+                "file": "Hive/语法/Hive-DML.md"
               }
             }
           }
@@ -207,18 +158,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "26557714dd2766e7",
+  "active": "eb3047e45c216693",
   "lastOpenFiles": [
+    "Hive/语法/show-desc查询.md",
+    "Hive/语法/HQL语法备忘录.md",
+    "Hive/语法/hive-syntax-exercises.md.md",
+    "Hive/语法/Hive-DML.md",
+    "Hive/面试题.md",
+    "Linux/Command.md",
+    "Hive/Hive-snippet-Memo.md",
+    "Linux/Linux 基础/1.文件系统.md",
     "Linux/Linux 基础/2.基本操作命令.md",
     "Linux/Linux 基础/用户管理和权限控制.md",
-    "Linux/Linux 基础/1.文件系统.md",
     "Linux/用户管理.md",
     "Linux/Linux 基础/用户管理和权限控制~.md",
     "Linux/Linux 基础/3.包管理系统.md",
     "Linux/Linux 基础/网络管理.md",
     "Linux/Linux 基础/进程管理.md",
     "Linux/软件安装.md",
-    "Linux/Command.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
     "Linux/Tips.md",
     "Linux/terminal.md",
@@ -230,14 +187,8 @@
     "Linux/Linux.md",
     "Linux/Linux-命令速记.md",
     "Linux/heredoc.md",
-    "Linux/文件系统管理.md",
-    "Linux/文本三剑客.md",
-    "Linux/网络服务管理.md",
-    "Linux/服务管理和系统管理.md",
-    "Linux/笔记大纲.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/05 尚硅谷-云计算-Linux系统管理-vim编辑器.pdf",
-    "SQL/SQL语法概述/窗口函数.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/linux运维下载地址汇总.txt",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/02 尚硅谷-云计算-Linux系统管理-Linux安装.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/11 尚硅谷-云计算-Linux系统管理-shell基础.pdf",
