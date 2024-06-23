@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/软件安装.md",
+                "file": "Linux/Linux 基础/包管理系统.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/软件安装.md",
+                "file": "Linux/Linux 基础/包管理系统.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/软件安装.md",
+                "file": "Linux/Linux 基础/包管理系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/软件安装.md"
+                "file": "Linux/Linux 基础/包管理系统.md"
               }
             }
           }
@@ -195,11 +195,11 @@
   },
   "active": "ffff1b733345a52e",
   "lastOpenFiles": [
+    "Linux/Linux 基础/文件系统.md",
+    "Linux/Linux 基础/用户管理和权限控制.md",
+    "Linux/软件安装.md",
     "Linux/Linux 基础/基本操作命令.md",
     "Linux/Linux 基础/进程管理.md",
-    "Linux/软件安装.md",
-    "Linux/Linux 基础/用户管理和权限控制.md",
-    "Linux/Linux 基础/文件系统.md",
     "Linux/Linux 基础/包管理系统.md",
     "Linux/Linux 基础/网络管理.md",
     "Linux/Tips.md",
