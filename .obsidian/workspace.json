@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux 基础/用户管理和权限控制.md",
+                "file": "Linux/用户管理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux 基础/用户管理和权限控制.md",
+                "file": "Linux/用户管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux 基础/用户管理和权限控制.md"
+                "file": "Linux/用户管理.md"
               }
             }
           }
@@ -183,11 +183,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "128d0d34008cd3b0",
+  "active": "c78bc4eaf2d2e109",
   "lastOpenFiles": [
-    "Linux/Linux 基础/用户管理和权限控制~.md",
-    "Linux/用户管理.md",
     "Linux/Linux 基础/用户管理和权限控制.md",
+    "Linux/用户管理.md",
+    "Linux/Linux 基础/用户管理和权限控制~.md",
     "Linux/Linux 基础/3.包管理系统.md",
     "Linux/Linux 基础/网络管理.md",
     "Linux/Linux 基础/进程管理.md",
