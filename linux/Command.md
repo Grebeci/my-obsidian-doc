@@ -461,6 +461,19 @@ Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
 
 #### 18. date
 
+```shell
+date [OPTION]... [+FORMAT]
+-d, --date=STRING          解析字符串并按照指定格式输出，字符串不能是'now'。
+```
+
+date 的用法极多且灵活，列举idom记住即可
+
+```
+# 格式化输出：
+date +"%Y-%m-%d"
+
+```
+
 
 
 
