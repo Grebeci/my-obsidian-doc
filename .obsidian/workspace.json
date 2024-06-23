@@ -32,19 +32,43 @@
             }
           },
           {
-            "id": "128d0d34008cd3b0",
+            "id": "8efbea45895caa45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux 基础/用户管理和权限控制.md",
+                "file": "Linux/Linux 基础/2.基本操作命令.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c7c3fd39d874f62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Command.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "26557714dd2766e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Command.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux 基础/1.文件系统.md",
+                "file": "Linux/Command.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux 基础/1.文件系统.md",
+                "file": "Linux/Command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux 基础/1.文件系统.md"
+                "file": "Linux/Command.md"
               }
             }
           }
@@ -183,12 +207,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c78bc4eaf2d2e109",
+  "active": "26557714dd2766e7",
   "lastOpenFiles": [
     "Linux/Linux 基础/2.基本操作命令.md",
+    "Linux/Linux 基础/用户管理和权限控制.md",
     "Linux/Linux 基础/1.文件系统.md",
     "Linux/用户管理.md",
-    "Linux/Linux 基础/用户管理和权限控制.md",
     "Linux/Linux 基础/用户管理和权限控制~.md",
     "Linux/Linux 基础/3.包管理系统.md",
     "Linux/Linux 基础/网络管理.md",
