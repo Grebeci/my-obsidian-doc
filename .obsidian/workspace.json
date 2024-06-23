@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux 基础/用户管理和权限控制.md",
+                "file": "Linux/用户管理.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 498.5
   },
   "right": {
     "id": "2ff71da6e72efbfa",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux 基础/用户管理和权限控制.md",
+                "file": "Linux/用户管理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux 基础/用户管理和权限控制.md",
+                "file": "Linux/用户管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux 基础/用户管理和权限控制.md"
+                "file": "Linux/用户管理.md"
               }
             }
           }
@@ -158,8 +158,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "eb3047e45c216693",
+  "active": "c76ef14b78fe68eb",
   "lastOpenFiles": [
+    "Linux/Linux 基础/用户管理和权限控制.md",
     "Linux/Linux 基础/网络管理.md",
     "Linux/Linux 基础/进程管理.md",
     "Linux/Linux 基础/3.包管理系统.md",
@@ -185,7 +186,6 @@
     "Java/JavaAPI.md",
     "Java/Java笔记/泛型Problem-Case.md",
     "Java/Java笔记/容器-Collection.md",
-    "Java/Java笔记/容器-Collection-Problem-Case.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/05 尚硅谷-云计算-Linux系统管理-vim编辑器.pdf",
