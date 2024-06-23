@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/构建和部署.md",
+                "file": "Docker/docker-snippet.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/构建和部署.md",
+                "file": "Docker/docker-snippet.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/构建和部署.md",
+                "file": "Docker/docker-snippet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/构建和部署.md"
+                "file": "Docker/docker-snippet.md"
               }
             }
           }
@@ -160,10 +160,21 @@
   },
   "active": "eb3047e45c216693",
   "lastOpenFiles": [
+    "Docker/Docker-新.md.md",
+    "Docker/docker-snippet.md",
+    "Docker/Kubernetes.md",
+    "Docker/Docker-备忘录.md",
+    "Docker/Docker.md",
+    "Docker/学习进度.md",
+    "Data Science/overview.md",
+    "Bash/QAP.md",
+    "Bash/details.md",
+    "Bash/Basics.md",
+    "Bash/BASH-Snippet.md",
+    "Java/构建和部署.md",
     "Java/java编程范式理解.md",
     "Java/Java.md",
     "Java/随想.md",
-    "Java/构建和部署.md",
     "Java/JavaAPI.md",
     "Java/Java笔记/泛型Problem-Case.md",
     "Java/Java笔记/容器-Collection.md",
@@ -175,17 +186,6 @@
     "Hive/Questions.md.md",
     "Hive/HQL方言增强.md",
     "Hive/hive运行时服务.md",
-    "Hive/hive优化.md",
-    "Hive/Hive文档背诵.md",
-    "Hive/hive使用经验.md",
-    "Hive/hive面试题.md",
-    "Hive/hive客户端命令.md",
-    "Hive/Hive-snippet-Memo.md",
-    "Hive/hive.md",
-    "Hive/面试题.md",
-    "Hive/语法/show-desc查询.md",
-    "Hive/语法/Hive-DML.md",
-    "Hive/语法/hive-syntax-exercises.md.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/05 尚硅谷-云计算-Linux系统管理-vim编辑器.pdf",

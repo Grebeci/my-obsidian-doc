@@ -1,5 +1,3 @@
-
-
 ## Docker
 
 ###### Dokcer 进程、客户端状态
@@ -16,7 +14,7 @@ docker engine，docker client信息
 docker info
 ```
 
-运行一个 `Helloworld`容器，证明Dokcer 安装成功
+运行一个 `Helloworld`容器，证明 Dokcer 安装成功
 
 ```
 docker run hello-world
@@ -50,12 +48,6 @@ ssh-keygen -t rsa -N '' -q -f /root/.ssh/id_rsa
 cat /root/.ssh/id_rsa.pub >> /root/.ssh/authorized_keys 
 sed -i 's/^#UseDNS yes/UseDNS no/' /etc/ssh/sshd_config 
 ```
-
-
-
-
-
-
 
 
 
