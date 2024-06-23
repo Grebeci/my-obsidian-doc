@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 498.5
+    "width": 383.5,
+    "collapsed": true
   },
   "right": {
     "id": "2ff71da6e72efbfa",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux 基础/用户管理和权限控制.md",
+                "file": "Linux/用户管理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux 基础/用户管理和权限控制.md",
+                "file": "Linux/用户管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,16 +150,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux 基础/用户管理和权限控制.md"
+                "file": "Linux/用户管理.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,14 +171,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "724b002c072f7b8a",
+  "active": "eb3047e45c216693",
   "lastOpenFiles": [
+    "Linux/Linux 基础/用户管理和权限控制.md",
     "Linux/用户管理.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/07 尚硅谷-云计算-Linux系统管理-用户管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/08 尚硅谷-云计算-Linux系统管理-权限管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/09 尚硅谷-云计算-Linux系统管理-文件系统管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/10 尚硅谷-云计算-Linux系统管理-高级文件系统管理.pdf",
-    "Linux/Linux 基础/用户管理和权限控制.md",
     "Linux/Linux 基础/网络管理.md",
     "Linux/Linux 基础/进程管理.md",
     "Linux/Linux 基础/3.包管理系统.md",
