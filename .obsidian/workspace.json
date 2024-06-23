@@ -25,31 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/软件安装.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ffff1b733345a52e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Linux 基础/包管理系统.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eb6f71abef98dcf1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Linux 基础/文件系统.md",
+                "file": "Linux/用户管理.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/软件安装.md",
+                "file": "Linux/用户管理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/软件安装.md",
+                "file": "Linux/用户管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/软件安装.md"
+                "file": "Linux/用户管理.md"
               }
             }
           }
@@ -197,15 +173,15 @@
   },
   "active": "c78bc4eaf2d2e109",
   "lastOpenFiles": [
-    "Linux/Linux 基础/文件系统.md",
+    "Linux/Linux 基础/用户管理和权限控制.md",
+    "Linux/Linux 基础/3.包管理系统.md",
+    "Linux/Linux 基础/网络管理.md",
+    "Linux/Linux 基础/进程管理.md",
+    "Linux/Linux 基础/2.基本操作命令.md",
+    "Linux/Linux 基础/1.文件系统.md",
     "Linux/软件安装.md",
-    "Linux/Linux 基础/包管理系统.md",
     "Linux/Command.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
-    "Linux/Linux 基础/用户管理和权限控制.md",
-    "Linux/Linux 基础/基本操作命令.md",
-    "Linux/Linux 基础/进程管理.md",
-    "Linux/Linux 基础/网络管理.md",
     "Linux/Tips.md",
     "Linux/terminal.md",
     "Linux/SSH.md.md",
