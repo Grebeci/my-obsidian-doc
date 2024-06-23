@@ -191,47 +191,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "floating": {
-    "id": "a9443a268e993dfb",
-    "type": "floating",
-    "children": [
-      {
-        "id": "cd9f9eecf35ba476",
-        "type": "window",
-        "children": [
-          {
-            "id": "0a81c2e80a94ad0e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "eac9c7279d90e51d",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 3649,
-        "y": -1142,
-        "width": 1850,
-        "height": 1395,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "ffff1b733345a52e",
   "lastOpenFiles": [
-    "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/05 尚硅谷-云计算-Linux系统管理-vim编辑器.pdf",
-    "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
-    "Linux/Linux 基础/文件系统.md",
     "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf",
+    "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
+    "Linux/培训班讲义/Linux运维学科--1-3阶段课件笔记测试题/笔记/05 尚硅谷-云计算-Linux系统管理-vim编辑器.pdf",
+    "Linux/Linux 基础/文件系统.md",
     "Linux/Command.md",
     "Linux/Tips.md",
     "Linux/terminal.md",
