@@ -18,16 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "15b6b9d890cf8ec2",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/10 尚硅谷-云计算-Linux系统管理-高级文件系统管理.pdf"
-              }
-            }
           }
         ]
       }
@@ -171,9 +161,9 @@
   },
   "active": "0475f09df33319fd",
   "lastOpenFiles": [
-    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/09 尚硅谷-云计算-Linux系统管理-文件系统管理.pdf",
-    "Linux/文件系统管理.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/10 尚硅谷-云计算-Linux系统管理-高级文件系统管理.pdf",
+    "Linux/文件系统管理.md",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/09 尚硅谷-云计算-Linux系统管理-文件系统管理.pdf",
     "Linux/软件安装.md",
     "Linux/Linux 基础/3.包管理系统.md",
     "Linux/Linux 基础/4. 用户管理和权限控制.md",
