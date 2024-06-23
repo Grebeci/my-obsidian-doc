@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux 基础/包管理系统.md",
+                "file": "Linux/软件安装.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux 基础/包管理系统.md",
+                "file": "Linux/软件安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux 基础/包管理系统.md"
+                "file": "Linux/软件安装.md"
               }
             }
           }
@@ -195,10 +195,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ffff1b733345a52e",
+  "active": "c78bc4eaf2d2e109",
   "lastOpenFiles": [
-    "Linux/Linux 基础/文件系统.md",
     "Linux/Linux 基础/包管理系统.md",
+    "Linux/Linux 基础/文件系统.md",
     "Linux/软件安装.md",
     "Linux/Command.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
