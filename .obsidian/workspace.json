@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/文件系统管理.md",
+                "file": "Linux/snippet.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/文件系统管理.md",
+                "file": "Linux/snippet.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/文件系统管理.md",
+                "file": "Linux/snippet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/文件系统管理.md"
+                "file": "Linux/snippet.md"
               }
             }
           }
@@ -186,10 +186,13 @@
   },
   "active": "881b63d15985f6b9",
   "lastOpenFiles": [
+    "Linux/SSH.md.md",
+    "Linux/terminal.md",
+    "Linux/Tips.md",
+    "Linux/文件系统管理.md",
     "Linux/Linux 基础/2.基本操作命令.md",
     "Linux/Linux 基础/1.文件系统.md",
     "Linux/Linux 基础/4.用户管理和权限控制.md",
-    "Linux/文件系统管理.md",
     "Linux/Linux 基础/9.系统管理.md",
     "Linux/Linux 基础/9.系统管理~.md",
     "Linux/Linux 基础/8.服务管理.md",
@@ -203,9 +206,6 @@
     "Linux/笔记大纲.md",
     "Linux/用户管理.md",
     "Linux/Linux 基础/6.网络管理.md",
-    "Linux/Tips.md",
-    "Linux/terminal.md",
-    "Linux/SSH.md.md",
     "Linux/Q&A.md",
     "Linux/NetworkManager-Command.md",
     "Linux/Linux.md",
