@@ -42,14 +42,14 @@ for 循环 遇到空格，换行就会循环一次
 
 2. 向文件里追加字符串
 
-	```bash
-	# 添加JAVA_HOME 环境变量
-	cat >>  $ENV_FILE << EOF
-	#JAVA_HOME
-	export JAVA_HOME=/opt/module/jdk1.8.0_212
-	export PATH=\$PATH:\$JAVA_HOME/bin
-	EOF
-	```
+```bash
+# 添加JAVA_HOME 环境变量
+cat >>  $ENV_FILE << EOF
+#JAVA_HOME
+export JAVA_HOME=/opt/module/jdk1.8.0_212
+export PATH=\$PATH:\$JAVA_HOME/bin
+EOF
+```
 
 
 
@@ -85,22 +85,22 @@ fi
 
 3. 通过文本过滤出替换范围，然后替换
 
-	```
-	sed -i '/MySQL 8\.0 Community Server/,/enabled=1/{s/enabled=1/enabled=0/}' mysql-community.repo
-	
-	# 过滤出  "MySQL 8.0 Community Server"  "enabled=1" 之间的文本， 把 "enabled=1" 替换为 enabled=0
-	# 这是贪婪匹配
-	```
+```
+sed -i '/MySQL 8\.0 Community Server/,/enabled=1/{s/enabled=1/enabled=0/}' mysql-community.repo
+
+# 过滤出  "MySQL 8.0 Community Server"  "enabled=1" 之间的文本， 把 "enabled=1" 替换为 enabled=0
+# 这是贪婪匹配
+```
 
 
 #### etc
 
 1. 变量判空赋值
 
-	```bash
-	[ -z "$JAVA_HOME" ] && JAVA_HOME=/opt/module/jdk1.8.0_212
-	rm -rf $JAVA_HOME
-	```
+```bash
+[ -z "$JAVA_HOME" ] && JAVA_HOME=/opt/module/jdk1.8.0_212
+rm -rf $JAVA_HOME
+```
 
 	
 
@@ -108,14 +108,8 @@ fi
 
 1. 文件不存在就创建
 
-	```bash
-	[ -f $file_name ] || touch $file_name
-	```
-
-	
+```bash
+[ -f $file_name ] || touch $file_name
+```
 
 
-
-
-
-3. 
