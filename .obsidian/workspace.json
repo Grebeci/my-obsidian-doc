@@ -43,9 +43,11 @@
             "id": "a58585b1ca719487",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/15 尚硅谷-云计算-Linux系统管理-系统管理.pdf"
+                "file": "Linux/Linux 基础/5.进程管理.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -100,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 483.5026054382324
   },
   "right": {
     "id": "2ff71da6e72efbfa",
@@ -116,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/15 尚硅谷-云计算-Linux系统管理-系统管理.pdf",
+                "file": "Linux/Linux 基础/5.进程管理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/15 尚硅谷-云计算-Linux系统管理-系统管理.pdf",
+                "file": "Linux/Linux 基础/5.进程管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/15 尚硅谷-云计算-Linux系统管理-系统管理.pdf"
+                "file": "Linux/Linux 基础/5.进程管理.md"
               }
             }
           }
@@ -192,9 +194,13 @@
   },
   "active": "c76ef14b78fe68eb",
   "lastOpenFiles": [
+    "Linux/Linux 基础/4.用户管理和权限控制.md",
+    "Linux/Linux 基础/3.包管理系统.md",
+    "Linux/Linux 基础/2.基本操作命令.md",
+    "Linux/Linux 基础/1.文件系统.md",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/15 尚硅谷-云计算-Linux系统管理-系统管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/13 尚硅谷-云计算-Linux系统管理-启动引导与修复.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/14 尚硅谷-云计算-Linux系统管理-服务管理.pdf",
-    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/15 尚硅谷-云计算-Linux系统管理-系统管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/16 尚硅谷-云计算-Linux系统管理-日志管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/尚硅谷-云计算-Linux系统管理（上）-测试题.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/10 尚硅谷-云计算-Linux系统管理-高级文件系统管理.pdf",
@@ -202,15 +208,11 @@
     "Linux/文件系统管理~.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/09 尚硅谷-云计算-Linux系统管理-文件系统管理.pdf",
     "Linux/软件安装.md",
-    "Linux/Linux 基础/3.包管理系统.md",
-    "Linux/Linux 基础/4. 用户管理和权限控制.md",
     "Linux/用户管理.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/08 尚硅谷-云计算-Linux系统管理-权限管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/07 尚硅谷-云计算-Linux系统管理-用户管理.pdf",
     "Linux/Linux 基础/网络管理.md",
-    "Linux/Linux 基础/进程管理.md",
-    "Linux/Linux 基础/2.基本操作命令.md",
-    "Linux/Linux 基础/1.文件系统.md",
+    "Linux/Linux 基础/5.进程管理.md",
     "Linux/服务管理和系统管理.md",
     "Linux/笔记大纲.md",
     "Docker/Kubernetes.md",
@@ -227,7 +229,6 @@
     "Java/构建和部署.md",
     "Java/java编程范式理解.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
-    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf",
     "Java/Java笔记/images/algo4-Week2-Iterable.png",
     "Pasted image 20230811144649.png"
   ]
