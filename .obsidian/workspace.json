@@ -8,44 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0475f09df33319fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Linux 基础/2.基本操作命令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f30945ecace5a86e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/10 尚硅谷-云计算-Linux系统管理-高级文件系统管理.pdf"
-              }
-            }
-          },
-          {
-            "id": "807ddf152e3d081d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/13 尚硅谷-云计算-Linux系统管理-启动引导与修复.pdf"
-              }
-            }
-          },
-          {
             "id": "a58585b1ca719487",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux 基础/5.进程管理.md",
+                "file": "Linux/服务管理和系统管理.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5026054382324
+    "width": 346.5026054382324
   },
   "right": {
     "id": "2ff71da6e72efbfa",
@@ -117,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux 基础/2.基本操作命令.md",
+                "file": "Linux/服务管理和系统管理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux 基础/2.基本操作命令.md",
+                "file": "Linux/服务管理和系统管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux 基础/2.基本操作命令.md"
+                "file": "Linux/服务管理和系统管理.md"
               }
             }
           }
@@ -191,15 +159,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0475f09df33319fd",
+  "active": "a58585b1ca719487",
   "lastOpenFiles": [
+    "Linux/Linux 基础/7.日志服务.md",
+    "Linux/Linux 基础/6.网络管理.md",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/16 尚硅谷-云计算-Linux系统管理-日志管理.pdf",
+    "Linux/Linux 基础/2.基本操作命令.md",
     "Linux/Linux 基础/2.基本操作命令~.md",
     "Linux/Linux 基础/1.文件系统.md",
     "Linux/Linux 基础/1.文件系统~.md",
     "Linux/Linux 基础/5.进程管理.md",
     "Linux/Linux 基础/4.用户管理和权限控制.md",
     "Linux/Linux 基础/3.包管理系统.md",
-    "Linux/Linux 基础/2.基本操作命令.md",
     "Linux/snippet.md",
     "Linux/Q&A.md",
     "Linux/NetworkManager-Command.md",
@@ -212,7 +183,6 @@
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/15 尚硅谷-云计算-Linux系统管理-系统管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/13 尚硅谷-云计算-Linux系统管理-启动引导与修复.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/14 尚硅谷-云计算-Linux系统管理-服务管理.pdf",
-    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/16 尚硅谷-云计算-Linux系统管理-日志管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/尚硅谷-云计算-Linux系统管理（上）-测试题.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/10 尚硅谷-云计算-Linux系统管理-高级文件系统管理.pdf",
     "Linux/文件系统管理~.md",
@@ -220,14 +190,11 @@
     "Linux/软件安装.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/08 尚硅谷-云计算-Linux系统管理-权限管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/07 尚硅谷-云计算-Linux系统管理-用户管理.pdf",
-    "Linux/Linux 基础/网络管理.md",
     "Linux/服务管理和系统管理.md",
     "Linux/笔记大纲.md",
     "Docker/Kubernetes.md",
     "Docker/Docker-新.md.md",
     "Docker/Docker-备忘录.md",
-    "Docker/Docker.md",
-    "Docker/学习进度.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
     "Java/Java笔记/images/algo4-Week2-Iterable.png",
     "Pasted image 20230811144649.png"
