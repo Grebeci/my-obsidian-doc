@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/服务管理和系统管理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "93227641616fae2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/snippet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67a0c82bc0057c2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Linux/Linux 基础/系统管理.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,18 +159,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "67a0c82bc0057c2d",
+  "active": "a58585b1ca719487",
   "lastOpenFiles": [
     "Linux/服务管理和系统管理.md",
-    "Linux/Linux 基础/系统管理.md",
-    "Linux/软件安装.md",
     "Linux/snippet.md",
+    "Linux/软件安装.md",
+    "Linux/Linux 基础/系统管理.md",
     "Linux/Linux 基础/7.日志服务.md",
+    "Linux/网络服务管理.md",
+    "Linux/文本三剑客.md",
     "Linux/笔记大纲.md",
     "Linux/文件系统管理.md",
     "Linux/用户管理.md",
-    "Linux/文本三剑客.md",
-    "Linux/网络服务管理.md",
     "Linux/Linux 基础/6.网络管理.md",
     "Linux/Tips.md",
     "Linux/terminal.md",
