@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux 基础/未命名.md",
+                "file": "Linux/Linux 基础/9.系统管理.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux 基础/未命名.md",
+                "file": "Linux/Linux 基础/9.系统管理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux 基础/未命名.md",
+                "file": "Linux/Linux 基础/9.系统管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux 基础/未命名.md"
+                "file": "Linux/Linux 基础/9.系统管理.md"
               }
             }
           }
@@ -186,9 +186,9 @@
   },
   "active": "881b63d15985f6b9",
   "lastOpenFiles": [
-    "Linux/Linux 基础/未命名.md",
-    "Linux/Linux 基础/9.系统管理.md",
     "Linux/Linux 基础/8.服务管理.md",
+    "Linux/Linux 基础/9.系统管理.md",
+    "Linux/Linux 基础/10.网络管理.md",
     "Linux/服务管理和系统管理.md",
     "Linux/网络服务管理.md",
     "Linux/snippet.md",
