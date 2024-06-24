@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Linux/服务管理和系统管理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93227641616fae2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Linux/Linux 基础/7.日志服务.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,14 +172,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a58585b1ca719487",
+  "active": "93227641616fae2f",
   "lastOpenFiles": [
-    "Linux/Linux 基础/6.网络管理.md",
-    "Linux/Linux 基础/7.日志服务.md",
-    "Linux/网络服务管理.md",
     "Linux/服务管理和系统管理.md",
+    "Linux/Linux 基础/7.日志服务.md",
     "Linux/笔记大纲.md",
+    "Linux/文件系统管理.md",
+    "Linux/用户管理.md",
+    "Linux/文本三剑客.md",
+    "Linux/网络服务管理.md",
     "Linux/软件安装.md",
+    "Linux/Linux 基础/6.网络管理.md",
     "Linux/Tips.md",
     "Linux/terminal.md",
     "Linux/SSH.md.md",
@@ -176,9 +192,6 @@
     "Linux/Linux.md",
     "Linux/heredoc.md",
     "Linux/Command.md",
-    "Linux/用户管理.md",
-    "Linux/文件系统管理.md",
-    "Linux/文本三剑客.md",
     "Linux/Linux 基础/5.进程管理.md",
     "Linux/Linux 基础/4.用户管理和权限控制.md",
     "Linux/Linux 基础/3.包管理系统.md",
