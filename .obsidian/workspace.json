@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/网络服务管理.md",
+                "file": "Linux/Linux 基础/7.日志服务.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/网络服务管理.md",
+                "file": "Linux/Linux 基础/7.日志服务.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/网络服务管理.md",
+                "file": "Linux/Linux 基础/7.日志服务.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/网络服务管理.md"
+                "file": "Linux/Linux 基础/7.日志服务.md"
               }
             }
           }
@@ -161,11 +161,11 @@
   },
   "active": "a58585b1ca719487",
   "lastOpenFiles": [
+    "Linux/Linux 基础/6.网络管理.md",
+    "Linux/Linux 基础/7.日志服务.md",
+    "Linux/网络服务管理.md",
     "Linux/服务管理和系统管理.md",
     "Linux/笔记大纲.md",
-    "Linux/Linux 基础/7.日志服务.md",
-    "Linux/Linux 基础/6.网络管理.md",
-    "Linux/网络服务管理.md",
     "Linux/软件安装.md",
     "Linux/Tips.md",
     "Linux/terminal.md",
