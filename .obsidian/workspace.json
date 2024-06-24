@@ -101,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 483.5026054382324
+    "width": 327.5026054382324
   },
   "right": {
     "id": "2ff71da6e72efbfa",
@@ -191,7 +191,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0475f09df33319fd",
+  "active": "c76ef14b78fe68eb",
   "lastOpenFiles": [
     "Linux/Linux 基础/5.进程管理.md",
     "Linux/Linux 基础/5.进程管理~.md",
