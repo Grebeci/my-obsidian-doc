@@ -52,7 +52,6 @@ EOF
 ```
 
 
-
 3. XML文件添加配置项
 
 ```bash
@@ -80,7 +79,6 @@ fi
     <property><name>$1</name><value>$2</value></property>
 </configuration>
 ```
-
 
 
 3. 通过文本过滤出替换范围，然后替换
