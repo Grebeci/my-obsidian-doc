@@ -18,8 +18,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f30945ecace5a86e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/10 尚硅谷-云计算-Linux系统管理-高级文件系统管理.pdf"
+              }
+            }
+          },
+          {
+            "id": "807ddf152e3d081d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/13 尚硅谷-云计算-Linux系统管理-启动引导与修复.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5026054382324
+    "width": 459.5026054382324
   },
   "right": {
     "id": "2ff71da6e72efbfa",
@@ -85,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/文件系统管理.md",
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/13 尚硅谷-云计算-Linux系统管理-启动引导与修复.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/文件系统管理.md",
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/13 尚硅谷-云计算-Linux系统管理-启动引导与修复.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/文件系统管理.md"
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/13 尚硅谷-云计算-Linux系统管理-启动引导与修复.pdf"
               }
             }
           }
@@ -159,11 +180,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0475f09df33319fd",
+  "active": "807ddf152e3d081d",
   "lastOpenFiles": [
-    "Linux/文件系统管理~.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/10 尚硅谷-云计算-Linux系统管理-高级文件系统管理.pdf",
     "Linux/文件系统管理.md",
+    "Linux/文件系统管理~.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/09 尚硅谷-云计算-Linux系统管理-文件系统管理.pdf",
     "Linux/软件安装.md",
     "Linux/Linux 基础/3.包管理系统.md",
@@ -190,7 +211,6 @@
     "Bash/BASH-Snippet.md",
     "Java/构建和部署.md",
     "Java/java编程范式理解.md",
-    "Java/Java.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/05 尚硅谷-云计算-Linux系统管理-vim编辑器.pdf",
