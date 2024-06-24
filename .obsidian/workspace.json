@@ -51,8 +51,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux 基础/5.进程管理.md",
+                "file": "Linux/文件系统管理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux 基础/5.进程管理.md",
+                "file": "Linux/文件系统管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux 基础/5.进程管理.md"
+                "file": "Linux/文件系统管理.md"
               }
             }
           }
@@ -192,8 +191,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c76ef14b78fe68eb",
+  "active": "0475f09df33319fd",
   "lastOpenFiles": [
+    "Linux/Linux 基础/5.进程管理.md",
     "Linux/Linux 基础/5.进程管理~.md",
     "Linux/Linux 基础/4.用户管理和权限控制.md",
     "Linux/Linux 基础/3.包管理系统.md",
@@ -213,7 +213,6 @@
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/08 尚硅谷-云计算-Linux系统管理-权限管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/07 尚硅谷-云计算-Linux系统管理-用户管理.pdf",
     "Linux/Linux 基础/网络管理.md",
-    "Linux/Linux 基础/5.进程管理.md",
     "Linux/服务管理和系统管理.md",
     "Linux/笔记大纲.md",
     "Docker/Kubernetes.md",
