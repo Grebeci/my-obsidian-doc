@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux 基础/系统管理.md",
+                "file": "Linux/Linux 基础/9.系统管理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f91b1868a8cfb9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/网络服务管理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "881b63d15985f6b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Linux 基础/未命名.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux 基础/系统管理.md",
+                "file": "Linux/Linux 基础/未命名.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux 基础/系统管理.md",
+                "file": "Linux/Linux 基础/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux 基础/系统管理.md"
+                "file": "Linux/Linux 基础/未命名.md"
               }
             }
           }
@@ -159,14 +184,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a58585b1ca719487",
+  "active": "881b63d15985f6b9",
   "lastOpenFiles": [
+    "Linux/Linux 基础/未命名.md",
+    "Linux/Linux 基础/9.系统管理.md",
+    "Linux/Linux 基础/8.服务管理.md",
     "Linux/服务管理和系统管理.md",
+    "Linux/网络服务管理.md",
     "Linux/snippet.md",
     "Linux/软件安装.md",
-    "Linux/Linux 基础/系统管理.md",
     "Linux/Linux 基础/7.日志服务.md",
-    "Linux/网络服务管理.md",
     "Linux/文本三剑客.md",
     "Linux/笔记大纲.md",
     "Linux/文件系统管理.md",
@@ -186,8 +213,6 @@
     "Linux/Linux 基础/2.基本操作命令.md",
     "Linux/Linux 基础/1.文件系统.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/16 尚硅谷-云计算-Linux系统管理-日志管理.pdf",
-    "Linux/Linux 基础/2.基本操作命令~.md",
-    "Linux/Linux 基础/1.文件系统~.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/15 尚硅谷-云计算-Linux系统管理-系统管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/13 尚硅谷-云计算-Linux系统管理-启动引导与修复.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/14 尚硅谷-云计算-Linux系统管理-服务管理.pdf",
