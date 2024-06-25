@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mac/未命名.md",
+                "file": "SQL/SQL语法概述/现代SQL的增强.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TODO/sshd",
+                "query": "交集",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mac/未命名.md",
+                "file": "SQL/SQL语法概述/现代SQL的增强.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mac/未命名.md",
+                "file": "SQL/SQL语法概述/现代SQL的增强.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mac/未命名.md"
+                "file": "SQL/SQL语法概述/现代SQL的增强.md"
               }
             }
           }
@@ -159,11 +159,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "da5e8d5e7f9b5d39",
+  "active": "c76ef14b78fe68eb",
   "lastOpenFiles": [
+    "关系数据库/MySQL/事务.md",
+    "关系数据库/MySQL/NULL处理.md",
+    "关系数据库/MySQL/MySQL类型系统.md",
+    "关系数据库/MySQL/MySQL架构.md",
+    "关系数据库/MySQL/MySQL备忘录.md",
+    "关系数据库/MySQL/MySQL安装.md",
+    "关系数据库/MySQL/MySQL-SQL方言.md",
+    "Mac/未命名.md",
     "Mac/未命名~.md",
     "Mac/日常操作TODO.md",
-    "Mac/未命名.md",
     "Mac/problem.md",
     "笔记心得.md",
     "Linux/Linux 基础/9.系统管理.md",
@@ -180,13 +187,6 @@
     "Hive/Hive-snippet-Memo.md",
     "Hive/hive客户端命令.md",
     "Hive/hive面试题.md",
-    "Hive/hive使用经验.md",
-    "Hive/Hive文档背诵.md",
-    "Hive/hive优化.md",
-    "Hive/hive运行时服务.md",
-    "Hive/HQL方言增强.md",
-    "Java/随想.md",
-    "Java/构建和部署.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/16 尚硅谷-云计算-Linux系统管理-日志管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/15 尚硅谷-云计算-Linux系统管理-系统管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/13 尚硅谷-云计算-Linux系统管理-启动引导与修复.pdf",
