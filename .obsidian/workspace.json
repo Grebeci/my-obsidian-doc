@@ -20,43 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "b27e24f1deffe8d1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "759cb40d99c6976c",
-            "type": "leaf",
-            "state": {
-              "type": "translator-view",
-              "state": {
-                "language_from": "auto",
-                "language_to": "zh-cn",
-                "translation_service": "google_translate",
-                "auto_translate": false,
-                "apply_glossary": false,
-                "view_mode": 0,
-                "filter_mode": 0,
-                "show_attribution": false,
-                "top_buttons": [
-                  "change-service",
-                  "automatic-translation",
-                  "change-layout",
-                  "apply-filter",
-                  "open-settings"
-                ],
-                "left_buttons": [
-                  "paste",
-                  "clear"
-                ],
-                "right_buttons": [
-                  "copy"
-                ]
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -197,7 +160,7 @@
       "translate:Open translation view": false
     }
   },
-  "active": "759cb40d99c6976c",
+  "active": "da5e8d5e7f9b5d39",
   "lastOpenFiles": [
     "Linux/Linux 基础/1.文件系统.md",
     "SQL/SQL语法概述/现代SQL的增强.md",
