@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux 基础/2.基本操作命令.md",
+                "file": "Linux/Command.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux 基础/2.基本操作命令.md",
+                "file": "Linux/Command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux 基础/2.基本操作命令.md"
+                "file": "Linux/Command.md"
               }
             }
           }
@@ -179,11 +179,11 @@
       "translate:Open translation view": false
     }
   },
-  "active": "da5e8d5e7f9b5d39",
+  "active": "3ea1f82369f87f92",
   "lastOpenFiles": [
+    "Linux/Linux 基础/2.基本操作命令.md",
     "Linux/Linux 基础/2.基本操作命令~.md",
     "Linux/Command.md",
-    "Linux/Linux 基础/2.基本操作命令.md",
     "Linux/Linux 基础/1.文件系统.md",
     "SQL/SQL语法概述/现代SQL的增强.md",
     "关系数据库/MySQL/事务.md",
