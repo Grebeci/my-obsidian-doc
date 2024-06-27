@@ -68,11 +68,10 @@ log.dirs=/tmp/kafka-logs
 
 # 2. Key Concept
 
-参考： https://kafka.apache.org/documentation/#intro_concepts_and_terms
+参考官方文档：[Main Concepts and Terminology](https://kafka.apache.org/documentation/#intro_concepts_and_terms)  介绍了 Event， Producer , Consumer ,Topic , Partition 的概念。
 
-
-
-
+- Topic : 可以类比文件夹，数据库的表概念。
+- `Partition` : 类比hive表的分区，或者文件系统的文件。
 
 
 
