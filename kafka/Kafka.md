@@ -39,9 +39,6 @@ kafka 端口 ：9092
     |   |-- trogdor.conf
     |   `-- zookeeper.properties  # zookeeper 配置文件
     |-- libs
-
-
-
 ```
 
 
