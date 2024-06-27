@@ -49,7 +49,8 @@ kafka 端口 ：9092
 # ZooKeeper数据存储位置
 dataDir=/tmp/zookeeper
 
- 
+# kafka 内部zk客户端
+clientPort=2181
 ```
 
 server.properties
@@ -62,6 +63,12 @@ server.properties
 
 # kafka 数据 存放位置
 log.dirs=/tmp/kafka-logs
+
+# kafka节点数字标识，集群内具有唯一性
+broker.id=1
+
+# ZooKeeper软件连接地址，2181为默认的ZK端口号 /kafka 为ZK的管理节点
+zookeeper.connect=localhost:2181/kafka
 ```
 
 
