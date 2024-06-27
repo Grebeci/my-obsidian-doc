@@ -70,7 +70,9 @@
       "version": "1.0.0"
     },
     "google_translate": {
-      "selected_languages": [],
+      "selected_languages": [
+        "zh-cn"
+      ],
       "api_key": "",
       "auto_translate": false,
       "auto_translate_interval": 500,
@@ -216,7 +218,9 @@
       "version": "1.1.0"
     },
     "azure_translator": {
-      "selected_languages": [],
+      "selected_languages": [
+        "zh-cn"
+      ],
       "api_key": "",
       "region": "",
       "host": null,
@@ -363,7 +367,9 @@
       "version": "1.1.0"
     },
     "yandex_translate": {
-      "selected_languages": [],
+      "selected_languages": [
+        "zh-cn"
+      ],
       "api_key": "",
       "auto_translate": false,
       "auto_translate_interval": 500,
@@ -474,7 +480,9 @@
       "version": "1.1.0"
     },
     "deepl": {
-      "selected_languages": [],
+      "selected_languages": [
+        "zh-cn"
+      ],
       "api_key": "",
       "auto_translate": false,
       "auto_translate_interval": 500,
@@ -547,7 +555,9 @@
       "version": "1.0.3"
     },
     "libre_translate": {
-      "selected_languages": [],
+      "selected_languages": [
+        "zh-cn"
+      ],
       "host": "",
       "auto_translate": false,
       "auto_translate_interval": 500,
@@ -588,7 +598,9 @@
       "version": "1.0.2"
     },
     "bergamot": {
-      "selected_languages": [],
+      "selected_languages": [
+        "zh-cn"
+      ],
       "validated": null,
       "auto_translate": false,
       "auto_translate_interval": 500,
@@ -1163,7 +1175,9 @@
       "version": "0.3.4"
     },
     "fanyi_qq": {
-      "selected_languages": [],
+      "selected_languages": [
+        "zh-cn"
+      ],
       "api_key": "",
       "app_id": "",
       "region": "ap-bangkok",
@@ -1193,7 +1207,9 @@
       "version": "1.0.0"
     },
     "fanyi_youdao": {
-      "selected_languages": [],
+      "selected_languages": [
+        "zh-cn"
+      ],
       "api_key": "",
       "app_id": "",
       "auto_translate": false,
@@ -1316,7 +1332,9 @@
       "version": "1.0.0"
     },
     "fanyi_baidu": {
-      "selected_languages": [],
+      "selected_languages": [
+        "zh-cn"
+      ],
       "api_key": "",
       "app_id": "",
       "auto_translate": false,
@@ -1528,7 +1546,9 @@
       "version": "1.0.0"
     },
     "lingva_translate": {
-      "selected_languages": [],
+      "selected_languages": [
+        "zh-cn"
+      ],
       "host": "translate.plausibility.cloud",
       "auto_translate": false,
       "auto_translate_interval": 500,
