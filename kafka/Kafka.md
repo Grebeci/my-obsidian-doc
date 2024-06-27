@@ -85,11 +85,8 @@ zookeeper.connect=localhost:2181/kafka
   - **领导选举** :  负责分区的leader副本（负责处理所有读写操作的副本）的选举。
   - **集群管理**：controller负责处理所有与分区和副本的变化相关的事件。当某个broker 下线，同步其上的分区副本到其他broker
   - **元数据管理**：所有关于主题、分区和副本位置的元数据都由controller来管理
-- 
 
-
-
-# 3. API
+# 3. 生产消息
 
 Producer 流程
 
@@ -154,17 +151,9 @@ Producer 流程
 | at least once | 最少一次：消息不会丢失，如果接收不到，那么就继续发，所以会发送多次，直到收到为止，有可能出现数据重复 | ACK=1            |
 | Exactly once  | 精准一次：消息只会一次，不会丢，也不会重复。                 | 幂等+事务+ACK=-1 |
 
-# 数据存储
-
-- ISR策略
-- 数据保留策略
-- 数据索引文件
-  - 顺序索引（offset）文件
-  - 时间索引文件
 
 
-
-# 消费消息
+# 4. 消费消息
 
 Consumer 流程
 
@@ -223,52 +212,10 @@ Consumer 流程
 
 Consumer的是事务性弱，依赖客户端将数据消费过程和偏移量提交过程进行原子性绑定
 
+# 5. 数据存储
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### key concepts
-
-官网的 [Introduction](https://kafka.apache.org/intro) 部分 介绍了 Event， Producer , Consumer ,Topic , Partition 的概念，没有 `consumer group` 概念。
-
-下面是总结的
-
-**Producers** 
-
-**consumers** 
-
-**topics** : 一个主题就是一张表，表中有分区。
-
-**partitioned** 主题是分区的，partition 分布在broker中，partition 使用副本机制，每个分区的多个副本选出一个leader，其他都是 follower 。producer 和 consumers 操作对象都是leader。
-
-注意leader和broker没关系，每个broker都可能是leader，换句话说，leader有很多台。
-
-consumers group （CG）： 每个消费者组和Topic对应，每个consumer消费一个或者多个分区，一个分区只能被一个消费者（同组）消费。
-
-> 这个总结结合尚硅谷文档看。
-
-
-
-
-
-
-#### Getting Start 
-
-##### 部署
-
-依赖 zookeeper ， 理解`broker.id`的含义。启动集群。
-
-Kafka是一个分布式系统，由服务器和客户端组成，通过高性能TCP网络协议进行通信。它可以部署在本地和云环境中的裸机硬件、虚拟机和容器上
-
-Kafka作为一个或多个服务器的集群运行，可以跨越多个数据中心或云区域。
-
+- ISR策略
+- 数据保留策略
+- 数据索引文件
+  - 顺序索引（offset）文件
+  - 时间索引文件
