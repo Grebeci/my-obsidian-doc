@@ -69,7 +69,7 @@ log.dirs=/tmp/kafka-logs
 
 
 
-
+# 2. Key Concept
 
 
 
