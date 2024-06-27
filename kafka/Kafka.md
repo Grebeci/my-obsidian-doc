@@ -55,6 +55,10 @@ dataDir=/tmp/zookeeper
 server.properties
 
 ```
+# 服务器监听端口
+listeners=PLAINTEXT://:9092
+
+# 
 ```
 
 
