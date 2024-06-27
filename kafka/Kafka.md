@@ -1,3 +1,23 @@
+# 1.Apache Kafka 是什么？
+
+Apach Kafka 是一款**分布式流处理框架**，用于实时构建流处理应用。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### key concepts
 
 官网的 [Introduction](https://kafka.apache.org/intro) 部分 介绍了 Event， Producer , Consumer ,Topic , Partition 的概念，没有 `consumer group` 概念。
