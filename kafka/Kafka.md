@@ -177,7 +177,9 @@ Consumer 流程
 
 ##### 消费者组
 
-why ：
+对消费者横向伸缩，实现并发读 Topic。
+
+- 每个消费者都必须有自己的 Consumer Group，消费者组由 Group Coordinator 管理。
 
 
 
