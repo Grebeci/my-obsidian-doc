@@ -83,7 +83,7 @@ zookeeper.connect=localhost:2181/kafka
 **运行时架构**
 
 - `broker` :  数据节点的角色。也可以称为 Kafka Server
-- 
+- `Controller`：
 
 
 
