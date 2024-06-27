@@ -80,7 +80,10 @@ zookeeper.connect=localhost:2181/kafka
 - `Topic` : 可以类比文件夹，数据库的表概念。
 - `Partition` : 类比hive表的分区，或者文件系统的文件。
 
+**运行时架构**
 
+- `broker` :  数据节点的角色。也可以称为 Kafka Server
+- 
 
 
 
