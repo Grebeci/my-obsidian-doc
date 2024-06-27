@@ -2,7 +2,15 @@
 
 Spark 部署模式，参考 ：[Launching on a Cluster](https://spark.apache.org/docs/3.0.0/#launching-on-a-cluster)
 
-##### Yarn方式
+#### Yarn方式
+
+**1. 配置**
+
+YARN_CONF_DIR
+
+
+
+
 
 ```
 $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
