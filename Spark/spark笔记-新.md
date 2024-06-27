@@ -6,11 +6,11 @@ Spark 部署模式，参考 ：[Launching on a Cluster](https://spark.apache.org
 
 **1. 配置**
 
-YARN_CONF_DIR
+保证 `HADOOP_CONF_DIR`或 `YARN_CONF_DIR`指向包含Hadoop集群(客户端)配置文件的目录。
 
 
 
-
+**2.启动**
 
 ```
 $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
@@ -24,3 +24,4 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
     10
 ```
 
+`--deploy-mode`  ：
