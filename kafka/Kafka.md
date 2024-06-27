@@ -49,8 +49,6 @@ kafka 端口 ：9092
 # ZooKeeper数据存储位置
 dataDir=/tmp/zookeeper
 
-# kafka 内部zk客户端
-clientPort=2181
 ```
 
 server.properties
