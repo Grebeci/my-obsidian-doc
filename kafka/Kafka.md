@@ -83,7 +83,10 @@ zookeeper.connect=localhost:2181/kafka
 **运行时架构**
 
 - `broker` :  数据节点的角色。也可以称为 Kafka Server
-- `Controller`：
+- `Controller`：管理整个 `broker` 集群 ，类似于 hadoop namenode。
+  - 负责分区的leader副本（负责处理所有读写操作的副本）的选举。
+  - controller负责处理所有与分区和副本的变化相关的事件。当某个broker 下线，同步其上的分区副本到其他broker
+  - **元数据管理**：所有关于主题、分区和副本位置的元数据都由controller来管理
 
 
 
