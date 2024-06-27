@@ -166,6 +166,13 @@ Producer 流程
 
 # 消费消息
 
+Consumer 流程
+
+- 构造配置
+- 构造Consumer
+- 订阅主题
+- 消费数据
+
 
 
 
