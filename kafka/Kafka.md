@@ -68,7 +68,7 @@ log.dirs=/tmp/kafka-logs
 
 # 2. Key Concept
 
-
+参考： https://kafka.apache.org/documentation/#intro_concepts_and_terms
 
 
 
