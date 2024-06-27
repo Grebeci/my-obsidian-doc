@@ -55,10 +55,13 @@ dataDir=/tmp/zookeeper
 server.properties
 
 ```
-# 服务器监听端口
-listeners=PLAINTEXT://:9092
+# 服务器监听端口，listeners是kafka集群内部的端口，advertised.listeners是广播给客户端 broker端口，如果没有，就用listeners
+# 这两个选项不用记忆。
+#listeners=PLAINTEXT://:9092
+#advertised.listeners=PLAINTEXT://your.host.name:9092
 
-# 
+# kafka 数据 存放位置
+log.dirs=/tmp/kafka-logs
 ```
 
 
