@@ -91,6 +91,29 @@ zookeeper.connect=localhost:2181/kafka
 
 # 3. API
 
+Producer 流程
+
+- 构建配置
+- 构建 Producer
+- 构造 Record
+- 发送 Record
+
+
+
+##### 构造配置
+
+- bootstrap.servers， key.serializer，value.serializer
+
+##### 构造 Record
+
+- 指定分区，
+
+
+
+
+
+
+
 
 
 
