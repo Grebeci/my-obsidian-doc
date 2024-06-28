@@ -222,19 +222,6 @@ spark 主要算子，代码的snippet的背诵和记忆部分
 	}
 	```
 
-- 从外部系统
-
-	```
-	  def textFile(
-	      path: String,
-	      minPartitions: Int = defaultMinPartitions): RDD[String] = withScope {
-	    assertNotStopped()
-	    hadoopFile(path, classOf[TextInputFormat], classOf[LongWritable], classOf[Text],
-	      minPartitions).map(pair => pair._2.toString).setName(path)
-	  }
-	```
-
-	
 
 
 
