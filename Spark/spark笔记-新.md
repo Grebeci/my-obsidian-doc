@@ -92,7 +92,7 @@ def makeRDD[T: ClassTag](
 
 ``` 
 <JavaRDD> :  <R> JavaRDD<R> map(Function<T,R> f)
-
+def map[U: ClassTag](f: T => U): RDD[U]
 ```
 
 
