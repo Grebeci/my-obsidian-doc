@@ -182,6 +182,16 @@ def  groupByKey(partitioner: Partitioner): RDD[(K, Iterable[V])]
 
 
 
+```
+public JavaPairRDD<K,V> reduceByKey(Function2<V,V,V> func)
+public JavaPairRDD<K,V> reduceByKey(Partitioner partitioner, Function2<V,V,V> func)
+
+```
+
+
+
+
+
 
 
 
