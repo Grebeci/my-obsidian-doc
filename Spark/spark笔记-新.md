@@ -91,23 +91,13 @@ RDD 是不可变的，所有对RDD的操作都会生成一个新的RDD。
 
 ##### 广播变量
 
-多个RDD引用同一个对象，且
-
-
-
-##### 计算模型
+多个RDD引用同一个对象，导致多个 Spark 任务（Task）需要从 Driver端拉取。Spark 默认的做法是在每个任务执行时将这些数据从 Driver复制到 Executor，导致大量数据冗余。
 
 
 
 
 
-
-
-
-
-
-
-### Spark API
+##### 计算模型 （RDDAPI）
 
 `SparkContext`
 
@@ -285,6 +275,10 @@ count, first, take
 ```
 
 
+
+
+
+### 2. DateSet 和 DataFrame
 
 
 
