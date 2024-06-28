@@ -34,7 +34,9 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 ### Spark API
 
-提供 `Java`，`Scala` , `Python` 等 API。在 
+`SparkContext`
+
+- 提供 `Java`，`Scala` , `Python` 等 API。在 java 中使用 
 
 ##### 创建 RDD
 
