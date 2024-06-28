@@ -212,18 +212,6 @@ spark 主要算子，代码的snippet的背诵和记忆部分
 
 #### RDD Create
 
-- 从集合
-
-	```java
-	def makeRDD[T: ClassTag](
-	    seq: Seq[T],
-	    numSlices: Int = defaultParallelism): RDD[T] = withScope {
-	  parallelize(seq, numSlices)
-	}
-	```
-
-
-
 
 #### DataFrame create
 
