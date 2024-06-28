@@ -24,6 +24,6 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
     10
 ```
 
-`--deploy-mode cluster | clinet`   ： 主要区别在于：Driver程序的运行节点。
+`--deploy-mode cluster | client `   ： 主要区别在于：Driver程序的运行节点。
 
-- 对 
+- 
