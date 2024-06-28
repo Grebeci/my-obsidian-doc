@@ -11,8 +11,12 @@
             "id": "4746d380eb373938",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "元数据管理/atlas.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "元数据管理/atlas.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "元数据管理/atlas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "元数据管理/atlas.md"
+              }
             }
           }
         ],
@@ -154,6 +162,7 @@
   },
   "active": "4746d380eb373938",
   "lastOpenFiles": [
+    "元数据管理/atlas.md",
     "Spark/Spark-背诵.md",
     "Spark/Spark.md",
     "Spark/todo.md",
