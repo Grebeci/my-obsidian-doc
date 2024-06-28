@@ -40,19 +40,39 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 ##### 创建 RDD
 
-- `<SparkContext>.textFile(path, minPartitions)`
+```
+<SparkContext>.textFile(path, minPartitions)
+```
 
-  从外部文件创建RDD
+从外部文件创建RDD
 
-- `<SparkContext>  JavaRDD<T> parallelize(List<T> list, int numSlices)`
 
-- 
 
-- `<SparkContext> def makeRDD[T: ClassTag](Seq[T] seq, Int numSlices = defaultParallelism): RDD[T]`   
+```
+<SparkContext>  JavaRDD<T> parallelize(List<T> list, int numSlices)
 
-  这个API 在 `Scala` 上使用
+<SparkContext>  def parallelize[T: ClassTag](
+    seq: Seq[T],
+    numSlices: Int = defaultParallelism
+): RDD[T]
+```
 
-- 
+从 原生集合中创建。
+
+
+
+```
+def makeRDD[T: ClassTag](
+	seq: Seq[T],
+  numSlices: Int = defaultParallelism
+): RDD[T]
+```
+
+从 Scala `Seq` 原生集合上创建。
+
+
+
+
 
 
 
