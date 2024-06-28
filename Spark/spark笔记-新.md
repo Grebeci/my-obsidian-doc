@@ -146,9 +146,13 @@ def distinct(): RDD[T]
 
 
 ```
-
+<S> JavaRDD<T>	sortBy(Function<T,S> f, boolean ascending, int numPartitions)
 def sortBy[K](f: (T) ⇒ K, ascending: Boolean = true, numPartitions: Int = this.partitions.length): RDD[T]
 ```
+
+- 宽依赖，设计重分区
+
+
 
 
 
