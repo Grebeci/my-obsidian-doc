@@ -32,7 +32,16 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 
 
-## Spark API
+### Spark API
+
+##### 创建 RDD
+
+从集合中创建
+
+```
+```
+
+
 
 
 
