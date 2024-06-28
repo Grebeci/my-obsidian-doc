@@ -158,9 +158,20 @@ def sortBy[K](f: (T) ⇒ K, ascending: Boolean = true, numPartitions: Int = this
 
 java api下，需要保证 RDD 是 `PariRDD`，
 
+
+
+```
+<JavaPairRDD> :     public <U> JavaPairRDD<K,U> mapValues(Function<V,U> f)
+
+<PairRDDFunctions> : def mapValues[U](f: (V) ⇒ U): RDD[(K, U)]
 ```
 
-public <U> JavaPairRDD<K,U> mapValues(Function<V,U> f)
+
+
+```
+
+
+def  groupByKey(partitioner: Partitioner): RDD[(K, Iterable[V])]
 ```
 
 
