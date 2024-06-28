@@ -284,7 +284,13 @@ Dataframe => `DataSet<Row>`
 
 
 
-`SparkSession` :
+`SparkSession` : 集成了 `SQLContext` 和 `HiveContext`，且整合了 `SparkContext` 的功能。
+
+
+
+#### 计算模型
+
+
 
 
 
