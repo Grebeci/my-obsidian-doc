@@ -169,14 +169,16 @@ java api下，需要保证 RDD 是 `PariRDD`，
 
 
 ```
+public JavaPairRDD<K,Iterable<V>> groupByKey()
+public JavaPairRDD<K,Iterable<V>> groupByKey(int numPartitions)
+public JavaPairRDD<K,Iterable<V>> groupByKey(Partitioner partitioner)
 
-
+def groupByKey(): RDD[(K, Iterable[V])]
+def groupByKey(numPartitions: Int): RDD[(K, Iterable[V])]
 def  groupByKey(partitioner: Partitioner): RDD[(K, Iterable[V])]
 ```
 
-
-
-
+默认采取  `HashPartitioner` 策略，也可以自定义分区器。
 
 
 
