@@ -36,7 +36,7 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 ### 1. RDD
 
-
+- 数据分区，
 
 
 
