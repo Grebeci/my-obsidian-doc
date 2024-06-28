@@ -57,6 +57,12 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 ##### 依赖关系
 
+宽依赖，窄依赖
+
+
+
+RDD 运行时结构
+
 
 
 
