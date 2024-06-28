@@ -32,6 +32,10 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 
 
+## Spark处理结构
+
+#### 分区
+
 
 
 
@@ -77,6 +81,21 @@ def makeRDD[T: ClassTag](
 ```
 
 从java `List`  / scala `Seq` 中创建。
+
+
+
+##### TransFormation
+
+分为 Value 型，和 
+
+
+
+``` 
+<JavaRDD> :  <R> JavaRDD<R> map(Function<T,R> f)
+
+```
+
+
 
 
 
