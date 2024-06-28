@@ -290,6 +290,26 @@ Dataframe => `DataSet<Row>`
 
 #### 计算模型
 
+原生算子
+
+SQL_Statement
+
+DSL
+
+
+
+##### UDF
+
+分为三类
+
+UDF，UDAF，UDTF
+
+
+
+
+
+
+
 
 
 
