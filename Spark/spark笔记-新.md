@@ -36,7 +36,11 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 ### 1. RDD
 
-- 数据分区，
+数据分区
+
+数据被分为多个块，这些块可以分布在不同的节点上，从而允许多个任务并行执行。
+
+分区规则
 
 
 
@@ -123,6 +127,9 @@ def  groupBy[K](f: (T) ⇒ K): RDD[(K, Iterable[T])]
 - 
 
 
+
+```
+```
 
 
 
