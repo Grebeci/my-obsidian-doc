@@ -26,4 +26,5 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 `--deploy-mode cluster | client `   ： 主要区别在于：Driver程序的运行节点。
 
-- 
+- cluster 模式下由于Driver节点不确定。如果想引用 `spark-submit` 所在进程下文件，可以使用 `--file` 参数。
+
