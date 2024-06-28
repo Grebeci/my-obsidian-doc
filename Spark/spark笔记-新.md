@@ -32,6 +32,14 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 
 
+
+
+
+
+
+
+
+
 ### Spark API
 
 `SparkContext`
@@ -49,6 +57,17 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 
 ```
+def makeRDD[T: ClassTag](
+	seq: Seq[T],
+  numSlices: Int = defaultParallelism
+): RDD[T]
+```
+
+从 Scala `Seq` 原生集合上创建。
+
+
+
+```
 <SparkContext>  JavaRDD<T> parallelize(List<T> list, int numSlices)
 
 <SparkContext>  def parallelize[T: ClassTag](
@@ -57,18 +76,9 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 ): RDD[T]
 ```
 
-从 原生集合中创建。
+从java `List`  / scala `Seq` 中创建。
 
 
-
-```
-def makeRDD[T: ClassTag](
-	seq: Seq[T],
-  numSlices: Int = defaultParallelism
-): RDD[T]
-```
-
-从 Scala `Seq` 原生集合上创建。
 
 
 
