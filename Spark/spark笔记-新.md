@@ -118,7 +118,9 @@ flatMap : 1对多
 def  groupBy[K](f: (T) ⇒ K): RDD[(K, Iterable[T])]
 ```
 
+- 多个重载版本
 - 宽依赖操作，涉及重分区。
+- 
 
 
 
