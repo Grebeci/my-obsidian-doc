@@ -112,7 +112,13 @@ flatMap : 1对多
 
 
 
+```
+<U> JavaPairRDD<U,Iterable<T>>	groupBy(Function<T,U> f)
 
+def  groupBy[K](f: (T) ⇒ K): RDD[(K, Iterable[T])]
+```
+
+- 
 
 
 
