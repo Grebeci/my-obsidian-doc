@@ -126,12 +126,10 @@ def  groupBy[K](f: (T) ⇒ K): RDD[(K, Iterable[T])]
 
   
 
-
-
 ```
 public JavaRDD<T> filter(Function<T,Boolean> f)
 
-deffilter(f: (T) ⇒ Boolean): RDD[T]
+def filter(f: (T) ⇒ Boolean): RDD[T]
 ```
 
 
