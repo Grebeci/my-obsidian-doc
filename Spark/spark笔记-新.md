@@ -92,9 +92,7 @@ def makeRDD[T: ClassTag](
 
 ##### TransFormation
 
-分为 Value 型，和 
-
-
+分为 Value 型，和 key-value型
 
 
 
@@ -137,6 +135,20 @@ deffilter(f: (T) ⇒ Boolean): RDD[T]
 ```
 
 
+
+```
+JavaRDD<T>	distinct()
+def distinct(): RDD[T]
+```
+
+- 宽依赖操作，涉及重分区
+
+
+
+```
+
+def sortBy[K](f: (T) ⇒ K, ascending: Boolean = true, numPartitions: Int = this.partitions.length): RDD[T]
+```
 
 
 
