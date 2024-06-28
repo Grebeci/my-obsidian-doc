@@ -77,7 +77,9 @@ RDD 是不可变的，所有对RDD的操作都会生成一个新的RDD。
 
 执行 RDD 会生成DAG图。
 
-- 
+- Application ：由 Spark 运行的一个完整程序，包含 Driver端创建 SparkContext，划分任务到`Executor` 端。
+- Job：每次执行一个 Action 操作时，Spark 会提交一个新的 Job。
+- Stage：每个Job中的shuffle触发，
 
 
 
