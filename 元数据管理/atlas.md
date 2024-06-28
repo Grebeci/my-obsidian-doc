@@ -29,8 +29,3 @@
    论文提出了一种基于本体论的科学数据元数据管理系统，旨在提高科学数据的可发现性和重用性。
 
 ### 进一步资源
-- **Apache Atlas Documentation**: [Atlas官网地址](https://atlas.apache.org/)
-- **Apache Atlas User Guide**: [Atlas用户指南](https://atlas.apache.org/2.1.0/index.html)
-- **Metadata and Data Governance**: [An Overview of Best Practices and Tools](https://www.dataversity.net/metadata-data-governance-overview-best-practices-tools/)
-
-通过理解这些背景知识和研究文献，你可以更好地掌握元数据管理的理论基础，为深入学习Apache Atlas做好准备。如果你需要更具体的内容或有其他问题，请随时告诉我。
