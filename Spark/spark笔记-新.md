@@ -36,10 +36,7 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 ##### 创建 RDD
 
-从集合中创建
-
-```
-```
+`<SparkContext>.textFile(String path, int minPartitions)`
 
 
 
