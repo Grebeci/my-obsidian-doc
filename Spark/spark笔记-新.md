@@ -79,7 +79,13 @@ RDD 是不可变的，所有对RDD的操作都会生成一个新的RDD。
 
 - Application ：由 Spark 运行的一个完整程序，包含 Driver端创建 SparkContext，划分任务到`Executor` 端。
 - Job：每次执行一个 Action 操作时，Spark 会提交一个新的 Job。
-- Stage：每个Job中的shuffle触发，
+- Stage：每个Job中的宽依赖的算子（shuffle）触发，Stage边界由 Shuffle 确定。每个Stage就是不需要Shuffle的一系列分区操作
+- Task：每个 Stage 包含多个 Task，每个 Task 对应于 Stage 中一个数据分区上的计算操作。Task 是 Spark 执行的最小单位，每个 Task 是在集群的单个执行器上运行的单个线程。
+
+##### RDD持久化
+
+- Cache：触发Action缓存
+- CheckPoint：
 
 
 
