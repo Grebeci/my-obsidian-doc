@@ -36,7 +36,7 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 ### 1. RDD
 
-##### 数据分区
+##### 数据分区（分布式集合）
 
 数据被分为多个块，这些块可以分布在不同的节点上，从而允许多个任务并行执行。很多算子都有整体 Partition 操作签名，要考虑是否有必要使用这个分区特性提高性能。
 
@@ -47,13 +47,22 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 
 
+##### 不变性
+
+RDD 是不可变的，所有对RDD的操作都会生成一个新的RDD。
+
+
+
 ##### 序列化
 
 序列化闭包：RDDs 引用的函数（如传递给 `map`、`filter` 等的函数，闭包就是函数和它捕获的环境）为了在集群的各个节点上执行这些函数，Spark 需要将函数和函数引用的任何外部变量序列化
 
 序列化数据：重分区（shuffle）下涉及传递数据。
 
+##### 容错机制
 
+- 检查点（Checkpointing）
+- 线性重放（Lineage）
 
 ##### 依赖关系
 
@@ -61,9 +70,11 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 
 
-RDD 运行时结构
+##### 调度和执行
 
 
+
+##### 计算模型
 
 
 
