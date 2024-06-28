@@ -38,15 +38,16 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 数据分区
 
-数据被分为多个块，这些块可以分布在不同的节点上，从而允许多个任务并行执行。
+数据被分为多个块，这些块可以分布在不同的节点上，从而允许多个任务并行执行。很多算子都有整体 Partition 操作签名，要考虑是否有必要使用这个分区特性提高性能。
 
 分区规则
 
-默认分区是 HashPartioner，如果有key
+- 继承上一个分区规则，
+- 有 `XxxByKey` 的算子默认使用 `HashPartitioner` 来分区，也可以自定义分区规则。
 
 
 
-很多算子都有整体 Partition 操作签名，要考虑是否有必要使用这个分区特性提高性能。
+
 
 
 
