@@ -49,7 +49,15 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 ##### 序列化
 
-RDDs 引用的函数（如传递给 `map`、`filter` 等的函数）和
+序列化闭包：RDDs 引用的函数（如传递给 `map`、`filter` 等的函数，闭包就是函数和它捕获的环境）为了在集群的各个节点上执行这些函数，Spark 需要将函数和函数引用的任何外部变量序列化
+
+序列化数据：重分区（shuffle）下涉及传递数据。
+
+
+
+##### 依赖关系
+
+
 
 
 
