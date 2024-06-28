@@ -185,10 +185,18 @@ def  groupByKey(partitioner: Partitioner): RDD[(K, Iterable[V])]
 ```
 public JavaPairRDD<K,V> reduceByKey(Function2<V,V,V> func)
 public JavaPairRDD<K,V> reduceByKey(Partitioner partitioner, Function2<V,V,V> func)
+public JavaPairRDD<K,V> reduceByKey(Function2<V,V,V> func, int numPartitions)
 
+def reduceByKey(func: (V, V) ⇒ V): RDD[(K, V)]
+def reduceByKey(func: (V, V) ⇒ V, numPartitions: Int): RDD[(K, V)]
+def reduceByKey(partitioner: Partitioner, func: (V, V) ⇒ V): RDD[(K, V)]
 ```
 
 
+
+Action 算子
+
+所有数据都会被拉取到 Driver 端
 
 
 
