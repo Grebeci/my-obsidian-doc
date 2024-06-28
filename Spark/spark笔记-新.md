@@ -37,8 +37,18 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 ##### 创建 RDD
 
 - `<SparkContext>.textFile(path, minPartitions)`
-- `def makeRDD[T: ClassTag](Seq[T] seq, Int numSlices = defaultParallelism): RDD[T]`   ：Scala 特有
+
+  从外部文件创建RDD
+
+- `def makeRDD[T: ClassTag](Seq[T] seq, Int numSlices = defaultParallelism): RDD[T]`   
+
+  这个API常用在 Scala-Spark
+
 - 
+
+
+
+
 
 
 
