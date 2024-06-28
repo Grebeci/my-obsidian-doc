@@ -32,9 +32,11 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 
 
-## Spark处理结构
+## Spark 数据结构
 
-#### 分区
+### 1. RDD
+
+- 分区，
 
 
 
@@ -90,10 +92,33 @@ def makeRDD[T: ClassTag](
 
 
 
+
+
 ``` 
 <JavaRDD> :  <R> JavaRDD<R> map(Function<T,R> f)
-def map[U: ClassTag](f: T => U): RDD[U]
+<RDD>:       defmap[U](f: (T) ⇒ U)(implicit arg0: ClassTag[U]): RDD[U]
 ```
+
+map 函数 ： 1对1 
+
+
+
+```
+<U> JavaRDD<U> flatMap(FlatMapFunction<T,U> f)
+flatMap[U](f: (T) ⇒ TraversableOnce[U])(implicit arg0: ClassTag[U]): RDD[U]
+```
+
+flatMap : 1对多
+
+
+
+
+
+
+
+
+
+
 
 
 

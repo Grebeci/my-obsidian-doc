@@ -85,14 +85,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spark/Spark理解笔记/SparkSQL血缘控制.md",
+                "file": "Spark/Spark-背诵.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spark/Spark理解笔记/SparkSQL血缘控制.md",
+                "file": "Spark/spark笔记-新.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spark/Spark理解笔记/SparkSQL血缘控制.md",
+                "file": "Spark/spark笔记-新.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spark/Spark理解笔记/SparkSQL血缘控制.md"
+                "file": "Spark/spark笔记-新.md"
               }
             }
           }
@@ -233,23 +232,24 @@
       "translate:Open translation view": false
     }
   },
-  "active": "447cddfe3d0159ed",
+  "active": "1379a2f045372726",
   "lastOpenFiles": [
-    "Spark/面试题.md",
+    "Spark/Spark-背诵.md",
+    "Spark/Spark.md",
     "Spark/Spark理解笔记/SparkSQL血缘控制.md",
     "Spark/Spark理解笔记/SparkSQL的Parse.md",
     "Spark/Spark理解笔记/Spark基础知识.md",
     "Spark/spark快速大数据分析读书笔记/TypeSystem.md",
     "Spark/spark快速大数据分析读书笔记/spark快速大数据分析-摘抄整理.md",
     "Spark/spark快速大数据分析读书笔记/spark快速大数据分析-摘抄.md",
+    "Spark/spark快速大数据分析读书笔记/RDD.md",
     "Spark/spark快速大数据分析读书笔记/读书笔记.md",
-    "Spark/Spark-背诵.md",
+    "Spark/todo.md",
+    "Spark/SparkSQL.md",
     "Spark/spark学习大纲.md",
     "Spark/spark论文资料.md",
-    "Spark/SparkSQL.md",
-    "Spark/todo.md",
     "Spark/spark笔记-新.md",
-    "Spark/Spark.md",
+    "Spark/面试题.md",
     "Spark/QA.md",
     "Spark/学习进度.md",
     "Spark/未命名.md",
@@ -260,7 +260,6 @@
     "kafka/Kafka-学习记录.md",
     "kafka/Kafka-背诵.md",
     "Linux/Command.md",
-    "Linux/Linux 基础/2.基本操作命令.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/16 尚硅谷-云计算-Linux系统管理-日志管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/15 尚硅谷-云计算-Linux系统管理-系统管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/13 尚硅谷-云计算-Linux系统管理-启动引导与修复.pdf",
