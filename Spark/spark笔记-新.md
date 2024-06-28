@@ -42,6 +42,12 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 分区规则
 
+默认分区是 HashPartioner，如果有key
+
+
+
+很多算子都有整体 Partition 操作签名，要考虑是否有必要使用这个分区特性提高性能。
+
 
 
 
