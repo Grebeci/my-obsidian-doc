@@ -49,7 +49,7 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 ##### 序列化
 
-并行执行的算子（函数）
+RDDs 引用的函数（如传递给 `map`、`filter` 等的函数）和
 
 
 
