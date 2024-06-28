@@ -24,4 +24,4 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
     10
 ```
 
-`--deploy-mode`  ：
+`--deploy-mode cluster | clinet`   ： 
