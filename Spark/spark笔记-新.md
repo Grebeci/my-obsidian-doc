@@ -36,7 +36,7 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
 `SparkContext`
 
-- 提供 `Java`，`Scala` , `Python` 等 API。在 java 中使用 
+- 提供 `Java`，`Scala` , `Python` 等 API。在 java 中使用 `JavaSparkContext` ，在 Scala 用 `SparkContext`
 
 ##### 创建 RDD
 
@@ -44,9 +44,13 @@ $ ./bin/spark-submit --class org.apache.spark.examples.SparkPi \
 
   从外部文件创建RDD
 
-- `def makeRDD[T: ClassTag](Seq[T] seq, Int numSlices = defaultParallelism): RDD[T]`   
+- `<SparkContext>  JavaRDD<T> parallelize(List<T> list, int numSlices)`
 
-  这个API常用在 Scala-Spark
+- 
+
+- `<SparkContext> def makeRDD[T: ClassTag](Seq[T] seq, Int numSlices = defaultParallelism): RDD[T]`   
+
+  这个API 在 `Scala` 上使用
 
 - 
 
