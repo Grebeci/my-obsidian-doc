@@ -156,7 +156,14 @@ def sortBy[K](f: (T) ⇒ K, ascending: Boolean = true, numPartitions: Int = this
 
 有 key，则一些重分区的操作（shuffle）分区规则和key相关。
 
-java api下，需要保证 RDD 是 `PariRDD`
+java api下，需要保证 RDD 是 `PariRDD`，
+
+```
+
+public <U> JavaPairRDD<K,U> mapValues(Function<V,U> f)
+```
+
+
 
 
 
