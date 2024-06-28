@@ -84,8 +84,8 @@ RDD 是不可变的，所有对RDD的操作都会生成一个新的RDD。
 
 ##### RDD持久化
 
-- Cache：触发Action缓存
-- CheckPoint：
+- Cache：触发后面的action算子时，该RDD将会被缓存在计算节点的内存中
+- CheckPoint：会切换血缘
 
 
 
