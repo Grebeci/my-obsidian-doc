@@ -206,6 +206,8 @@ java.util.List<T> collect()
 def collect(): Array[T]
 ```
 
+
+
 ```
 void foreach(VoidFunction<T> f)
 
@@ -213,6 +215,11 @@ def foreach(f: (T) ⇒ Unit): Unit
 ```
 
 
+
+```
+saveAsTextFile
+saveXxx
+```
 
 
 
