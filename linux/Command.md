@@ -97,9 +97,7 @@ alias ll='ls -l'
 
 `type`
 
-识别
-
-
+判断命令是`alias`，`function`，`Shell Builtins`，`可执行文件`（`$PATH` 指向的目录）
 
 #### 4. 工具
 
