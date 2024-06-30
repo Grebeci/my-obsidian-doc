@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "68898f68d1938a4c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/11 尚硅谷-云计算-Linux系统管理-shell基础.pdf"
+              }
+            }
+          },
+          {
             "id": "8b15fcf213597e2b",
             "type": "leaf",
             "state": {
@@ -31,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.50390243530273
+    "width": 544.5039024353027
   },
   "right": {
     "id": "2ff71da6e72efbfa",
@@ -97,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux 基础/2.基本操作命令.md",
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/11 尚硅谷-云计算-Linux系统管理-shell基础.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux 基础/2.基本操作命令.md",
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/11 尚硅谷-云计算-Linux系统管理-shell基础.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux 基础/2.基本操作命令.md"
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/11 尚硅谷-云计算-Linux系统管理-shell基础.pdf"
               }
             }
           }
@@ -172,10 +183,17 @@
       "translate:Open translation view": false
     }
   },
-  "active": "4746d380eb373938",
+  "active": "68898f68d1938a4c",
   "lastOpenFiles": [
-    "Linux/Command.md",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/10 尚硅谷-云计算-Linux系统管理-高级文件系统管理.pdf",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/09 尚硅谷-云计算-Linux系统管理-文件系统管理.pdf",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/06 尚硅谷-云计算-Linux系统管理-软件安装.pdf",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/05 尚硅谷-云计算-Linux系统管理-vim编辑器.pdf",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/07 尚硅谷-云计算-Linux系统管理-用户管理.pdf",
     "Linux/Linux 基础/2.基本操作命令.md",
+    "Linux/Linux 基础/2.基本操作命令~.md",
+    "Linux/Command.md",
     "Linux/Linux 基础/1.文件系统.md",
     "Linux/Linux 基础/3.包管理系统.md",
     "Linux/Linux 基础/4.用户管理和权限控制.md",
@@ -200,16 +218,9 @@
     "大数据/Spark/spark快速大数据分析读书笔记/RDD.md",
     "大数据/Spark/spark快速大数据分析读书笔记/读书笔记.md",
     "大数据/Spark/面试题.md",
-    "大数据/Spark/QA.md",
-    "大数据/Spark/学习进度.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/16 尚硅谷-云计算-Linux系统管理-日志管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/15 尚硅谷-云计算-Linux系统管理-系统管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/13 尚硅谷-云计算-Linux系统管理-启动引导与修复.pdf",
-    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/14 尚硅谷-云计算-Linux系统管理-服务管理.pdf",
-    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/尚硅谷-云计算-Linux系统管理（上）-测试题.pdf",
-    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/10 尚硅谷-云计算-Linux系统管理-高级文件系统管理.pdf",
-    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/09 尚硅谷-云计算-Linux系统管理-文件系统管理.pdf",
-    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/08 尚硅谷-云计算-Linux系统管理-权限管理.pdf",
     "Java/Java笔记/images/algo4-Week2-Iterable.png",
     "Pasted image 20230811144649.png"
   ]
