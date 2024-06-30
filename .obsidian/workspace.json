@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大数据/元数据管理/atlas.md",
+                "file": "Linux/Linux 基础/2.基本操作命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大数据/元数据管理/atlas.md",
+                "file": "Linux/Linux 基础/2.基本操作命令.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "大数据/元数据管理/atlas.md",
+                "file": "Linux/Linux 基础/2.基本操作命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大数据/元数据管理/atlas.md"
+                "file": "Linux/Linux 基础/2.基本操作命令.md"
               }
             }
           }
@@ -162,9 +162,13 @@
   },
   "active": "4746d380eb373938",
   "lastOpenFiles": [
+    "Linux/Linux 基础/1.文件系统.md",
+    "Linux/Linux 基础/2.基本操作命令.md",
+    "Linux/Linux 基础/3.包管理系统.md",
+    "Linux/Linux 基础/4.用户管理和权限控制.md",
+    "大数据/元数据管理/atlas.md",
     "Having.md",
     "大数据",
-    "大数据/元数据管理/atlas.md",
     "大数据/Spark/Spark-背诵.md",
     "大数据/Spark/Spark.md",
     "大数据/Spark/todo.md",
@@ -186,10 +190,6 @@
     "大数据/Spark/QA.md",
     "大数据/Spark/学习进度.md",
     "Spark/未命名.md",
-    "大数据/Kafka/Kafka.md",
-    "Scala/Scala.md",
-    "kafka/Kafka~.md",
-    "大数据/Kafka/Kafka-QAP.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/16 尚硅谷-云计算-Linux系统管理-日志管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/15 尚硅谷-云计算-Linux系统管理-系统管理.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/13 尚硅谷-云计算-Linux系统管理-启动引导与修复.pdf",
