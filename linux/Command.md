@@ -95,6 +95,13 @@ alias
 alias ll='ls -l'
 ```
 
+需要开始别名扩展
+
+```
+# Expand aliases defined in the shell 
+shopt -s expand_aliases
+```
+
 `type`
 
 判断命令是`alias`，`function`，`Shell Builtins`，`可执行文件`（`$PATH` 指向的目录）
