@@ -36,14 +36,16 @@
 Partition Evolution 
 
 - 分区可以是表达式，而不用和文件系统绑定，这是由于Iceberg的分区信息和表数据存储目录是独立的。
+  - hive 不支持分区转换。
+- 元数据记录到文件级别，分区裁剪可以下推到文件级别。
 
 
 
 ##### ACID语义
 
-支持 Upsert/delete
+支持 Upsert/delete，支持乐观锁的并发支持。
 
 
 
-
+Catalog
 
