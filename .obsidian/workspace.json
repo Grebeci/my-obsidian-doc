@@ -44,6 +44,16 @@
             }
           },
           {
+            "id": "7068f2c9e3a21ac1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/06 尚硅谷-云计算-Linux系统管理-软件安装.pdf"
+              }
+            }
+          },
+          {
             "id": "c8ab97d4663d1373",
             "type": "leaf",
             "state": {
@@ -56,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +116,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.50390243530273
+    "width": 437.500732421875,
+    "collapsed": true
   },
   "right": {
     "id": "2ff71da6e72efbfa",
@@ -122,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/软件安装.md",
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/06 尚硅谷-云计算-Linux系统管理-软件安装.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/软件安装.md",
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/06 尚硅谷-云计算-Linux系统管理-软件安装.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/软件安装.md"
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/06 尚硅谷-云计算-Linux系统管理-软件安装.pdf"
               }
             }
           }
@@ -197,8 +208,9 @@
       "translate:Open translation view": false
     }
   },
-  "active": "2310c1b1bbf23ae7",
+  "active": "7068f2c9e3a21ac1",
   "lastOpenFiles": [
+    "Linux/软件安装.md",
     "Linux/Linux 基础/3.包管理系统.md",
     "Docker/Docker-新.md.md",
     "Docker/docker-snippet.md",
@@ -236,7 +248,6 @@
     "大数据/Spark/spark学习大纲.md",
     "大数据/Spark/spark论文资料.md",
     "大数据/Spark/spark笔记-新.md",
-    "Spark/spark笔记-新~.md",
     "Java/Java笔记/images/algo4-Week2-Iterable.png",
     "Pasted image 20230811144649.png"
   ]
