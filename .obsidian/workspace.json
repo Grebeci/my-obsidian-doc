@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/docker-snippet.md",
+                "file": "Docker/Docker-新.md.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/docker-snippet.md",
+                "file": "Docker/Docker-新.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/docker-snippet.md"
+                "file": "Docker/Docker-新.md.md"
               }
             }
           }
@@ -173,8 +172,9 @@
       "translate:Open translation view": false
     }
   },
-  "active": "c8ab97d4663d1373",
+  "active": "92fb234f1e1cd891",
   "lastOpenFiles": [
+    "Docker/docker-snippet.md",
     "Docker/Docker-新.md.md",
     "流畅运行linux.md",
     "Docker/学习进度.md",
@@ -212,7 +212,6 @@
     "大数据/Spark/spark论文资料.md",
     "大数据/Spark/spark笔记-新.md",
     "Spark/spark笔记-新~.md",
-    "大数据/Spark/Spark理解笔记/SparkSQL血缘控制.md",
     "Java/Java笔记/images/algo4-Week2-Iterable.png",
     "Pasted image 20230811144649.png"
   ]
