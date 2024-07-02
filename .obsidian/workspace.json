@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker-新.md.md",
+                "file": "Docker/docker-snippet.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Docker-新.md.md",
+                "file": "Docker/docker-snippet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker-新.md.md"
+                "file": "Docker/docker-snippet.md"
               }
             }
           }
@@ -172,10 +173,10 @@
       "translate:Open translation view": false
     }
   },
-  "active": "92fb234f1e1cd891",
+  "active": "c8ab97d4663d1373",
   "lastOpenFiles": [
-    "Docker/docker-snippet.md",
     "Docker/Docker-新.md.md",
+    "Docker/docker-snippet.md",
     "流畅运行linux.md",
     "Docker/学习进度.md",
     "大数据/数据同步/Datax.md",
