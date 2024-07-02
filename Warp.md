@@ -12,6 +12,6 @@
 
   - Autosuggestions： 类似 copilot hint，目前无法取消
 
-    
+    Right ： 补全全部 
 
-    Option + Left  /   Option + Right ： move 
+    Option + Left  /   Option + Right ： 移动单个word（部分补全）
