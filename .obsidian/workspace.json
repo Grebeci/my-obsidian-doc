@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大数据/数据湖/数据湖.md",
+                "file": "大数据/数据同步/Datax.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "交集",
+                "query": "重复",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大数据/数据湖/数据湖.md",
+                "file": "大数据/数据同步/Datax.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "大数据/数据湖/数据湖.md",
+                "file": "大数据/数据同步/Datax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大数据/数据湖/数据湖.md"
+                "file": "大数据/数据同步/Datax.md"
               }
             }
           }
@@ -160,11 +161,11 @@
       "translate:Open translation view": false
     }
   },
-  "active": "c76ef14b78fe68eb",
+  "active": "24a633a870f2c0bb",
   "lastOpenFiles": [
+    "大数据/数据湖/数据湖.md",
     "大数据/数据湖/IceBreg.md",
     "大数据/数据湖/Hudi.md",
-    "大数据/数据湖/数据湖.md",
     "大数据/Flink/Flink笔记.md",
     "大数据/Flink",
     "未命名 1",
