@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux 基础/3.包管理系统.md",
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/06 尚硅谷-云计算-Linux系统管理-软件安装.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux 基础/3.包管理系统.md",
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/06 尚硅谷-云计算-Linux系统管理-软件安装.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux 基础/3.包管理系统.md"
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/06 尚硅谷-云计算-Linux系统管理-软件安装.pdf"
               }
             }
           }
@@ -208,15 +208,15 @@
       "translate:Open translation view": false
     }
   },
-  "active": "368cf551c7e87a38",
+  "active": "7068f2c9e3a21ac1",
   "lastOpenFiles": [
+    "Linux/软件安装.md",
+    "Linux/Linux 基础/3.包管理系统.md",
     "Docker/docker-snippet.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/06 尚硅谷-云计算-Linux系统管理-软件安装.pdf",
-    "Linux/软件安装.md",
     "Docker/Docker-新.md.md",
     "开发工具/terminal&shell.md",
     "Warp.md",
-    "Linux/Linux 基础/3.包管理系统.md",
     "流畅运行linux.md",
     "Docker/学习进度.md",
     "大数据/数据同步/Datax.md",
