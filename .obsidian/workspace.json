@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -161,7 +160,7 @@
       "translate:Open translation view": false
     }
   },
-  "active": "24a633a870f2c0bb",
+  "active": "c76ef14b78fe68eb",
   "lastOpenFiles": [
     "大数据/数据湖/数据湖.md",
     "大数据/数据湖/IceBreg.md",
