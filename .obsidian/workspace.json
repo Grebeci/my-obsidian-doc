@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c8ab97d4663d1373",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/docker-snippet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker-新.md.md",
+                "file": "Docker/docker-snippet.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Docker-新.md.md",
+                "file": "Docker/docker-snippet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker-新.md.md"
+                "file": "Docker/docker-snippet.md"
               }
             }
           }
@@ -160,8 +173,10 @@
       "translate:Open translation view": false
     }
   },
-  "active": "92fb234f1e1cd891",
+  "active": "c8ab97d4663d1373",
   "lastOpenFiles": [
+    "Docker/Docker-新.md.md",
+    "流畅运行linux.md",
     "Docker/学习进度.md",
     "大数据/数据同步/Datax.md",
     "大数据/Flink/尚硅谷大数据技术之Flink.docx",
@@ -198,8 +213,6 @@
     "大数据/Spark/spark笔记-新.md",
     "Spark/spark笔记-新~.md",
     "大数据/Spark/Spark理解笔记/SparkSQL血缘控制.md",
-    "大数据/Spark/Spark理解笔记/SparkSQL的Parse.md",
-    "大数据/Spark/Spark理解笔记/Spark基础知识.md",
     "Java/Java笔记/images/algo4-Week2-Iterable.png",
     "Pasted image 20230811144649.png"
   ]
