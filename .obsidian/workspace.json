@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "760320eab36fe8fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Linux 基础/3.包管理系统.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2310c1b1bbf23ae7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/软件安装.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c8ab97d4663d1373",
             "type": "leaf",
             "state": {
@@ -31,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker-新.md.md",
+                "file": "Linux/软件安装.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Docker-新.md.md",
+                "file": "Linux/软件安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker-新.md.md"
+                "file": "Linux/软件安装.md"
               }
             }
           }
@@ -172,10 +197,11 @@
       "translate:Open translation view": false
     }
   },
-  "active": "92fb234f1e1cd891",
+  "active": "2310c1b1bbf23ae7",
   "lastOpenFiles": [
-    "Docker/docker-snippet.md",
+    "Linux/Linux 基础/3.包管理系统.md",
     "Docker/Docker-新.md.md",
+    "Docker/docker-snippet.md",
     "流畅运行linux.md",
     "Docker/学习进度.md",
     "大数据/数据同步/Datax.md",
@@ -200,7 +226,6 @@
     "Linux/Command.md",
     "Linux/Linux 基础/2.基本操作命令~.md",
     "Linux/Linux 基础/1.文件系统.md",
-    "Linux/Linux 基础/3.包管理系统.md",
     "Linux/Linux 基础/4.用户管理和权限控制.md",
     "大数据/元数据管理/atlas.md",
     "Having.md",
