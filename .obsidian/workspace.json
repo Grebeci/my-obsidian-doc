@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/06 尚硅谷-云计算-Linux系统管理-软件安装.pdf",
+                "file": "Linux/Linux 基础/3.包管理系统.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/06 尚硅谷-云计算-Linux系统管理-软件安装.pdf",
+                "file": "Linux/Linux 基础/3.包管理系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/06 尚硅谷-云计算-Linux系统管理-软件安装.pdf"
+                "file": "Linux/Linux 基础/3.包管理系统.md"
               }
             }
           }
@@ -208,8 +208,9 @@
       "translate:Open translation view": false
     }
   },
-  "active": "7068f2c9e3a21ac1",
+  "active": "760320eab36fe8fa",
   "lastOpenFiles": [
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/06 尚硅谷-云计算-Linux系统管理-软件安装.pdf",
     "Linux/软件安装.md",
     "Linux/Linux 基础/3.包管理系统.md",
     "Docker/Docker-新.md.md",
@@ -247,7 +248,6 @@
     "大数据/Spark/SparkSQL.md",
     "大数据/Spark/spark学习大纲.md",
     "大数据/Spark/spark论文资料.md",
-    "大数据/Spark/spark笔记-新.md",
     "Java/Java笔记/images/algo4-Week2-Iterable.png",
     "Pasted image 20230811144649.png"
   ]
