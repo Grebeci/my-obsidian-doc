@@ -1,0 +1,11 @@
+{
+  "showInlineTitle": false,
+  "readableLineLength": false,
+  "strictLineBreaks": false,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showIndentGuide": true,
+  "showLineNumber": false
+}

@@ -1,0 +1,206 @@
+{
+  "main": {
+    "id": "7c3d2bde7374d29f",
+    "type": "split",
+    "children": [
+      {
+        "id": "39648eccf8da4f58",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "049bde83e33c809c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Docker-新.md.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "02a9a91ac997bd78",
+    "type": "split",
+    "children": [
+      {
+        "id": "ede53fddf2ae928d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c76ef14b78fe68eb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "24a633a870f2c0bb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "79c4fa5914150be1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 260.50390243530273
+  },
+  "right": {
+    "id": "2ff71da6e72efbfa",
+    "type": "split",
+    "children": [
+      {
+        "id": "5531ea5db904dde0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29990b59551eee01",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Docker/Docker-新.md.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "93f1dc8fba9671c1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Docker/Docker-新.md.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c0359602f8122609",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f2a1828594984176",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "6923a10c63a71a77",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Docker/Docker-新.md.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "translate:Open translation view": false
+    }
+  },
+  "active": "049bde83e33c809c",
+  "lastOpenFiles": [
+    "Docker/Docker-新.md~.md",
+    "大数据/调度/dolphinScheduler.md",
+    "yarn.md",
+    "Warp.md",
+    "vsocde 工作流.md",
+    "Untitled 1.md",
+    "TODO-Problem_Note.md.md",
+    "SQL语法bug.md",
+    "snippet.md",
+    "shell 脚本学习心得.md",
+    "RDD-SparkAPI.md",
+    "NULL的总结.md",
+    "problem.md",
+    "Pasted image 20230811144649.png",
+    "Mac开荒.md",
+    "mac和win的区别.md",
+    "leetcode-SQL刷题记录.md",
+    "大数据/Spark/Spark-functions.md",
+    "大数据/Spark/Spark-functions~.md",
+    "大数据/知斗大数据实践/数仓规范.md",
+    "大数据/知斗大数据实践/未命名 1.md",
+    "大数据/知斗大数据实践",
+    "大数据/SQL/关系数据库.textclipping",
+    "大数据/调度/dolphinScheduler~.md",
+    "大数据/调度",
+    "大数据/Hive/面试题.md",
+    "大数据/Hive/Hive 文档/Lateral View.md",
+    "大数据/Hive/Hive 文档/GettingStarted.md",
+    "大数据/Hive/Hive 文档/DDL.md",
+    "大数据/Hive/Hive 文档/Hive文档背诵.md",
+    "大数据/Hive/Hive 文档",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/06 尚硅谷-云计算-Linux系统管理-软件安装.pdf",
+    "大数据/Flink/尚硅谷大数据技术之Flink.docx",
+    "大数据/Flink",
+    "未命名 1",
+    "大数据/Spark/培训班讲义/spark-scala",
+    "大数据/Spark/培训班讲义/spark-java/TOpN.sql",
+    "大数据/数据湖/images/image-20240701204433687.png",
+    "大数据/数据湖/images/image-20240701204037464.png",
+    "Java/Java笔记/images/algo4-Week2-Iterable.png"
+  ]
+}
