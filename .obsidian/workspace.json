@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker-新.md.md",
+                "file": "Linux/Command.md",
                 "mode": "preview",
                 "source": false
               }
             }
-          },
-          {
-            "id": "cea85ab48b338af7",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "pwd",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,12 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 260.50390243530273,
-    "collapsed": true
+    "width": 260.50390243530273
   },
   "right": {
     "id": "2ff71da6e72efbfa",
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker-新.md.md",
+                "file": "Linux/Command.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Docker-新.md.md",
+                "file": "Linux/Command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker-新.md.md"
+                "file": "Linux/Command.md"
               }
             }
           }
@@ -172,8 +161,15 @@
       "translate:Open translation view": false
     }
   },
-  "active": "cea85ab48b338af7",
+  "active": "049bde83e33c809c",
   "lastOpenFiles": [
+    "Bash/QAP.md",
+    "Bash/details.md",
+    "Bash/Basics.md",
+    "Bash/BASH-Snippet.md",
+    "终端&Shell/SSH.md",
+    "终端&Shell/Windows Terminal.md",
+    "Docker/Docker-新.md.md",
     "Docker/Docker-新.md~.md",
     "大数据/调度/dolphinScheduler.md",
     "yarn.md",
@@ -194,16 +190,9 @@
     "大数据/Spark/Spark-functions.md",
     "大数据/Spark/Spark-functions~.md",
     "大数据/知斗大数据实践/数仓规范.md",
-    "大数据/知斗大数据实践/未命名 1.md",
     "大数据/知斗大数据实践",
     "大数据/SQL/关系数据库.textclipping",
-    "大数据/调度/dolphinScheduler~.md",
     "大数据/调度",
-    "大数据/Hive/面试题.md",
-    "大数据/Hive/Hive 文档/Lateral View.md",
-    "大数据/Hive/Hive 文档/GettingStarted.md",
-    "大数据/Hive/Hive 文档/DDL.md",
-    "大数据/Hive/Hive 文档/Hive文档背诵.md",
     "大数据/Hive/Hive 文档",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/06 尚硅谷-云计算-Linux系统管理-软件安装.pdf",
     "大数据/Flink/尚硅谷大数据技术之Flink.docx",
