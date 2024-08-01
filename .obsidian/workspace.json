@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cea85ab48b338af7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.50390243530273
+    "width": 260.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "2ff71da6e72efbfa",
@@ -160,7 +172,7 @@
       "translate:Open translation view": false
     }
   },
-  "active": "049bde83e33c809c",
+  "active": "cea85ab48b338af7",
   "lastOpenFiles": [
     "Docker/Docker-新.md~.md",
     "大数据/调度/dolphinScheduler.md",
