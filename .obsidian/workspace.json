@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "58e1d4e83a76c0f0",
+        "id": "aae080e033dd58f5",
         "type": "tabs",
         "children": [
           {
-            "id": "ba662072ff8c9b45",
+            "id": "afaa7fcdf7a5eef9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "color",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -153,8 +153,9 @@
       "translate:Open translation view": false
     }
   },
-  "active": "ba662072ff8c9b45",
+  "active": "afaa7fcdf7a5eef9",
   "lastOpenFiles": [
+    "大数据/Hive/Hive-snippet-Memo.md",
     "Linux/Command.md",
     "Bash/QAP.md",
     "Bash/details.md",
@@ -181,7 +182,6 @@
     "mac和win的区别.md",
     "leetcode-SQL刷题记录.md",
     "大数据/Spark/Spark-functions.md",
-    "大数据/Spark/Spark-functions~.md",
     "大数据/知斗大数据实践",
     "大数据/SQL/关系数据库.textclipping",
     "大数据/调度",
