@@ -11,11 +11,9 @@
             "id": "73da025ee0f2606d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Bash/QAP.md",
-                "mode": "source",
-                "source": false
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf"
               }
             }
           }
@@ -69,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.50390243530273
+    "width": 530.5039024353027
   },
   "right": {
     "id": "2ff71da6e72efbfa",
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bash/QAP.md",
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bash/QAP.md",
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bash/QAP.md"
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf"
               }
             }
           }
@@ -162,12 +160,17 @@
   },
   "active": "73da025ee0f2606d",
   "lastOpenFiles": [
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/02 尚硅谷-云计算-Linux系统管理-Linux安装.pdf",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/01 尚硅谷-云计算-Linux系统管理-Linux简介.pdf",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/00 尚硅谷-云计算-Linux系统管理-行业介绍.pdf",
+    "Bash/QAP.md",
     "Bash/details.md",
     "Bash/Basics.md",
     "Bash/BASH-Snippet.md",
     "大数据/Hive/Hive-snippet-Memo.md",
     "Linux/Command.md",
-    "Bash/QAP.md",
     "终端&Shell/SSH.md",
     "终端&Shell/Windows Terminal.md",
     "Docker/Docker-新.md.md",
@@ -188,17 +191,12 @@
     "Mac开荒.md",
     "mac和win的区别.md",
     "leetcode-SQL刷题记录.md",
-    "大数据/Spark/Spark-functions.md",
     "大数据/知斗大数据实践",
     "大数据/SQL/关系数据库.textclipping",
     "大数据/调度",
     "大数据/Hive/Hive 文档",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/06 尚硅谷-云计算-Linux系统管理-软件安装.pdf",
     "大数据/Flink/尚硅谷大数据技术之Flink.docx",
-    "大数据/Flink",
-    "未命名 1",
-    "大数据/Spark/培训班讲义/spark-scala",
-    "大数据/Spark/培训班讲义/spark-java/TOpN.sql",
     "大数据/数据湖/images/image-20240701204433687.png",
     "大数据/数据湖/images/image-20240701204037464.png",
     "Java/Java笔记/images/algo4-Week2-Iterable.png"
