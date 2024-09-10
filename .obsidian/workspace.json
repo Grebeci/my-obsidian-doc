@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "aae080e033dd58f5",
+        "id": "743e916e0acc9e1f",
         "type": "tabs",
         "children": [
           {
-            "id": "afaa7fcdf7a5eef9",
+            "id": "73da025ee0f2606d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Bash/QAP.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "color",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Bash/QAP.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Bash/QAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Bash/QAP.md"
+              }
             }
           }
         ],
@@ -153,14 +160,14 @@
       "translate:Open translation view": false
     }
   },
-  "active": "afaa7fcdf7a5eef9",
+  "active": "73da025ee0f2606d",
   "lastOpenFiles": [
-    "大数据/Hive/Hive-snippet-Memo.md",
-    "Linux/Command.md",
-    "Bash/QAP.md",
     "Bash/details.md",
     "Bash/Basics.md",
     "Bash/BASH-Snippet.md",
+    "大数据/Hive/Hive-snippet-Memo.md",
+    "Linux/Command.md",
+    "Bash/QAP.md",
     "终端&Shell/SSH.md",
     "终端&Shell/Windows Terminal.md",
     "Docker/Docker-新.md.md",
