@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bash/details.md",
+                "file": "Linux/SSH.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bash/details.md",
+                "file": "Linux/SSH.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bash/details.md",
+                "file": "Linux/SSH.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bash/details.md"
+                "file": "Linux/SSH.md"
               }
             }
           }
@@ -162,20 +162,20 @@
   },
   "active": "696bdeba2d9facc9",
   "lastOpenFiles": [
+    "Linux/Q&A.md",
+    "Linux/SSH.md",
+    "Bash/details.md",
     "Bash/Basics.md",
     "Bash/BASH-Snippet.md",
     "Linux/Tips.md",
     "Linux/terminal.md",
-    "Linux/SSH.md.md",
     "Linux/snippet.md",
-    "Linux/Q&A.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/02 尚硅谷-云计算-Linux系统管理-Linux安装.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/01 尚硅谷-云计算-Linux系统管理-Linux简介.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/00 尚硅谷-云计算-Linux系统管理-行业介绍.pdf",
     "Bash/QAP.md",
-    "Bash/details.md",
     "大数据/Hive/Hive-snippet-Memo.md",
     "Linux/Command.md",
     "终端&Shell/SSH.md",
