@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "SSH"
             }
-          },
-          {
-            "id": "0b0d5586d952e28b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,7 +178,7 @@
       "translate:Open translation view": false
     }
   },
-  "active": "0b0d5586d952e28b",
+  "active": "696bdeba2d9facc9",
   "lastOpenFiles": [
     "Linux/Q&A.md",
     "Linux/SSH.md",
