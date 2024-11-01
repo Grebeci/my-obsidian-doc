@@ -11,14 +11,12 @@
             "id": "696bdeba2d9facc9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Linux/Linux 基础/1.文件系统.md",
-                "mode": "source",
-                "source": false
+                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf"
               },
-              "icon": "lucide-file",
-              "title": "1.文件系统"
+              "icon": "lucide-file-text",
+              "title": "04 尚硅谷-云计算-Linux系统管理-Linux常用命令"
             }
           }
         ]
@@ -77,7 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.50390243530273
+    "width": 587.5110359191895
   },
   "right": {
     "id": "2ff71da6e72efbfa",
@@ -180,8 +178,12 @@
   },
   "active": "696bdeba2d9facc9",
   "lastOpenFiles": [
-    "Linux/Linux 基础/2.基本操作命令.md",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/02 尚硅谷-云计算-Linux系统管理-Linux安装.pdf",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/01 尚硅谷-云计算-Linux系统管理-Linux简介.pdf",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/00 尚硅谷-云计算-Linux系统管理-行业介绍.pdf",
     "Linux/Linux 基础/1.文件系统.md",
+    "Linux/Linux 基础/2.基本操作命令.md",
     "Linux/文件系统管理.md",
     "Linux/文本三剑客.md",
     "Linux/网络服务管理.md",
@@ -197,10 +199,6 @@
     "Linux/terminal.md",
     "Linux/snippet.md",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
-    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf",
-    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/02 尚硅谷-云计算-Linux系统管理-Linux安装.pdf",
-    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/01 尚硅谷-云计算-Linux系统管理-Linux简介.pdf",
-    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/00 尚硅谷-云计算-Linux系统管理-行业介绍.pdf",
     "Bash/QAP.md",
     "大数据/Hive/Hive-snippet-Memo.md",
     "Linux/Command.md",
@@ -210,7 +208,6 @@
     "Docker/Docker-新.md~.md",
     "大数据/调度/dolphinScheduler.md",
     "yarn.md",
-    "Warp.md",
     "Pasted image 20230811144649.png",
     "大数据/知斗大数据实践",
     "大数据/SQL/关系数据库.textclipping",
