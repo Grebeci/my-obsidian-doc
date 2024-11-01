@@ -11,12 +11,14 @@
             "id": "696bdeba2d9facc9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf"
+                "file": "Linux/Linux 基础/0.Linux-overview.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "04 尚硅谷-云计算-Linux系统管理-Linux常用命令"
+              "icon": "lucide-file",
+              "title": "0.Linux-overview"
             }
           }
         ]
@@ -178,11 +180,16 @@
   },
   "active": "696bdeba2d9facc9",
   "lastOpenFiles": [
+    "Linux/Linux 基础/1.文件系统.md",
+    "Linux/Linux 基础/0.Linux-overview.md",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--Linux网络服务/017_尚硅谷-Linux云计算-网络服务-Apache-原理示意图.pdf",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/【学前必读】尚硅谷Linux视频学习建议.pdf",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/05 尚硅谷-云计算-Linux系统管理-vim编辑器.pdf",
+    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/03 尚硅谷-云计算-Linux系统管理-初学者注意事项.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/02 尚硅谷-云计算-Linux系统管理-Linux安装.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/01 尚硅谷-云计算-Linux系统管理-Linux简介.pdf",
     "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/00 尚硅谷-云计算-Linux系统管理-行业介绍.pdf",
-    "Linux/Linux 基础/1.文件系统.md",
     "Linux/Linux 基础/2.基本操作命令.md",
     "Linux/文件系统管理.md",
     "Linux/文本三剑客.md",
@@ -198,7 +205,6 @@
     "Linux/Tips.md",
     "Linux/terminal.md",
     "Linux/snippet.md",
-    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/04 尚硅谷-云计算-Linux系统管理-Linux常用命令.pdf",
     "Bash/QAP.md",
     "大数据/Hive/Hive-snippet-Memo.md",
     "Linux/Command.md",
@@ -211,9 +217,6 @@
     "Pasted image 20230811144649.png",
     "大数据/知斗大数据实践",
     "大数据/SQL/关系数据库.textclipping",
-    "大数据/调度",
-    "大数据/Hive/Hive 文档",
-    "Linux/培训班讲义/尚硅谷-centos/Linux运维学科--1-3阶段课件笔记测试题/笔记/06 尚硅谷-云计算-Linux系统管理-软件安装.pdf",
     "大数据/数据湖/images/image-20240701204433687.png",
     "大数据/数据湖/images/image-20240701204037464.png",
     "Java/Java笔记/images/algo4-Week2-Iterable.png"
