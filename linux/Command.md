@@ -445,13 +445,13 @@ Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
 
    -R, -r, --recursive          copy directories recursively
    -l  --link                   创建硬链接
-   
+   -s  --symblic-link           创建软链接
 ```
 
 【功能描述】： 复制文件
 
 - `Source ` : 源文件列表，DEST 只能是一个文件或者目录。
-- 不能复制文件到不存在的目录。
+- 不能复制文件到不存在的 **目录**。
 - 复制文件到目录，如果指定文件存在，会询问是否覆盖。
 - 目录到目录，则  源目录后是否以 `/` 结尾会影响起其行为。
 
