@@ -444,6 +444,8 @@ Usage: cp [OPTION]...  SOURCE DEST
 Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
 
    -R, -r, --recursive          copy directories recursively
+   -l  --link                   创建硬链接
+   
 ```
 
 【功能描述】： 复制文件
