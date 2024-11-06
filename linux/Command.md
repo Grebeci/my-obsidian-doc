@@ -312,7 +312,7 @@ Examples:
   cat        Copy standard input to standard output.
 ```
 
-`cat f - g` ，在 `cat` 命令的上下文中，`-` 用作文件名时代表标准输入。
+命令 ： `cat f - g` ，在 `cat` 命令的上下文中，`-` 用作文件名时代表标准输入。
 
 在 Unix 和 Linux 命令行中，`-` 符号通常用作特殊的占位符，代表标准输入（stdin）或标准输出（stdout），具体取决于它在命令中的使用方式。这个约定允许命令行工具灵活地处理来自不同来源的数据流。
 
