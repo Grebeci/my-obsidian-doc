@@ -124,7 +124,7 @@ shopt -s expand_aliases
 >
 > **【Snippet】：**  
 
-## File System
+##  操作文件与目录
 
 #### 1. `ls`
 
