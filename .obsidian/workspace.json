@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Command.md",
+                "file": "Linux/Linux 基础/3.软件安装.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Command"
+              "title": "3.软件安装"
             }
           }
         ]
@@ -180,10 +180,10 @@
   },
   "active": "696bdeba2d9facc9",
   "lastOpenFiles": [
-    "Linux/Linux 基础/2.基本操作命令.md",
     "Linux/Linux 基础/1.文件系统.md",
-    "Linux/Linux 基础/0.Linux-overview.md",
     "Linux/Command.md",
+    "Linux/Linux 基础/2.基本操作命令.md",
+    "Linux/Linux 基础/0.Linux-overview.md",
     "Linux/Linux 基础/1.文件系统~.md",
     "Linux/Linux 基础/3.软件安装.md",
     "Linux/Linux 基础/4.用户管理和权限控制.md",
