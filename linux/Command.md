@@ -638,13 +638,11 @@ ps -ef | grep -v grep | grep "process_name"
 
 在linux 中可以识别的压缩和格式有十几种，有 .zip、.gz    .bz2 .tar . tar.gz. .tar.bz2
 
-严格根据扩展名使用正确的命令，
+严格根据**扩展名**使用正确的命令，
 
 广义的压缩分为两步，压缩和打包。
 
 linux 下大多数是 tar.gz， 使用的命令为
-
-【snippet】
 
 解压：
 
@@ -656,6 +654,12 @@ tar -zxvf 压缩包 -C dest
 
 ```shell
 tar -zcvf 压缩包 source
+```
+
+
+
+```
+
 ```
 
 
