@@ -598,6 +598,39 @@ action：
 echo [-n] [string ...]
 ```
 
+### 21 tar
+
+在linux 中可以识别的压缩和格式有十几种，有 .zip、.gz    .bz2 .tar . tar.gz. .tar.bz2
+
+严格根据**扩展名**使用正确的命令，
+
+广义的压缩分为两步，压缩和打包。
+
+linux 下大多数是 tar.gz， 使用的命令为
+
+解压：
+
+```shell
+tar -zxvf 压缩包 -C dest 
+```
+
+打包：
+
+```shell
+tar -zcvf 压缩包 source
+```
+
+
+```
+用法: tar [选项...] [FILE]...  
+​  
+  -x, --extract, --get       从归档中解出文件  
+  -z, --gzip, --gunzip, --ungzip   通过 gzip 过滤归档  
+  -Z, --compress, --uncompress   通过 compress 过滤归档  
+  -f, --file=ARCHIVE        使用指定的存档文件  
+  -C, --directory=DIR        输出到指定目录
+```
+
 
 
 ## 组合命令
@@ -633,34 +666,6 @@ ps -ef | grep -v grep | grep "process_name"
 ```
 
 
-
-### tar
-
-在linux 中可以识别的压缩和格式有十几种，有 .zip、.gz    .bz2 .tar . tar.gz. .tar.bz2
-
-严格根据**扩展名**使用正确的命令，
-
-广义的压缩分为两步，压缩和打包。
-
-linux 下大多数是 tar.gz， 使用的命令为
-
-解压：
-
-```shell
-tar -zxvf 压缩包 -C dest 
-```
-
-打包：
-
-```shell
-tar -zcvf 压缩包 source
-```
-
-
-
-```
-
-```
 
 
 
